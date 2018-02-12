@@ -1,0 +1,131 @@
+
+
+html,body{margin: 0;padding: 0;font-size: 15px;-webkit-tap-highlight-color: rgba(0,0,0,0);border: 0;font-family: "微软雅黑";background:#fff;}
+html,body,ul,li,ol,p,div,h1,h2,h3,h4,h5,h6,nav,header,footer,table,tr,td,th,form,label{
+	-webkit-margin-after: 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-padding-start: 0;
+	-webkit-padding-end: 0;
+	-webkit-padding-before: 0;
+	-webkit-padding-after: 0;
+}
+body{background: #F1F1F1;}
+ul,li{list-style: none;padding: 0;}
+a{text-decoration: none;color: #333;}
+img{border: 0;}
+input{font-family: "微软雅黑";}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{-webkit-appearance: none !important;}
+input[type="number"]{-moz-appearance:textfield;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear: both;}
+.clearFix:after{display: inline-block;content: '';clear: both;}
+.hr{border: none;border-top: 1px solid #f1f1f1;width: 100%;margin: 10px 0;}
+.left{width: 20%;display: inline-block;vertical-align: top;font-size: 14px;}
+.unit{color: #7D7D7D;display: inline-block;width: 80%;word-break: break-word;font-size: 14px;}
+.c3cc{color: #3CC4C4!important;}
+.tips{width: 50%;height:40px;line-height:40px;text-align:center;margin: 0 25%;background: rgba(0,0,0,.6);border-radius: 5px;position: fixed;bottom: -40px;color: #fff;display: none;}
+
+.dd-head{
+	width: 100%;height: 50px;line-height: 50px;text-align: center;color: #fff;
+	background: #3CC4C4;position: relative;font-size: 16px;
+}
+.dd-head .back{
+	display: inline-block;
+}
+.dd-head .back img{
+	position: absolute;width: 12px;height: 18px;top: 16px;left: 15px;
+}
+.dd-top,.dd-mid,.dd-foot{
+	background: #fff;padding: 15px;box-sizing: border-box;width: 100%;
+}
+.dd-mid,.dd-foot{
+	margin-top: 8px;
+}
+.dd-project{
+	width: 100%;border-bottom: 1px solid #f2f2f2;height: 90px;
+}
+.dd-project-pic{
+	width: 30%;float: left;margin-right: 2%;height: 75px;border-radius: 3px;overflow: hidden;
+}
+.dd-project-pic img{
+	width: 100%;height: 100%;
+}
+.dd-project-info{
+	width: 68%;float: left;
+}
+.dd-project-title{
+	font-weight: 600;
+}
+.dd-project-money{
+	margin-top: 10px;color: #7d7d7d;font-size: 12px;
+}
+.dd-project-money .num{
+	color: #3CC4C4;
+}
+.dd-project-money .line{
+	padding: 0 10px;color: #F1F1F1;
+}
+.dd-faqiren,.dd-receive{
+	padding: 12px 0;border-bottom: 1px solid #F2F2F2;color: #7D7D7D;
+}
+.dd-donate-money{
+	border-bottom: 1px solid #F2F2F2;padding:0 0 10px;color: #7D7D7D;
+}
+.dd-money{
+	padding: 15px 0;height: 100px;
+}
+.dd-ul{
+	display: -webkit-flex;display: flex;-webkit-justify-content: space-between;justify-content: space-between;
+	-webkit-flex-wrap: wrap;flex-wrap: wrap;
+}
+.dd-ul li{
+	width: 30%;border: 1px solid #e1e1e1;height: 40px;line-height: 40px;text-align: center;margin-right: 5%;margin-bottom: 15px;
+	box-sizing: border-box;position: relative;
+}
+.dd-ul li:nth-child(3n){
+	margin-right: 0;
+}
+.dd-ul li.on{
+	border: 2px solid #3CC4C4;background-image: url(../../../../res/images/h5/images/export/gou2.png);
+	background-repeat: no-repeat;background-position: right bottom -2px;background-size: 30px;
+}
+.dd-money .diyMoney{
+	width: 100%;height: 40px;display: none;
+}
+.dd-money .diyMoney input{
+	height: 40px;padding: 8px;border: 1px solid #E1E1E1;width: 95%;box-sizing: border-box;text-align: center;
+	outline-color: #3CC4C4;
+}
+.dd-otherinfo{
+	color: #7D7D7D;
+}
+.dd-otherinfo p{
+	margin-bottom: 10px;
+}
+.dd-otherinfo input{
+	width: 100%;height: 40px;padding: 10px;margin-bottom: 10px;box-sizing: border-box;
+	font-size: 14px;border: 1px solid #E1E1E1;outline-color: #3CC4C4;
+}
+.dd-pay{
+	margin-top: 10px;
+}
+.dd-pay .payBtn .btn{
+	width: 100%;height: 40px;line-height: 40px;background: #3CC4C4;border-radius: 6px;
+	text-align: center;color: #fff;font-size: 16px;
+}
+.dd-pay .payBtn.disable .btn{
+	background: #ccc;
+}
+.dd-prop{
+	text-align: center;margin: 10px 0;font-size: 14px;
+}
+.dd-prop #chk{
+	-webkit-appearance: none;width: 13px;height: 13px;border: 1px solid #E1E1E1;
+	vertical-align: middle;margin-top: -1px;outline: none;
+}
+.dd-prop #chk:checked{
+	background: url(../../../../res/images/h5/images/export/check.png) no-repeat;background-size:12px ;border-color: #999;
+}

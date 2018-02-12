@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+body,form,h1,h2,h3,h4,h5,h6,hr,input,li,p,ul,pre {margin:0 auto;padding:0;list-style:none;vertical-align:middle;color:#000;}
+body {font-size:13px; font-family:"微软雅黑", "宋体", "楷体", "仿宋",Tahoma, Geneva, sans-serif;}
+a {text-decoration:none;outline:0;cursor:pointer;}
+div, dl, dt, dd, li, td, input, select, textarea, form,table { margin: 0; padding: 0; font-weight: normal;}
+li,ol,ul {list-style:none;}
+a,p,span,pre {-webkit-user-select:auto;-webkit-touch-callout:none;color:inherit;}
+img {border:none;display:inline-block;vertical-align:middle;background-size:cover;}
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0; outline: 0;}
+button,select{text-transform:none}
+select{-webkit-appearance: none; border:none;}
+input{line-height:normal; }
+input[type="button"], input[type="submit"], input[type="reset"] ,select{-webkit-appearance: none;}
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}
+input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+.apply_line{width:100%;height:5px;background-color:#f6f6f6;}
+.clear {clear:both;}
+
+
+/*logo头部*/
+.aution{ width: 100%; height: auto;}
+.aution .aution_top{ width: 100%;
+    height: 60px;
+    background: #ffffff;
+
+}
+.aution .aution_top img{
+    float: left;
+    padding: 10px 0 2px 2%;
+    height: 48px;}
+.aution .aution_top p{width: 56%;
+    line-height: 60px;
+    float: right;
+    font-size: 14px;
+    text-align:right;
+    padding-right: 6%;
+    font-weight: bold;
+    font-family: '微软雅黑';}
+/*中间列表页*/
+.aution .aution_center{ width: 100%;}
+.aution .aution_center .center_1{width: 96%;
+    margin: auto;}
+.aution .aution_center .center_1 img{ width: 100%; height: auto;
+    padding-bottom: 10px;}
+.aution .aution_center .center_1 .aution_xq{
+    font-size: 16px;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 13px;}
+/*作品详情*/
+.aution .aution_center .center_3 .record .record_dd{ background:#f6f6f6;}
+.aution .aution_center .center_2{     width: 96%;
+    height:32px;
+    background: #f6f6f6;
+    margin:auto;
+position: relative;}
+.aution .aution_center .center_2 .icon_z{   width: 1%;
+    height: 21px;
+    background: #ff9001;
+    float: left;
+    margin: 2% 2% 0 6%;}
+.aution .aution_center .center_2 .icon_y{    width: 1%;
+    height: 21px;
+    background: #ff9001;
+    float: left;
+    margin: 1% 2% 0 3%;
+    position: absolute;}
+.aution .aution_center .center_2 .icon_spanz{width:40%; height: auto; display: block;font-size: 15px; line-height: 30px;}
+.aution .aution_center .center_2 span{    width: 29%;
+    height: 30px;
+    display: block;
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 5%;}
+.aution .aution_center .center_3{ width: 100%; height: auto;}
+.aution .aution_center .center_3 p{ font-size: 10px;padding: 10px 0 10px 6%;
+    color:#999999;}
+.aution .aution_center .center_4{ width: 96%; height: auto; margin: auto;}
+.aution .aution_center .center_4 img{ margin-top: 2%; width: 100%; height: auto;}
+
+/*竞拍尾部 foooter*/
+
+.aution .aution_footer{ width: 100%; height: 50px; background: #FFFFFF; position: fixed; bottom: 0;}
+.aution .aution_footer .footer_1{    width: 58.4%;
+    height: 50px;
+    float: left;
+    border: 1px solid #f6f6f6;}
+.aution .aution_footer .footer_1 .center{width: 61.1%;
+    height: 50px; color:#666666; font-size: 18px; }
+.aution .aution_footer .footer_1 input{ text-align:center;}
+.aution .aution_footer .prev{    width: 17%;
+    height: 54px;
+    font-size: 30px;
+    color: #999999;}
+.aution .aution_footer .footer_2{ width: 40%; height: 50px; background: #ff9001; float: right; display: block; text-align: center; line-height: 50px; font-size: 15px;color:#FFFFFF;  }
+.aution .aution_footer .footer_2_cg{ width: 40%; height: 50px; background:#77746F; float: right; display: block; text-align: center; line-height: 50px; font-size: 15px;color:#FFFFFF;  }
+
+/*商品页*/
+
+/*中间center*/
+.center_1 p{  font-size: 16px;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.center_1 .center_1_1{    width: 100%;
+    height: 31px;
+    background: #f6f6f6;
+    margin-top: 5px;
+}
+.aution .aution_center .center_1 .center_1_1 img{ width: 25%; height: auto;}
+.aution .aution_center .center_1 .center_1_1 .center_time{    width: 60%;
+    height: 30px;
+    float: right;
+    font-size: 15px;
+    color: #999999;
+    line-height: 30px;
+    padding-right: 3%;
+line-height: 30px;}
+.aution .aution_center .center_1 .center_1_1 .center_time p{
+    text-align: right;
+font-size: 10px;}
+.aution .aution_center .center_1 .center_now{     width: 90%;
+    height: 35px;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 10px;}
+.aution .aution_center .center_1 .center_now .now_left{ width: 54%; color: #777777; float: left; font-size: 14px;}
+.aution .aution_center .center_1 .center_now .now_left span{ color: #fa0000; font-size: 18px; position: absolute;}
+.aution .aution_center .center_1 .center_now .now_right{ width: 40%;  float: right; color: #999999; text-align: right; font-size: 14px;}
+.aution .aution_center .center_1 .center_now .now_right span{color:#ff9001;}
+/*出价记录列表*/
+.aution .aution_center .center_3 .record{width: 96%;
+    margin: auto;}
+.aution .aution_center .center_3 .record dt{ width: 100%; height:30px; font-size: 10px; font-weight: bold; color: #999999; border-bottom: 1px solid #f6f6f6;}
+.aution .aution_center .center_3 .record dt li{ float: left; width: 25%; height: 30px; text-align: center;
+    line-height: 30px; overflow: hidden; color: #999999;}
+.aution .aution_center .center_3 .record dd{    font-size: 10px;
+    font-weight: bold;
+    color: #999999;
+    height:30px;
+    border-bottom: 1px solid #f6f6f6;
+}
+.aution .aution_center .center_3 .record dd li{float: left;width: 24%; height: 30px; text-align: center; line-height: 30px; color: #999999;}
+.aution .aution_center .center_3 .record dd li span{
+    height: 30px; background:url(http://www.17xs.org/res/images/aution/icon4.png) no-repeat;display: block;
+    margin-left: 26%;
+    margin-top:7%; }
+#record_span1{ background:url(http://www.17xs.org/res/images/aution/icon3.png) no-repeat;}
+
+.aution .aution_center .center_3 .record dd li a{ color: #999999;}
+
+#record_span2{ background:url(http://www.17xs.org/res/images/aution/icon6.png) no-repeat;}
+#record_span3{ background:url(http://www.17xs.org/res/images/aution/icon5.png) no-repeat;}
+.aution .aution_center .center_3 .record dd li a{}
+
+.aution .aution_center .center_3 .record .record_li{ color:#fb0202; }
+    /*点击加载更多*/
+.aution .aution_center .center_3 .center_5{ width: 45%; height: 50px; margin: auto; padding-bottom: 50px;}
+.aution .aution_center .center_3 .center_5 .center_5_1{width: 100%; height: 50px;  display: block; text-align: right;}
+.aution .aution_center .center_3 .center_5 .center_5_1 p{ float: left; width: 60%;
+    line-height: 50px; text-align: right;
+}
+
+    /*列表页*/
+.aution .aution_2_center{ width: 100%; height: auto;}
+.aution .aution_2_center ul{}
+.aution .aution_2_center ul .aution_2_li{
+    width: 97.4%;
+    height: 128px;
+    border: 5px solid #f6f6f6;
+    margin: auto;
+    background: #ffffff;
+}
+.aution .aution_2_center ul{}
+.aution .aution_2_center ul .aution_2_li a{ width: 100%; height: 128px; display: block;}
+.aution .aution_2_center ul .aution_2_li a img{     float: left;
+    height: 103px;
+    margin-left: 2%;
+    width: 37%;
+    margin-top: 12px; }
+.aution .aution_2_center ul .aution_2_li a dl{ float: right; width: 57%; padding: 2%; font-weight: bold;}
+.aution .aution_2_center ul .aution_2_li a dl dt{ font-size: 14px; height: 41px; color: #505050;overflow: hidden;
+ }
+.aution .aution_2_center ul .aution_2_li a dl dd{ width: 100%; height: 40px; line-height: 35px;}
+.aution .aution_2_center ul .aution_2_li a dl dd img{ float: left;
+    height: 22px;
+    margin-top: 4px;}
+.aution .aution_2_center .aution_2_p1{
+    float: left; color: #fa0000; font-size: 18px;}
+.aution .aution_2_center .aution_2_p2{
+    float: right; font-size: 10px; color: #999999;}
+.aution .aution_2_center .aution_2_p2 span{color:#ff9001; }
+.aution .aution_2_center .aution_2_p3{ float: right; width: 60%; color: #999999; font-size: 10px;text-align: right;}
+/*商品页加载更多*/
+.aution .aution_2_center .center_5{ width: 45%; height: 50px; margin: auto;}
+.aution .aution_2_center .center_5 .center_5_1{width: 100%; height: 50px;  display: block; text-align: right;}
+.aution .aution_2_center .center_5 .center_5_1 p{ float: left; width: 60%;
+    line-height: 50px; text-align: right;
+    color: #999999;
+    font-weight: bold;
+}
+.aution .aution_2_center .center_5 .center_5_1 span{ width: 16%; height: 30px; display: block;
+    background:url("../images/aution/j2.png") no-repeat;  float: left;
+    margin-top: 12px;}
+/*验证页*/
+
+/*头部*/
+.verify{ width: 100%; height: auto;}
+.verify .verify_top{ width:100%; height:60px; background: #eeeeee; line-height: 60px; font-weight: bold;}
+.verify .verify_top a{ width: 18%; height: 60px; display: block; float: left;
+    font-size: 18px; color: #ababab; padding-left: 2% }
+.verify .verify_top p{
+    width:65%; height: 60px; float:right; color:#505050; margin-left: 3%;}
+/*content*/
+.verify .verify_center{ width: 100%; height: auto; margin-top: 25px;}
+.verify .verify_center .verify_center1{margin-top: 35px; width: 99%; border: 1px solid #dedddd;}
+.verify .verify_center .rname{ width: 40%; height: 51px; float: left;}
+.verify .verify_center label{ float:left; width: 25%; float: left; line-height: 60px;
+    color: #999999; font-size: 14px;}
+.verify .verify_center .rltext{ width: 100%; height: 60px; }
+.verify .verify_center .rltext .rlinput{ }
+.verify .verify_center .rltext .rlinput .rgray{width: 73%; height: 60px; float: right;
+    border:none;font-size: 14px;}
+.verify .verify_center .rltext .rlinput .rgray1{width: 46%; height: 60px;
+    border:none;font-size: 14px;}
+.verify .verify_center .rltext .rlinput .rgray1_1{ width: 28%; height: 60px; display: block; float: right; background: #eeeeee;
+text-align: center; line-height: 60px; font-size: 14px; color: #999999;}
+.verify .verify_center .rltext .rlinput .rgray1_1:hover{ background: #ead9d9;}
+.verify .verify_center .verify_ts{ width: 80%; height: 30px; float: right; margin-top: 5px; }
+.verify .verify_center .verify_ts span{     width: 11%;
+    height:30px; background: url("../images/aution/j1.png") no-repeat; display: block; float: left; }
+.verify .verify_center .verify_ts p{ text-align: left; height: 30px; line-height: 30px; font-size: 15px; font-weight: bold; color: #f33f2d;}
+
+/*底部*/
+.verify .verify_footer{ width: 100%; margin-top: 35px;}
+.verify .verify_footer .verify_footer1{ width: 95%; margin: auto; height: 50px; background: #ff9001; display: block; }
+.verify .verify_footer .verify_footer1 p{ text-align: center; line-height: 50px; font-size: 18px; font-weight: bold; color: #ffffff;}
+
+
+
+
+

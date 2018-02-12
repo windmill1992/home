@@ -1,0 +1,58 @@
+/*h5*/
+.Purch-shadow{
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	width:100%;
+	z-index:998;
+	background:#000;
+	opacity:0.5;
+	display:none;
+}
+#donatList{padding-bottom:75px;}
+.Purch{ width:100%; background:#fff; position:fixed; bottom:0; left:0; font-family:"微软雅黑";z-index:999} 
+.Purch .tle{ padding:8px; font-size:16px; color:#000000; position:relative}
+.Purch .tle .close{ z-index:9999;display:inline-block; width:16px; height:16px; position:absolute; top:8px; right:8px; background:url(../../images/newIndex/h5/close_03.jpg) no-repeat}
+.Purch .con{ padding:10px 25px; overflow:hidden}
+.Purch .con .selectTab{display:box;display:-moz-box;display:-webkit-box;display:-ms-flexbox;width:100%}
+.Purch .con .selectTab a{ font-size:16px;box-flex:1;-moz-box-flex:1;-webkit-box-flex:1;-ms-flex:1; display:block; height:37px; line-height:37px; text-align:center; border:1px solid #c5c0b8; border-radius:7px; margin:0 4px}
+.Purch .con .selectTab a.on{ background:url(../../images/newIndex/h5/on_03.jpg) right top no-repeat}
+.Purch .con .selectTab a em{ color:#ff6c0a}
+.Purch .selectClick{ margin:12px 0; position:relative; padding:0 130px 0 0; height:36px; line-height:36px; text-align:center}
+.Purch .selectClick a{ display:block; position:absolute; top:0; width:56px; height:34px; line-height:34px; text-align:center; border:1px solid #c5c0b8; border-radius:7px;}
+.Purch .selectClick a.add{ right:0}
+.Purch .selectClick a.reduce{ right:65px}
+.Purch .selectClick input{ background:#fff; width:100%; height:34px; line-height:34px; border:1px solid #c5c0b8; border-radius:7px; text-align:center}
+.Purch .buyBtn{ width:100%; height:34px; line-height:34px; text-align:center; display:block; background:#ff6c0a; border-radius:7px; font-size:14px; color:#fff}
+.Purch a.buyBtn:hover{ color:#fff!important}
+.Purch .clause{ text-align:center; margin-top:12px; color:#b0a7a2;font-size:13px;}
+.Purch .clause em{ display:inline-block; width:12px; height:12px; background:url(../../images/newIndex/h5/check.jpg) no-repeat; margin-right:10px; vertical-align:middle}
+.Purch .clause em.on{ background:url(../../images/newIndex/h5/checkon.jpg) no-repeat}
+.cursor{ cursor:default}
+
+.h5bg{ background:#eeeeee}
+.h5Detail{ padding:10px; overflow:hidden;}
+.h5Detail .pic{ padding:10px; text-align:center; background:#fff}
+.h5Detail .pic img{width:100%}
+.detcon{background:#199a56; color:#fff; padding:12px; border-radius:8px; margin-top:20px}
+.detcon h2{ font-size:24px; text-align:center}
+.detcon p{ font-size:16px; text-align:center; padding:20px 0; border-bottom:1px dashed #fff}
+.detData{ padding-top:16px;display:box;display:-moz-box;display:-webkit-box;display:-ms-flexbox;width:100%}
+.detData span{ font-size:16px; text-align:center; line-height:24px; box-flex:1;-moz-box-flex:1;-webkit-box-flex:1;-ms-flex:1; display:block; border-left:1px solid #fff; height:48px; overflow:hidden}
+.detData span:first-child{ border-left:0}
+.detData span em{ color:#fffc00}
+.detComm{ background:#fff; border-radius:8px; border:1px solid #dadada; margin-top:20px;padding:20px;font-size:13px;line-height:25px}
+.h5tle{ background:#fff; height:37px; line-height:37px; padding:0 10px; border:1px solid #dadada; font-size:16px; color:#333333; margin-top:20px; background:#fff}
+.h5list{ background:#fff;padding:0 10px; border:1px solid #dadada; margin-top:10px;}
+.h5list h3{ height:58px; line-height:58px; font-size:16px; position:relative; border-bottom:1px dashed #cfcfcf; color:#333}
+.h5list h3 span{ display:inline-block; position:absolute; top:0; right:0; font-size:14px; color:#999999;}
+.h5list h3 span em{ color:#ff3300}
+.h5list .listCon{ padding:15px; overflow:hidden; font-size:14px; line-height:25px;}
+.h5list .listCon h4{ color:#333}
+.h5list .listCon p{ color:#666666;}
+
+.h5Bottom{ border-top:1px solid #dadada; background:#fff; position:fixed; bottom:0; left:0; width:100%}
+.h5Bottom a{ margin:14px; display:block; text-align:center; background:#ff6811; font-size:16px; text-align:center; height:35px; line-height:35px; color:#fff; border-radius:8px}
+.h5Bottom a img{width:30px;height:30px; maring-right:10px; vertical-align:middle}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+	<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+	<title>善园公益</title>
+	<link rel="stylesheet" type="text/css" href="../../../../res/css/h5/survey/survey.css"/>
+</head>
+<body>
+	<div id="pageContainer" v-cloak>
+		<div class="sv-hd"><img src="../../../../res/images/h5/images/survey/head.png"/></div>
+		<div class="sv-bd">
+			<div class="question-list">
+				<div class="item" v-for="(item,index) in formList">
+					<div class="title">{{item.title}}</div>
+					<div class="content">
+						<div class="con-t flex just">
+							<div class="child">
+								<p>{{item.options[0]}}</p>
+								<p>{{item.options[2]}}</p>
+							</div>
+							<div class="child">
+								<p>{{item.options[1]}}</p>
+								<p>{{item.options[3]}}</p>
+							</div>
+							<div class="child sbtn">
+								<a href="javascript:void(0);" :idx="index" class="lookAns">查看答案</a>
+								<img v-if="item.state == 2" src="../../../../res/images/h5/images/survey/gou.png"/>
+								<img v-else-if="item.state == 1" src="../../../../res/images/h5/images/survey/error.png"/>
+								<template v-else></template>
+							</div>
+						</div>
+						<div class="con-b">
+							<p>正确答案：<span class="c578">{{item.ansShow?item.answer:'******'}}</span> 
+								&nbsp;&nbsp;|&nbsp;&nbsp; 
+								您的回答：<span :class="item.state==2?'c578':''" class="ans">{{item.userAnswer}}</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sv-ft" v-if="canLook">
+			<div class="btn">
+				<a href="javascript:void(0);" id="lookGrades">查看得分</a>
+			</div>
+		</div>
+		
+		<div class="dialog" id="gradesDialog">
+			<div class="mask"></div>
+			<div class="dialog_inner">
+				<div class="gd-t">
+					<h3 v-if="manfen">恭喜您的得分</h3>
+					<h3 v-else>您的得分</h3>
+					<a href="javascript:void(0);" class="close"></a>
+				</div>
+				<div class="gd-m">
+					<img v-if="manfen" src="../../../../res/images/h5/images/survey/manfen.png"/>
+					<div class="grade flex" v-else>
+						<span>{{grades}}</span>分
+					</div>
+				</div>	
+				<div class="gd-b flex">
+					<div class="result flex">
+						<img src="../../../../res/images/h5/images/survey/gou.png" class="big"/>
+						<p class="currect txt">正确</p>
+						<p><img src="../../../../res/images/h5/images/survey/cha.png" class="sm"/></p>
+						<p class="num">{{curNum}}</p>
+					</div>
+					<div class="result flex">
+						<img src="../../../../res/images/h5/images/survey/error.png" class="big"/>
+						<p class="error txt">错误</p>
+						<p><img src="../../../../res/images/h5/images/survey/cha.png" class="sm"/></p>
+						<p class="num">{{errNum}}</p>
+					</div>
+				</div>
+				<div class="gd-link">
+					<a href="http://www.17xs.org">成为慈善家</a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<script src="../../../../res/js/jquery-1.8.2.min.js"></script>
+	<script src="../../../../res/js/h5/donateStep/vue.min.js"></script>
+	<script src="../../../../res/js/h5/survey/survey.js"></script>
+</body>
+</html>

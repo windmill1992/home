@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xmlns:p="http://www.springframework.org/schema/p" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+ 
+    <!-- DispatcherServlet Context: defines this servlet's request-processing infrastructure -->
+ 
+    <!-- Scans within the base package of the application for @Components to configure as beans -->
+    <!-- @Controller, @Service, @Configuration, etc. -->
+    <import resource="dubbo-demo-consumer.xml"/>
+	<!-- <import resource="lolcal_dubbo-demo-consumer.xml"/> -->
+	<!--缓存的建立 -->
+    <import resource="redis-home.xml"/>
+    <context:component-scan base-package="com.guangde.home.controller" />
+    <context:component-scan base-package="com.guangde.home.aop" />
+    <aop:aspectj-autoproxy/>
+    <mvc:interceptors >
+		<mvc:interceptor>
+			<mvc:mapping path="/*/perfect.do" />
+			<mvc:mapping path="/*/pcreate.do" />
+			<mvc:mapping path="/*/steward/*.do" />
+			<mvc:mapping path="/*/core/*.do" />
+			<mvc:mapping path="/*/realname.do" />
+			<mvc:mapping path="/*/pindex.do" /> 
+			<bean class="com.guangde.home.filter.UserInterceptor"></bean>
+		</mvc:interceptor>
+		<mvc:interceptor>
+			<mvc:mapping path="/*/coredata/*.do" />
+			<bean class="com.guangde.home.filter.QueryDataInterceptor"></bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
+    <!-- 视图解释类org.springframework.web.servlet.view.InternalResourceViewResolver -->    
+   <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">    
+    <property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />    
+    <property name="prefix" value="/WEB-INF/views/"/>    
+    <property name="suffix" value=".jsp"/><!--可为空,方便实现自已的依据扩展名来选择视图解释类的逻辑  -->    
+   </bean> 
+   <!--定义异常处理页面-->
+    <bean id="exceptionResolver" class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="exceptionMappings">
+            <props>
+                <prop key="java.sql.SQLException">error</prop>
+                <prop key="java.io.IOException">error</prop>
+                <prop key="java.lang.NullPointerException">error</prop>
+            </props>
+        </property>
+    </bean>
+   	<!-- 静态资源访问 --> 
+    <mvc:annotation-driven />
+    <!-- 最大每张10m --> 
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">  
+        <property name="defaultEncoding" value="utf-8"></property>   
+        <property name="maxUploadSize" value="10485760"></property>
+        <property name="maxInMemorySize" value="40960"></property>  
+   </bean>  
+   <!-- 工具类 -->
+   <bean id="springContextUtil" class="com.guangde.home.utils.SpringContextUtil"/>
+   
+</beans>

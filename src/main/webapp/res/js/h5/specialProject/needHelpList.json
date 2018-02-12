@@ -1,0 +1,16 @@
+{
+	"id":"1",
+	"name":"张三丰",
+	"sex":"男",
+	"age":"7",
+	"addr":"浙江省杭州市",
+	"content":"患儿7岁，浙江农村家庭，患儿父母小学；有7岁的孪生姐姐，10岁的姐姐；种植5亩枣树，患儿父亲打零工3个月；患儿患有癫痫，已经花费4万；患儿母亲已离家出走。",
+	"imgList":[
+		"http://res.17xs.org/picture/parkProgramDetail/20170401130137.jpg",
+		"http://res.17xs.org/picture/parkProgramDetail/20170401130137.jpg",
+		"http://res.17xs.org/picture/parkProgramDetail/20170401130137.jpg",
+		"http://res.17xs.org/picture/parkProgramDetail/20170401130137.jpg",
+		"http://res.17xs.org/picture/parkProgramDetail/20170401130137.jpg",
+		"http://res.17xs.org/picture/parkProgramDetail/20170401130137.jpg"
+	]
+}

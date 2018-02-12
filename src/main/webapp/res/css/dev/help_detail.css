@@ -1,0 +1,135 @@
+
+.help_location{
+    width:1000px;
+    height:30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25px;
+}
+.help_location li{
+    float:left;
+    color:#000;
+    font-size:14px;
+    font-family:"Microsoft YaHei";
+}
+.fenlan{
+    margin-left:3px;
+    margin-right:3px;
+}
+.help_box{
+    padding: 0px 10px;
+}
+.help_thedetail{
+    width: 750px;
+    height: 26px;
+    line-height: 26px;
+    margin: 20px 0px;
+}
+.help_thedetail1{
+    width: 750px;
+    
+    line-height: 26px;
+    margin: 20px 0px;
+}
+.help_form li{
+    float: left;
+}
+.need{
+    width: 20px;
+    height: 26px;
+    line-height: 26px;
+    color: #ff0000;
+    text-align: center;
+    font-size: 12px;
+}
+.term{
+    width: 110px;
+    height: 26px;
+    line-height: 26px;
+    color: #333;
+}
+.term1{
+    width:60px;
+    text-align: justify;
+    height: 26px;
+    display: inline-block;
+    float: left;
+}
+.term2{
+    width: 10px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    margin-left: 24px;
+}
+.write{
+    width: 560px;
+    
+    
+}
+.write input{
+    width: 200px;
+    height:26px;
+    line-height: 26px;
+    border: 1px solid #ccc;
+}
+.write_1{
+    width:200px;
+    height: 26px;
+}
+.write_1 input{
+    margin: 0px 15px;
+}
+.write_2{
+    width: 560px;
+    text-align: justify;
+    
+}
+.write_2 textarea{
+    width: 400px;
+    height: 100px;
+    line-height: 26px;
+    border: 1px solid #ccc;
+    resize:none;
+}
+.enrollbox{
+    width: 1000px;
+    height: 40px
+
+}
+.enroll{
+    display:block;
+    float:left;
+    color:white;
+    font-size:14px;
+    text-align:center;
+    line-height:40px;
+    width:120px;
+    height:40px;
+    background-image:url(../../images/kefuzhongxin/tijiaoanniu1.png);
+    background-repeat:no-repeat;
+    cursor:pointer;
+    margin-left:130px;
+    margin-bottom:30px;
+}
+.warn1{
+    width: 20px;
+    height: 26px;
+    line-height: 26px;
+    color: #ff0000;
+    text-align: center;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 12px;
+}
+.warn2{
+
+    height: 26px;
+    line-height: 26px;
+    color: #ff0000;
+    text-align: center;
+    display: inline-block;
+    
+}

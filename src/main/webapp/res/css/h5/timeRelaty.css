@@ -1,0 +1,15 @@
+body,html{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+input[type="text"]{height: 28px;border:1px solid #b3c2e7;outline-color: #ccc; font-size: 14px;color: #666;width: 70%;margin: 10px 0;}
+.timeRelaty{margin: 10px;text-align: center;}
+.timeRelaty p{margin: 10px 0;text-align: left;}
+.timeRelaty p.txt{background: #e3e8f7;line-height: 22px;font-size: 15px;padding: 5px;margin-bottom: 20px;}
+.timeRelaty h3{text-align: center;}
+.bg{background: #e3e8f7;}
+.submit{margin: 20px 0;width: 30%;height: 30px;line-height: 30px;border-radius: 3px;border: 1px solid #3081C2;
+	color: #fff;background: #3081C2;}
+.title{background: #eee;line-height: 36px;padding: 0 15px;}
+.full{color: #f00;font-size: 14px;padding: 0 10px;position: absolute;right: 4px;}
+.bg{background: #3081c2;color: #fff;}
+.tips{border-radius: 2px;color: #fff;
+	width: 80%;position: fixed;left: 0;top: 50%;margin-left: 10%;height: 30px;line-height: 30px;background: rgba(0,0,0,0.5);text-align: center}

@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "Helvetica Neue",Hiragino, Sans, GB, W3, Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: 100%!important;
+	background-color:#eeeeee;
+}
+
+.fl {
+	float: left;
+}
+
+
+.fr {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+ul,li{
+	padding:0px;
+	margin:0px;
+	list-style:none;	
+}
+
+a{
+	text-decoration:none;	
+}
+
+#pageContainer{
+	width:100%;
+}
+
+.publish .top {
+	position:relative;
+	width:100%;
+	height: 55px;
+	background-color:#199a56;
+}
+
+.publish .top .title{
+	float:left;
+	width:100%;
+	height:45px;
+	line-height:45px;
+	font-size:20px;	
+	color:#ffffff;
+	text-align:center;
+}
+
+.publish .top .back {
+	position:absolute;
+	top:10;
+	left:10;
+	width: 42px;
+	height: 42px;
+	display: block;
+}
+
+img {
+	width: 100%;
+	border: none;
+}
+
+.back_img {
+	display: inline-block;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-image: url(../../images/list_img.png);
+}
+
+.back_icon_6 {
+	width: 52px;
+	height: 52px;
+	background-position: -10px -5px;
+}
+
+.publish .top img {
+	width: 45px;
+	height: 45px;
+	vertical-align: middle;
+	margin-left: 3px;
+}
+
+.publish .record .myrecord img {
+	width: 26px;
+	height: 26px;
+	margin: 13px 0 0 13px;
+}
+
+/********发布表单页******/
+.publish .form_box{
+	padding:20px;	
+}
+.publish .form_box li{
+	margin-bottom:10px;	
+}
+.publish .form_box li input[type="text"]{
+	width:96%;
+	height:30px;
+	padding-right:2%;
+	padding-left:2%;
+	padding-top:5px;
+	padding-bottom:5px;
+	line-height:30px;
+	font-size:16px;
+	color:#999999;
+	border-radius:5px;
+	background-color:#ffffff;
+	border:1px solid #dadada;
+}
+
+.publish .form_box li.type a{
+	float:left;
+	width:80px;
+	height:40px;
+	margin-right:10px;
+	line-height:40px;
+	font-size:16px;
+	color:#666666;
+	text-align:center;
+	background-color:#ffffff;
+	border:1px solid #dadada;
+	margin-top: 10px;
+}
+
+.publish .form_box li.type a.selected{
+	float:left;
+	width:78px;
+	height:38px;
+	border:2px solid #ff6811;
+	background-color:#ffffff;
+	background:url(../../images/select_icon.png) right bottom no-repeat;	
+}
+
+.publish .form_box li.btns .pub_btn{
+	display:inline-block;
+	width:100%;
+	height:40px;
+	margin-top:10px;
+	line-height:40px;
+	font-size:18px;	
+	color:#ffffff;
+	text-align:center;
+	border-radius:5px;
+	background-color:#ff6811;
+	margin-top: 10px;
+}
+
+.publish .contact{
+	padding: 0 75px 31px 75px;
+	text-align:center;
+}
+
+.publish .contact p{
+	padding:0px;
+	margin:0px;	
+	font-size:16px;
+	color:#999999;
+}
+
+/******成功页********/
+.publish .success{
+	width:80%;
+	height:120px;
+	padding:0px 10%;
+	background-color:#ffffff;	
+}
+
+.publish .success .icon{
+	float:left;
+	width:70px;
+	height:70px;
+	margin:20px 0px;
+}
+
+.publish .success .icon img{
+	width:60px;	
+	height:60px;
+}
+
+.publish .success .txt{
+	float:left;	
+	width:70%;
+	height:60px;
+	margin:25px 0px;
+	margin-left:5%;
+}
+
+.publish .success .txt .txt1{
+	width:100%;
+	font-size:20px;
+	color:#ff6811;	
+}
+
+.publish .success .txt .txt2{
+	width:100%;
+	font-size:16px;
+	color:#666666;	
+}
+
+.publish .material{
+	width:96%;
+	padding:20px 2%;
+}
+
+.publish .material .title{
+	float:left;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	font-size:18px;
+	color:#ff6811;
+}
+
+
+.publish .material .body{
+	float:left;
+	width:90%;
+	padding:5%;
+	line-height:25px;
+	font-size:14px;
+	color:#666666;
+	border-radius:5px;
+	background-color:#ffffff;
+}
+
+.publish .material .body span{
+	float:left;
+	width:100%;
+	line-height:30px;	
+}
+
+/*****页脚*****/
+.publish .footer {
+	width: 100%;
+	height: 55px;
+	margin-top:10px;
+	line-height:35px;
+	background: #f2f2f2;
+	border-top: 1px solid #f6f5f1;
+}
+
+.publish .footer span {
+	font-size: 12px;
+	color: #999999;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.publish .footer img {
+	width: 107px;
+	height: 45px;
+	margin-left: 10px;
+	margin-top: 5px;
+}

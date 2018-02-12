@@ -1,0 +1,616 @@
+/*
+******    å……å€¼
+*/
+.charge-menu{
+    height: 45px;
+    background-color: #f3fded;
+}
+.charge-menu ul{
+    height: 45px;
+    margin: 0 0 0 8px;
+}
+.charge-menu ul li{
+    position: relative;
+    width: 150px;
+    height: 45px;
+    float: left;
+}
+.charge-menu ul li a{
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #222222;
+}
+.charge-menu ul li.active a{
+    background-color: #ffffff;
+    border:1px solid #199a56; border-bottom: 0; border-top-width: 3px;
+    height: 43px;
+    line-height: 43px;
+    margin-left: -8px;
+}
+.charge-menu ul li em{
+    position: absolute;
+    top: -8px;
+    right: 20px;
+    z-index: 10;
+    height: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    padding: 0 3px;
+    background-color: #ff5b00;
+    border-radius: 2px;-webkit-border-radius: 2px;-moz-border-radius: 2px;
+}
+.charge-wrap{
+    background-color: #ffffff;
+    border: 1px solid #199a56;
+    min-height: 565px;
+}
+.icon-charge{
+    background-repeat: no-repeat;
+    background-image: url("../../images/charge/icon-charge.png");
+    display: inline-block;
+}
+.icon-charge.i_1{
+    width: 14px;
+    height: 14px;
+    background-position: -1px -1px;
+}
+.icon-charge.i_2{
+    width: 40px;
+    height:38px;
+    background-position: -20px 0px;
+}
+.charge-btn-gray{
+    color: #ffffff;
+    background-color: #909090;
+    border: 1px solid #909090;
+    box-shadow: 1px  1px 1px rgba(255,255,255,.75) inset;-webkit-box-shadow: 1px  1px 1px rgba(255,255,255,.75) inset;-moz-box-shadow: 1px 1px 1px rgba(255,255,255,.75) inset;
+}
+.charge-btn-green{
+    color: #ffffff;
+    background-color: #199a56;
+    border: 1px solid #199a56;
+    box-shadow: 1px  1px 1px rgba(255,255,255,.75) inset;-webkit-box-shadow: 1px  1px 1px rgba(255,255,255,.75) inset;-moz-box-shadow: 1px 1px 1px rgba(255,255,255,.75) inset;
+}
+.charge-wrap .inp{
+    background-color: #ffffff;
+    border: 1px solid #cecece;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    color: #333333;
+    padding: 0 5px ;
+}
+.charge-wrap .inp01{
+    width: 168px;
+}
+.charge-wrap .inp02{
+    width: 120px;
+}
+/*å¿«æ·*/
+.charge-quick{
+    padding: 14px;
+}
+.charge-quick .explain{
+    border-bottom: 1px solid #dedede;
+    padding: 15px 0 0;
+    height: 28px;
+    margin: 0 0 15px;
+}
+.charge-quick .explain img{
+    margin: 0 4px;
+    float: left;
+}
+.charge-quick .explain p{
+    font-size: 14px;
+    color: #ff5b00;
+    line-height: 28px;
+}
+.quick-wrap{
+}
+.quick-wrap .quick-remind{
+    height: 20px;
+    text-align: center;
+}
+.quick-wrap .quick-remind p{
+    height: 20px;
+    display: inline-block;
+    margin: 0  auto;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;
+    background-color: #ff5b00;
+    padding: 0 10px;
+}
+.quick-wrap .quick-remind p a{
+    color: #ffffff;
+}
+.quick-wrap .quick-remind p i{
+    position: relative;
+    top: 2px;
+	_top:1px;
+    margin: 0 3px 0 0;
+}
+.quick-wrap .quick-form{
+    margin: 15px 0 0;
+    background-color: #f3fded;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.2);-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.2);-moz-box-shadow: 0px 1px 3px rgba(0,0,0,.2);
+    border-radius: 2px;-webkit-border-radius: 2px;-moz-border-radius: 2px;
+}
+.quick-wrap .quick-form dl{
+    height: 78px;
+}
+.quick-wrap .quick-form dl dt{
+    float: left;
+    width: 260px;
+    text-align: right;
+    color: #333333;
+    font-size: 14px;
+    line-height: 78px;
+}
+.quick-wrap .quick-form dl dd{
+    float: right;
+    width: 438px;
+}
+.quick-wrap .quick-form dl dd p.text {
+    line-height: 78px;
+    font-size: 14px;
+    color: #333333;
+}
+.quick-wrap .quick-form dl dd .price span{
+    font-size: 20px;
+    color: #ff5b00;
+    display: inline-block;
+    width: 130px;
+}
+.quick-wrap .quick-form dl dd .weak-remind{
+    font: 12px;
+    color: #909090;
+    line-height: 17px;
+    float: left;
+    width: 100%;
+}
+.quick-wrap .quick-form dl dd .inp{
+    float: left;
+    margin-top: 18px;
+    float: left;
+}
+.quick-wrap .quick-form dl dd .bank-icon{
+    float: left;
+    border: 1px solid #a5c85b;
+    margin: 18px 0 0 10px;
+}
+.quick-wrap .quick-form dl dd .bank-icon img{
+    display: block;
+}
+.quick-form-btn{
+    margin: 30px 0 15px;
+    text-align: center;
+}
+.quick-form-btn a{
+    margin: 0 auto;
+}
+.charge-btn{
+    display: inline-block;
+    padding: 0 24px;
+    border-radius: 2px;-webkit-border-radius: 2px;-moz-border-radius: 2px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 12px;
+}
+/*ç½‘é“¶æ”¯ä»˜*/
+.onlineBank-form{
+    padding: 12px 0 12px 12px;
+}
+.onlineBank-form dl{
+    width: 100%;
+    overflow: hidden;
+}
+.onlineBank-form dl dt{
+    float: left;
+    width: 76px;
+    font-size: 14px;
+    color: #333333;
+    line-height: 72px;
+    height: 72px;
+}
+.onlineBank-form dl dd{
+    padding: 0 0 0 78px;
+}
+.onlineBank-form dl dd .inp{
+    float: left;
+    margin-top: 15px;
+    float: left;
+}
+.onlineBank-form dl dd .unit{
+    display: inline-block;
+    line-height: 42px;
+    font-size: 14px;
+    color: #333333;
+    margin: 15px 0 0 8px;
+}
+.onlineBank-form dl dd .charge-btn{
+    margin-top: 15px;
+}
+.select-bank{
+    margin-top: 15px;
+}
+.select-bank-item{overflow: hidden}
+.select-bank .select-placeholder{
+    height: 40px;
+    width: 250px;
+    background-color: #ffffff;
+    border: 1px solid #cecece;
+    cursor: pointer;
+    position: relative;
+    float: left;
+}
+.select-bank .select-placeholder img{
+    display: block;
+}
+.select-bank .select-placeholder span{
+    float: left;
+    font-size: 12px;
+    color: #909090;
+    padding: 0 0 0 8px;
+    line-height: 40px
+}
+.select-bank .select-placeholder i{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.select-bank .change-bank{
+    border: 1px solid #cecece;
+    position: relative;
+    z-index: 1;top: -1px;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 655px;
+    display: none;
+}
+.select-bank .change-bank label{
+    float: left;
+    height: 40px;
+    border: 1px solid #ffffff;
+}
+.select-bank .change-bank label input{
+    float: left;
+    margin: 14px 0px 0 4px;
+}
+.select-bank .change-bank label img{
+    float: left;
+}
+.onlineBank-form dl dd .weak-remind{
+    font-size: 12px;
+    color: #909090;
+    line-height: 42px;
+    margin-left: 6px;
+    float: left;
+    display: none;
+}
+.select-bank p.link-limit{
+    line-height: 32px;
+    padding: 0 10px;
+    line-height: 32px;
+    display: none;
+
+}
+.select-bank p.link-limit a{
+    font-size: 12px;
+    color: #0a8e4d;
+    text-decoration: underline;
+}
+.bank-limit{
+    display: none;
+}
+.bank-limit p.til{
+    padding: 4px 0 0;
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+}
+.bank-limit p.til span{
+    float: left;
+}
+.bank-limit p.til em{
+    float: right;
+    font-style: normal;
+}
+.bank-limit table{
+    width: 100%;
+    background: #bbcad9;
+    border-spacing: 1px;
+    border-collapse:separate;
+    table-layout: fixed;
+}
+.bank-limit table th{
+    background: #e6edf5;
+    height: 38px;
+    font-size: 12px;
+    color: #333333;
+}
+.bank-limit table td{
+    background: #ffffff;
+    padding: 8px;
+    font-size: 12px;
+    line-height: 25px;
+    color: #333
+}
+.bank-limit table td a{
+    color: #0a8e4d;
+}
+/*æ”¯ä»˜å®æ”¯ä»˜*/
+.charge-alipay{
+    padding: 24px;
+}
+.charge-alipay .alipay-cont{
+    background: #f0f0f0;
+    border: 1px solid #e3e3e3;
+}
+.charge-alipay .alipay-money{
+    height: 46px;
+    color: #333333;
+    padding: 0 5px;
+    line-height: 46px;
+}
+.charge-alipay .alipay-money .inp{
+    height: 30px;
+    line-height: 30px;
+    margin: 7px 3px 0 0;
+}
+.charge-alipay .alipay-money span{
+    font-size: 14px;
+}
+.charge-alipay .alipay-money em{
+    font-style: normal;
+    font-size: 12px;
+    padding: 0 3px;
+}
+.alipay-logo{
+    padding: 12px 0 0;
+}
+.alipay-logo img{
+    height: 32px;
+}
+.alipay-payMoney .payMoney-type{
+    border-bottom: 1px solid #e3e3e3;
+    height: 32;
+}
+.alipay-payMoney .payMoney-type span{
+    float: left;
+    width: 50%;
+    line-height: 32px;
+}
+.alipay-payMoney .payMoney-type span em{
+    float: left;
+    width: 2px;
+    height: 12px;
+    margin: 10px 5px 0 0;
+    background: #199a56;
+}
+.alipay-payMoney .payMoney-cont{
+    overflow: hidden;
+    width: 100%;
+}
+.alipay-payMoney .payMoney-cont .codeComputer{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.alipay-payMoney .payMoney-cont .codeComputer img{
+    margin: 24px auto;
+}
+.payMoney-btn{
+    text-align: center;
+    margin: 24px 0;
+}
+/*é“¶è¡Œæ±‡æ¬¾*/
+.charge-transfer{
+    padding: 14px 24px;
+}
+.charge-transfer .transfer-top{
+    padding: 0 12px;
+}
+.charge-transfer .transfer-top h6{
+    font-size: 14px;
+    color: #333333;
+    line-height: 22px;
+}
+.charge-transfer .transfer-top p{
+    font-size: 12px;
+    color: #8c8c8c;
+    line-height: 17px;
+}
+.charge-transfer .transfer-list{
+    border: 1px solid #e3e3e3;
+    margin: 6px 0 16px;
+}
+.charge-transfer .transfer-list dl{
+    height: 138px;
+    margin-bottom: -1px;
+    border-bottom:1px dotted #e3e3e3 ;
+    padding: 8px 0;
+}
+.charge-transfer .transfer-list dl dt{
+    float: left;
+    width: 217px;
+    border-right: 1px dotted #e3e3e3;
+    text-align: center;
+    height: 122px;
+}
+.charge-transfer .transfer-list dl dt img{
+    margin: 30px auto 0;
+}
+.charge-transfer .transfer-list dl dd{
+    float: right;
+    width: 428px;
+    height: 122px;
+    display: table;
+    vertical-align: middle;
+}
+.charge-transfer .transfer-list dl dd p{
+    display: table-cell;
+    vertical-align: middle;
+}
+.charge-transfer .transfer-list dl dd p span{
+    display: block;
+    font-size: 16px;
+    color: #444;
+    line-height: 25px;
+}
+.charge-transfer .warm-tips{
+    padding: 0 12px;
+    color: #333333;
+    line-height: 22px;
+}
+.charge-transfer .warm-tips h6{
+    font-size: 14px;
+}
+.charge-transfer .warm-tips h6 font{
+    font-size: 12px;
+    color: #ff0000;
+}
+.charge-transfer .warm-tips p{
+    padding: 0 6px;
+    font-size: 13px;
+}
+/*æ±‡æ¬¾è®°å½•*/
+.charge-record{
+    padding: 0 0 20px;
+}
+.charge-record .record-top{
+    height: 32px;
+    margin: 20px 14px 20px 22px;
+    position: relative;
+}
+.charge-record .record-top .total{
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #333333;
+}
+.charge-record .record-top .total b{
+    color: #ff5b00;
+    font-size: 16px;
+}
+.charge-record .record-top .select{
+    float: right;
+	font-size:12px;
+}
+.charge-record .record-list ul{
+    overflow: hidden;
+}
+.charge-record .record-list ul li{
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    color: #444444;
+    height: 50px;
+    line-height: 50px;
+}
+.charge-record .record-list ul.color-bg{
+    background: #e4f2e5;
+
+}
+.charge-record .record-list ul.listTwo{
+	display:none;
+}
+.charge-record .record-list ul.ul1{
+    border-bottom: 1px solid #199a56;
+}
+.charge-record .record-list ul.ul1 li{
+    height: 29px;
+    line-height: 29px;
+}
+.charge-record .record-list ul li.li1{
+    width: 174px;
+}
+.charge-record .record-list ul li.li2{
+    width: 120px;
+}
+.charge-record .record-list ul li.color{
+    color: #ff5b00;
+}
+.charge-record .record-list ul li.li3{
+    width: 115px;
+}
+.charge-record .record-list ul li.li4{
+    width: 237px;
+}
+.charge-record .record-list ul li.li5{
+    width: 110px;
+}
+.charge-record .record-list ul li.li6{
+    width: 357px;
+}
+.charge-record .record-list ul li.lidetail{
+    padding: 0 0 0 34px;
+}
+
+/*èµ„é‡‘æ˜Žç»†*/
+.diabox-details_funds{
+    width: 580px;
+    padding: 10px;
+    display: none;
+}
+.details_funds-list ul{
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+.details_funds-list ul.color-bg{
+    background: #e4f2e5;
+}
+.details_funds-list ul.ul1{
+    border-bottom: 1px solid #199a56;
+}
+.details_funds-list li{
+    float: left;
+    width: 35%;
+    text-align: center;
+    line-height: 30px;
+}
+.details_funds-list li.li1{
+    width: 30%;
+}
+.diabox-details_funds .total{
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 6px 0 -14px;
+}
+
+/*chargeOK*/
+.chargeOk .dialogContent{ padding:50px} 
+.chargeOk .charge-btn{ margin:0 10px}
+
+
+/******协议*******/
+.xieyi{
+    width: 500px;
+    margin-left: 392px;
+    margin-top: 20px;
+}
+.xie_in{}
+.xie_sp{
+    color: #999;
+}
+.xie_sp a{}
+.xieyi1{
+    width: 500px;
+    margin-left: 64px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+

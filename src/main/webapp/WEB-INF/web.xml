@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<web-app version="2.4"
+         xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <display-name>home</display-name>
+  
+  <!-- 中文乱码过滤器 -->  
+    <filter>  
+        <filter-name>encoding</filter-name>  
+        <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>  
+        <init-param>  
+            <param-name>encoding</param-name>  
+            <param-value>utf-8</param-value>  
+        </init-param>  
+  
+        <init-param>  
+            <param-name>forceEncoding</param-name>  
+            <param-value>true</param-value>  
+        </init-param>  
+    </filter>  
+    <filter-mapping>  
+        <filter-name>encoding</filter-name>  
+        <url-pattern>/*</url-pattern>  
+    </filter-mapping> 
+    
+    <!-- confige log4j and make it reload -->
+    <context-param>
+        <param-name>log4jConfigLocation</param-name>
+        <param-value>/WEB-INF/classes/META-INF/log4j.properties</param-value>
+    </context-param>
+    <context-param>
+        <!--reload per 5mins-->
+        <param-name>log4jRefreshInterval</param-name>
+        <param-value>300000</param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>
+            org.springframework.web.util.Log4jConfigListener
+        </listener-class>
+    </listener>
+    
+   <!-- ================================================================== -->
+   <!--                             FILTER                                 -->
+   <!-- ================================================================== -->
+    <filter>
+        <filter-name>UrlRedirectFilter</filter-name>
+        <filter-class>com.guangde.home.filter.UrlFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>UrlRedirectFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>UrlRewriteFilter</filter-name>
+        <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+        <init-param>
+            <param-name>logLevel</param-name>
+            <param-value>WARN</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>UrlRewriteFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+  <servlet>
+        <servlet-name>appServlet</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:META-INF/spring/servlet-context.xml</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>InitializeServlet</servlet-name>
+    <servlet-class>com.guangde.home.servlet.InitializeServlet</servlet-class>
+    <load-on-startup>2</load-on-startup>
+  </servlet>
+        
+  <servlet-mapping>
+        <servlet-name>appServlet</servlet-name>
+        <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>InitializeServlet</servlet-name>
+    <url-pattern>/init.do</url-pattern>
+  </servlet-mapping>
+    
+    <!-- Spring 刷新Introspector防止内存泄露 -->  
+    <listener>  
+        <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>  
+    </listener>
+    
+     <!-- session有效时间 -->  
+    <session-config>  
+        <session-timeout>30</session-timeout>  
+    </session-config>  
+    <welcome-file-list>
+    <welcome-file>index/newindex.do</welcome-file>
+  </welcome-file-list>
+</web-app>

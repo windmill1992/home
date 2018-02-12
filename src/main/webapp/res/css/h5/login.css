@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "Helvetica Neue",Hiragino, Sans, GB, W3, Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: 100%!important;
+	background-color:#eeeeee;
+}
+
+.fl {
+	float: left;
+}
+
+
+.fr {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+ul,li{
+	padding:0px;
+	margin:0px;
+	list-style:none;	
+}
+
+p{
+	padding:0px;
+	margin:0px;	
+}
+i,b{font-style:normal;font-weight:normal;}
+
+a{
+	text-decoration:none;	
+}
+
+#pageContainer{
+	width:100%;
+}
+#pageContainer .top_logo{
+	margin:0px auto;
+	margin-top:50px;
+	width:330px;
+	padding:10px 0px;
+	text-align:center;	
+}
+#pageContainer .login_box{
+	width:330px;
+	margin:0px auto;
+	margin-top:5px;
+	padding:10px 0px;
+	border-radius:5px;
+	background-color:#ffffff;
+}
+
+#pageContainer .login_box .login_tabs{
+	margin:0px auto;
+	height:40px;
+	line-height:30px;
+	margin-bottom:30px;
+}
+
+.login_box .login_tabs a.tab_tel,.login_box .login_tabs a.tab_name{
+	display:inline-block;
+	width:50%;
+	height:40px;
+	font-size:14px;
+	color:#999999;
+	text-align:center;
+	border-bottom:1px solid #dadada;	
+}
+
+.login_box .login_tabs a.cur{
+	color:#333333;
+	font-weight:bold;
+	border-bottom:1px solid #999999;	
+}
+
+#pageContainer .login_box  ul{
+	padding:0px 20px;
+}
+
+#pageContainer .login_box li{
+	margin:0px auto;
+	width:290px;
+	height:50px;
+	line-height:50px;		
+}
+
+li .tel,.login_box li .usr,li .psw{
+	float:left;
+	width:280px;
+	height:26px;
+	line-height:26px;
+	padding:5px;
+	font-size:16px;
+	color:#999999;	
+	border-radius:5px;	
+	border:1px solid #dadada;
+}
+
+
+li .code{
+	float:left;
+	width:165px;
+	height:26px;
+	line-height:26px;
+	padding:5px;
+	font-size:16px;
+	color:#999999;	
+	border-radius:5px;
+	border:1px solid #dadada;
+}
+
+
+li .get_code{
+	float:left;
+	width:105px;
+	height:36px;
+	margin-left:5px;
+	line-height:36px;
+	font-size:16px;
+	color:#ffffff;	
+	text-align:center;
+	border-radius:5px;
+	background-color:#1cb6fe;
+	border:none;
+}
+
+.reget_code{
+	float:left;
+	width:105px;
+	height:36px;
+	margin-left:5px;
+	line-height:36px;
+	font-size:12px;
+	color:#cccccc;	
+	text-align:center;
+	border-radius:5px;
+	background-color:#eeeeee;
+	border:none;	
+}
+
+li .confirm{
+	float:left;
+	width:290px;
+	height:42px;
+	line-height:42px;
+	font-size:16px;
+	color:#ffffff;	
+	text-align:center;
+	border-radius:5px;
+	background-color:#37b500;
+	border:none;
+}
+#pageContainer .login_box .login_ft{
+	margin:0px auto;
+	padding:0px 20px;
+		
+}
+
+#pageContainer .login_box .login_ft .reg_link{
+	height:20px;	
+	line-height:20px;
+	font-size:12px;
+	color:#999999;
+	text-align:right;
+}
+
+#pageContainer .login_box .login_ft .other_link{
+	height:40px;	
+	line-height:40px;
+	margin-top:10px;
+	font-size:14px;
+	color:#999999;
+	border-top:1px solid #dadada;	
+}
+
+.login_box .login_ft .other_link span{
+	float:left;	
+}
+.login_box .login_ft .other_link a{
+	float:left;
+	width:20px;
+	height:20px;
+	margin-top:10px;
+	margin-right:5px;
+	background:url(../../images/h5/images/login_icon.png) no-repeat;
+		
+}
+
+.login_box .login_ft .other_link a.qq{
+	background-position:0px 0px;		
+}
+
+
+.login_box .login_ft .other_link a.wx{
+	background-position:-20px 0px;		
+}
+
+.login_box .login_ft .reg_link a{	
+	font-size:12px;
+	color:#71a63e;
+}
+
+
+/******注册**************/
+#pageContainer .register_box{
+	width:330px;
+	margin:0px auto;
+	margin-top:5px;
+	padding:10px 0px;
+	border-radius:5px;
+	background-color:#ffffff;
+}
+#pageContainer .register_box  ul{
+	padding:0px 20px;
+}
+
+#pageContainer .register_box li{
+	margin:0px auto;
+	width:290px;
+	height:50px;
+	line-height:50px;		
+}
+
+#pageContainer .register_box li.title{
+	height:40px;
+	line-height:30px;
+	font-size:14px;
+	font-weight:bold;
+	color:#666666;
+	text-align:center;
+}
+
+/*****页脚*****/
+.user_center .footer {
+	width: 100%;
+	height: 55px;
+	margin-top:10px;
+	line-height:35px;
+	background: #f2f2f2;
+	border-top: 1px solid #f6f5f1;
+}
+
+.user_center .footer span {
+	font-size: 12px;
+	color: #999999;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.user_center .footer img {
+	width: 107px;
+	height: 45px;
+	margin-left: 10px;
+	margin-top: 5px;
+}

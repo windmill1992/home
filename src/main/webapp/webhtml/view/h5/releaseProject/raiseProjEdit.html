@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+		<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+		<title>发起筹款项目</title>
+		<link rel="stylesheet" type="text/css" href="/res/css/h5/releaseProject2/raiseProjEdit.css"/>
+	</head>
+	<body>
+		<div id="pageContainer" v-cloak>
+			<div class="rpe flex fcen">
+				<div class="rpe-title flex fstart">
+					<p class="tip">项目标题<a href="/resposibilityReport/resposibilityReport.do?id=375">查看示例</a></p>
+					<div class="amount">
+						<input type="text" maxlength="15" placeholder="请填写项目标题，不超过15个字" id="projTitle" v-model="raiseProject.title" />
+					</div>
+				</div>
+				<div class="rpe-title rpe-amount flex fstart">
+					<p class="tip">筹款金额</p>
+					<div class="amount">
+						<input type="number" name="raiseMoney" placeholder="请根据实际情况填写筹款金额" id="raiseMoney" v-model="raiseProject.money" />
+					</div>
+				</div>
+				<div class="rpe-title rpe-content flex fstart">
+					<p class="tip">筹款内容</p>
+					<textarea maxlength="2000" placeholder="请填写受助人基本信息介绍，筹款原因，善款用途等" id="projCon" v-model="raiseProject.content"></textarea>
+				</div>
+				<div class="rpe-title rpe-uploadPic">
+					<p class="tip">上传图片<a href="/resposibilityReport/resposibilityReport.do?id=376">查看示例</a></p>
+					<p class="intro">请上传封面图，如图片变形请裁剪或更换之后再上传</p>
+					<div class="addList" id="imgList">
+						<div class="item" :id="raiseProject.coverImageId" v-if="raiseProject.edit">
+							<a href="javascript:void(0);" class="preview">
+								<img :src="raiseProject.coverImageUrl" />
+							</a>
+							<i class="del"><img src="/res/images/h5/images/close.png"/></i>
+						</div>
+						<div class="item add">
+							<a href="javascript:;" class="add-btn">
+								<label></label>
+							</a>
+						</div>
+					</div>
+					<p class="intro">请上传受助人相关照片，近期的生活照、家庭照片、学习/治疗过程照片等，不少于3张</p>
+					<div class="addList" id="imgList2">
+						<template v-if="raiseProject.edit">
+							<div class="item" v-for="con in raiseProject.contentImg" :id="con.id">
+								<a href="javascript:void(0);" class="preview">
+									<img :src="con.url" />
+								</a>
+								<i class="del"><img src="/res/images/h5/images/close.png"/></i>
+							</div>
+						</template>
+						<div class="item add">
+							<a href="javascript:;" class="add-btn">
+								<label></label>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="rpe-btn btn">
+					<a href="javascript:void(0);" id="next">保存，下一步</a>
+				</div>
+				
+				<div class="rpe-tel">
+					<p>有任何问题请拨打客服热线：<span class="tel">0571-87165191</span></p>
+				</div>
+			</div>
+		</div>
+		<div class="tips"></div>
+		<input type="hidden" name="releaseProjPg" id="releaseProjPg" value="" />
+		<script src="/res/js/jquery-1.8.2.min.js"></script>
+		<script src="/res/js/h5/donateStep/vue.min.js"></script>
+		<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+		<script src="/res/js/h5/releaseProject2/wxlogin.js"></script>
+		<script src="/res/js/h5/releaseProject2/raiseProjEdit.js"></script>
+	</body>
+</html>

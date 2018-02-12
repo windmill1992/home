@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+	<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+	<title>已报名</title>
+	<link rel="stylesheet" type="text/css" href="/res/css/h5/entryProject/entryPay.css" />
+</head>
+<body style="background: #fff;">
+	<div id="entryListPage" v-cloak>
+		<div class="el-hd">
+			<a href="javascript:void(0);" onclick="history.go(-1)" class="back"></a>
+			<h3>已报名</h3>
+		</div>
+		<div class="el-bd">
+			<div class="entry-list" id="entryList" v-if="hasMore!=0">
+				<div class="item flex just" v-for="e in entryList">
+					<div class="user-info flex">
+						<div class="avatar">
+							<img :src="e.headImage"/>
+						</div>
+						<div class="nickname">
+							{{e.nickName}}
+						</div>
+					</div>
+					<div class="time">
+						<template v-if="e.day == 0">今天</template>
+						<template v-else-if="e.day == 1">昨天</template>
+						<template v-else>{{e.day}}天前</template>
+						<!--{{e.day}}天前-->
+					</div>
+				</div>
+			</div>
+			<div class="load-more">
+				<a href="javascript:;" id="loadmore" v-if="hasMore == 2">点击查看更多</a>
+				<p v-else-if="hasMore == 1">没有更多数据了...</p>
+				<p v-else style="padding: .2rem;text-align: center;font-size: .18rem;">暂无报名人信息</p>
+			</div>
+		</div>
+	</div>
+	
+	<script src="/res/js/jquery-1.8.2.min.js"></script>
+	<script src="/res/js/h5/donateStep/vue.min.js"></script>
+	<script>
+		var vm = new Vue({
+			el:'#entryListPage',
+			data:{entryList:[],hasMore:0}
+		});
+		
+		var page = 1;
+		var entrys = {
+			init:function(){
+				var that = this;
+				that.getEntryList(page,10);
+				$('body').on('click','#loadmore',function(){
+					that.getEntryList(++page,10);
+				});
+			},
+			getEntryList:function(pageNum,pageSize){
+				var formId = this.GetQueryString('formId');
+				var unitprice = this.GetQueryString('unitprice');
+				var state = 0;
+				if(formId == null){
+					alert('暂时没有报名人信息');return;
+				}else if(unitprice == null || unitprice==0){
+					state = 0;
+				}else{
+					state = 1;
+				}
+				$.ajax({
+					type:"get",
+					url:"http://www.17xs.org/resposibilityReport/signForm_detail.do",
+					data:{formId:formId,pageSize:pageSize,pageNum:pageNum,state:state},
+					success:function(res){
+						if(res.code == 1){
+							var r = res.result.data,c = res.result.count;
+							if(c==0){
+								vm.hasMore = 0;
+								return;
+							}else if(pageNum * 10 >= c){
+								vm.hasMore = 1;
+							}else{
+								vm.hasMore = 2;
+							}
+							for(var i=0;i<r.length;i++){
+								if(r[i].headImage == null){
+									r[i].headImage = '../../../../res/images/detail/people_avatar.jpg';
+								}else{}
+								vm.entryList.push({
+									userId:r[i].userId,
+									nickName:r[i].nickName,
+									headImage:r[i].headImage,
+									day:r[i].day
+								});	
+							}
+						}else{
+							alert(res.msg);return;
+						}
+					}
+				});		
+			},
+			//获取url参数值
+			GetQueryString:function(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null)
+					return decodeURI(r[2]);
+				return null;
+			}
+		};
+		$(function(){
+			entrys.init();
+		});
+	</script>
+</body>
+</html>

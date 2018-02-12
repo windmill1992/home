@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+		<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+		<title>收款人信息</title>
+		<link rel="stylesheet" type="text/css" href="/res/css/h5/releaseProject2/raiseProjEdit.css"/>
+	</head>
+	<body>
+		<div id="pageContainer" v-cloak>
+			<div class="rpe flex fcen">
+				<div class="pd-hd">
+					<p v-if="!exp">收款账号默认为所在医院</p>
+					<p v-else>收款账号默认为求助机构</p>
+				</div>
+				<div class="rpe-title flex fstart" v-if="!personal">
+					<p class="tip">善款接收</p>
+					<div class="amount">
+						<input type="text" value="宁波市善园公益基金会" v-model="payee.funds" readonly="readonly" id="payee" />
+					</div>
+				</div>
+				<div class="rpe-title flex fstart">
+					<p class="tip">收款单位/人</p>
+					<div class="amount">
+						<template v-if="!personal">
+							<input type="text" id="hospital_3" value="" v-model="hospitalName" readonly="readonly" />
+						</template>
+						<template v-else>
+							<input type="text" id="hospital_3" value="" placeholder="请填写所在医院" v-model="payee.openName" />
+						</template>
+					</div>
+				</div>
+				<div class="rpe-title flex fstart">
+					<p class="tip">收款账号</p>
+					<div class="amount">
+						<template v-if="!personal">
+							<input type="text" required="required" value="" id="account" v-model="payee.account" readonly="readonly" />
+						</template>
+						<template v-else>
+							<input type="text" required="required" value="" id="account" v-model="payee.cardNo" />
+						</template>
+					</div>
+				</div>
+				<div class="rpe-title flex fstart">
+					<p class="tip">所属银行</p>
+					<div class="amount">
+						<template v-if="!personal">
+							<input type="text" required="required" value="" id="bank" v-model="payee.bank" readonly="readonly" />
+						</template>
+						<template v-else>
+							<input type="text" required="required" value="" id="bank" v-model="payee.bankName" />
+						</template>
+					</div>
+				</div>
+				
+				<div class="rpe-commend">
+					<p v-if="!exp">注：患者已康复出院或者其他原因中断治疗，家属提供发票可将善款打款至受助人或亲属账户</p>
+					<p>有任何问题请拨打客服热线：<span>0571-87165191</span></p>
+				</div>
+				
+				<div class="rpe-btn btn" >
+					<a href="javascript:void(0);" id="savePayee">{{perfectData.payeeState?'返回':'保存'}}</a>
+				</div>
+				
+			</div>
+		</div>
+		<div class="tips"></div>
+		<input type="hidden" name="payeePg" id="payeePg" />
+		<script src="/res/js/jquery-1.8.2.min.js"></script>
+		<script src="/res/js/h5/donateStep/vue.min.js"></script>
+		<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+		<script src="/res/js/h5/releaseProject2/wxlogin.js"></script>
+		<script src="/res/js/h5/releaseProject2/raiseProjEdit.js"></script>
+	</body>
+</html>

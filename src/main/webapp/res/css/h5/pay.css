@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "Helvetica Neue",Hiragino, Sans, GB, W3, Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: 100%!important;
+	background-color:#eeeeee;
+}
+
+.fl {
+	float: left;
+}
+
+
+.fr {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+ul,li{
+	padding:0px;
+	margin:0px;
+	list-style:none;	
+}
+
+p{
+	padding:0px;
+	margin:0px;	
+}
+i,b{font-style:normal;font-weight:normal;}
+
+a{
+	text-decoration:none;	
+}
+
+#pageContainer{
+	width:100%;
+}
+/*******顶部信息********/
+.project .top_info{
+	width:100%;
+}
+.project .top_info img{
+	width:100%;	
+}
+
+.project .top_info .txt{
+	position:absolute;
+	top:0;
+	left:0;	
+	padding:10% 0 0 16%;
+}
+
+.project .top_info .txt .thank{
+	font-size:36px;
+	color:#ffd703;	
+}
+
+.project .top_info .txt .info{
+	height:50px;
+	line-height:50px;
+	font-size:16px;
+	color:#ffffff;	
+}
+
+/******详情信息******/
+.detail_info .content_tabs{
+	float:left;
+	width:100%;
+	font-size:18px;
+	color:#666666;
+	text-align:center;
+	background-color:#ffffff;
+}
+
+.detail_info .content_tabs li{
+	float:left;
+	width:95%;
+	padding:15px 0px;
+	padding-left:5%;
+	cursor:pointer;
+	text-align:left;
+	border-bottom:2px solid #e2e2e2;	
+}
+
+
+/*****主题列表******/
+/* .project .detail_info  {
+	min-height:400px;
+} */
+.detail_info .list .bg2 {
+	background: #fff;
+}
+.detail_info .list .record {
+	border-bottom: 1px solid #ebebeb;
+}
+
+.detail_info .list .record .thumb{
+	float:left;	
+	width:60px;
+}
+
+.detail_info .list .record .thumb img {
+	width: 40px;
+	height: 40px;
+	margin: 10px 15px;
+	border-radius:25px;
+	position: relative;
+}
+
+.detail_info .record .name{
+	float:left;
+	width:120px;
+	height:60px;
+	line-height:60px;
+	color: #333333;
+	font-size: 18px;
+	margin-right: 25px;
+}
+
+
+.detail_info .record .money{   
+	float:right;
+	width:120px;
+	height:60px;
+	padding-right:10px;
+	line-height:60px;
+	color: #333333;
+	font-size: 16px;
+	text-align:right;
+}
+
+.detail_info .record .money label{
+	margin:0px 5px;
+	color:#ff6600;	
+}
+
+.detail_info .record a{
+	color:#333;	
+}
+
+
+.detail_info .loading{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	color:#999999;
+	text-align:center;
+}
+
+/****捐款按钮******/
+.project .btns {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #dad7d0;
+	z-index: 200;
+}
+
+.project .btns .btn {
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	color: #fff;
+	display: inline-block;
+	border-radius: 5px;
+	border: 1px #fe7225 solid;
+	text-align: center;
+	background: #ff6811;
+}
+
+.project .btns img {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	vertical-align: -4px;
+}
+
+/*****页脚*****/
+.project .footer{
+	width: 100%;
+	height: 55px;
+	margin-top:10px;
+	line-height:35px;
+	background: #f2f2f2;
+	border-top: 1px solid #f6f5f1;
+}
+
+.project .footer span {
+	font-size: 12px;
+	color: #999999;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.project .footer img {
+	width: 107px;
+	height: 45px;
+	margin-left: 10px;
+	margin-top: 5px;
+}

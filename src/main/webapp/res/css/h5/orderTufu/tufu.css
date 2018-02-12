@@ -1,0 +1,111 @@
+
+html,body{margin: 0;padding: 0;font-size: 62.5%;-webkit-tap-highlight-color: rgba(0,0,0,0);border: 0;font-family: "微软雅黑";background:#fff;}
+html,body,ul,li,ol,p,div,h1,h2,h3,h4,h5,h6,nav,header,footer,table,tr,td,th,form,label{
+	-webkit-margin-after: 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-padding-start: 0;
+	-webkit-padding-end: 0;
+	-webkit-padding-before: 0;
+	-webkit-padding-after: 0;
+	margin: 0;
+	padding: 0;
+}
+html{font-size: 100px;height: 100%;}
+body{color: #666;max-width: none;font-size: .13rem;line-height: 1.5;min-height: 100%;height: 100%;}
+body::-webkit-scrollbar{display: none;}
+@media screen and (max-width:320px) {
+	html {font-size: 90px;}
+}
+@media screen and (min-width:321px) and (max-width:360px) {
+	html {font-size: 90px;}
+}
+a{text-decoration: none;color: #333;}
+img{border: 0;}
+input,label,button{font-family: "微软雅黑";vertical-align: middle;}
+[v-clock]{display: none;}
+.btn{display: inline-block;height: .36rem;line-height: .36rem;color: #fff;font-weight: 500;font-size: .16rem;
+	background: #FF6811;text-align: center;
+}
+#tips{
+	position: fixed;width: 70%;line-height: 1.4;background: rgba(0,0,0,.8);color: #fff;font-size: .13rem;border-radius: 5px;text-align: center;
+	padding: .1rem .3rem;left: 15%;box-sizing: border-box;bottom: -100px;transition: all .4s ease;word-break: break-word;
+}
+#pageContainer{max-width: 768px;min-height: 100%;box-sizing: border-box;position: relative;margin: 0 auto;background: #FFD7B9;}
+.t-hd{width: 100%;background:#fff url(../../../images/h5/images/tooth.png) no-repeat;background-size: 100%;}
+.t-hd img{width: 100%;height: 100%;}
+.t-bd{padding-bottom: .3rem;font-size: .14rem;}
+.t-bd .box{
+	margin: 0 4%;padding: .2rem .1rem;background: #fff;border-radius: 6px;color: #666;position: relative;
+}
+.t-bd .box .query{width: 100%;height: .36rem;line-height: .36rem;margin-top: .08rem;position: relative;}
+.t-bd .box .query input{
+	height: .36rem;border: 1px solid #ddd;width: 80%;box-sizing: border-box;padding: 0;vertical-align: 0;outline: none;text-align: center;
+	color: #333;font-size: .16rem;
+}
+.t-bd .box .query .clearInput{
+	position: absolute;right: 22%;width: .12rem;height: .12rem;background: url(/res/images/h5/images/icon_close.png) no-repeat;
+	background-size: contain;margin: .12rem 0;display: none;
+}
+.t-bd .box .query .btn{width: 20%;margin-left: -5px;}
+.t-bd .box .content{line-height: 2.5;margin-top: .15rem;}
+.t-bd .box .content .nextOrder{text-decoration: underline;color: #FF6810;border: 0;width: 1.7rem;vertical-align: 0;outline: none;font-size: .14rem;}
+.t-bd .box .content .nextOrder.selected{text-decoration: none;color: #666;width: 2rem;}
+.t-bd .box .submit{width: 80%;margin: .2rem 10% 0;border-radius: 5px;}
+.t-bd .box .submit a{color: #fff;display: inline-block;width: 100%;height: 100%;}
+.t-bd .box .submit.disabled{background: #CBCBCB;}
+.t-bd .box .submit.support{background: #fff;border: 1px solid #FF6811;}
+.t-bd .box .submit.support a{color: #FF6810;}
+.t-bd .box .call{margin: .15rem 0;text-align: center;color: #999;}
+#tipsScroll{
+	height: 40px;line-height: 40px;font-size: 13px;color: #fff;border-radius: 5px;
+	position: absolute;top: -40px;left: 0;right:0;padding: 0 10px;background: rgba(0,0,0,.4);
+	display: none;
+}
+#tipsScroll.scrolling{
+	display: block;
+}
+#tipsScroll img{
+	position: absolute;left: 10px;top: 9px;width: 22px;height: 22px;
+}
+#tipsScroll .txt{
+	height:40px;margin:0 10px 0 35px;overflow: hidden;position: relative;
+}
+#tipsScroll .txt p{
+	position: absolute;left: 5%;top: 0;line-height: 40px;white-space: nowrap;
+}
+#tipsScroll.scrolling .txt p{
+	-webkit-animation: pscroll 15s linear infinite 1s;
+	animation: pscroll 15s linear infinite 1s;
+}
+.multi-picker-btn-box{background: #FF6811;}
+.multi-picker-btn-box .multi-picker-btn{color: #fff;}
+#loadmask{display: none;}
+#mask{
+	width: 100%;height: 100%;background: rgba(0,0,0,.05);display: -webkit-flex;display: flex;-webkit-justify-content: center;
+	justify-content: center;-webkit-align-items: center;align-items: center;position: fixed;top: 0;left: 0;color: #fff;font-size: .14rem;
+}
+#loading{
+	width: 1rem;height: 1rem;position: relative;background: rgba(0,0,0,.6);text-align: center;border-radius: 6px;
+}
+#loading img{
+	height: .32rem;width: .32rem;margin-top: .2rem;margin-bottom: .04rem;
+}
+
+@-webkit-keyframes pscroll{
+	0%{
+		left: 5%;
+	}
+	100%{
+		left: -90%;
+	}
+}
+@keyframes pscroll{
+	0%{
+		left: 5%;
+	}
+	100%{
+		left: -90%;
+	}
+}

@@ -1,0 +1,48 @@
+
+.applySteps{font-family:"\5FAE\8F6F\96C5\9ED1";background:#f7f7f7;}
+.page .page-hd{height:50px;line-height:50px;font-size:20px;color:#fff;background:#199a56;}
+.page .page-hd .page-tit{width:1000px;margin:0 auto;}
+.page .page-hd .page-tit .line{display:inline-block;width:0;line-height:0;height:18px;margin:-2px 10px 0;border-right:1px solid #fff;vertical-align:middle;}
+.page .page-bd{width:1000px;margin:0 auto;}
+.btn{display:inline-block;width:98px;height:38px;text-align:center;font:normal normal 12px/38px "\5B8B\4F53";color:#fff;background:url(../../images/btn-bg.jpg) no-repeat 0 0;}
+
+.applySteps{overflow:auto;*zoom:1;} 
+.applySteps .page-bd{width:988px;margin:15px auto;border:1px solid #d8d8d8;background:#fff;}
+.applySteps .applyStp-main{width:920px;margin:15px auto 60px;}
+.applySteps .applyStp-hd{height:102px;border-bottom:1px solid #d8d8d8;}
+.applySteps .applyStp-tit{float:left;width:214px;}
+.applySteps .applyStp-hd .applyStp-tit{font-size:24px;line-height:102px;text-align:center;}
+.applySteps .applyStp-hd .applyStp-tab{/*float:left;*/margin-left:214px;}
+.applySteps .applyStp-hd .applyStp-tab li{position:relative;top:0;left:0;float:left;width:110px;height:82px;margin-right:40px;background:url(../../images/icons/process-step.jpg) no-repeat -120px 0;}
+.applySteps .applyStp-hd .applyStp-tab li.curTab{background-position:0 0;}
+.applySteps .applyStp-hd .applyStp-tab li i{position:absolute;top:2px;left:5px;width:35px;height:35px;font-size:24px;color:#fff;font-family:Arial, Helvetica, sans-serif;}
+.applySteps .applyStp-hd .applyStp-tab li span{display:block;position:absolute;bottom:0;left:0;width:100%;height:40px;line-height:40px;text-align:center;font-size:20px;}
+.applySteps .applyStp-bd{clear:both;overflow:auto;*zoom:1;}
+.applySteps .applyStp-bd .btnBox{clear:both;width:100%;text-align:center;}
+.applySteps .applyStp-bd dl{clear:both;overflow:auto;*zoom:1;padding-bottom:20px;color:#888;font:normal normal 12px/28px "\5B8B\4F53";}
+.applySteps .applyStp-bd dl.applyStp-proof{padding-top:10px; overflow;hidden}
+.applySteps .applyStp-bd dt{float:left;width:214px;text-align:right;}
+.applySteps .applyStp-bd dd{float:left;}
+.applySteps .applyStp-bd .applyStp-address {margin-top:20px;}
+.applySteps .applyStp-bd .applyStp-address select{float:left;margin-right:15px;color:#444;height:24px;min-width:122px;border:1px solid #abadb3;}
+.applySteps .applyStp-bd .applyStp-field dd{width:490px;} 
+.applySteps .applyStp-bd .applyStp-field p.first{margin-bottom:15px;}
+.applySteps .applyStp-bd .applyStp-field i{display:inline-block;cursor:pointer;margin-right:15px;width:60px;height:26px;line-height:26px;text-align:center;border:1px solid #d8d8d8;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;}
+.applySteps .applyStp-bd .applyStp-field i.last{border:0;cursor:default;}
+.applySteps .applyStp-bd .applyStp-field i.ckb{background:#66bd6c;border-color:#1a9b4f;color:#fff;}
+.applySteps .applyStp-bd .applyStp-reason textarea{width:438px;height:170px;padding:5px;resize:none;border:1px solid #d8d8d8;}
+
+.applySteps .applyStp-bd .applyStp-rslt{width:530px;margin:0 auto;padding-top:40px;}
+.applySteps .applyStp-bd .applyStp-rslt i{display:block;float:left;width:100px;height:100px;background:url(../../images/icons/ok-icon.jpg) no-repeat center top;}
+.applySteps .applyStp-bd .applyStp-rslt .rslt-con{float:left;line-height:56px;}
+.applySteps .applyStp-bd .applyStp-rslt .rslt-con h3{font-size:28px;}
+.applySteps .applyStp-bd .applyStp-rslt .rslt-con p{font-size:16px;}
+.applyRslt .applyStp-bd .btnBox .btn{margin:20px 40px 0 0;}
+
+.error-icon{display:inline-block;width:14px;height:14px;background:url(../../images/icons/error-icon.png) no-repeat center center;}
+
+.applySteps .dataMsg{display:none;color:#ff3f13;font-size:12px;line-height:14px;text-align:center;margin-bottom:20px;}
+.applySteps .dataMsg span{vertical-align:top;margin-left:5px;}
+
+.applySteps .legalize{width:714px;margin:20px auto 0;}
+.helpprim{ padding:20px 0 18px 0; text-align:center; background:url(../../images/icons/worn.jpg) 315px center no-repeat; color:#a1a1a1}

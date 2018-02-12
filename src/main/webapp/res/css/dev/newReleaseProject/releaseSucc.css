@@ -1,0 +1,67 @@
+.relImg3{
+    background-position: 0px -348px;
+}
+.releaseSucc{
+    height: 270px;
+    margin-top: 110px;
+    margin-bottom: 150px;
+}
+.pr_ewm{
+    width: 256px;
+    height: 256px;
+    border: 1px solid #eee;
+    float: left;
+    margin-left: 64px;
+}
+.succFr{
+    float: right;
+    width: 375px;
+    margin-right: 265px;
+}
+.succFr .succFrimg{
+    float: left;
+}
+.succFrimg1{
+    width:568px;
+    margin-top: 30px;
+}
+.succFrtext{float: right;width: 267px;}
+.succFrtext .succP1{
+    font-size: 24px;
+    color: #333;
+    height: 40px;
+}
+.succFrtext .succP2{
+    font-size: 14px;
+    color: #666;
+}
+.projectBtn{
+    float: right;
+    width: 276px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 95px;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px 0px #028c43;
+    background: #199a56;
+    font-size: 14px;
+}
+.succUl{
+    width: 716px;
+}
+.succUl li{
+    float: left;
+    margin-right: 38px;
+    margin-top: 12px;
+    color: #666;
+}
+
+
+
+
+
+
+

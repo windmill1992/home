@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+		<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+		<title>筹款首页</title>
+		<link rel="stylesheet" type="text/css" href="/res/css/h5/releaseProject2/raiseProjEdit.css"/>
+	</head>
+	<body>
+		<div id="pageContainer" v-cloak>
+			<div class="rpi-hd flex fcen">
+				<div class="logo">
+					<img src="/res/images/h5/images/releaseProject/logo.png"/>
+				</div>
+				<div class="hd-text">
+					<p>累计捐款额<span>{{totalMoney | numFmt}}</span>元</p>
+					<p>已有<span>{{helpPeople}}</span>人获得帮助</p>
+				</div>
+			</div>
+			<div class="rpi-bd flex">
+				<h3 class="h3">让困境中的你，通过朋友圈</h3>
+				<div class="buzhou">
+					<span class="bz">筹款获得帮助</span>只需3步
+				</div>
+				<div class="content">
+					<div class="c-box flex">
+						<div class="pic">
+							<img src="/res/images/h5/images/releaseProject/book.png"/>
+						</div>
+						<div class="box">
+							<div class="info">
+								<div class="num">1</div>
+								<div class="intro">
+									<h3>发布</h3>
+									<p>填写信息，简单便捷开始筹款。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="arrow">
+						<img src="/res/images/h5/images/releaseProject/arrow.png"/>
+					</div>
+					<div class="c-box flex">
+						<div class="pic">
+							<img src="/res/images/h5/images/releaseProject/wxpyq.png"/>
+						</div>
+						<div class="box">
+							<div class="info">
+								<div class="num">2</div>
+								<div class="intro">
+									<h3>推广筹款</h3>
+									<p>转发朋友圈，大家都来捐助。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="arrow">
+						<img src="/res/images/h5/images/releaseProject/arrow.png"/>
+					</div>
+					<div class="c-box flex">
+						<div class="pic">
+							<img src="/res/images/h5/images/releaseProject/card.png"/>
+						</div>
+						<div class="box">
+							<div class="info">
+								<div class="num">3</div>
+								<div class="intro">
+									<h3>申请打款</h3>
+									<p>申请打款 随时可以申请打款，善款100% 用于救助0费用。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="rpe-btn btn">
+					<a :href="raiseProjUrl" class="lBtn" style="background-color: #16946F;">发起筹款</a>
+				</div>
+			</div>
+		</div>
+		
+		<input type="hidden" name="indexPg" id="indexPg" value="" />
+		<script src="/res/js/jquery-1.8.2.min.js"></script>
+		<script src="/res/js/h5/donateStep/vue.min.js"></script>
+		<script src="/res/js/h5/releaseProject2/wxlogin.js"></script>
+		<script src="/res/js/h5/releaseProject2/pubProject.js"></script>
+	</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+	<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+	<title>签到活动</title>
+	<link rel="shortcut icon" href="/res/images/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="/res/css/h5/volunteer/charity.css?v=20171208"/>
+</head>
+<body>
+	<div id="pageContainer" v-cloak>
+		<div class="m-hd">
+			<div class="user">
+				<div class="avatar">
+					<img :src="userAvatar"/>
+				</div>
+				<div class="info">
+					<p>{{userName}}</p>
+				</div>
+			</div>
+			<div class="act-info">
+				<ul class="flex just">
+					<li>
+						<p>已报名活动/个</p>
+						<p class="num">{{personal.entriedActNum}}</p>
+					</li>
+					<li class="txtC">
+						<p>已签到/次</p>
+						<p class="num">{{personal.signNum}}</p>
+					</li>
+					<li class="txtR">
+						<p>服务时长/小时</p>
+						<p class="num">{{personal.serviceTime}}</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="line"></div>
+		<div class="m-bd">
+			<div class="tab" id="actSwitch">
+				<div class="subtab">
+					<a href="javascript:;" style="text-align: left;padding-left: .1rem;">已报名的活动</a>
+				</div>
+			</div>
+			<div class="activities">
+				<div class="item" v-for="act in activities">
+					<div class="title">
+						<a :href="'/visitorAlipay/tenpay/entryPay.html?activityId='+act.activityId"><h3>{{act.name}}</h3></a>
+					</div>
+					<p>时间：{{act.createTime}}</p>
+					<p>地点：{{act.address}}</p>
+					<a class="flex just c666 lh2" href="javascript:;">
+						<span>服务时长：{{act.timeNum==null?'0':act.timeNum}}小时</span>
+					</a>
+					<div class="operate flex just">
+						<a :href="'volSignInRecord.html?activityId='+act.activityId">签到记录</a>
+						<a :href="'activityFeedback.html?activityId='+act.activityId">反馈</a>
+						<a href="javascript:;" class="signout" :data-id="act.activityId">签出</a>
+					</div>	
+				</div>
+			</div>	
+			<a class="lookmore" id="loadMore" href="javascript:;" v-if="hasMore==2">点击加载更多</a>
+			<a class="nomore" href="javascript:;" v-else-if="hasMore==1">没有更多数据了</a>
+			<a class="nomore" href="javascript:;" v-else-if="hasMore==0">您还未报名活动</a>
+		</div>
+	</div>
+	<div id="loadmask">
+		<div id="mask">
+			<div id="loading"><img src="/res/images/h5/images/volunteer/loading9.gif"/><p>加载中...</p></div>
+		</div>
+	</div>
+	<div id="tips"></div>
+	<input type="hidden" name="entryPage" id="entryPage" value="" />
+	
+	<script src="/res/js/jquery-1.8.2.min.js"></script>
+	<script src="/res/js/h5/donateStep/vue.min.js"></script>
+	<script src="/res/js/util/ajaxform.js"></script>
+	<script src="/res/js/h5/volunteer/management.js?v=20171208"></script>
+</body>
+</html>

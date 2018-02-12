@@ -1,0 +1,94 @@
+.cloister{
+    width: 100%;
+}
+.cloContent{
+    width: 100%;
+    background: #fff;
+    margin-top: 10px;
+}
+.clContent_list{
+    padding: 2%;
+    border-bottom: 1px solid #e0e0e0;
+}
+.clFl{
+    width: 32%;
+    height: 113px;
+    float: left;
+}
+.clFl img{
+    width: 100%;
+    height: 113px;
+}
+.clFr{
+    width: 66%;
+    float: right;
+}
+h3{
+    font-style: normal;
+    font-size: 16px;
+}
+.cloister_name{
+    height: 33px;
+    margin-top: 4px;
+    font-size: 13px;
+}
+.cloister_name li{
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cloister_li1{width: 40%}
+.cloister_li2{width: 50%}
+.cloister_name li span{
+    display: inline-block;
+    float: left;
+    width: 26px;
+    height: 27px;
+    background: url("../../../../res/images/h5/images/garden/tem_icon.png") no-repeat;
+}
+.cloister_name li p{
+    font-style: normal;
+    /* float: right; */
+    height: 30px;
+    line-height: 26px;
+    color: #666;}
+.cloText{
+    font-size: 12px;
+    height: 37px;
+    color: #999;
+    overflow: hidden;
+}
+.cloText1{font-size: 12px;height: 28px;line-height: 20px;color: #999;}
+.cloText1 span{font-size: 16px;color: #d58b21;}
+/*底部按钮*/
+.templeBtn{
+    width: 88%;
+    height: 35px;
+    line-height: 40px;
+    background: #eeecdf;
+    position: fixed;
+    bottom: 0;
+    padding: 2% 6%;
+    border-top:1px solid #bcb996;
+}
+.templeBtn .btnFl{
+    display: inline-block;
+    width: 45%;
+    background: #9a7940;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
+.templeBtn .btnFr{
+    display: inline-block;
+    width: 45%;
+    border: 2px solid #9a7940;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    color: #9a7940;
+    border-radius: 5px;
+}

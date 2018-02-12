@@ -1,0 +1,40 @@
+/* CSS Document */
+
+/*helpEdit*/
+input, textarea, select{ font-family:"宋体"}
+.applySteps .helpStp-bd{ overflow:visible; padding-left:90px}
+.helpEdit .info-box{clear:both;padding-top:20px;font-family:"\5B8B\4F53";}
+.helpEdit .info-warn{ color:#f00!important; text-indent:20px; position: absolute; top:0 ; left:0 }
+.helpEdit .info-warn em{ display:inline-block; vertical-align:middle;width:15px; height: 16px;position:absolute; top:0px; left:0px;background:url(../../images/login/login.jpg) -103px -3px no-repeat}
+.helpEdit select{width:auto;min-width:125px;padding:2px 0 2px 6px;margin-right:15px;border:1px solid #abadb3;}
+.helpEdit select input{width:108px;}
+.helpEdit .info-box dt{float:left;width:100px;text-align:right;}
+.helpEdit .info-box dd{float:left;}
+.helpEdit .info-box label{width:100px;height:28px;line-height:28px;}
+.helpEdit .info-box label i{color:#ff8a00;margin-right:5px;line-height:28px;}
+.helpEdit .info-box input{display:inline-block;padding:0 5px;height:26px;line-height:26px;border:1px solid #abadb3; margin-right:5px}
+.helpEdit .info-box input.textmoney{ width:110px;}
+.helpEdit .info-box select#identity{float:left}
+.helpEdit .info-box input#identityInfo{display:none;float:left;height:24px;line-height:24px;}
+.helpEdit .info-box textarea{display:inline-block;width:628px;height:310px;padding:5px;border:1px solid #abadb3;resize:none;}
+.helpEdit .info-tit input{width:200px;} 
+.helpEdit .info-street textarea{width:390px;height:62px;}
+.helpEdit .info-imgs li{position:relative;top:0;left:0;z-index:1;float:left;width:90px;height:80px;margin:0 10px 15px 0;border:1px solid #abadb3; }
+.helpEdit .info-imgs li img{ width:90px; height:80px}
+.helpEdit .info-imgs li.last{font-size:40px;line-height:80px;text-align:center;cursor:pointer; position:relative; cursor:pointer; overflow:hidden}
+.helpEdit .info-imgs li.last input{opacity: 0;filter: alpha(opacity=0); /* background:none repeat scroll 0 0 transparent; */ border: medium none; cursor: pointer;height:82px;width:92px;top: 0px;opacity: 0;position: absolute;font-size: 100px;left: 0; overflow:hidden}
+.helpEdit .info-imgs li i{position:absolute;top:-10px;right:-10px;z-index:10;width:20px;height:20px;font-size:18px;border-radius:10px;background:#999;color:#fff;text-align:center;line-height:20px;cursor:pointer; display:none}
+.helpEdit .info-field span{display:inline-block;width:60px;height:26px;margin-right:15px;background-color:#fff;border:1px solid #abadb3;border-radius:2px;text-align:center;line-height:26px;cursor:pointer;}
+.helpEdit .info-field span.sel{background-color:#019045;border-color:#007538;color:#fff;}
+.helpEdit .promot-bank{clear:both;height:40px;line-height:40px;padding-left:100px;font-family:"\5B8B\4F53";}
+.helpEdit .btn-box{position:relative;top:0;left:0;clear:both;margin-left:100px;padding-top:40px;font-family:"\5B8B\4F53"; width:100%}
+.helpEdit .btn-box .btn{float:left;margin-right:30px; cursor: pointer;}
+.helpEdit .btn-box .btn-gray{ background:url(../../images/btnBg.jpg) left top no-repeat; color:#333}
+
+.helpEdit .btn-box .btn-point{position:absolute;top:90px;left:0;padding:0 10px;height:26px;line-height:26px;border:1px solid #abadb3;background:#fff; display:none}
+.helpEdit .btn-point i{position:absolute;top:-7px;left:44px;display:block;width:11px;height:10px;background:url(../../images/promot-dir.jpg) no-repeat 0 0;}
+
+
+.helpInfo .info-box dd{ width:600px}
+
+.helpprim{ padding:20px 0 18px 0; text-align:center; background:url(../../images/icons/worn.jpg) 315px center no-repeat; color:#a1a1a1}

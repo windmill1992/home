@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+		<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+		<title>善园-个人中心</title>
+		<link rel="stylesheet" type="text/css" href="/res/css/h5/donateStep/record.css" />
+	</head>
+	<body>
+		<div id="mask">
+			<div class="loading">
+				<img src="/res/images/h5/images/donateStep/loading.gif"/>
+				<p>加载中&nbsp;···</p>
+			</div>
+		</div>
+		<div id="recordPage" class="recordPage">
+			<div id="charityWalker" class="charityWalker">
+				<div class="content">
+					<div class="yx-hd">
+						<h4>您累计已捐出&nbsp;<span>{{totalStep}}</span>&nbsp;步,合计&nbsp;<span>{{totalMoney}}</span>&nbsp;元</h4>
+					</div>	
+					<div class="yx-bd">
+						<div class="record-list" id="recordList">
+							<ul id="main-list-wrap">
+								<a :href="record.projectUrl" v-for="record in recordList"><li>
+									<div>
+										<h4 class="date"><span class="leftIcon"></span>{{record.donateTime | dateFmt}}</h4>
+										<h4 class="title">完成捐步</h4>
+										<div class="listContentWrapper clearFix">
+											<div class="item-pic">
+												<img :src="record.projectCoverImageUrl" alt=""/>
+											</div>
+											<div class="item-info">
+												<p>
+													捐出&nbsp;<span class="num">{{record.donateStep}}</span>&nbsp;步&nbsp;&nbsp;&nbsp;&nbsp;已兑换&nbsp;<span class="num">{{record.donateAmount}}</span>&nbsp;元
+												</p>
+												<p>帮助&nbsp;<sup></sup>{{record.projectTitle}}<sub></sub></p>
+												<span class="rightArr"></span>
+											</div>			
+										</div>
+									</div>
+									
+								</li></a>
+								
+							</ul>
+						</div>
+					</div>		
+				</div>
+			</div>
+			
+			
+			<footer class="foot-logo">
+				<div class="wx">
+					<a href="javascript:void(0);" class="gy">善园公益</a>
+					<a href="javascript:void(0);" class="wxyd">微信运动</a>
+				</div>
+			</footer>
+		</div>
+		
+		<script>
+			document.getElementById('recordPage').style.minHeight = screen.height+'px';
+			document.getElementById('charityWalker').style.minHeight = screen.height+'px';
+		</script>
+		<script src="/res/js/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/res/js/h5/donateStep/wxLogin.js"></script>
+		<script src="/res/js/h5/donateStep/vue.min.js"></script>
+		<script src="/res/js/h5/donateStep/record.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

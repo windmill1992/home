@@ -1,0 +1,46 @@
+
+.userCenter .uCEN-R .uCEN-yh{ 
+	margin-bottom: 20px;
+}
+.userCenter .uCEN-R .data .data_left .data_o{
+    height: 46px;line-height: 46px;margin-bottom: 8px;
+}
+.userCenter .uCEN-R .data .data_left .data_o .data_button{ 
+	width: 170px;height: 40px; line-height: 40px;text-align: center;background: #0a8e4d;
+    color: #fff;border-radius:4px;box-shadow:1px 2px 3px #a1a1a1;
+}
+.userCenter .uCEN-R .data .data_left .data_o .datainput{ 
+	width: 240px;
+}
+.userCenter .uCEN-R .data .data_left .data_o .data_em{ 
+	color:#a1a1a1;
+}
+.userCenter .uCEN-R .data .data_left .data_t{
+    margin-top: 53px;margin-left: 27px;
+}
+.userCenter .uCEN-R .data .data_left .data_o .rltext .seat .seat_span{
+	margin-left:100px;width:18px;overflow:hidden;
+}
+.userCenter .uCEN-R .data .data_left .data_o .rltext .seat .seat_span1{
+	margin-left:100px;width:18px;overflow:hidden; position: absolute;
+}
+.userCenter .uCEN-R .data .data_left .data_o .rltext .seat .seat_span .seat_img{
+    width: 30px;height: 30px;background: #ff6811;position: absolute;margin-left: -32px;
+}
+.qth{ 
+	color: #ee7a00; margin-right: 5px;
+}
+.release_new{ 
+	width: 97% !important;
+}
+.bjqr{
+    width: 90%;height: 45px;margin: 20px auto 0;font-size: 15px;
+}
+.bjqr .bj_fl{
+    width: 60%;line-height: 45px;text-align: center;float: left;
+    background: #ff6811;color: #fff;
+}
+.bjqr .bj_fr{
+    width: 38%;height: 45px;line-height: 45px;text-align: center;float: right;
+    background: #f3f3f3;color: #666;
+}

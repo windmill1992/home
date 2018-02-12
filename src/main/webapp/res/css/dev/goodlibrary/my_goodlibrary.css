@@ -1,0 +1,389 @@
+.uCEN-R {
+    float: left;
+    margin-left: 40px;
+    width: 758px;
+    border: 1px solid #cecece;
+    margin-bottom: 35px;
+}
+
+.page-bd {
+    margin-top: 30px !important;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*内容*/
+.goodlibrary_one {
+    padding: 20px 20px 0 20px;
+    border-bottom: 1px dashed #cecece;
+}
+
+.add_list {
+    float: left;
+    width: 100%;
+}
+
+.add_list .item {
+    width: 100px;
+    margin-right: 18px;
+    position: relative;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.pr_ewm .pr_img{
+    margin-left: 117px;
+    margin-top: 68px;
+    position: absolute;
+}
+.pr_ewm {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #eee;
+    float: left;
+    margin-left: -137px;
+    margin-top: -128px;
+}
+.goodthree_btn2{
+    display: block;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #0a8e4d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.add_list .add_btn {
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 90px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    color: #bfbfbf;
+    background: #e8e8e8;
+}
+
+.add_list .add_btn input {
+    opacity: 0;
+    border: medium none;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    top: 0px;
+    opacity: 0;
+    position: absolute;
+    font-size: 100px;
+    left: 0;
+    overflow: hidden;
+    z-index: 10000;
+}
+
+.sctx {
+    font-size: 14px;
+    position: absolute;
+    width: 100px;
+    margin-left: -74px;
+    margin-top: 30px;
+}
+.goodlibrary_two{
+    position: absolute;
+    width: 380px;
+    margin-left: 126px;
+}
+.goodlibrary_two .goodtwo_text1{
+    font-size: 18px;
+    color: #333;
+    height: 33px;
+}
+.goodlibrary_two .goodtwo_text2{
+    font-size: 14px;
+    color: #333;
+    line-height: 26px;
+}
+.goodlibrary_three{
+    position: absolute;
+    width: 150px;
+    margin-left: 580px;
+}
+.goodlibrary_three .goodthree_btn1{
+    display: block;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #0a8e4d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+/*捐款列表*/
+.goodList{padding: 20px 0 0 0;height: 75px;border-bottom: 1px solid #cecece;}
+.goodList .goodLi{
+    float: left;
+    width: 150px;
+    text-align: center;
+    border-right: 1px solid #cecece;
+}
+.goodList .goodLi p{
+    line-height: 29px;
+    font-size: 14px;
+    color: #333;
+}
+.zui{border-right: none !important;}
+/*记录*/
+.goodRecord{}
+.goodRecord dl{
+}
+.goodRecord dl dt{
+    height: 40px;
+    background: #f6f6f6;
+    border-bottom: 1px solid #cecece;
+    line-height: 40px;
+    text-align: center;
+}
+.goodRecord dl dt li{
+    float: left;
+    width: 108px;
+    font-size: 14px;
+    color: #333;
+}
+.goodRecord dl dd{
+    border-bottom: 1px dashed #cecece;
+    text-align: center;
+}
+.goodRecord dl dd li{
+    float: left;
+    width: 94px;
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+    padding: 10px 7px 10px 7px;
+}
+.goodRecord dl dd li .mx{
+    display: block;
+    width: 83px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #0a8e4d;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 9px;
+}
+.noData{
+    width: 100%;
+    text-align: center;
+    line-height: 448px;
+}
+.imgFile{
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    margin-top: -100px;
+    opacity: 0;
+}
+.add_bjtx{
+    width: 80px;
+    height: 80px;
+    display: block;
+    background: #000;
+    position: absolute;
+    margin-top: -84px;
+    opacity: 0.6;
+}
+.bjtx{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 40px;
+    text-align: center;
+    color: #fff;
+}
+.dm{}
+/*弹框*/
+.popUp{}
+.back{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #000;
+    z-index: 1;
+    opacity: .5;
+    top:0;
+}
+.pop_center{
+    position: fixed;
+    left: 28%;
+    top: 68px;
+    z-index: 2;
+    background: #fff;
+}
+.dialogTitle {
+    width: 750px;
+    height: 40px;
+    line-height: 40px;
+    background: url(../images/main.png) repeat-x 0 0;
+    position: relative;
+    cursor: move;
+    text-align: left;
+}
+.dialogTitle span {
+    color: #fff;
+    padding-left: 10px;
+    font: normal 16px/40px "微软雅黑";
+}
+.dialogTitle a {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    background: url(../images/main.png) no-repeat 0 -90px;
+    cursor: pointer;
+}
+
+/*弹框明细*/
+.goodRecord1 {
+}
+
+.goodRecord1 dl dt {
+    height: 40px;
+    background: #f6f6f6;
+    border-bottom: 1px solid #cecece;
+    line-height: 40px;
+    text-align: center;
+}
+
+.goodRecord1 dl dt li {
+    float: left;
+    font-size: 14px;
+    color: #333;
+}
+.goodRecord1 dl .dtperson {width: 95px;}
+.goodRecord1 dl .dtmoney {width: 100px;}
+.goodRecord1 dl .dtway {width: 90px;}
+.goodRecord1 dl .dtproject {
+    width: 330px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.goodRecord1 dl .dttime {width: 132px;}
+.goodRecord1 dl .dttime span{margin-left: 10px}
+.goodRecord1 dl dd {
+    height: 40px;
+    border-bottom: 1px dashed #cecece;
+    line-height: 40px;
+    text-align: center;
+    background: #fff;
+}
+.goodRecord1 dl dd li {
+    float: left;
+    font-size: 11px;
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.pop_center1 {
+    position: fixed;
+    left:40%;
+    top: 200px;
+    z-index: 2;
+}
+.goodRecord{}
+.kemoney{
+    padding: 20px 10px 10px 20px;
+    font-size: 15px;
+    color: #666;
+}
+
+.czmoney{
+    padding: 10px 10px 20px 20px;
+    font-size: 15px;
+    color: #666;
+}
+.goodtanc{background: #fff;padding-bottom: 20px;}
+.czmoney input{
+    border: 1px solid #cecece;
+    height: 30px;
+    line-height: 30px;
+}
+.tancBtn{
+    display: block;
+    width: 119px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    background: #0a8e4d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #fff;
+    margin-left: 9px;
+    margin: auto;
+}
+/*翻页*/
+.lstPages {
+    clear: both;
+    height: 36px;
+    margin: 20px auto 20px;
+    text-align: center;
+}
+.lstPages .lstP-con {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-right: 5px;
+    height: 36px;
+    _width: 290px;
+    margin: 0 auto;
+}
+.lstPages .lstP-con .lstP-prev {
+    position: absolute;
+    left: -90px;
+    top: 0;
+}
+.lstPages .lstP-con a {
+    display: inline-block;
+    width: 84px;
+    height: 34px;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    font: normal normal 13px/34px "\5b8b\4f53";
+    vertical-align: top;
+}
+.lstPages .pages i.curPage {
+    color: #fff;
+    background: #199a56;
+}
+.lstPages .pages i {
+    padding: 5px;
+    font-size: 18px;
+    display: inline-block;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.lstPages .lstP-con .lstP-next {
+    position: absolute;
+    right: -90px;
+    top: 0;
+}
+
+
+
+
+
+
+

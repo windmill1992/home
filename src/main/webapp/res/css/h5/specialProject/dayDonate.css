@@ -1,0 +1,222 @@
+.load-more {
+	text-align: center;width: 100%;height: 40px;line-height: 40px;font-size: 14px;color: #ff6810;
+}
+.aload {
+	text-decoration: none;display: block;
+}
+.content_tabs.tabs_add {
+	position: fixed;top: 0px;z-index: 10000;
+}
+blockquote {
+	margin-bottom: 8px!important;
+}
+.xiangqing {
+	position: relative;
+}
+.xiangqing_box {
+	padding-bottom: 30px!important;
+}
+.xiangqing_box.addp {
+	width: 100%;max-height: 500px;overflow: hidden;
+}
+.xiangqing .detail-mask {
+	position: absolute;left: 0;bottom: 0px;width: 100%;height: 120px;
+}
+.xiangqing .detail-mask.detail-mask-bg {
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 73%, #fff);
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #fff 73%, #fff);
+}
+.last_btn {
+	position: absolute;left: 0;bottom: 0;width: 100%;text-align: center;line-height: 1;
+	padding: 15px 0;border: 0;height: 15px;margin: 0;
+}
+.xiangqing .detail-mask .last_btn:after {
+	display: inline-block;width: 8px;height: 8px;border-width: 0 2px 2px 0;margin-left: 6px;
+	border-style: solid;border-color: #FF6B14;transform: rotate(-135deg) translateY(-3px);
+	-webkit-transform: rotate(-135deg) translateY(-3px);content: "";
+}
+.xiangqing .detail-mask.detail-mask-bg .last_btn:after {
+	transform: rotate(45deg) translateY(-3px);-webkit-transform: rotate(45deg) translateY(-3px);
+}
+.b {
+	height: 40px;
+}
+.xqImg1 {
+	width: 70px;float: left;margin-left: 3%;height: 70px;
+}
+.xqImg2 {
+	width: 70px;height: 70px
+}
+.xuhua {
+	position: absolute;margin-top: -6px;width: 100%;height: 90px;
+}
+.project .hot {
+	position: relative;
+}
+.project .hot .hot-title {
+	position: absolute;left: 10px;bottom: 10px;font-size: 15px;color: #fff;font-weight: 600;
+}
+.profile .data_list li:nth-child(2) {
+	text-align: center;
+}
+.profile .data_list li:last-child{
+	text-align: right;
+}
+.profile .data_list li i {
+	font-size: 12px;
+}
+.profile .data_list li b .num {
+	font-size: 20px;
+}
+.profile .data_list a {
+	width: 50%;
+}
+.profile .data_list .num {
+	font-size: 16px;
+}
+.profile .profile_word {
+	float: left;width: 100%;
+}
+.profile .profile_word h3 {
+	font-weight: 500;font-size: 16px;padding: 15px 3%;
+}
+.profile .profile_word p {
+	padding: 0 3% 10px;color: #888;
+}
+.profile .data_list li b {
+	font-size: 20px;font-weight: 500;
+}
+.entered .user_pic {
+	height: auto;
+}
+.record_list {
+	display: -webkit-box;display: -webkit-flex;display: flex;
+	-webkit-box-pack: justify;-webkit-justify-content: space-between;
+	justify-content: space-between;border-bottom: 1px solid #E5E5E5;
+}
+.record_list .arr:after {
+	display: inline-block;content: '';width: 8px;height: 8px;border-top: 1px solid #666;
+	border-right: 1px solid #666;-webkit-transform: rotate(45deg);transform: rotate(45deg);
+}
+.entered {
+	background: none;
+}
+.entered .user_pic {
+	padding: 0;
+}
+.entered .user_pic ul {
+	width: 100%;background: #fff;overflow: hidden;margin-bottom: 10px;padding:10px 10px 0;box-sizing: border-box;max-height: 85px;
+}
+.entered .user_pic ul li {
+	margin-right: 10px;margin-bottom: 10px;float: left;width: 45px;background: #fff;overflow: hidden;
+}
+.entered .user_pic ul li img{
+	width: 45px;height: 45px;border-radius: 100%;
+}
+.entered .user_pic ul li p{
+	white-space: nowrap;text-overflow: ellipsis;overflow: hidden;text-align: center;margin-top: 6px;
+	font-size: 12px;color: #999;
+}
+#payTips .box {
+	display: none;
+}
+#payTips .box.show {
+	display: block;
+}
+#donateTab {
+	border-bottom: 1px solid #DCDCDC;background: #fff;
+}
+#donateTab .tab {
+	color: #505050;font-size: 14px;display: inline-block;text-align: center;
+	height: 31px;line-height: 31px;margin-top: 10px;margin-left: 6px;
+	padding: 0 10px;position: relative;top: 1px;
+}
+#donateTab .tab.active {
+	color: #FF6810;border:1px solid #cdcdcd;border-bottom-color: #fff;
+	background: #fff;height: 32px;line-height: 32px;
+}
+#donateTab .close {
+	float: right;width: 40px;height: 40px;text-align: center;line-height: 40px;
+}
+#donateTab .close img{
+	width: 18px;height: 18px;
+}
+.pay .t {
+	border: none;
+}
+.pay .t span{
+	margin: 0;
+}
+.pay .box {
+	margin: 0 10px 10px;color: #56504D;
+}
+.pay .box .content{
+	max-height: 240px;overflow-y: auto;position: relative;
+}
+.pay .box .content::-webkit-scrollbar{
+	display: none;
+}
+.pay .box .payNum{
+	position: relative;
+}
+.pay .box .mask-bg{
+	position: absolute;width: 100%;height: 30px;left: 0;top: -30px;display: none;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 73%, #fff);
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #fff 73%, #fff);
+}
+.ppd-ul li{
+	width: 23.5%;
+}
+.ppd-ul li.on{
+	background-size: 24px;
+}
+.ppd-money .diyMoney{
+	display: block;
+}
+.ppd-money .diyMoney.on input{
+	border: 2px solid #FF6811;
+    background-image: url(../../../images/h5/images/releaseProject/gou.png);
+    background-repeat: no-repeat;
+    background-position: right bottom -2px;
+    background-size: 24px;
+    color: #FF6810;
+    line-height: 28px;
+    box-sizing: border-box;
+}
+#dayDonate {
+	margin-bottom: 10px;
+}
+.selDays {
+	margin: 10px 0;height: 32px;line-height: 32px;display: -webkit-box;display: -webkit-flex;display: flex;
+	-webkit-box-pack: justify;-webkit-justify-content: space-between;justify-content: space-between;
+}
+.selDays a {
+	display: inline-block;width: 32px;height: 30px;border: 1px solid #DCDCDC;line-height: 30px;
+	text-align: center;color: #56504D;font-size: 24px;border-radius: 4px;
+}
+.selDays input {
+	-webkit-flex: 2;flex: 2;border: 1px solid #DCDCDC;color: #56504D;text-align: center;margin: 0 10px;border-radius: 4px;
+}
+#tel_day {
+	border: 1px solid #DCDCDC;width: 100%;margin: 8px 0;height: 32px;line-height: 32px;
+	padding-left: 10px;box-sizing: border-box;
+}
+#payMoneyNum {
+	color: #FF6811;padding: 0 30px;
+}
+#list_5 {
+	padding-bottom: 35px;
+}
+.btns{
+	display: -webkit-flex;display: flex;height: 50px;
+}
+.enter-btn{
+	text-align: center;background: #fff;color: #333;font-size: 16px;
+	width: 100%;height: 50px;line-height: 50px;display: inline-block;
+}
+.enter-btn:first-child{
+	border-top: 1px solid #DADADA;height: 49px;line-height: 49px;
+}
+#paybtn{
+	background: #ff6811;color: #fff;
+}

@@ -1,0 +1,174 @@
+.volunteer_location{
+    width:1000px;
+    height:30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25px;
+}
+.volunteer_location li{
+    float:left;
+    color:#000;
+    font-size:14px;
+    font-family:"Microsoft YaHei";
+}
+.fenlan{
+    margin-left:3px;
+    margin-right:3px;
+}
+.volunteer_box{
+    width: 1000px;
+    margin: 20px auto;
+}
+.volunteer_choice{
+    width: 1000px;
+    height: 50px;
+}
+.choice_0{
+    font-size: 24px;
+    color: #333;
+    font-family:"Microsoft YaHei";
+    line-height: 50px;
+    width: 144px;
+    height: 50px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+.choice_1{
+    width: 150px !important; 
+    height: 50px !important;
+    border: 1px solid #66c653 !important;
+    color: #66c653 !important;
+    border-radius: 5px !important;
+    font-size:18px !important;
+    font-family:"Microsoft YaHei" !important;
+    line-height: 50px !important;
+    text-align: center !important;
+}
+.volunteer_choicebox li{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    border-radius: 5px;
+    font-size:18px;
+    font-family:"Microsoft YaHei";
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+}
+.volunteer_form{
+    padding-top: 10px;
+}
+.volunteer_form ul{
+    width: 1000px;
+    height: 26px;
+    line-height: 26px;
+    margin: 20px 0px;
+}
+.volunteer_form li{
+    float: left;
+}
+.need{
+    width: 20px;
+    height: 26px;
+    line-height: 26px;
+    color: #ff0000;
+    text-align: center;
+    font-size: 12px;
+}
+.term{
+    width: 110px;
+    height: 26px;
+    line-height: 26px;
+    color: #333;
+}
+.term1{
+    width:60px;
+    text-align: justify;
+    height: 26px;
+    display: inline-block;
+    float: left;
+    font-family:"Microsoft YaHei";
+}
+.term2{
+    width: 10px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    margin-left: 24px;
+    font-family:"Microsoft YaHei";
+}
+.write{
+    width: 200px;
+    height:26px;
+    
+}
+.write input{
+    width: 200px;
+    height:26px;
+    line-height: 26px;
+    border: 1px solid #ccc;
+}
+.write_1{
+    width:200px;
+    height: 26px;
+    font-family:"Microsoft YaHei";
+}
+.write_1 input{
+    margin: 0px 15px;
+}
+.write_2{
+    width: 400px;
+    height: 100px;
+}
+.write_2 textarea{
+    width: 400px;
+    height: 100px;
+    line-height: 26px;
+    border: 1px solid #ccc;
+    resize:none;
+    font-size: 14px;
+}
+.enrollbox{
+    width: 1000px;
+    height: 40px
+
+}
+.enroll{
+    display:block;
+    float:left;
+    color:white;
+    font-size:14px;
+    text-align:center;
+    line-height:40px;
+    width:120px;
+    height:40px;
+    background-image:url(../../images/kefuzhongxin/tijiaoanniu1.png);
+    background-repeat:no-repeat;
+    cursor:pointer;
+    margin-left:130px;
+    margin-bottom:30px;
+}
+.warn1{
+    width: 20px;
+    height: 26px;
+    line-height: 26px;
+    color: #ff0000;
+    text-align: center;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 12px;
+}
+.warn2{
+
+    height: 26px;
+    line-height: 26px;
+    color: #ff0000;
+    text-align: center;
+    display: inline-block;
+    
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+	<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+	<title>发布活动</title>
+	<link rel="shortcut icon" href="/res/images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="/res/css/h5/volunteer/dialog.css" />
+	<link rel="stylesheet" type="text/css" href="/res/css/h5/volunteer/activity.css?v=2018" />
+</head>
+<body>
+	<div id="pageContainer" v-cloak>
+		<div class="ae-bd">
+			<div class="ae-title">
+				<p class="tip">活动标题</p>
+				<div class="amount">
+					<input type="text" maxlength="16" placeholder="活动标题，不超过16个字" id="actTitle" v-model="title" />
+				</div>
+			</div>
+			<div class="ae-title ae-content">
+				<p class="tip">活动内容</p>
+				<textarea maxlength="2000" placeholder="活动内容" id="actContent" v-model="content"></textarea>
+			</div>
+			<div class="ae-title ae-uploadPic">
+				<p class="tip">活动封面图</p>
+				<form action="http://www.17xs.org/file/upload3.do" id="form" method="post" enctype="multipart/form-data">
+					<div class="addList" id="imgList">
+						<div class="item" :id="logo[0]" v-if="hasLogo">
+							<a href="javascript:;" class="preview">
+								<img :src="logo[1]" />
+							</a>
+							<i class="del"><img src="/res/images/h5/images/close.png"/></i>
+						</div>
+						<div class="add item">
+							<a href="javascript:void(0);" class="add-btn">
+								<label for="fileInput"></label>
+								<input type="file" name="file" class="file-input" id="fileInput" hidefocus="true" />
+								<input type="hidden" name="type" id="type" value="4">
+							</a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="ae-title ae-uploadPic">
+				<p class="tip">活动相关图片</p>
+				<form action="/file/upload3.do" id="form1" method="post" enctype="multipart/form-data">
+					<div class="addList" id="imgList1">
+						<template v-if="hasConImg">
+							<div class="item" :id="img[0]" v-for="img in contentImgs">
+								<a href="javascript:;" class="preview">
+									<img :src="img[1]" />
+								</a>
+								<i class="del"><img src="/res/images/h5/images/close.png"/></i>
+							</div>
+						</template>
+						<div class="add item">
+							<a href="javascript:void(0);" class="add-btn">
+								<label for="fileInput1"></label>
+								<input type="file" name="file" class="file-input" id="fileInput1" hidefocus="true" />
+								<input type="hidden" name="type" id="type1" value="4">
+							</a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="btn ae-btn">
+				<a href="javascript:;" id="submit">确认提交</a>
+			</div>
+			<div class="ae-tel">
+				<p>有任何问题请拨打客服热线：<span class="tel">0571-87165191</span></p>
+			</div>
+		</div>
+		<div class="dialog" id="userDialog">
+			<div class="mask"></div>
+			<div class="dialog_inner">
+				<p class="tishi">{{tishi}}</p>
+				<div class="op flex">
+					<div class="sbtn">
+						<a href="javascript:;" class="quxiao" style="color: #999;">取消</a>
+					</div>
+					<div class="sbtn">
+						<a href="javascript:;" class="sure">确定</a>
+					</div>
+				</div>
+				<a href="javascript:;" class="closeLink closeDialog">
+					<span class="close"><img src="/res/images/h5/images/icon_close.png"/></span>
+				</a>
+			</div>
+		</div>
+
+		<div id="bigImg">
+			<div class="hd">
+				<ul></ul>
+			</div>
+			<div class="bd"></div>
+			<div class="pageState"></div>
+		</div>
+	</div>
+	<div id="tips"></div>
+	
+	<script src="/res/js/jquery-1.8.2.min.js"></script>
+	<script src="/res/js/util/ajaxform.js"></script>
+	<script src="/res/js/h5/donateStep/vue.min.js"></script>
+	<script src="/res/js/h5/volunteer/activityEdit.js"></script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.2//EN"
+        "http://tuckey.org/res/dtds/urlrewrite3.2.dtd">
+<urlrewrite>
+
+
+<!--=========================== 支付回调    start ===========================================-->
+    <!--微信的支付 start-->
+    <rule>
+        <from>/tenpay/asyncresult/([0-9]+)/$</from>
+        <to type="forward">/tenpay/asyncresult.do?OrderId=$1</to>
+    </rule>
+     <!--微信详情页 start-->
+    <rule>
+        <from>/project/view_h5_([0-9]+)/$</from>
+        <to type="forward">/project/view_h5.do?projectId=$1</to>
+    </rule>
+     <!--微信的充值 start-->
+    <rule>
+        <from>/tenpay/asyncresult2/([0-9]+)/$</from>
+        <to type="forward">/tenpay/asyncresult2.do?OrderId=$1</to>
+    </rule>
+    
+         <!--微信的红包支付充值 start-->
+    <rule>
+        <from>/tenpay/asyncresult3/([0-9]+)_([0-9.]+)/$</from>
+        <to type="forward">/tenpay/asyncresult3.do?OrderId=$1&amp;userId=$2</to>
+    </rule>
+    
+    <!--z支付宝的支付 start-->
+    <!-- 异步通知 -->
+    <rule>
+        <from>/WapAlipay/async/$</from>
+        <to type="forward">/WapAlipay/async.do</to>
+    </rule>
+    <!-- 同步通知 -->
+    <rule>
+        <from>/WapAlipay/return_url/([0-9]+)_([0-9.]+)/$</from>
+        <to type="forward">/WapAlipay/return_url.do?projectId=$1&amp;amount=$2</to>
+    </rule>
+    
+    <!-- 批量捐支付宝支付start -->
+    	<!-- 异步通知 -->
+	    <rule>
+	        <from>/batchWapAlipay/async/$</from>
+	        <to type="forward">/batchWapAlipay/async.do</to>
+	    </rule>
+   		 <!-- 同步通知 -->
+	    <rule>
+	        <from>/batchWapAlipay/return_url/([0-9]+)_([0-9.]+)/$</from>
+	        <to type="forward">/batchWapAlipay/return_url.do?projectId=$1&amp;amount=$2</to>
+	    </rule>
+    <!-- 批量捐支付宝支付end -->
+    
+    <!-- 支付宝充值start -->
+    	<!-- 异步通知 -->
+	    <rule>
+	        <from>/rechargeWapAlipay/async/$</from>
+	        <to type="forward">/rechargeWapAlipay/async.do</to>
+	    </rule>
+   		 <!-- 同步通知 -->
+	    <rule>
+	        <from>/rechargeWapAlipay/return_url/([0-9]+)_([0-9.]+)/$</from>
+	        <to type="forward">/rechargeWapAlipay/return_url.do?projectId=$1&amp;amount=$2</to>
+	    </rule>
+    <!-- 支付宝充值end -->
+    
+    <!-- H5支付成功页 -->
+    <rule>
+        <from>/project/paysuccess_h5/$</from>
+        <to type="forward">/project/view_paysuccess_h5.do</to>
+    </rule>
+<!--=========================== 支付回调   end ===========================================-->
+
+<!--=========================== PC的页面跳转    start ===========================================-->
+	<!-- 项目 -->
+	<rule>
+        <from>/project/view/$</from>
+        <to type="forward">/project/view.do</to>
+    </rule>
+    <rule>
+        <from>/project/index/$</from>
+        <to type="forward">/project/index.do</to>
+    </rule>
+    <!-- 善园 -->
+    <rule>
+        <from>/project/newGardenView/$</from>
+        <to type="forward">/project/newGardenView.do</to>
+    </rule>
+    <rule>
+        <from>/project/gardenindex/$</from>
+        <to type="forward">/project/gardenindex.do</to>
+    </rule>
+    <!-- 新闻 -->
+    <rule>
+        <from>/news/center/$</from>
+        <to type="forward">/news/center.do</to>
+    </rule>
+    <!-- 信息披露 -->
+     <rule>
+        <from>/news/infoByItem/$</from>
+        <to type="forward">/news/infoByItem.do</to>
+    </rule>
+     <rule>
+        <from>/news/infoCenter/$</from>
+        <to type="forward">/news/infoCenter.do</to>
+    </rule>
+    <!-- 最新捐款 -->
+    <rule>
+        <from>/index/donationsListNew/$</from>
+        <to type="forward">/index/donationsListNew.do</to>
+    </rule>
+  	<!--   善款去向 -->
+    <rule>
+        <from>/index/donationWhere/$</from>
+        <to type="forward">/index/donationWhere.do</to>
+    </rule>
+    
+    <rule>
+        <from>/help/aboutPromise/$</from>
+        <to type="forward">/help/aboutPromise.do</to>
+    </rule>
+    <rule>
+        <from>/help/about/$</from>
+        <to type="forward">/help/about.do</to>
+    </rule>
+    <rule>
+        <from>/help/userService/$</from>
+        <to type="forward">/help/userService.do</to>
+    </rule>
+     <rule>
+        <from>/help/questions/$</from>
+        <to type="forward">/help/questions.do</to>
+    </rule>
+    <!-- 加入善管家 -->
+    <rule>
+        <from>/project/joinGood/$</from>
+        <to type="forward">/project/joinGood.do</to>
+    </rule>
+  	<!--   我要求助 -->
+    <rule>
+        <from>/project/appealFirest/$</from>
+        <to type="forward">/project/appealFirest.do</to>
+    </rule>
+    <!-- 善基金特色 -->
+    <rule>
+        <from>/help/aboutTrait/$</from>
+        <to type="forward">/help/aboutTrait.do</to>
+    </rule>
+    <rule>
+        <from>/help/aboutDonation/$</from>
+        <to type="forward">/help/aboutDonation.do</to>
+    </rule>
+    <rule>
+        <from>/help/supplicantService/$</from>
+        <to type="forward">/help/supplicantService.do</to>
+    </rule>
+    <rule>
+        <from>/help/donorsService/$</from>
+        <to type="forward">/help/donorsService.do</to>
+    </rule>
+    <rule>
+        <from>/help/gooderService/$</from>
+        <to type="forward">/help/gooderService.do</to>
+    </rule>
+  
+
+<!--=========================== PC的页面跳转    end ===========================================-->
+<!--=========================== H5的页面跳转    start ===========================================-->
+	<rule>
+        <from>/H5/$</from>
+        <to type="forward">/index/index_h5.do</to>
+    </rule>
+    <rule>
+        <from>/H5/login/$</from>
+        <to type="forward">/user/login_h5.do</to>
+    </rule>
+    <rule>
+        <from>/H5/List/$</from>
+        <to type="forward">/project/view_list_h5.do</to>
+    </rule>
+<!--=========================== H5的页面跳转    end ===========================================-->
+<!--    <outbound-rule>
+        <note>
+            The outbound-rule specifies that when response.encodeURL is called (if you are using JSTL c:url)
+            the url /rewrite-status will be rewritten to /test/status/.
+
+            The above rule and this outbound-rule means that end users should never see the
+            url /rewrite-status only /test/status/ both in thier location bar and in hyperlinks
+            in your pages.
+        </note>
+        <from>/rewrite-status</from>
+        <to>/test/status/</to>
+    </outbound-rule>-->
+
+
+    <!--
+
+    INSTALLATION
+
+        in your web.xml add...
+
+        <filter>
+            <filter-name>UrlRewriteFilter</filter-name>
+            <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+            <init-param>
+                <param-name>logLevel</param-name>
+                <param-value>WARN</param-value>
+            </init-param>
+        </filter>
+        <filter-mapping>
+            <filter-name>UrlRewriteFilter</filter-name>
+            <url-pattern>/*</url-pattern>
+        </filter-mapping>
+
+     EXAMPLES
+
+     Redirect one url
+        <rule>
+            <from>/some/old/page.html</from>
+            <to type="redirect">/very/new/page.html</to>
+        </rule>
+
+    Redirect a directory
+        <rule>
+            <from>/some/olddir/(.*)</from>
+            <to type="redirect">/very/newdir/$1</to>
+        </rule>
+
+    Clean a url
+        <rule>
+            <from>/products/([0-9]+)</from>
+            <to>/products/index.jsp?product_id=$1</to>
+        </rule>
+    eg, /products/1234 will be passed on to /products/index.jsp?product_id=1234 without the user noticing.
+
+    Browser detection
+        <rule>
+            <condition name="user-agent">Mozilla/[1-4]</condition>
+            <from>/some/page.html</from>
+            <to>/some/page-for-old-browsers.html</to>
+        </rule>
+    eg, will pass the request for /some/page.html on to /some/page-for-old-browsers.html only for older
+    browsers whose user agent srtings match Mozilla/1, Mozilla/2, Mozilla/3 or Mozilla/4.
+
+    Centralised browser detection
+        <rule>
+            <condition name="user-agent">Mozilla/[1-4]</condition>
+            <set type="request" name="browser">moz</set>
+        </rule>
+    eg, all requests will be checked against the condition and if matched
+    request.setAttribute("browser", "moz") will be called.
+
+    -->
+
+</urlrewrite>
+

@@ -1,0 +1,380 @@
+@charset "utf-8";
+body, form, h1, h2, h3, h4, h5, h6, hr, input, li, p, ul, pre {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	vertical-align: middle;
+	color: #000;
+}
+body {
+	font-size: 13px;
+	font-family: "微软雅黑", "宋体", "楷体", "仿宋", Tahoma, Geneva, sans-serif;
+	background: #eee;
+}
+a {
+	text-decoration: none;
+	outline: 0;
+	cursor: pointer;
+}
+div, dl, dt, dd, li, td, input, select, textarea, form, table {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+li, ol, ul {
+	list-style: none;
+}
+a, p, span, pre {
+	-webkit-user-select: auto;
+	-webkit-touch-callout: none;
+	color: inherit;
+}
+img {
+	border: none;
+	display: inline-block;
+	vertical-align: middle;
+	background-size: cover;
+}
+button, input, optgroup, select, textarea {
+	font: inherit;
+	margin: 0;
+	outline: 0;
+}
+button, select {
+	text-transform: none;
+}
+select {
+	-webkit-appearance: none;
+	border: none;
+}
+input {
+	line-height: normal;
+}
+input[type="button"], input[type="submit"], input[type="reset"], select {
+	-webkit-appearance: none;
+}
+input[type=checkbox], input[type=radio] {
+	box-sizing: border-box;
+	padding: 0;
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+	height: auto;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+label, input {
+	vertical-align: middle;
+}
+.clear {
+	clear: both;
+}
+.hidden {
+	display: none;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+body {
+	background: #f6f6f6;
+}
+.header {
+	width: 100%;
+	height: 40px;
+	background: #FF6811;
+}
+.header .head_fl {
+	width: 30%;
+	position: absolute;
+	left: 0;top: 0;
+	margin-left: 3%;
+}
+.header .head_fl .back {
+	height: 50px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 14px;
+}
+.header .head_fl .back:before {
+	content: '';
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.header .head_fr p {
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+}
+
+/*商品众筹的列表*/
+
+.goods {
+	width: 95%;
+	background: #fff;
+	margin: auto;
+	margin-top: 10px;
+	box-shadow: 2px 2px 2px #eee;
+}
+.goods .goods_one {
+	width: 90%;
+	height: 40px;
+	margin: auto;
+}
+.goods .goods_one span {
+	font-size: 15px;
+}
+.goods .goods_one .goods_fl {
+	width: 50%;
+	height: 40px;
+	line-height: 40px;
+	color: red;
+}
+.goods .goods_one .goods_fr {
+	width: 50%;
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+	color: #888;
+}
+h3 {
+	width: 90%;
+	height: 40px;
+	line-height: 40px;
+	color: #505050;
+	margin: auto;
+}
+.goods .h4 {
+	width: 90%;
+	height: 40px;
+	line-height: 40px;
+	color: #01c67e;
+	margin: auto;
+	font-size: 15px;
+}
+.goods .goods_con {
+	width: 90%;
+	margin: auto;
+	padding-bottom: 13px;
+	color: #888;
+}
+.goods .goods_two {
+	width: 90%;
+	height: 40px;
+	margin: auto;
+	padding-bottom: 10px;
+}
+.goods .goods_two .goods_twofl {
+	width: 56%;
+	height: 40px;
+	background: #f6f6f6;
+	border: none;
+	padding-left: 4%;
+}
+.goods .goods_two .goods_twofr {
+	width: 36%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #FF6811;
+	color: #fff;
+}
+
+/*提交订单页*/
+
+.goods .hengxian {
+	width: 100%;
+	height: 3px;
+	border-bottom: 1px dashed #e6e6e6;
+}
+.goods .goods_h4 {
+	width: 95%;
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 15px;
+	color: #505050;
+	font-weight: bold;
+}
+.goods .order_one {
+	width: 95%;
+	margin: auto;
+	padding-bottom: 26px;
+	margin-top: 10px;
+}
+.goods .order_one .oreder_one1 {
+	height: 30px;
+	line-height: 30px;
+}
+.goods .order_one p {
+	color: #666;
+}
+.goods .order_one .oreder_one2 {
+	height: 30px;
+	line-height: 30px;
+}
+.goods .order_one .oreder_one3 {
+	height: 30px;
+}
+.goods .goods_h5 .order_sp4 {
+	height: 30px;
+	width: 76%;
+	float: right;
+	color: #999;
+	color: red;
+}
+.goods .order_one span {
+	width: 80%;
+	float: right;
+	color: #999;
+}
+.goods .goods_h5 {
+	width: 95%;
+	margin: auto;
+	height: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 15px;
+	color: #999;
+}
+.goods .order_one .order_one4 {
+	height: 30px;
+	line-height: 25px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.goods .order_one .order_one5 {
+	color: #999;
+	line-height: 20px;
+}
+.order_foot {
+	width: 95%;
+	height: 40px;
+	line-height: 40px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	background: #FF6811;
+}
+
+/*提示框*/
+
+.cue1 {
+	width: 90%;
+	/* height: 150px; */
+	background: #01c67e;
+	position: fixed;
+	bottom: 200px;
+	left: 5%;
+	border: 1px solid #cecece;
+	z-index: 600;
+}
+.prompt_box .cue_back {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .7;
+	position: fixed;
+	bottom: 0;
+	z-index: 500;
+}
+.cue1 .cue_center {
+	width: 100%;
+	height: 145px;
+	margin-top: 5px;
+	background: #fff;
+}
+.cue1 .cue_center .cue_center1 {
+	width: 100%;
+}
+.cue1 .cue_center .cue_center1 p {
+	color: #666;
+	padding-top: 6px;
+	padding-left: 13%;
+	padding-bottom: 6px;
+	padding-right: 14%;
+}
+.cue1 .cue_center .cue_center1 .cue_p1 {
+	font-size: 17px;
+	font-weight: bold;
+	padding-top: 14px;
+	text-align: center;
+}
+.cue1 .cue_center .cue_center1 .cue_p2 {
+	font-size: 10px;
+	padding-top: 5px;
+	line-height: 40px;
+	border: 1px solid #eee;
+}
+.cue1 .cue_center .cue_center1 .cue_p3 {
+	line-height: 20px;
+	font-size: 13px;
+}
+.cue1 .cue_center .cue_center1 .cue_p2 span {
+	font-size: 15px;
+	color: red;
+	font-weight: bold;
+}
+.cue1 .cue_center .cue_center2 {
+	width: 100%;
+	padding-top: 4px;
+	/* border-top: 1px solid #eee; */
+}
+.cue1 .cue_center .cue_center2 .cue_fl {
+	width: 46%;
+	height: 40px;
+	float: left;
+	background: #FF6811;
+	margin-left: 2%;
+}
+.cue1 .cue_center .cue_center2 .cue_fr {
+	width: 46%;
+	height: 40px;
+	float: right;
+	background: #e0e0e0;
+	margin-right: 2%;
+}
+.cue1 .cue_center .cue_center2 p {
+	line-height: 40px;
+	text-align: center;
+	font-size: 13px;
+}
+.cue1 .cue_center .cue_center2 .cue_pl {
+	color: #fff;
+}
+.cue1 .cue_center .cue_center2 .cue_pr {
+	color: #666;
+}
+
+/*弹框*/
+
+.goods_ts {
+	width: 90%;
+	margin: auto;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	background: #000;
+	opacity: .6;
+	position: fixed;
+	margin-left: 5%;
+	bottom: 300px;
+}

@@ -1,0 +1,69 @@
+/* list */
+.list{width:100%;*zoom:1;}
+.list span{display:inline-block;margin:0;padding:0;}
+.list .lst-br{padding:12px 0;line-height:18px!important;}
+.list .list-hd{height:60px!important;line-height:60px!important;font-size:13px;color:#3a3a3a;text-align:center;border:1px solid #199a56;border-width:0 0 1px 0;}
+.list .list-bd{width:100%;height:auto;max-height:600px;font-size:13px}
+.list .list-bd ul{clear:both;height:60px;line-height:60px;vertical-align:middle;}
+.list li{ display:inline-block;float:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.list .lst-remark{ margin-top:50px; overflow:hidden}
+.list .lst-remark h3{ width:40px; height:20px; line-height:20px; text-align:center; background:#3fcb81; color:#fff; font-size:14px; border-radius:2px}
+.list .lst-remark .remark-con{ margin-top:10px; padding:10px 0 10px 14px; border:1px solid #3fcb81; font-size:14px}
+.list .lst-remark .remark-con p{ height:30px; line-height:30px;}
+.listno{ padding:50px 0  150px 0; text-align:center; font-size:20px;}
+.listno a{ display:inline-block; color:#0a8e4d; margin:0 30px}
+.bgcolor1{background:#e2f0e6!important;}
+/*goodhelp*/
+.goodhelp .list ul{text-align:center;height:60px;}
+.goodhelp .list ul li{ height:60px;}
+.goodhelp .list .lst-col1{width:160px;}
+.goodhelp .list .lst-col2{width:290px;}
+.goodhelp .list .lst-col3{width:350px;}
+.goodhelp .list .lst-col4{width:160px;}
+.goodhelp .list .list-bd a{ color:#0a8e4d}
+
+.donation-progress{ width:198px; height:4px; background:#fff; border:1px solid #0a8e4d; position:relative; top:35px; left:80px;}
+.donation-progress .progress-bar{ display:inline-block; height:4px; position:absolute; top:0; left:0; background:#0a8e4d}
+.donation-progress .progress-text{ display:inline-block; position:absolute; top:-22px; left:0;width:200px; height:20px; line-height:20px; color:#0a8e4d; font-size:16px; text-align:center; font-weight:bold}
+.donation-progress .progress-text .l{ display:inline-block; float:left; width:50px; text-align:left}
+.donation-progress .progress-text .r{ display:inline-block; float:left; color:#444444; text-align:right; width:150px; font-weight:normal; font-size:13px;}
+/*助善list*/
+.goodhelp .list ul{text-align:center;height:60px;width:100%;float:left}
+.goodhelp .list ul li{ height:60px;}
+.goodhelp .listhelp .lst-col1{width:155px;}
+.goodhelp .listhelp .lst-col2{width:150px;}
+.goodhelp .listhelp .lst-col3{width:165px;}
+.goodhelp .listhelp .lst-col4{width:270px;}
+.goodhelp .listhelp .lst-col5{width:135px;}
+.goodhelp .listhelp .lst-col6{width:105px;}
+.goodhelp .listhelp .donation-progress{ left:35px;}
+
+
+
+
+
+
+.cpcon{background:#fff;margin:20px 0;box-shadow:0px 2px 1px rgba(0,0,0,0.1); padding:10px 12px; background: #fff ;border:1px solid #ccc;}
+.cpcon .cpcom-hd{ border-bottom:1px solid #d9d6d6; overflow:hidden; padding-bottom:10px}
+.cpcon .cpcom-hd .cpcomlogo{ width:340px; float:left; padding:10px 0}
+.cpcon .cpcom-hd .cpcomlogo img{width:340px;height:80px}
+.cpcon .cpcom-hd .cpcomDetail{ width:620px; padding-left:10px; float:left}
+.cpcon .cpcom-hd .cpcomDetail h2{  font-size:20px; color:#199a56}
+.cpcon .cpcom-hd .cpcomDetail p{ text-indent:28px; line-height:22px; font-size:14px; color:#444}
+.cpcon .cpcom-bd{ padding:58px 32px; /* overflow:hidden */}
+.cpcon .cpcom-bd .listone{ float:left; margin:0 25px}
+.cpcon .cpcom-bd .listone .ltt{ position:relative; width:224px; padding-bottom:20px; text-align:center; font-size:16px; color:#444}
+.cpcon .cpcom-bd .listone .ltt span.line{ display:inline-block; margin:0 5px;width:2px; height:15px; background:#0a8e4d; vertical-align:middle }
+.cpcon .cpcom-bd .listone .ltb{ font-size:16px; color:#444}
+.cpcon .cpcom-bd .listone .ltb span{display:inline-block;width:224px;text-align:center; color:#e63a00; font-size:26px; height:46px; line-height:46px; background:url(../../images/goodhelp/btnbg_03.jpg) left top no-repeat; margin-right:10px; }
+.cpcon .cpcom-bd .listone .ltt .smark{ display:inline-block; width:15px; height:15px; background:url(../../images/icons/iconwenhao_03.jpg) no-repeat; vertical-align:middle; position:relative}
+.cpcon .cpcom-bd .listone .ltt .smark em{  display:none;   width: 160px; height:36px; line-height:18px; border:1px solid #009148; border-left:0; color:#199a56; background:#f2fded; position:absolute; top:-10px;   left: 20px;white-space:normal; font-size:12px;   padding: 0 2px;   text-align: left;}
+.cpcon .cpcom-bd .listone .ltt .smark em i{display:inline-block; width:4px;height:36px; background:url(../../images/Enterprise/detail/dprim_03.jpg) left top no-repeat; position:absolute; top: 0; left: -4px;}
+.cplist .cpl-hd{width:100%;height:40px;border-bottom:1px solid #019045;}
+.cplist .cpl-hd .items-tab{float:left;height: 38px;border:1px solid #ededed;border-width:1px 1px 0 1px;}
+.cplist .cpl-hd .items-tab li{float:left;height: 38px;cursor:pointer;}
+.cplist .cpl-hd .items-tab span{display:inline-block;_height:13px;margin: 10px 0;padding:0 15px;color:#444;font-family: '微软雅黑';font-size: 14px;border-right:1px solid #cecece;}
+.cplist .cpl-hd .items-tab li.selected{position:relative;top:-1px;_top:0;left:-1px;border:1px solid #019045;line-height: 39px;border-width:2px 1px 0 1px;background:#fff;color:#019045; height:39px;}
+.cplist .cpl-hd .items-tab li.selected span{border:0;margin:0;}
+
+.cplist .cpl-bd{position:relative; padding:0 0 20px 0;overflow:hidden;background:#fff;box-shadow:0px 2px 1px rgba(0,0,0,0.1); background: #fff ;border:1px solid #ccc; border-top:none}

@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{font-size:14px;color:#000;user-select:none;-webkit-user-select:none;-webkit-text-size-adjust:none;background-color:#fff;}
+html,body {height:100%;}
+*{ font-family:"微软雅黑","华文细黑",Arial, Helvetica, sans-serif;}
+a,input,div,textarea{outline:none;}
+html,body,h1,h2,h3,h4,h5,h6,p,dl,dd,ol,ul,th,td,form,fieldset,input,button,textarea,a{margin:0;padding:0}
+input,textarea,select{text-decoration:none;outline:0 none;resize:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-appearance: none; border-radius:0;}
+ul,dl,ol{list-style:none;}
+ul,li{list-style:none;}
+fieldset,img{border:0;}
+a{text-decoration:none;outline:0 none;}
+
+/*折线图*/
+
+
+.null{
+	padding-bottom: 100px;
+}
+.chart_head{
+	width: 100%;
+	height: 40px;
+	background: #fff;
+	line-height: 40px;
+}
+.chart_head p{
+	width: 1000px;
+	margin:0 auto;
+}
+.chart_top{
+	width: 100%;
+	height: 390px;
+	background: url("../../../images/dataStatistics/back_charts.jpg");
+	padding-top: 40px;
+}
+.chart_backgtound{
+	width: 1041px;
+	height: 400px;
+	background: url("../../../images/dataStatistics/back_charts1.png") no-repeat;
+	margin: auto;
+	background-size: 1050px 368px;
+}
+.chartImg{
+	width: 1000px;
+	height: 30px;
+	position: absolute;
+}
+.chartImg img{
+	float: left;
+	margin-left: 340px;
+	margin-top: 10px;
+}
+.chart_fr{
+	float: right;
+	width: 201px;
+	margin-top: 8px;
+	height: 30px;
+	line-height: 30px;
+}
+.chart_fr span{
+	display: inline-block;
+	float: left;
+	width: 6px;
+	height: 6px;
+	border: 2px solid #ff9002;
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+.chart_fr p{
+	color: #666;
+}
+/*爱心捐款排行*/
+.chartContent{
+	width: 100%;
+	background: #f2f2f2;
+}
+.chartMargin{
+	width: 1000px;
+	margin: auto;
+	padding: 24px 0 60px 40px;
+}
+.loveImg1{
+	width: 444px;
+	height: 70px;
+	background: url("../../../images/dataStatistics/loveVeual.png") no-repeat;
+	margin: auto;
+}
+/*排行列表*/
+.chartContent{
+	width: 100%;
+	background: #f2f2f2;
+}
+.loveImg1{
+	width: 444px;
+	height: 70px;
+	background: url("../../../images/dataStatistics/loveVeual.png") no-repeat;
+	margin: auto;
+}
+/*排行列表*/
+.chartUl{
+	width: 1000px;
+	background: #f2f2f2;
+	margin-top: 26px;
+}
+.chartUl li{
+	width: 162px;
+	float: left;
+	margin-right: 87px;
+}
+.chartUl li dl{
+	width: 230px;
+}
+.chartUl li dl dt{
+	width: 233px;
+	height: 89px;
+	background: url("../../../images/dataStatistics/cheng.png")  no-repeat;
+	background-size: 230px;
+}
+.chartUl li dl dt.chartLi2{
+	width: 233px;
+	height: 89px;
+	background: url("../../../images/dataStatistics/lv.png")  no-repeat !important;
+	background-size: 230px !important;
+}
+.chartUl li dl dd{
+	width: 100%;
+	height: 65px;
+	background: #fcfcfc;
+	padding-top: 14px;
+}
+.chartUl li dl dd:nth-child(odd){
+	background-color: #f7f7f7;
+}
+.chartUl li dl dt h3{
+	height: 44px;
+	line-height: 62px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #666;
+}
+.chartUl li dl dt span{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #ff9002;
+}
+/*dd里的内容*/
+.ddFl{
+	width: 76px;
+	float: left;
+}
+.ddFl b{
+	width: 38px;
+	height: 38px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	line-height: 35px;
+	color: #ff9002;
+}
+.ddFl .ddB1{
+	background:url("../../../images/dataStatistics/first123.png") no-repeat;
+	background-position: 0 -6px;
+}
+.ddFl .ddB2{
+	background:url("../../../images/dataStatistics/first123.png") no-repeat;
+	background-position: 0 -56px;
+}
+.ddFl .ddB3{
+	background:url("../../../images/dataStatistics/first123.png") no-repeat;
+	background-position: 0 -109px;
+}
+.ddFl img{
+	width: 30px;
+	height: 30px;
+	border-radius: 17px;
+}
+.ddFr{
+	width: 144px;
+	float: right;
+}
+.ddFr p{
+	color: #666;
+	font-size: 12px;
+}
+.ddFr .ddp1{
+	color: #999;
+	font-size: 12px;
+}
+.ddFr p span{
+	color: #ff9002;
+}
+/*爱心企业排行榜*/
+.company{
+	width: 100%;
+	background: #fff;
+	padding-bottom:80px;
+}
+.companyMargin{
+	width: 1000px;
+	margin: auto;
+	padding-top: 92px;
+}
+.companyContent{
+	width: 947px;
+	padding: 50px 30px;
+	background: #f2f2f2;
+	position: relative;
+}
+.companyImg{
+	position: absolute;
+	margin-top: -80px;
+	margin-left: 294px;
+	width: 366px;
+	height: 74px;
+}
+.comP{
+	width: 366px;
+	position: absolute;
+	line-height: 66px;
+	text-align: center;
+	height: 66px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+}
+.companyContent a:hover li{
+	box-shadow: 7px 5px 8px #999;
+	opacity: .9;
+}
+.companyContent li{
+	width: 222px;
+	float: left;
+	margin-left: 12px;
+	margin-top: 10px;
+	height: 125px;
+}
+.companyContent li img{
+	width: 100%;
+	height: 125px;
+}

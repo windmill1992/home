@@ -1,0 +1,117 @@
+.person_text{
+    background: #fff;
+    padding: 3%;
+    line-height: 23px;
+    color: #999;
+}
+.person_text1{
+    padding: 3%;
+    color: #666;
+    font-size: 15px;
+}
+
+.person_sel{width: 100%;
+    height: 40px;
+    padding-left: 3%;
+    font-size: 15px;
+    color: #666;}
+.person_sel option{}
+.yyz{
+    width: 18px;
+    height: 23px;
+    background: url("../../images/h5/images/detail/detIcn.png") no-repeat;
+    display: block;
+    float: left;
+    background-position: 1px -134px;
+    background-size: 20px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 89%;
+    border-bottom: 1px solid #eee;
+}
+.phoneTest{margin-top: 5px;}
+.person_input{
+    width: 97%;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    border: none;
+    margin-top: 1px;
+    padding-left: 3%;
+}
+.test_yzm{
+    background: #fff;
+    margin-top: 1px;
+}
+.test_yzm .person_input1{
+    width: 66%;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    border: none;
+    margin-top: 1px;
+    padding-left: 3%;}
+.test_yzm a{
+    width: 30%;
+    display: block;
+    float: right;
+    text-align: center;
+    line-height: 40px;
+    color: #999;
+}
+.footer_text{
+    padding: 3%;
+    background: #fff;
+    margin-top: 1px;
+    color: #999;
+    line-height: 23px;
+}
+.footer_btn{
+    width: 60%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: auto;
+    background: #ff9002;
+    margin-top: 30px;
+    color: #fff;
+    border-radius: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

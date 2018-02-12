@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+		<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+		<title>志愿者登记</title>
+		<link rel="shortcut icon" href="/res/images/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="/res/css/util/city.css"/>
+		<link rel="stylesheet" type="text/css" href="/res/css/h5/volunteer/activity.css"/>
+	</head>
+	<body>
+		<div id="pageContainer">
+			<div class="vr-hd">
+				<h2>志愿者登记</h2>
+			</div>
+			<div class="vr-bd">
+				<div class="ae-title">
+					<p class="tip">姓名</p>
+					<div class="amount">
+						<input type="text" name="volName" id="volName" value="" />
+					</div>
+				</div>
+				<div class="ae-title">
+					<p class="tip">性别</p>
+					<div class="amount">
+						<input type="text" name="volSex" id="volSex" value="" readonly="readonly" />
+						<div id="volSexContainer"></div>
+					</div>
+				</div>
+				<div class="ae-title">
+					<p class="tip">电话</p>
+					<div class="amount">
+						<input type="text" name="volTel" id="volTel" value="" />
+					</div>
+				</div>
+				<div class="ae-title">
+					<p class="tip">身份证</p>
+					<div class="amount">
+						<input type="text" name="volIDCard" id="volIDCard" value="" />
+					</div>
+				</div>
+				<div class="ae-title">
+					<p class="tip">所在地</p>
+					<div class="amount">
+						<input type="text" name="volAddr" id="volAddr" value="" readonly="readonly" />
+						<div id="volAddrContainer"></div>
+					</div>
+				</div>
+				<div class="ae-title">
+					<p class="tip">职业</p>
+					<div class="amount">
+						<input type="text" name="volProfession" id="volProfession" value="" />
+					</div>
+				</div>
+				<div class="ae-title">
+					<p class="tip">志愿服务领域</p>
+					<div class="amount">
+						<input type="text" name="volServiceScope" id="volServiceScope" value="" />
+					</div>
+				</div>
+				<div class="ae-title">
+					<p class="tip">所属团队</p>
+					<div class="amount">
+						<input type="text" name="belongGroup" id="belongGroup" value="" readonly="readonly" />
+						<div id="belongGroupContainer"></div>
+					</div>
+				</div>
+				<div class="ae-title ae-content">
+					<p class="tip">志愿者服务经历</p>
+					<textarea id="volServiceExp"></textarea>
+				</div>
+				<div class="ae-btn btn">
+					<a href="javascript:void(0);" id="submit">确认提交</a>
+				</div>
+			</div>
+			
+			<div id="tips"></div>
+		</div>
+		<script src="/res/js/jquery-1.8.2.min.js"></script>
+		<script src="/res/js/h5/releaseProject2/card.js"></script>
+		<script src="/res/js/common/city.js"></script>
+		<script src="/res/js/common/city2.min.js"></script>
+		<script src="/res/js/h5/volunteer/volReg.js"></script>
+	</body>
+</html>

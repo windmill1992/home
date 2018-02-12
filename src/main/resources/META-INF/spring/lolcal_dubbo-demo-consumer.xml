@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:application name="demo-consumer" owner="programmer" organization="dubbox"/>
+
+    <dubbo:registry address="N/A"/>
+	
+<!-- 	<dubbo:registry address="zookeeper://192.168.10.2:2181" group="dev"/> -->
+	<dubbo:reference id="projectVolunteerFacade" timeout="100000" interface="com.guangde.api.homepage.IProjectVolunteerFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.homepage.IProjectVolunteerFacade"/>
+	<dubbo:reference id="customerServiceFacade" timeout="100000" interface="com.guangde.api.homepage.ICustomerServiceFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.homepage.ICustomerServiceFacade"/>
+ 	<dubbo:reference id="userRelationInfoFacade" timeout="100000" interface="com.guangde.api.user.IUserRelationInfoFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.user.IUserRelationInfoFacade"/>
+	<dubbo:reference id="userFacade" timeout="100000" interface="com.guangde.api.user.IUserFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.user.IUserFacade"/>
+    <dubbo:reference id="homePageFacade" timeout="100000" interface="com.guangde.api.homepage.IHomePageFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.homepage.IHomePageFacade"/>
+    <dubbo:reference id="projectFacade" timeout="100000" interface="com.guangde.api.homepage.IProjectFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.homepage.IProjectFacade"/>
+    <dubbo:reference id="fileFacade" timeout="100000" interface="com.guangde.api.commons.IFileFacade" url="hessian://127.0.0.1:8080/provider/com.guangde.api.commons.IFileFacade"/>
+    <dubbo:reference id="systemNotifyFacade" timeout="100000" interface="com.guangde.api.user.ISystemNotifyFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.user.ISystemNotifyFacade"/>
+    <dubbo:reference id="donateRecordFacade" timeout="100000" interface="com.guangde.api.user.IDonateRecordFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.user.IDonateRecordFacade"/>
+    <dubbo:reference id="commonFacade" timeout="100000" interface="com.guangde.api.commons.ICommonFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.commons.ICommonFacade"/>
+    <dubbo:reference id="companyFacade" timeout="100000" interface="com.guangde.api.user.ICompanyFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.user.ICompanyFacade"/>
+    <dubbo:reference id="payMoneyRecordFacade" timeout="100000" interface="com.guangde.api.user.IPayMoneyRecordFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.user.IPayMoneyRecordFacade"/>
+    <dubbo:reference id="newsFacade" timeout="100000" interface="com.guangde.api.homepage.INewsFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.homepage.INewsFacade"/>
+    <dubbo:reference id="redPacketsFacade" timeout="100000" interface="com.guangde.api.user.IRedPacketsFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.user.IRedPacketsFacade"/>    
+    <dubbo:reference id="auctionProjectFacade" timeout="100000" interface="com.guangde.api.homepage.IAuctionProjectFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.homepage.IAuctionProjectFacade"/>
+    <dubbo:reference id="goodLibraryFacade" timeout="100000" interface="com.guangde.api.user.IGoodLibraryFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.user.IGoodLibraryFacade"/>
+    <dubbo:reference id="maUserFacade" timeout="100000" interface="com.guangde.api.huzhu.IMaUserFacade" url="dubbo://127.0.0.1:8801/com.guangde.api.huzhu.IMaUserFacade"/>
+</beans>

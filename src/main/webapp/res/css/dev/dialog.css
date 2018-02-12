@@ -1,0 +1,33 @@
+
+/*dialog*/ 
+
+/*===== dialog base =====*/   
+/* .cp2yLock{position:absolute;z-index:999;top:0;left:0;right:0;bottom:0;background:#000;opacity:0.4;filter:Alpha(opacity=30);_background:none;display:none;} */
+.cp2yLock{position:absolute;z-index:999;top:0;left:0;right:0;bottom:0;background:url(../../images/dialog/ground-white.png);filter:Alpha(opacity=30);_background:none;display:none;}
+.cp2yDialogBox{width:610px;position:absolute;z-index:999;display:none; left: 25% !important;/*-moz-box-shadow: 0px 5px 5px  rgba(0, 0, 0, 0.2);-webkit-box-shadow: 0px 5px 5px  rgba(0, 0, 0, 0.2); box-shadow: 0px 5px 5px  rgba(0, 0, 0, 0.2);*/ }
+.dialogTitle{width:100%;height:40px;line-height:40px;background:url(../../images/dialog/main.png) repeat-x 0 0;position:relative;cursor:move;text-align:left;}
+.dialogTitle i{position:absolute;top:0;display:inline-block;width:7px;height:40px;}
+.dialogTitle i.l{left:0;background:url(../../images/dialog/main.png) no-repeat 0 -48px;}
+.dialogTitle i.r{right:0;background:url(../../images/dialog/main.png) no-repeat -36px -48px;}
+.dialogTitle span{color:#fff;padding-left:10px;font:normal 16px/40px "微软雅黑";}
+.dialogTitle a{width:22px;height:22px;position:absolute;right:10px;top:9px;color:#fff;line-height:40px;text-align:center;background:url(../../images/dialog/main.png) no-repeat 0 -90px;cursor:pointer;}
+.dialogContent{background:#fff;padding:20px;line-height:20px;text-align:left; overflow:hidden}
+.AlertDlg{width:auto;min-width:340px;padding:10px;overflow:hidden;text-overflow:ellipsis;word-break:normal;text-align:center;
+    left:35% !important;}
+.AlertDlg .alertCon{text-align:center;}
+.AlertDlg .alertCon span{display:inline-block;padding:30px 0 30px 50px;background-repeat:no-repeat;background-position:0 center;color:#666;text-align:left;}
+.AlertDlg .alertCon .warn{background-image:url(../../images/dialog/warn.png)}
+.AlertDlg .alertCon .error{background-image:url(../../images/dialog/error.png);}
+.AlertDlg .ok{background-image:url(../../images/dialog/ok.png);}
+.AlertDlg .okssq{margin-left:-20px;margin-left:-27px;padding: 0 0 0 50px;height: 50px;line-height: 50px;}
+.dialogContent .Btns{height:50px;padding-top:10px;text-align:center;}
+.dialogContent .Btns a{font-size:15px;width:100px;height:40px;line-height:40px;color:#fff;background:url(../../images/dialog/btn-bg.jpg) no-repeat 0 0;display:inline-block;cursor:pointer;margin:0 10px;}
+.dialogContent .Btns p{display:none;position:relative;top:-10px;width:100%;height:65px;line-height:25px;color:#666;}
+.dialogContent .Btns p .loadding{display:block;width:35px;height:35px;margin:0 auto;background:url(../../images/dialog/loadding.gif) no-repeat center -10px;}
+.dialogContent .iframe{width:100%;height:100%;} 
+ 
+/*360*/
+.AlertDlg .dialogTitle{width:340px;}
+.AlertDlg .dialogContent{width:300px}
+.AlertDlg .dialogContent .Btns{width:300px; font-family:"\5FAE\8F6F\96C5\9ED1"!important;}
+.AlertDlg .alertCon .backa{ background: #fff;}

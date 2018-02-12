@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+		<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+		<title>善园公益</title>
+		<link rel="stylesheet" type="text/css" href="/res/css/h5/donateStep/investors.css" />
+	</head>
+
+	<body style="word-break: break-all;">
+		<div id="mask">
+			<div class="loading">
+				<img src="/res/images/h5/images/donateStep/loading.gif"/>
+				<p>加载中&nbsp;···</p>
+			</div>
+		</div>
+		<div id="investorPage" class="investorPage">
+			<div class="i-collection">
+				<header class="head" style="background-image: url(http://mat1.gtimg.com/gongyi/act/yxj/handredGrop/city.jpg)">
+					<div class="supporter">
+						<div class="item-logo">
+							<img class="s-logo" :src="companyImgUrl">
+						</div>
+						<div class="item-inf">
+							<h3 class="item-name">{{companyName}}</h3>
+						</div>
+						<!--<div class="investorsGuide">
+							<a href="investorsGuide.html"><span>企业参与指引</span></a>
+						</div>-->
+					</div>
+					<div class="summary">
+						<!--<p>简介:来自瑞典的欧瑞莲成立于1967年，目前已成为市场遍布全球60多个国家的国际性美容品直销公司。其"天然、科技、安全的美容品&amp;rdquo;
+							通过300万独立销售顾问销往全球。对于人与大自然的尊重，成为欧瑞莲营运理念的基础，并体现在公司的社会和环境政策中。
+								欧瑞莲是世界儿童基金会的联合创始人，并为全球众多的慈善事业项目提供捐助。欧瑞莲始终关注儿童的基本权利。让每个孩子都有在生活、社会和智力方面获得成长和发展的权利，
+								他们应该在一个和谐、环保、人性化的环境里，接受科学的教育、爱心的浇灌，让埋藏在心中的梦想慢慢长大，将来有尊严地自立于社会。这也是欧瑞莲多年来在全球范围内积极捐助儿童慈善事业的力量源泉。
+						</p>-->
+						<p>简介：{{summary}}</p>
+					</div>
+					<div class="statistics">
+						<div class="d-block">
+							<span>善园慈善项目</span>
+							<div class="data">
+								<span class="num" id="numParticipant">{{projectNum}}</span>&nbsp;个
+							</div>
+						</div>
+						<div class="d-block">
+							<span>与爱心网友携手捐出</span>
+							<div class="data">
+								<span class="num" id="numSteps">{{donateMoney}}</span>&nbsp;元</div>
+						</div>
+					</div>
+				</header>
+				<h1 class="proj-title">善园慈善项目</h1>
+				<div class="proj-list" id="projList">
+					<a :href="pro.projectUrl" class="proj-list-item" v-for="pro in projects">
+						<div class="item-cover"> <img :src="pro.projectImgUrl" /> </div>
+						<div class="item-inf">
+							<h3 class="item-name">{{pro.projectTitle}}</h3>
+							<p class="item-p">携手&nbsp;<span class="num">{{pro.totalUser}}</span>&nbsp;位慈善家</p>
+							<p class="item-p">捐出&nbsp;<span class="num">{{pro.totalStep}}</span>&nbsp;万步</p>
+							<p class="item-p">兑换捐出&nbsp;<span class="num">{{pro.totalAmount}}</span>&nbsp;元</p>
+						</div>
+					</a>
+					
+				</div>
+			</div>
+			
+			<footer class="foot-logo">
+				<div class="wx">
+					<a href="javascript:void(0);" class="gy">善园公益</a>
+					<a href="javascript:void(0);" class="wxyd">微信运动</a>
+				</div>
+			</footer>
+		</div>
+		
+		
+		<script src="/res/js/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/res/js/h5/donateStep/wxLogin.js"></script>
+		<script src="/res/js/h5/donateStep/vue.min.js"></script>
+		<script src="/res/js/h5/donateStep/investors.js" type="text/javascript" charset="utf-8"></script>
+		
+	</body>
+
+</html>

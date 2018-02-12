@@ -1,0 +1,56 @@
+body {font-size:13px; font-family:"微软雅黑", "宋体", "楷体", "仿宋",Tahoma, Geneva, sans-serif;background: #eeeeee;}
+.selectorNew {
+    padding: 20px;
+    border-top: 10px solid #f7f7f7;
+    border-bottom:10px solid #f7f7f7;
+}
+.selectorNew dl {
+    overflow: hidden;
+    display: block;
+    line-height: 34px;
+}
+.selectorNew dl dt {
+    width: 160px;
+    float: left;
+    font-size: 14px;
+    color: #666;
+    white-space: nowrap;
+    display: block;
+}
+
+.selectorNew dl dd {
+    width: 797px;
+    float: left;
+
+}
+
+.selectorNew dl dd a.curTab {
+    color: #ff9002;
+    border: 1px solid #ff9002;
+}
+.selectorNew dl dd a {
+    display: inline-block;
+    padding: 0 12px;
+    font-size: 15px;
+    height: 25px;
+    color: #666;
+    line-height: 25px;
+    margin-bottom: 13px;
+}
+/*.selectorNew dl dd a i.curTabi{*/
+    /*display: block;*/
+    /*width: 32px;*/
+    /*height: 32px;*/
+    /*background: url("../../../res/images/newPcrelease/sjdh.png") no-repeat;*/
+    /*float: right;*/
+    /*margin-right: -14px;*/
+    /*margin-top: -2px;*/
+/*}*/
+.prov_city{
+    width: 107px;
+    height: 45px;
+    border: 1px solid #e0e0e0;
+    margin-right: 19px;
+    font-size: 14px;
+    color: #666;
+}

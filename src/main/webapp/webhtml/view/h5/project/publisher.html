@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+	<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+	<title>善园公益</title>
+	<link rel="shortcut icon" href="/res/images/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="/res/css/h5/project/publisher.css?v=20171201" />
+</head>
+<body>
+	<div id="pageContainer" v-cloak>
+		<header class="head" style="background-image: url(http://mat1.gtimg.com/gongyi/act/yxj/handredGrop/city.jpg)">
+			<div class="publisher">
+				<div class="item-logo">
+					<img class="s-logo" :src="pubImgUrl">
+				</div>
+				<div class="item-inf">
+					<h3 class="item-name">{{pubName}}</h3>
+				</div>
+			</div>
+			<div class="summary">
+				<p v-html="summary"></p>
+			</div>
+			<div class="statistics">
+				<div class="d-block">
+					<span>募集善款</span>
+					<div class="data">
+						<span class="num">{{totalAmount}}</span>&nbsp;元
+					</div>
+				</div>
+				<div class="d-block">
+					<span>捐款人次</span>
+					<div class="data">
+						<span class="num">{{peopleNum}}</span>&nbsp;人
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<div class="proj-list" v-if="projects.length>0">
+			<a :href="'/project/view_h5.do?projectId='+pro.projectId" class="item" v-for="pro in projects">
+				<h3>{{pro.title}}</h3>
+				<div class="content">
+					<div class="pic">
+						<img :src="pro.coverImageUrl" v-if="pro.coverImageUrl" />
+					</div>
+					<div class="info">
+						<div class="top">
+							<p>目标金额：{{pro.cryMoney}}元</p>
+							<p>已筹金额：{{pro.donatAmount}}元</p>
+						</div>
+						<div class="bot">
+							<span class="donate">
+								<img src="/res/images/h5/images/projectTopic/aixin.png" />
+								共&nbsp;<span class="cff6">{{pro.donationNum}}</span>&nbsp;人捐助
+							</span>
+							<div class="btn">
+								<template v-if="pro.state==240">立即捐助</template>
+								<template v-else>查看详情</template>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</a>
+		</div>
+		<a href="javascript:;" id="loadmore" class="load-more cff6" v-if="hasMore == 2">点击加载更多</a>
+		<a href="javascript:;" class="load-more c999" v-else-if="hasMore == 1">没有更多数据了</a>
+		<a href="javascript:;" class="load-more c999" v-else-if="hasMore == 0">暂无项目数据</a>
+	</div>
+	
+	<script src="/res/js/jquery-1.8.2.min.js"></script>
+	<script src="/res/js/h5/donateStep/vue.min.js"></script>
+	<script src="/res/js/h5/project/publisher.js?v=20171201"></script>
+	
+</body>
+</html>

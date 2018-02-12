@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+body,form,h1,h2,h3,h4,h5,h6,hr,input,li,p,ul,pre {margin:0 auto;padding:0;list-style:none;vertical-align:middle;color:#000;}
+body {font-size:13px !important; font-family:"微软雅黑", "宋体", "楷体", "仿宋",Tahoma, Geneva, sans-serif;background: #eeeeee;}
+a {text-decoration:none;outline:0;cursor:pointer;}
+div, dl, dt, dd, li, td, input, select, form,table { margin: 0; padding: 0; font-weight: normal;}
+li,ol,ul {list-style:none;}
+a,p,span,pre {-webkit-user-select:auto;-webkit-touch-callout:none;color:inherit;}
+img {border:none;display:inline-block;vertical-align:middle;background-size:cover;}
+button,input,optgroup,textarea{font:inherit;margin:0; outline: 0;}
+button{text-transform:none}
+input{line-height:normal; }
+i, b {  font-style: normal;  font-weight: normal;
+}
+input{outline: none;border: none;}
+input[type="button"], input[type="submit"], input[type="reset"]
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}
+input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+label,input{vertical-align: middle}
+.clear {clear:both}
+.hidden{ display:none}
+.fl {float:left}
+.fr {float:right}
+/*头部*/
+.head_top{
+    height: 50px;
+    line-height: 50px;
+    background: #eeecdf;
+    padding: 0 2%;
+}
+.head_top li{
+    float: left;
+    width: 33%;
+    font-size: 16px;
+    color: #4d4f4f;
+}
+.head_top li .tem_fl{
+    width: 12px;
+}
+.head_top li .tem_fr{
+    width: 33px;
+}
+.li1{}
+.li2{
+    text-align: center;
+}
+.li3{
+    text-align: right;
+}
+/*下拉菜单*/
+.dropdown{
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    padding: 0 2%;
+}
+.dropdown_fl{
+    float: left;
+    color: #666;
+    font-size: 16px;
+}
+.dropdown span{
+    display: inline-block;
+    width: 18px;
+    height: 11px;
+    background: url("../../../../res/images/h5/images/garden/tem_bittom-1.png") no-repeat;
+    background-size: 18px;
+    margin-left: 10px;
+}
+.dropdown_fr{
+    float: right;
+    color:#999;
+    font-size: 14px;
+}
+.heTiao{
+    width: 24%;
+    height: 2px;
+    background: #d58b21;
+}
+/*列表内容*/
+.dropdown_center{
+    width: 100%;
+    background: #fff;
+    margin-top: 15px;
+}
+.dropdown_list{
+    padding: 3%;
+    border-bottom: 1px solid #e0e0e0;
+}
+.center_top{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+.center_top .p_fl{
+    float: left;
+    width: 70%;
+    font-size: 16px;
+    color: #020202;
+}
+.center_top .p_fr{
+    float: right;
+    width: 29%;
+    text-align: right;
+    color: #999;
+    font-size: 13px;
+}
+.content_p{
+    width: 100%;
+    line-height: 20px;
+    color: #999;
+    font-size: 13px;
+}
+/*列表内容end*/
+.center_bottom{
+    margin-top: 15px;
+    height: 86px;
+    width: 100%;
+}
+.flImg{
+    width: 21%;
+    height: 80px;
+    float: left;
+}
+.flImg img{
+    width: 100%;
+    height: 70px;
+}
+.listFr{
+    width: 77%;
+    height: 80px;
+    float: right;
+}
+.list_money{
+    width: 100%;
+    height: 35px;
+    background: #eeecdf;
+    border-radius: 5px;
+    line-height: 35px;
+}
+.list_money li{
+    float: left;
+    color: #666;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 3%;
+}
+.list_money li span{
+    color:#d58b21;
+}
+.money_li1{
+}
+.money_li2{margin-left: 7% !important;}
+.money_li3{
+    width: 23%;
+}
+
+.list_name{
+    height: 40px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.list_name li{
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.list_name li span{
+    display: inline-block;
+    float: left;
+    width: 26px;
+    height: 27px;
+    background:url("../../../../res/images/h5/images/garden/tem_icon.png") no-repeat;
+}
+.name_sp1{ background-position:0 0 !important;}
+.name_sp2{background-position: 0 -25px !important;background-size: 19px !important;}
+.list_name li p{
+    font-style: normal;
+    /* float: right; */
+    height: 30px;
+    line-height: 26px;
+    color: #666;
+}
+.name_li1{width: 50%;}
+.name_li2{
+    width: 50%;
+}
+.name_li3{
+    width: 27%;
+}
+.name_btn{
+    display: block;
+    width: 90%;
+    height: 31px;
+    background: #d58b21;
+    line-height: 30px;
+    margin-left: 6%;
+    text-align: center;
+    color: #fff !important;
+    border-radius: 5px;
+}
+.load-more {
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #9a7940;
+    margin-bottom: 52px;
+}
+/*供养佛像下拉列表*/
+.bj{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: #000;
+    opacity: .5;
+}
+.sacrifices{
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+}
+.sacrifices a{}
+.sacrifices li{
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #d8d8d8;
+    text-align: center;
+    color: #666;
+    padding: 0 3%;
+}

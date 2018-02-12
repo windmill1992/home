@@ -1,0 +1,51 @@
+
+
+body{font-family:'微软雅黑';
+    font-size: 14px;
+    color: #333;}
+.userCenter .uCEN-R .uCEN-yh{ margin-bottom: 20px;border-bottom: 1px dashed #c3c3c3;}
+.userCenter .uCEN-R .data{}
+.userCenter .uCEN-R .data .data_left{}
+.userCenter .uCEN-R .data .data_left .data_o{
+
+    height: 46px;
+    line-height: 46px;
+    margin-bottom: 8px;}
+
+.userCenter .uCEN-R .data .data_left .data_o .data_button{ width: 170px;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #0a8e4d;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px #a1a1a1;
+    margin-left: 107px;
+
+}
+.userCenter .uCEN-R .data .data_left .data_o .datainput{ width: 240px;}
+.userCenter .uCEN-R .data .data_left .data_o .data_em{ color:#a1a1a1;}
+.uCEN-R{}
+.userCenter .uCEN-R .data .data_left .data_t{
+    margin-top: 40px;
+    margin-left: 27px;}
+.userCenter .uCEN-R .data .data_left .data_o .rltext .seat{}
+.userCenter .uCEN-R .data .data_left .data_o .rltext .seat .seat_span{margin-left:100px;width:18px;overflow:hidden;}
+.userCenter .uCEN-R .data .data_left .data_o .rltext .seat .seat_span1{margin-left:100px;width:18px;overflow:hidden; position: absolute;}
+.userCenter .uCEN-R .data .data_left .data_o .rltext .seat .seat_span .seat_img{
+    width: 30px;
+    height: 30px;
+    background: #ff9001;
+    position: absolute;
+    margin-left: -32px;}
+.qth{ color: #ee7a00; margin-right: 5px;}
+
+.data_o .prov_city{ height: 40px; border-color: #cecece; width: 155px;}
+option{overflow: hidden;}
+
+
+
+
+
+

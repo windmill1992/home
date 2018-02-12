@@ -1,0 +1,43 @@
+.withdraw .quick-wrap .quick-remind p{ padding:0 75px}
+.withdraw .quick-wrap .quick-form{ background:#fff; box-shadow:none}
+.withdraw .select-bank-item{float: left;}
+.withdraw .select-bank .bank-add{ width:42px; height:42px; float:left; background:url(../../images/charge/withdraw/bankaddicon.jpg) no-repeat; margin-left:15px;}
+.withdraw .quick-wrap .quick-form dl,.withdraw .quick-wrap .quick-form dt,.withdraw .quick-wrap .quick-form dl .text{ height:58px; line-height:58px}
+.withdraw .quick-wrap .quick-form dl dd .inp{ margin-top:8px; margin-right:5px}
+.withdraw .quick-wrap .quick-form dl.dmoneyPrim{ height:30px;}
+.withdraw .quick-wrap .quick-form dl.dmoneyPrim .text{ height:30px; line-height:30px;}
+.withdraw .quick-form-btn{ padding-left:290px; text-align:left}
+.withdraw .quick-form-btn .charge-btn{ padding:0 40px}
+.red{ color:#ff5b00}
+
+/*record*/
+.withdraw .charge-record .record-list ul.color-bg{ background:#f3fded}
+.withdraw .charge-record .record-list ul li.li2{ width:334px}
+.withdraw .charge-record .record-list ul li.colorGreen{ color:#0a8e4d}
+.manage-title{ font-size:18px; height:40px; line-height:40px; background:url(../../images/charge/withdraw/linebg_03.jpg) left bottom no-repeat}
+
+.withdraw  .bank-adress select{ height:26px; line-height:26px; border:1px solid #cecece; min-width:120px; margin-right: 5px;}
+.withdraw  .bank-adress span{ display:inline-block; margin-right: 10px;}
+
+.withdraw .withdraw-wrap .quick-form dl dt{ width:180px}
+.withdraw .withdraw-wrap .quick-form dl dd{ width:518px}
+.withdraw .manage-list .listone{ border:1px solid #dedede; overflow:hidden; padding:4px 18px; height:40px; line-height:40px; background:#fff; margin-bottom:10px;}
+.withdraw .manage-list .listSelect{ background:#f3fded url(../../images/charge/withdraw/bankselecticon.jpg) right bottom no-repeat; border-color:#0a8e4d}
+.withdraw .manage-list .listone span{ display:inline-block; float:left; margin-right:15px;}
+.withdraw .manage-list .listone span.gray{ color:#c4c4c4; font-size:12px}
+.withdraw .manage-list .listone span.more{ float:right}
+.withdraw .manage-list .listone span.more a{ color:#0a8e4d}
+.withdraw .manage-list .listone span.more em{ display:inline-block; margin:0 15px; background:#aeaeae; width:1px; height:13px; vertical-align:middle}
+.withdraw .quick-wrap .quick-form dl dd p.islegalize{ padding:20px 0; height:18px; line-height:18px}
+.withdraw .islegalize em{ display:inline-block; _zoom:1;_display:inline;; width:14px; height:14px; background:url(../../images/charge/withdraw/iconprim_03.jpg)  no-repeat;  position:relative; _top:5px}
+.withdraw .islegalize em span{ display:inline-block; padding:8px; width:255px; border:1px solid #0a8e4d; position:absolute; top: -18px; left: 30px; background:#f3fded; color:#333333; font-size:12px; line-height:18px; display:none}
+.withdraw .islegalize em span i{display:inline-block; width:7px; height:13px; position:absolute; top: 19px; left: -7px; background:url(../../images/charge/withdraw/primicon_03.jpg) no-repeat}
+
+.withdraw .select-bank{ position:relative}
+.withdraw .select-bank .select-placeholder{ width:265px;}
+.withdraw .select-bank .bank-list{ width:265px; border:1px solid #cecece; position:absolute; top:41px; left:0; z-index:999; background:#fff; display:none}
+.withdraw .select-bank .bank-list label{width:100%; display:inline-block;height:35px; line-height:35px;}
+.withdraw .select-bank .bank-list label span,.withdraw  .select-bank .select-placeholder label span{ float:left;height:35px; line-height:35px;}
+.withdraw .select-bank .bank-list label img,.withdraw  .select-bank .select-placeholder label img{ float:left;height:35px;}
+.withdraw .select-bank .select-placeholder label{ height:35px; padding:2px 0; display:inline-block}
+.withdraw .select-bank .bank-list label:hover{ background:#e2f0e6}

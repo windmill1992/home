@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+	<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+	<title>发布活动</title>
+	<link rel="shortcut icon" href="/res/images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="/res/css/util/city.css" />
+	<link rel="stylesheet" type="text/css" href="/res/css/h5/volunteer/dialog.css" />
+	<link rel="stylesheet" type="text/css" href="/res/css/h5/volunteer/activity.css?v=2018" />
+</head>
+<body>
+	<div id="pageContainer" v-cloak>
+		<div class="ae-bd">
+			<div class="ae-title">
+				<p class="tip">报名费</p>
+				<div class="amount">
+					<input type="text" placeholder="" value="" id="entryPay" v-model="unitPrice" />
+				</div>
+
+			</div>
+			<div class="ae-title">
+				<p class="tip">活动时间</p>
+				<div class="amount">
+					<input type="text" placeholder="如：1月1日-12月31日" id="actTime" v-model="atime" />
+				</div>
+			</div>
+			<div class="ae-title">
+				<p class="tip">活动地点</p>
+				<div class="amount">
+					<input type="text" id="actAddr" value="" readonly="readonly" />
+					<div id="actAddrContainer"></div>
+				</div>
+			</div>
+			<div class="ae-title">
+				<p class="tip">详细地址</p>
+				<div class="amount">
+					<input type="text" placeholder="请填写准确地址" id="actAddrDetail" v-model="address2" />
+				</div>
+			</div>
+			<div class="add-other">
+				<a href="javascript:;">
+					<img src="/res/images/h5/images/volunteer/add.png" />添加其他内容
+					<input type="text" id="addOption" class="add-input" readonly="readonly" />
+				</a>
+			</div>
+			<div class="btn ae-btn">
+				<a href="javascript:void(0);" id="publish">完成发布</a>
+			</div>
+			<div class="ae-tel">
+				<p>有任何问题请拨打客服热线：<span class="tel">0571-87165191</span></p>
+			</div>
+		</div>
+		<div class="dialog" id="userDialog">
+			<div class="mask"></div>
+			<div class="dialog_inner">
+				<p class="tishi">{{tishi}}</p>
+				<div class="op flex">
+					<div class="sbtn">
+						<a href="javascript:;" class="quxiao" style="color: #999;">取消</a>
+					</div>
+					<div class="sbtn">
+						<a href="javascript:;" class="sure">确定</a>
+					</div>
+				</div>
+				<a href="javascript:;" class="closeLink closeDialog">
+					<span class="close"><img src="/res/images/h5/images/icon_close.png"/></span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div id="addOptionContainer"></div>
+	<div id="tips"></div>
+	
+	<script src="/res/js/jquery-1.8.2.min.js"></script>
+	<script src="/res/js/h5/donateStep/vue.min.js"></script>
+	<script src="/res/js/common/city.js"></script>
+	<script src="/res/js/common/city2.min.js"></script>
+	<script src="/res/js/h5/volunteer/activityOptions.js"></script>
+	<script src="/res/js/h5/volunteer/activityPub.js"></script>
+</body>
+</html>

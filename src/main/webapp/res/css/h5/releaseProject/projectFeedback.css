@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+body,form,h1,h2,h3,h4,h5,h6,hr,input,li,p,ul,pre {margin:0 auto;padding:0;list-style:none;vertical-align:middle;color:#333;}
+body {font-size:13px; font-family:"微软雅黑", "宋体", "楷体", "仿宋",Tahoma, Geneva, sans-serif;background: #fff;}
+a {text-decoration:none;outline:0;cursor:pointer;}
+div, dl, dt, dd, li, td, input, select, textarea, form,table { margin: 0; padding: 0; font-weight: normal;}
+li,ol,ul {list-style:none;}
+a,p,span,pre {-webkit-user-select:auto;-webkit-touch-callout:none;color:inherit;}
+img {border:none;display:inline-block;vertical-align:middle;background-size:cover;}
+button,input,optgroup,select,textarea{font:inherit;margin:0; outline: 0;}
+button,select{text-transform:none;}
+select{-webkit-appearance: none; border:none;}
+label,input{vertical-align: middle;}
+.clear {clear:both;}
+.hidden{ display:none;}
+.fl {float:left;}
+.fr {float:right;}
+
+.feed{ 
+	width: 100%; height: 100%;
+}
+.feed .header{ 
+	width: 100%; height: 40px; background: #ff6811; color: #fff; font-size: 13px;
+}
+.feed .header .head_fl{
+	width: 36%; height: 40px; line-height: 40px; padding-left: 3%; 
+}
+.feed .header .head_fr{ 
+	width: 60%; height: 40px; line-height: 40px; text-align: left;
+}
+.feed .content{ 
+	width: 100%; height: 40px;
+}
+.feed .content .cont_y{ 
+	width: 1%; height: 15px; margin: 12px 2% 12px 3%; background: #ff9002; float: left;
+}
+.feed .content .cont_t{ 
+	line-height: 40px; color: #666;font-size: 13px;
+}
+.feed .content2{ 
+	width: 95%; min-height: 120px; margin: auto;
+}
+.feed .content2 .cont_ip textarea{
+	width:100%; height: 120px; background: #fff; border: none;
+}
+.feed .content3{ 
+	width: 100%; height: 40px;
+}
+.feed .content3 p{ 
+	line-height: 40px; padding-left: 3%;color: #666;font-size: 13px; 
+}
+.feed .content4{ 
+	width: 95%; height: 40px; margin: auto;
+}
+.feed .content4 input{ 
+	width: 100%; height: 40px;background: #fff; border: none; 
+}
+.feed .zx{
+	margin-top: -10px;
+}
+.feed .footer{ 
+	width: 100%; height: 50px; 
+}
+.feed .footer a{ 
+	width: 95%; height:50px; margin: auto; background: #ff6811; color: #fff; font-size:13px;display: block; 
+}
+.feed .footer a p{ 
+	text-align: center; line-height: 50px;
+}
+.feed .cwts{ 
+	width: 95%; height: 50px; background: rgba(0,0,0,.6); position: fixed;bottom: 20px; margin: 2%;display: none;
+}
+.feed .cwts p{ 
+	color: #fff; font-size: 13px;text-align: center; line-height: 50px;
+}
+#pageContainer{
+    width:100%;max-width: 768px;margin: 0 auto;
+}
+.publish .top {
+    position:relative;width:100%;height: 45px;background-color:#ff6811;text-align: center;line-height: 45px;color: #fff;
+    font-size: 15px;
+}
+.publish .top .back {
+    font-size: 14px;color: #fff;position: absolute;left: 15px;top: 0;line-height: 45px;
+}
+.publish .top .back:before{
+	content: '';display: inline-block;width: 7px;height: 7px;border-left: 2px solid #fff;border-bottom: 2px solid #fff;
+	-webkit-transform: rotate(45deg);transform: rotate(45deg);
+}
+.back_img {
+    display: inline-block;overflow: hidden;background-repeat: no-repeat;
+    background-image: url(../../images/list_img.png);
+}
+.back_icon_6 {
+    width: 42px;height: 42px;background-position: -10px -13px;
+}
+.publish .top img {
+    width: 45px;height: 45px;vertical-align: middle;margin-left: 3px;
+}
+.publish .record .myrecord img {
+    width: 26px;height: 26px;margin: 13px 0 0 13px;
+}
+.addList .item{
+	float: left;margin-right: 20px;
+}
+
+/********发布表单页******/
+.publish .fd-area{
+	width: 90%;min-width: 90%;max-width: 90%;height: 150px;min-height: 60px;max-height: 300px;margin: 5%;
+	border: 1px solid #dadada;border-radius: 4px;padding: 8px;box-sizing: border-box;font-size: 14px;
+}
+.publish .pub_btn{
+    display: inline-block;width: 90%;height: 45px;margin-top: 10px;line-height: 45px;
+    font-size: 15px;color: #fff;text-align: center;border-radius:4px;
+    background-color: #ff6811;margin-left: 5%;
+}
+
+/*****页脚*****/
+.publish .footer {
+    width: 100%;height: 55px;margin-top:10px;line-height:35px;
+    background: #f2f2f2;border-top: 1px solid #f6f5f1;
+}
+.publish .footer span {
+    font-size: 12px;color: #999;float: right;margin-top: 10px;margin-right:10px;
+}
+.publish .footer img {
+    width: 107px;height: 45px;margin-left: 10px;margin-top: 5px;
+}

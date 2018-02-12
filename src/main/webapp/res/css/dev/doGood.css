@@ -1,0 +1,33 @@
+
+.doGood{font-family:"\5FAE\8F6F\96C5\9ED1";} 
+
+.items{width:1000px;margin:0 auto;} 
+.items .items-hd{padding:20px 20px 0;background:#eee;}
+.items .items-hd .items-tab{padding-bottom:20px;line-height:26px;font-size:16px;color:#444;}
+.items .items-hd .items-tab i{display:inline-block;width:0;line-height:0;height:26px;margin:0 10px;border-right:1px solid #abadb3;vertical-align:middle;}
+.items .items-hd .items-tab b{display:inline-block;font-weight:normal;}
+.items .items-hd .items-tab a{display:inline-block;color:#444;padding:0 10px;}
+.items .items-hd .items-tab a.curTab{background:#71a944;color:#fff;}
+/*.items .items-bd{overflow:auto;*zoom:1;}
+.items .items-bd .items-list{height:auto;overflow:auto;*zoom:1;}*/
+.items .items-bd .items-list{width:100%;}
+.items .items-bd .item{float:left;width:310px;_height:380px;margin:20px 20px 0 0;}
+.items .items-bd .item-tit{font-size:18px;line-height:135%;font-weight:bold;color:#444;height:52px;}
+.items .items-bd .item-con{border:1px solid #e2e2e2;}
+.items .items-bd .item-show{position:relative;top:0;left:0;height:185px;background:#fff url(../../images/logo-def.jpg) no-repeat center center;}
+.items .items-bd .item-show a,.items .items-bd .item-show img{display:block;width:100%;height:180px;}
+.items .items-bd .item-show .item-schedule{position:relative;top:0;left:0;width:100%; height:10px;margin-top:5px;}
+.items .items-bd .item-show .item-schedule .schedule{position:relative;top:0;left: 15px;width: 278px; height:10px;}
+.items .items-bd .item-show .item-schedule p{position:absolute;bottom:0;left:0;width:100%;height:10px;background:#e2e2e2;}
+.items .items-bd .item-show .item-schedule b{display:block;position:absolute;top:0;left:0;height:10px;/*width:75%;*/background:#ff9600;}
+.items .items-bd .item-show .item-schedule span{display:block;position:absolute;top:-29px;/*left:75%;*/z-index:2;width:40px;height:17px;font-family:"宋体";background:url(../../images/point.png) no-repeat center bottom;text-align:center;}
+.items .items-bd .item-show .item-schedule i{display:inline-block;/*padding:0 5px;*/width:40px;height:14px;line-height:14px;background:#ff9600;}
+
+.items .items-bd .item-credits{width:288px;padding:0 10px;height:38px;line-height:38px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;color:#444;text-align:center;border-bottom:0;}
+.items .items-bd .item-credits i{margin-right:2px;}
+.items .items-bd .item-prief{height:36px;padding:0 10px;overflow:hidden;font-size:13px;color:#888;border-width:0 1px;}
+.items .items-bd .item-btn{height:40px;padding:15px 0;text-align:center;}
+.items .items-bd .item-btn a{display:inline-block;width:200px;height:40px;line-height:40px;font-size:18px;color:#fff;background: url(../../images/donateBtn-lt.png) no-repeat 0 0;}
+
+/*common*/
+.items .items-list .prompt{position:relative;width:100%;height:300px;padding-top:40px;}

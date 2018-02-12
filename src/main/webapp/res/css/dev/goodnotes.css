@@ -1,0 +1,111 @@
+*{margin:0;padding:0}
+.backd{background: url("../../images/goodlibrary/notes_back.png") no-repeat;background-size: 100% 838px; ;
+}
+.notes{width: 1131px; height: 753px;margin: auto;overflow: hidden;}
+.notes .notes_head{ width:995px; height: 132px;margin: auto;border-bottom: 1px dashed #ababab; }
+.notes .notes_head .notes_fl{float: left; width: 15%;}
+.notes .notes_head .notes_fl img{}
+.notes .notes_head .notes_fr{ float: right;width: 85%}
+.notes .notes_head .notes_fr .notes_p1{
+    text-align: center;
+    font-size: 35px;
+    height: 89px;
+    line-height: 137px;
+    padding-right: 88px;
+    color: #ed7900;
+    font-weight: bold;
+}
+.notes .notes_head .notes_fr .notes_p2{text-align: center;color: #ababab;font-size: 17px;height: 30px;line-height: 30px;padding-right: 88px;}
+/*行善导航*/
+.notes .notes_nav{width: 651px;height: 100px;margin: auto;}
+.notes .notes_nav .notes_li1{width: 128px;height:50px;background:url("../../images/goodlibrary/notes_li.png") 0 -61px no-repeat;margin-left: 77px;float: left;margin-top: 20px;}
+.notes .notes_nav .notes_gg{background-position: 0 0;}
+.notes .notes_nav .notes_li1 a{
+    width: 128px;
+    height: 50px;
+    display: block;
+    line-height: 54px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+.notes .notes_nav .notes_li1 a:hover{color:#fff !important;}
+.notes .notes_banner{width: 6000px; height:430px;margin:auto;position: relative;margin-top:15px;}
+.notes .notes_banner ul{width: 1000px;height:420px;float: left;margin-left: 73px;}
+.notes .notes_banner ul li{
+    float: left;
+    width: 240px;
+    height: 133px;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    box-shadow: 2px 2px 5px #666;
+}
+.notes .notes_banner ul li a{}
+.notes .notes_banner ul li img{
+    width: 240px;
+    height: 133px;}
+.notes .notes_banner ul li a:hover img{ opacity: .8; background: #fff;}
+.notes .jz{display:block;width: 100%; height: 40px; line-height: 40px;text-align:center; color:#fff;}
+.notes .prev_fl{
+    width: 40px;
+    height: 67px;
+    display: block;
+    position: absolute;
+    margin-top: 411px;
+    margin-left: 23px;
+    line-height: 67px;
+    text-align: center;
+    padding-top: 18px;
+    z-index: 99;
+    background: #000;opacity: .4;
+}
+.notes .next_fr{
+    width: 40px;
+    height: 67px;
+    display: block;
+    position: absolute;
+    margin-left: 1080px;
+    margin-top: -266px;
+    line-height: 67px;
+    text-align: center;
+    padding-top: 18px;
+    background: #000;opacity: .4;
+}
+.notes .next_fr:hover{ background: #000;opacity: .5}
+.notes .prev_fl:hover{background: #000;opacity: .5}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

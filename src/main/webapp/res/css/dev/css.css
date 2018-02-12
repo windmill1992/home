@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0px; font-size:14px; text-align:center; font-family:"微软雅黑"; background:#f7f7f7;}
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,p{margin:0;padding:0;}
+input,select,textarea{font-size:12px;line-height:16px;}img{border:0;}ul,li{list-style-type:none;}
+div{ text-align: left;}
+
+.sjjys_1{ width:998px; background:#fff; border:1px #d6d6d6 solid; margin:0 auto; margin-top:15px; text-align:left; padding-top:15px; padding-bottom:15px;overflow: hidden;}
+.sjjys_1 .p_1{ padding-left:30px; line-height:35px;float: left;}
+.sjjys_1 .p_1:first-child{float: none;}
+.sjjys_1 .p_1 .je1{ font-size:16px; font-weight:bold; color:#fd5001; font-family:Arial;}
+
+.sjjys_2{ width:998px; background:#fff; border:1px #199a56 solid; margin:0 auto; margin-top:15px; text-align:left; padding-top:15px; padding-bottom:15px;}
+.sjjys_2 .p_1{ padding-left:30px; line-height:35px; font-weight:bold;}
+.sjjys_2 .p_2{ padding-left:30px; line-height:35px;}
+.sjjys_2 .p_2 a{ font-weight:bold; color:#199a56; text-decoration:none;}
+.sjjys_2 .p_2 a:hover{ font-weight:bold; color:#ff4f03; text-decoration:none;}
+.sjjys_2 .p_3{ padding-left:30px; height:40px; padding-top:10px;}
+.sjjys_2 .p_3 .xmdh{ width:203px; border:1px #c7c7c7 solid; height:38px; border-radius: 3px; line-height:38px; padding-left:10px; float:left; margin-right:15px;}
+.sjjys_2 .p_3 .xmdh input{ height:34px; line-height:34px; font-size:14px; border:0px; outline:0; font-weight:bold; width:140px; padding-left:2px;}
+
+.select {display: inline-block; padding-left:30px; height:70px;}
+.select ul {margin-top: 15px;}
+.select li.selected {border: #ff5001 2px solid; height:36px; line-height:34px; width:78px; padding-left:17px; border-radius: 3px;}
+.select li {float: left;background: #fdfdfd;border: #c7c7c7 1px solid;width: 80px;height: 38px;text-align: left;line-height: 36px;color: #666;font-size: 12px;font-family: "宋体";font-weight: bold;padding-left: 17px; margin-left: 17px;_height: 30px;_padding-top: 8px;_line-height: 27px;cursor: pointer; border-radius: 3px; cursor:pointer;}
+
+.select li input {position: relative;top: 3px;_top: 2px;}
+.select li input.enter {width: 68px;height: 22px;line-height: 22px;border: #d6d3d6 1px solid;padding: 0 3px;margin-left: 5px;color: #ff5001;position: relative;top: 1px;_top: 3px;}
+.select li.custom {width: 170px;_height: 35px;_padding-top: 3px;_line-height: 23px;}
+.select li label strong {font-family: "宋体";color: #ff5001;}
+.select li label b, .select li input.enter {font-size: 14px;font-family: Arial;font-weight: bold;color: #ff5001;}
+.select .tsxx_1{ background:url(../images/cwts.jpg) 0px 0px no-repeat; padding-left:30px; height:40px; margin-left:20px; margin-top:7px; float:left;}
+
+
+
+.select li  .moneyRadio{display:inline-block;width:13px;height:13px;position: relative;top: 3px;_top: 2px; background:url(../../images/charge/radio_03.jpg) 0px 0px no-repeat;}
+.select li.selected  .moneyRadio{ background:url(../../images/charge/radiosl.jpg) 0px 0px no-repeat;}

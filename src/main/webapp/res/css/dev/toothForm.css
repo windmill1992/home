@@ -1,0 +1,86 @@
+
+p{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+input{outline: none;-moz-appearance: textfield;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear: both;}
+.teethtop{margin-left: 2px;}
+.teethtop input{width: 21px;margin-left: -5px;margin-bottom: 10px;}
+.teethtop input:first-child{margin-left: 0;}
+.teethbot input{width: 21px;margin-left: -5px;margin-top: 10px;}
+.teethbot input:first-child{margin-left: 0;}
+.teethtop>p{margin-top: 40px;}
+.teethbot>p{margin-top: 10px;}
+div{box-sizing: border-box;}
+span{padding: 0 0.11rem;-moz-padding-start: 0.12rem;}
+.hidden{display: none;}
+.select{background:url(../../../../res/images/form/gou.png) no-repeat center;opacity:0.7}
+.num{width: 200px;float: left;}
+.lt{border-right: 2px solid #000;border-bottom: 2px solid #000;}
+.rb{border-top: 2px solid #000;border-left: 2px solid #000;margin-top: -2px;}
+.teeth.left{text-align: right;margin-right: 10px;}
+.teeth.right{text-align: left;margin-left: 10px;}
+.teeth_check{max-width: 800px;margin: auto;background: #fff;overflow: hidden;padding: 5px 30px;}
+.teeth_check h3{text-align: left;margin-top: 20px;height: 30px;line-height: 30px;margin-left: 50px;font-weight: normal;}
+.teeth_check li{height: 30px;line-height: 30px;}
+.teeth_check li span{font-size: 15px;}
+.underline{border: none;border-bottom: 1px solid #000;}
+.line{border-bottom: 2px solid #000;margin: 40px 0;}
+.check_target{margin: 15px;border: 1px solid #000;width: 280px;height:330px;padding-top: 10px;}
+.check_target table{width: 90%;margin-left: 20px;font-size: 15px;padding-top:5px;}
+.check_target table td{padding-left: 12px;}
+.periodontal_condition{margin: 20px 60px;}
+.periodontal_condition>p{margin:10px 40px;}
+.periodontal_condition .periodontal{margin-left: 60px;}
+.periodontal_condition .periodontal p span{padding: 0 0.15rem;-moz-padding-start: 0.2rem;}
+.periodontal_condition .num2{width: 80px;}
+.periodontal_condition .num2 input{width: 22px;border: none;outline: none;height: 21px;}
+.check_target2{border: 1px solid #000;width: 200px;height: 120px;margin-top: 30px;margin-left: 20px;padding-top: 5px;}
+.check_target2 table{width: 95%;font-size: 14px;margin: 0 10px;}
+.check_target2 table td:first-child{width: 60px;text-align: center;}
+.submit{margin: 20px 0;width: 100px;height: 30px;line-height: 30px;border-radius: 3px;border: 1px solid #3081C2;
+	color: #fff;background: #3081C2;margin-left: 40%;}
+.error{color: #f00;font-size: 14px;padding-left: 10px;}
+
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+	.lt{border-right: none;}
+	.rb{border: none;}
+	.rt,.lb,.rb{border-bottom: 2px solid#000;}
+	.rt,.rb,.lt,.lb{float: right;margin-right: 60px;clear: both;}
+	.num{margin-top: 10px;}
+	.teethtop>p{margin-top: 55px;}
+	.teethbot>p{margin-top: 20px;}
+}
+.rad_1{display: none;}
+.rad_1 + label {
+	background-color: #FFF;
+	border: 1px solid #B0C0E7;
+	padding: 7px;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	margin-right: 10px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.rad_1:checked + label {
+	background-color: #ECF2F7;
+	border: 1px solid #92A1AC;
+	color: #243441;
+	background: url(../../../../res/images/form/cir.png) no-repeat 100%;
+	background-position-x: 0.15rem;
+	border-color: #6583CC;
+}
+.rad_1:checked + label:after {
+	/*content: '\2714';*/
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #758794;
+	width: 100%;
+	text-align: center;
+	font-size: 1.4em;
+	padding: 1px 0 0 0;
+	vertical-align: text-top;
+}

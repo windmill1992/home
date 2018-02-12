@@ -1,0 +1,23 @@
+.news{font-family:"\5FAE\8F6F\96C5\9ED1";background:#f7f7f7;overflow:auto;*zoom:1;}
+.news .page-bd{ margin: 20px auto 0}
+.news .newsL{width:640px; float:left}
+.news .newsR{/*float:left;*/width:340px; float:right}
+.news .newsL h2{ font-size:23px; color:#1a1a1a; font-weight:bold}
+.news .newsL .news-info{ font-size:12px; color:#666; border-bottom:1px dotted #cccccc; padding:8px 0 ;}
+.news .newsL .news-con{ padding:30px 0}
+.news .newsL .news-foot{ border-top:1px solid #cccccc; padding:10px 0}
+.news .newsL .news-foot span{ display:inline-block; height:27px; line-height:27px; font-size:14px; color:#888; width:230px; overflow:hidden; float:left}
+.news .newsL .news-foot span.textRight{text-align:right}
+.news .newsL .news-foot a{ display:inline-block; width:63px; height:27px; line-height:27px; text-align:center; color:#fff; font-size:14px; margin:0 10px; float:left; background:url(../../images/news/newsbtn_03.jpg) left top no-repeat}
+.news .newsR .news-item{ border:1px solid #cccccc; padding:10px; overflow:hidden; margin-bottom:20px}
+.news .newsR .news-title{ position:relative; font-size:14px; color:#444; height:30px; line-height:30px; border-left:2px solid #199a56; padding-left:10px; margin-left:-10px; font-weight:bold}
+.news .newsR .news-title .more{ position:absolute; display:inline-block; top:0; right:0; font-size:12px; color:#888888; font-weight:normal}
+.news .newsR .news-list p{ height:22px; line-height:22px; font-size:14px; color:#888888; position:relative}
+.news .newsR .news-list p span{ position:absolute; top:0; right:0; color:#888; font-size:15px; font-weight:normal}
+
+
+.newsTle{ height:45px; line-height:45px; font-size:23px; color:#1a1a1a; border-bottom:1px solid #cccccc; position:relative}
+.newsTle em{ display:inline-block; width:17px; height:7px; background:url(../../images/news/newslisttleicon.jpg) 0 0 no-repeat; position:absolute; left:38px; bottom:-1px}
+.newsList li{ height:34px; line-height:34px; color:#888888; font-size:13px; border-bottom:1px dotted #cccccc}
+.newsList li a{ display:inline-block; color:#1a1a1a; width:520px; float:left}
+.newsList li span{ width:90px; float:right}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+		<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+		<title>其他证明</title>
+		<link rel="stylesheet" type="text/css" href="/res/css/h5/releaseProject2/raiseProjEdit.css"/>
+	</head>
+	<body>
+		<div id="pageContainer" v-cloak>
+			<div class="rpe flex fcen">
+				<div class="pd-hd">
+					<p>经济收入情况</p>
+				</div>
+				<div class="rpe-title flex fstart">
+					<p class="tip">家庭年收入</p>
+					<div class="amount">
+						<input type="text" placeholder="如：家庭年收入8万元，目前已离职" id="income" v-model="otherInfo.income" />
+					</div>
+				</div>
+				<div class="rpe-title flex fstart">
+					<p class="tip">房产情况</p>
+					<div class="amount">
+						<input type="text" placeholder="如：只有县城商品房一套" id="house" v-model="otherInfo.house" />
+					</div>
+				</div>
+				<div class="rpe-title flex fstart">
+					<p class="tip">私家车</p>
+					<div class="amount">
+						<input type="text" placeholder="如：10万元轿车一辆，已出售" id="cars" v-model="otherInfo.cars" />
+					</div>
+				</div>
+				<div class="rpe-title flex fstart">
+					<p class="tip">医保及商业保险</p>
+					<div class="amount">
+						<input type="text" placeholder="根据实际情况填写" id="insurance" v-model="otherInfo.insurance" />
+					</div>
+				</div>
+				
+				<div class="rpe-title rpe-uploadPic">
+					<p class="tip">上传图片</p>
+					<p class="intro">请上传家属知情同意书和贫困证明(没有则不填)</p>
+					<div class="addList" id="imgList5">
+						<template v-if="otherInfo.hasImg">
+							<div class="item" :id="otherInfo.imgIdList5[i]" v-for="(src,i) in otherInfo.imgList5">
+								<a href="javascript:void(0);" class="preview">
+									<img :src="src"/>
+								</a>
+								<i class="del"></i>
+							</div>	
+						</template>
+						<div class="item add">
+							<a href="javascript:;" class="add-btn">
+								<label></label>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+				<div class="rpe-btn btn">
+					<a href="javascript:void(0);" id="saveOther">{{perfectData.otherState?'返回':'保存'}}</a>
+				</div>
+				
+			</div>
+		</div>
+		<div class="tips"></div>
+		<input type="hidden" name="otherPg" id="otherPg" value="" />
+		<script src="/res/js/jquery-1.8.2.min.js"></script>
+		<script src="/res/js/h5/donateStep/vue.min.js"></script>
+		<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+		<script src="/res/js/h5/releaseProject2/wxlogin.js"></script>
+		<script src="/res/js/h5/releaseProject2/raiseProjEdit.js"></script>
+	</body>
+</html>

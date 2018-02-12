@@ -1,0 +1,71 @@
+.breadcrumb{ height:69px; line-height:69px; color:#000; font-size:14px;}
+.breadcrumb a{color:#000; font-size:14px;}
+
+.aboutNew .aNleft{ width:218px; float:left;border:1px solid #e0e0e0;background:#fff}
+.aboutNew .aNRight{ width:763px; float:right;min-height: 400px;}
+.aboutNew .aNleft dl dt{ padding-left:32px; height:47px; line-height:47px; background:url(../../images/newIndex/layout/lefticon_03.jpg) 18px center no-repeat;font-size:16px; font-weight:bold}
+.aboutNew .aNleft dl dd{padding-left:32px; height:47px; line-height:47px; font-size:14px;}
+.aboutNew .aNleft dl dd.on{ width:193px; background:url(../../images/newIndex/layout/leftOnbg_03.jpg) left top no-repeat}
+.aboutNew .aNleft dl dd a{ display:inline-block;height:47px; line-height:47px; width:100% }
+
+/*addList*/
+.aboutNew .adList p{ position:relative; height:58px; line-height:58px; border-bottom:1px dotted #c2c2c2}
+.aboutNew .adList p a{height:58px; line-height:58px; }
+.aboutNew .adList p a .listIcon{ top:28px}
+.aboutNew .adList p .more{ position:absolute; top:0; right:0; color:#666666}
+
+/*activeList*/
+.activeList li{ padding:20px 0; border-bottom:1px dotted #c1c1c1}
+.activeList li h2{ font-size:16px; font-weight:bold; color:#000; height:42px; line-height:42px;}
+.activeList li dl{ width:100%; height:160px; overflow:hidden}
+.activeList li dl dt{ width:260px; height:160px; float:left}
+.activeList li dl dt img{ width:100%; height:100%}
+.activeList li dl dd{ width:450px; padding-left:15px; float:left; font-size:14px; color:#666}
+.activeList li dl dd p{ line-height:23px}
+
+/*detailNew*/
+.detailNew h1{ margin-top:20px; height:60px; line-height:60px; font-size:25px; color:#000; font-weight:bold; text-align:center}
+.detailNew .detSource{ font-size:14px; color:#000; text-align:center;}
+.detailNew .detSource span{ display:inline-block; padding:0 10px;}
+.detailNew .detShare{ height:25px; line-height:25px; width:100%; padding:25px 0; overflow:hidden; text-align:center}
+.detailNew .detShare span{ display:inline-block; width:152px; height:25px; background:url(../../images/newIndex/layout/share_03.jpg) left -5px no-repeat}
+.detailNew .detShare span a{ display:inline-block; width:36px; height:25px; float:left; margin-right:1px;}
+.detailNew .detCon{ padding:25px 0; border-top:1px solid #e4e4e4; overflow:hidden; font-size:14px; line-height:30px; color:#000}
+
+.addDetail h1{ margin:35px 0 15px 0; font-size:18px; height:20px; line-height:20px; font-weight:bold; padding-left:10px; border-left:3px solid #098e4d}
+.addDetail .detSource{ font-size:14px; color:#000; text-align:left;}
+.addDetail .detSource span{ display:inline-block; padding:0 10px;}
+.addDetail .detCon{ padding:25px 0;  overflow:hidden; font-size:14px;  line-height:35px;color:#000}
+.addDetail .detCon p{ }
+
+/*about*/
+.aboutCon h3{ padding:15px 0 10px;font-size:18px;}
+.aboutCon .about-aim{position:relative;width:430px;height:172px;margin:22px auto 0;text-align:center;font-size:18px; font-weight:bold;line-height:35px;color:199a56;}
+.aboutCon .about-aim i{display:block;position:absolute;width:38px;height:28px; background:url(../../images/newIndex/layout/abouticon_03.jpg) no-repeat}
+.aboutCon .about-aim i.lineTL{top:0;left:0;border-width:4px 0 0 4px;}
+.aboutCon .about-aim i.lineBR{bottom:0;right:0;border-width:0 4px 4px 0;}
+.aboutCon .about-show{margin-top:40px;width:100%;}
+.aboutCon .about-show img{width:100%;}
+.aboutCon .about-brief{margin-top:35px;width:100%;font-size:14px;line-height:35px; color:#010101}
+.aboutCon .about-brief .p1{text-indent:2em;}
+
+/*aboutTrait*/
+.aboutCon .statelist dt{padding-left:35px;margin-top:5px;height:32px;line-height:32px;font-size:16px;background:url(http://www.17xs.org/res/images/icons/num.png) no-repeat 0 5px;}
+.aboutCon .statelist dd{padding-left:55px;font-size:14px;line-height:30px;}
+.aboutCon .statelist dd li{list-style:outside disc;}
+.aboutCon .statelist dd li.list-img{list-style:none;padding:20px 0;text-align:center;}
+.aboutCon .statelist dd li.list-img img{box-shadow:-1px 1px 5px #444;}
+
+/*aboutMembers*/
+.A-members .unit{width:240px;padding-top:45px;text-align:center;}
+.A-members .unit .avatar{width:152px;height:152px;margin:0 auto;/*background:#199a56;border-radius:76px;*/background:url(../../images/about/avatar.jpg) no-repeat 0 0;}
+.A-members .unit .jobTit{margin-top:15px;height:28px;line-height:28px;font-size:16px;background:url(../../images/about/split-line-lt.jpg) no-repeat center bottom;}
+.A-members .unit .status{line-height:20px;font-size:14px;}
+.A-members .members{text-align:center;width:720px;overflow:auto;*zoom:1;padding-bottom:25px;background:url(../../images/about/split-line-gt.jpg) no-repeat center bottom;}
+.A-members .members li{float:left;} 
+.A-members .director .unit{margin:0 auto;}
+
+/*server*/
+.serverCon p{ margin-top:20px; font-size:13px; color:#333; text-align:left; line-height:22px}
+.serverCon p.tle{ font-size:14px; font-weight:bold}
+.serverCon p.two{ padding-left:20px}

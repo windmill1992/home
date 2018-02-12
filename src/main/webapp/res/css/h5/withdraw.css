@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "Helvetica Neue",Hiragino, Sans, GB, W3, Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: 100%!important;
+	background-color:#eeeeee;
+}
+
+.fl {
+	float: left;
+}
+
+
+.fr {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+ul,li{
+	padding:0px;
+	margin:0px;
+	list-style:none;	
+}
+
+a{
+	text-decoration:none;	
+}
+
+#pageContainer{
+	width:100%;
+}
+
+.publish .top {
+	position:relative;
+	width:100%;
+	height: 45px;
+	background-color:#199a56;
+}
+
+.publish .top .title{
+	float:left;
+	width:100%;
+	height:45px;
+	line-height:45px;
+	font-size:20px;	
+	color:#ffffff;
+	text-align:center;
+}
+
+.publish .top .back {
+	position:absolute;
+	top:10;
+	left:10;
+	width: 42px;
+	height: 42px;
+	display: block;
+}
+
+img {
+	width: 100%;
+	border: none;
+}
+
+.back_img {
+	display: inline-block;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-image: url(../images/list_img.png);
+}
+
+.back_icon_6 {
+	width: 42px;
+	height: 42px;
+	background-position: -10px -5px;
+}
+
+.publish .top img {
+	width: 45px;
+	height: 45px;
+	vertical-align: middle;
+	margin-left: 3px;
+}
+
+.publish .record .myrecord img {
+	width: 26px;
+	height: 26px;
+	margin: 13px 0 0 13px;
+}
+
+/********发布表单页******/
+.publish .form_box{
+	padding:20px;	
+}
+.publish .form_box li{
+	margin-bottom:10px;	
+}
+
+.publish .form_box li.title_tip{
+	text-align:center;
+	font-size:16px;
+	color:#e41313;
+}
+.publish .form_box li input[type="text"]{
+	width:96%;
+	height:30px;
+	padding-right:2%;
+	padding-left:2%;
+	padding-top:5px;
+	padding-bottom:5px;
+	line-height:30px;
+	font-size:16px;
+	color:#999999;
+	text-align:center;
+	border-radius:5px;
+	background-color:#ffffff;
+	border:1px solid #dadada;
+}
+
+.publish .form_box li.text i.balance{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	color:#e41313;
+	font-style:normal;
+	text-align:center;
+}
+
+.publish .form_box li select{
+	width:30%;
+	height:40px;
+	padding-right:2%;
+	padding-left:2%;
+	line-height:40px;
+	font-size:16px;
+	color:#999999;
+	text-align:center;
+	border-radius:5px;
+	background-color:#ffffff;
+	border:1px solid #dadada;
+}
+
+
+.publish .form_box li select.bank{
+	width:100%;
+	height:40px;
+	padding-right:2%;
+	padding-left:2%;
+	line-height:40px;
+	font-size:16px;
+	color:#999999;
+	text-align:center;
+	border-radius:5px;
+	background-color:#ffffff;
+	border:1px solid #dadada;
+}
+
+.publish .form_box li.upload_tip{
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+	color:#999999;	
+}
+
+.publish .form_box li.upload_list a{
+	float:left;
+	width:60px;
+	height:60px;
+	margin-right:8px;
+	line-height:60px;
+	font-size:36px;
+	color:#dddddd;
+	text-align:center;
+	background-color:#ffffff;
+	border:1px solid #dadada;	
+}
+
+.publish .form_box li.upload_list span.pic{
+	position:relative;
+	float:left;
+	width:60px;
+	height:60px;
+	margin-right:8px;
+	background-color:#ffffff;
+	border:1px solid #dadada;	
+}
+
+.publish li.upload_list span.pic .del{
+	position:absolute;
+	top:-8px;
+	right:-5px;
+}
+
+.publish .form_box li.btns .pub_btn{
+	display:inline-block;
+	width:100%;
+	height:40px;
+	margin-top:10px;
+	line-height:40px;
+	font-size:18px;	
+	color:#ffffff;
+	text-align:center;
+	border-radius:5px;
+	background-color:#ff6811;
+}
+
+/*****页脚*****/
+.publish .footer {
+	width: 100%;
+	height: 55px;
+	margin-top:10px;
+	line-height:35px;
+	background: #f2f2f2;
+	border-top: 1px solid #f6f5f1;
+}
+
+.publish .footer span {
+	font-size: 12px;
+	color: #999999;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.publish .footer img {
+	width: 107px;
+	height: 45px;
+	margin-left: 10px;
+	margin-top: 5px;
+}

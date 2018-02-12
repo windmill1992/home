@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+body,form,h1,h2,h3,h4,h5,h6,hr,input,li,p,ul,pre {margin:0 auto;padding:0;list-style:none;vertical-align:middle;color:#000;}
+body {font-size:13px; font-family:"微软雅黑", "宋体", "楷体", "仿宋",Tahoma, Geneva, sans-serif;}
+a {text-decoration:none;outline:0;cursor:pointer;}
+div, dl, dt, dd, li, td, input, select, textarea, form,table { margin: 0; padding: 0; font-weight: normal;}
+li,ol,ul {list-style:none;}
+a,p,span,pre {-webkit-user-select:auto;-webkit-touch-callout:none;color:inherit;}
+img {border:none;display:inline-block;vertical-align:middle;background-size:cover;}
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0; outline: 0;}
+button,select{text-transform:none}
+select{-webkit-appearance: none; border:none;}
+body{height: 100%;margin: 0;padding: 0;}
+/*开始*/
+.fundsContent{
+    width: 100%;
+}
+.funcdsFrist{
+    width: 100%;
+    position: relative;
+}
+.funcdsFrist img{
+    width: 100%;
+}
+.funcdsFrist ul{
+    position: absolute;
+    width: 50%;
+    height: 7%;
+    top: 80%;
+    left: 25%;
+}
+.funcdsFrist ul a{}
+.funcdsFrist ul li{
+    float: left;
+    width: 20%;
+    height: 100%;}
+.linkTwo{
+    position: absolute;
+    top: 65%;
+    width: 12%;
+    height: 15%;
+    display: block;
+    left: 57%;
+}
+.linkTgree{
+    position: absolute;
+    top: 68%;
+    width: 12%;
+    height: 15%;
+    display: block;
+    left: 25%;
+}
+.linkFour{
+    position: absolute;
+    top: 65.5%;
+    width: 12%;
+    height: 15%;
+    display: block;
+    left: 49.5%;
+}
+.linkFive{
+    position: absolute;
+    top: 64%;
+    width: 12%;
+    height: 15%;
+    display: block;
+    left: 25%;
+}
+.linkSix{
+    position: absolute;
+    top: 63.5%;
+    width: 12%;
+    height: 15%;
+    display: block;
+    left: 49.5%;
+}
+.linkSeven{
+    position: absolute;
+    top: 61%;
+    width: 12%;
+    height: 15%;
+    display: block;
+    left: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

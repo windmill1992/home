@@ -1,0 +1,362 @@
+
+.uCEN-R {
+    padding-bottom: 40px;
+    float: left;
+    margin-left: 40px;
+    width: 756px !important;
+    border: 1px solid #cecece;
+}
+.page-bd {
+    margin-top: 30px !important;
+    width: 1000px;
+    margin: 0 auto;
+}
+/*专题设置块*/
+.semSteup{
+    width: 392px;
+    float:left;
+}
+.setup_top{
+    height: 75px;
+    line-height: 60px;
+    padding-left: 20px;
+    color: #333;
+    font-size: 18px;
+}
+/*专题内容*/
+.setup_center{}
+.upcenter_one{
+    position: relative;
+    height: 45px;
+}
+.center_fl{
+    display: block;
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+.center_fr{
+    position: absolute;
+    margin-left: 95px;
+}
+.add_list {
+    float: left;
+    width: 100%;
+}
+.add_list .item {
+    width: 100px;
+    margin-right: 18px;
+    position: relative;
+    height: 35px;
+    margin-bottom: 20px;
+}
+.add_list .add_btn {
+    float: left;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #ccc;
+    position: relative;
+    color: #333;
+    background: #e0e0e0;
+}
+.add_list .add_btn input {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    border: medium none;
+    cursor: pointer;
+    height: 30px;
+    width: 130px;
+    top: 0px;
+    opacity: 0;
+    position: absolute;
+    font-size: 100px;
+    left: 0;
+    overflow: hidden;
+}
+.center_tr{
+    display: block;
+    position: absolute;
+    margin-left: 251px;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #ccc;
+    color: #333;
+    background: #e0e0e0;
+}
+.center_input{
+    border: 1px solid #ccc;
+    margin-left: 96px;
+    width: 286px;
+    height: 30px;
+    line-height: 30px;
+}
+.upcenter_two{
+    height: 108px;
+}
+.center_text{
+    margin-left: 96px;
+    width: 286px;
+    height: 90px;
+    border: 1px solid #ccc;
+}
+.center_tr2{
+    display: block;
+    position: absolute;
+    margin-left: 98px;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #ccc;
+    color: #333;
+    background: #e0e0e0;
+}
+.center_html{
+    width: 120px;
+    height: 140px;
+    overflow-y: scroll;
+    width: 285px;
+    margin-left: 98px;
+    border: 1px solid #ccc;
+    scrollbar-face-color: #333333;
+    scrollbar-shadow-color: #808080;
+    scrollbar-highlight-color: #333333;
+    scrollbar-3dlight-color: #808080;
+    scrollbar-darkshadow-color: #333333;
+    scrollbar-track-color: #191919;
+    scrollbar-arrow-color: #CCCCCC;
+}
+.html_p1{
+    width: 93%;
+    line-height: 30px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.html_p{
+    width: 93%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 30px;
+}
+.center_btn {
+    width: 147px;
+    height: 40px;
+    display: block;
+    background: #0a8e4d;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 98px;
+    margin-top: 50px;
+}
+.goodRecord1{
+    width: 767px;
+    min-height: 200px;
+    max-height: 712px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+}
+/*专题预览*/
+.semPreview{
+    width: 357px;
+    float: right;
+    height: 563px;
+    border-left: 1px solid #eee;
+}
+/*banner*/
+.seminar_banner{
+    width:100%;
+    height: 180px;
+    position: relative;
+}
+.seminar_banner .banner_img{
+    width: 100%;
+    height: 180px;
+}
+.sembackground{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    color: #fff;
+}
+.sembackground .semImg{
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+}
+.sembackground .sem_p1{margin-top: 85px;position: absolute;width: 100%;}
+.sembackground .sem_p1 span{
+    background:url("../../../images/projectTopic/zhuanti.png") no-repeat;
+    width: 60px;
+    height: 30px;
+    display: block;
+    float: left;
+    background-size: 50px;
+    margin-left: 6%;
+}
+.sembackground .sem_p1 p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.sembackground .sem_p2{
+    position: absolute;
+    margin-top: 115px;
+    padding: 0 6%;
+}
+.preiewImg{
+    width: 100%;
+}
+.preiewImg img{
+    width: 100%;
+}
+
+/**********************弹窗********************/
+.back {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #000;
+    z-index: 1;
+    opacity: .5;
+    top:0;
+}
+.pop_center {
+    position: fixed;
+    left: 30%;
+    top: 68px;
+    z-index: 2;
+}
+.dialogTitle {
+    width: 769px;
+    height: 40px;
+    line-height: 40px;
+    background: url(../../../images/projectTopic/main.png) repeat-x 0 0;
+    position: relative;
+    cursor: move;
+    text-align: left;
+}
+.dialogTitle a {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    background: url(../../../images/projectTopic/main.png) no-repeat 0 -90px;
+    cursor: pointer;
+}
+.dialogTitle span {
+    color: #fff;
+    padding-left: 10px;
+    font: normal 16px/40px "微软雅黑";
+}
+.goodRecord1 dl dt {
+    height: 48px;
+    background: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+.goodRecord1 dl dt li {
+    float: left;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #efefef;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.goodRecord1 dl dt li a:hover{
+    background: #ff9002;
+    color: #fff;
+    height: 25px;
+    display: block;
+}
+.goodRecord1 dl dt li a{
+    padding: 0 15px;
+}
+.moren{
+    background: #ff9002;
+    color: #fff;
+    padding: 0 15px;
+    height: 25px;
+    display: block;
+}
+.goodRecord1 dl{
+    width: 750px;
+    background: #fff;
+}
+.goodRecord1 dl dd {
+    padding: 0 10px;
+}
+.goodRecord1 dl dd li {
+    float: left;
+    font-size: 11px;
+    color: #333;
+    overflow: hidden;
+    padding: 0 11px;
+    width: 221px;
+}
+.goodRecord1 dl dd li .dtInput{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+}
+.goodRecord1 dl dd li .dtperson{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.footText1{
+    width: 730px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    border-top: 1px solid #efefef;
+    padding-left: 20px;
+    font-size: 13px;
+}
+.foot_tar{
+    width: 750px;
+    background: #fff;
+    padding-bottom: 20px;
+}
+.footTar{
+    margin-left: 20px;
+    border: 1px solid #efefef;
+    background: #e0e0e0;
+    width: 708px;
+    height: 80px;
+}
+.foot_btn{
+    display: block;
+    margin: 20px;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #e0e0e0;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}

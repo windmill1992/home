@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+	<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+	<title>签到记录</title>
+	<link rel="shortcut icon" href="/res/images/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="/res/css/util/date.css"/>
+	<link rel="stylesheet" type="text/css" href="/res/css/h5/volunteer/charity.css?v=20171208"/>
+</head>
+<body>
+	<div id="pageContainer" v-cloak>
+		<div class="qr-hd">
+			<h2>签到记录</h2>
+			<a href="javascript:;" onclick="history.go(-1)" class="back"></a>
+		</div>
+		<div class="qr-bd" v-if="hasRec">
+			<div class="qrcode">
+				<div id="qrCode">
+					<img :src="qrLogo"/>
+				</div>
+				<p>扫码签到</p>
+			</div>
+			<div class="timePicker">
+				<input type="text" id="time" value="" readonly="readonly" />
+				<div id="timeContainer"></div>
+				<a href="javascript:void(0);" class="triangle"><span></span></a>
+			</div>
+			<div class="record-list">
+				<div class="item" v-for="sign in gsignRecords">
+					<div class="avatar">
+						<img :src="sign.headImg" v-if="sign.headImg"/>
+						<img src="/res/images/detail/people_avatar.jpg" v-else/>
+					</div>
+					<div class="info">
+						<div class="name">
+							<h3>{{sign.realName}}</h3>
+						</div>
+						<div class="qd-info">
+							<span>{{sign.signTime}}签到</span>
+							<span v-if="sign.signOutTime">，{{sign.signOutTime}}签出</span>
+							<span v-else>,未签出</span>
+							<span v-if="sign.timeNum">；服务时长{{sign.timeNum}}小时</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="lookmore" id="loadMore2" href="javascript:;" v-if="hasMore==2">点击加载更多</a>
+			<a class="nomore" href="javascript:;" v-else-if="hasMore==1">没有更多数据了</a>
+			<a class="nomore" href="javascript:;" v-else-if="hasMore==0">暂无签到信息</a>
+			<!--<p class="tipss">提示：点击头像可设置签出点击小箭头选择其他时间</p>-->
+		</div>
+		<div class="no-page" v-else>暂无活动签到信息</div>
+	</div>
+	
+	<script src="/res/js/jquery-1.8.2.min.js"></script>
+	<script src="/res/js/common/date.js"></script>
+	<script src="/res/js/h5/donateStep/vue.min.js"></script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<script src="/res/js/h5/volunteer/qdRecord.js"></script>
+</body>
+</html>

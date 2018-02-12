@@ -1,0 +1,10 @@
+/*page layout*/
+.page{}
+.page .page-hd{height:50px;line-height:50px;font-size:20px;color:#fff;background:#199a56;font-family:"\5FAE\8F6F\96C5\9ED1"}
+.page .page-hd .page-tit{width:1000px;margin:0 auto; font-family:"\5FAE\8F6F\96C5\9ED1"}
+.page .page-hd .page-tit .line{display:inline-block;width:0;line-height:0;height:18px;margin:-2px 10px 0;_margin:16px 10px;border-right:1px solid #fff;vertical-align:middle;}
+.page .page-bd{width:1000px;margin:0 auto;/*overflow:auto;*/}
+.page .page-hd .btn{width:92px;height:32px;line-height:32px;text-align:center;}
+
+a.back{display:inline-block;text-align:center;font-size:12px;width:92px;height:32px;line-height:32px;background:url(../../images/form/select-bg.jpg) no-repeat 0 0;}
+a.back:hover{background:url(../../images/form/sel-hover.jpg) no-repeat 0 0;}

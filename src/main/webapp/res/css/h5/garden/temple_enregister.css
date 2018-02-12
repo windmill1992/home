@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+body,form,h1,h2,h3,h4,h5,h6,hr,input,li,p,ul,pre {margin:0 auto;padding:0;list-style:none;vertical-align:middle;color:#000;}
+body {font-size:13px !important; font-family:"微软雅黑", "宋体", "楷体", "仿宋",Tahoma, Geneva, sans-serif;background: #eeeeee;}
+a {text-decoration:none;outline:0;cursor:pointer;}
+div, dl, dt, dd, li, td, input, select, form,table { margin: 0; padding: 0; font-weight: normal;}
+li,ol,ul {list-style:none;}
+a,p,span,pre {-webkit-user-select:auto;-webkit-touch-callout:none;color:inherit;}
+img {border:none;display:inline-block;vertical-align:middle;background-size:cover;}
+button,input,optgroup,textarea{font:inherit;margin:0; outline: 0;}
+button{text-transform:none}
+input{line-height:normal; }
+i, b {  font-style: normal;  font-weight: normal;
+}
+input{outline: none;border: none;}
+input[type="button"], input[type="submit"], input[type="reset"]
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}
+input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+label,input{vertical-align: middle}
+.clear {clear:both}
+.hidden{ display:none}
+.fl {float:left}
+.fr {float:right}
+/*头部*/
+.head_top{
+    height: 50px;
+    line-height: 50px;
+    background: #eeecdf;
+    padding: 0 2%;
+}
+.head_top li{
+    float: left;
+    width: 33%;
+    font-size: 16px;
+    color: #4d4f4f;
+}
+.head_top li .tem_fl{
+    width: 12px;
+}
+.head_top li .tem_fr{
+    width: 33px;
+}
+.li1{}
+.li2{
+    text-align: center;
+}
+.li3{
+    text-align: right;
+}
+.enreText{
+    width: 90%;
+    padding: 5%;
+    background: #fff;
+    color: #666;
+    line-height: 22px;
+}
+/*内容*/
+.enreContent{
+    width: 96%;
+    padding: 2%;
+    background: #fff;
+    border-top: 2px solid #d58b21;
+}
+.enreContent ul{}
+.enreContent ul li{
+    height: 50px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #999;
+}
+.spFl{
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+    text-align: right;
+    line-height: 50px;
+}
+.proFr{
+    width: 66%;
+    height: 39px;
+    line-height: 39px;
+}
+.proFr1{
+    width: 66%;
+    height: 47px;
+    line-height: 47px;
+    float: right;
+}
+/*上传图片*/
+.form_box {
+    width: 90%;
+    padding: 5%;
+    background: #fff;
+    margin-top: 10px;
+}
+.form_box .form_text {
+    padding-top: 10px;
+    color: #9a7940;
+}
+.form_box .box_ul {
+    width: 99%;
+    margin: auto;
+    margin-top: 10px;
+}
+.form_box .box_ul li {
+}
+.form_box .upload_list {
+    margin-top: 10px;
+    float: left;
+    position: relative;
+    width: 30%;
+    margin-right: 3%;
+    height: 85px;
+}
+.form_box .upload_list img {
+   width: 100%;
+    height: 85px;
+}
+.form_box .upload_list .detalImg {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 87%;
+    width: 20px;
+    height: 20px;
+}
+.form_box li.upload_list a {
+    height: 85px;
+    display: block;
+    line-height: 77px;
+    font-size: 46px;
+    color: #d7d7d7;
+    text-align: center;
+    background-color: #f6f6f6;
+    border: 1px dashed #d7d7d7;
+    position: relative;
+    overflow: hidden;
+}
+.form_box li.upload_list a input {
+    position: absolute;
+    width: 100%;
+    height: 85px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}

@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+#lab1{     color: #ec2a20;
+    font-size: 23px;}
+.home .prsee_xin{
+    width: 100%;
+    height: 70px;
+    background: #ffffff;
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.home .prsee_xin ul{}
+.home .prsee_xin  .pxin_l{
+    float: left;
+    width: 24.6%;
+    height: 70px;
+}
+.home .prsee_xin  .pxin{ border-right: none !important;}
+.home .prsee_xin ul .pxin_l .pxin_a{
+    width: 100%;
+    display: block;
+
+}
+.home .prsee_xin ul .pxin_l .pxin_a p{
+
+    margin-top: 5px;
+
+    color: #999999;
+}
+.home .prsee_xin ul .pxin_l .pxin_a .pxin_p1 {
+
+    padding-left: 30%;
+}
+.home .prsee_xin ul .pxin_l .pxin_a .pxin_p2 {
+
+    padding-left: 32%;
+}
+.home .prsee_xin ul .pxin_l .pxin_a .pxin_p3 {
+
+    padding-left: 23%;
+}
+.home .prsee_xin ul .pxin_l .pxin_a .pxin_p4 {
+
+    padding-left: 18%;
+}
+.home .prsee_xin ul .pxin_l .pxin_a .pxin_s {
+    width: 34px;
+    height: 40px;
+    display: block;
+    margin-left: 13%;
+}
+.home .prsee_xin ul .pxin_l .pxin_a .pxin_s1{
+    background: url(../../../res/images/xbt1.png)-4% 9px no-repeat;
+    background-size: 134px 29px;
+    margin-left: 31%;
+}
+.home .prsee_xin ul .pxin_l .pxin_a .pxin_s2{
+    background: url(../../../res/images/xbt1.png)32% 9px  no-repeat;
+    background-size: 134px 29px;
+    margin-left: 28%;
+}
+.home .prsee_xin ul .pxin_l .pxin_a .pxin_s3{
+    background: url(../../../res/images/xbt1.png) 68% 9px no-repeat;
+    background-size: 134px 29px;
+    margin-left: 34%;
+}
+.home .prsee_xin ul .pxin_l .pxin_a .pxin_s4{
+    background: url(../../../res/images/xbt1.png) 100% 9px no-repeat;
+    background-size: 134px 29px;
+    margin-left: 26%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

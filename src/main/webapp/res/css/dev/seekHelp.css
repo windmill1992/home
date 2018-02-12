@@ -1,0 +1,20 @@
+.seekHelp{font-family:"\5FAE\8F6F\96C5\9ED1";overflow:auto;*zoom:1;}
+.seekHelp .skHlp-hd{padding-top:20px;}
+.seekHelp .skHlp-hd h2{height:30px;line-height:30px;font-size:20px;color:#019045;}
+.seekHelp .skHlp-hd .skHlp-info{font-size:14px;line-height:180%;text-indent:2em;}
+
+.seekHelp .skHlp-bd{margin-top:10px;}
+.seekHelp .skHlp-bd .skHlp-steps{clear:both;padding:0 20px;}
+.seekHelp .skHlp-steps li{display:block;float:left;position:relative;top:0;left:0;width:240px;height:256px;margin-top:25px;background:#fff;}
+.seekHelp .skHlp-steps .steps-tit{width:130px;margin-top:80px;height:40px;line-height:40px;font-size:24px;color:#199a56;text-align:center;}
+.seekHelp .skHlp-steps .steps-brief{width:113px;padding:46px 5px 0;border-top:3px solid #dfe0e0;font-size:14px;}
+.seekHelp .skHlp-steps .steps-num{position:absolute;top:70px;right:15px;width:100px;height:100px;line-height:100px;text-align:center;font-size:50px;color:#fff;}
+.seekHelp .skHlp-steps li.dirR{background:url(../../images/icons/guide-step-r.jpg) no-repeat right 0;}
+.seekHelp .skHlp-steps li.dirR .steps-brief{background:url(../../images/icons/dirL-icon.jpg) no-repeat center 15px;}
+.seekHelp .skHlp-steps li.dirR .steps-num{right:15px;}
+.seekHelp .skHlp-steps li.dirL{background:url(../../images/icons/guide-step-l.jpg) no-repeat left 0;}
+.seekHelp .skHlp-steps li.dirL .steps-tit{float:right;}
+.seekHelp .skHlp-steps li.dirL .steps-brief{float:right;background:url(../../images/icons/dirR-icon.jpg) no-repeat center 15px;}
+.seekHelp .skHlp-steps li.dirL .steps-num{left:15px;}
+.seekHelp .skHlp-steps li.dirREm{background:url(../../images/icons/guide-step-em.jpg) no-repeat right 0!important;}
+.seekHelp .skHlp-steps .skHlp-btn{position:absolute;top:94px;left:47px;display:block;width:230px;height:82px;line-height:82px;text-align:center;font-size:27px;color:#fff;background:url(../../images/apply-btn.jpg) no-repeat 0 0;}

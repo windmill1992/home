@@ -1,0 +1,103 @@
+/*浼佷笟璁よ瘉*/
+.entctf{ width:758px; overflow:hidden}
+.entctf h2{ height:39px; line-height:39px; border-bottom:1px dashed #c3c3c3; font-size:18px; color:#444444; overflow:hidden; width:100%; position:relative}
+.entctf h2 span{ display:inline-block; padding-left:5px; font-size:12px; color:#a1a1a1;}
+.rlgroup .controls .uploadbtn .filewrapper input{ width:120px; height:25px; top:0}
+
+
+.entctf .rlitem{ float:left; margin-bottom:20px}
+.entctf .rlitem .rltext{ width:530px; float:left;}
+.entctf .rlitem select{ padding:6px 2px; width:235px;}
+.entctf .rlitem input{height:33px; line-height:33px; width:233px; border:1px solid #cecece;}
+.entctf .ent-picshow{ margin-top:10px; height:165px; }
+.entctf .ent-picshow img{cursor:pointer}
+
+.entctf .rlitem label{ width:210px}
+.entctf .rlgroup label{ width:210px}
+.entctf .rlgroup label strong{color:#f00;font-weight:bold}
+.entctf .rlitem .rltext .rlinput{ padding-left:5px;width:235px;}
+.entctf .rlgroup .controls{ width:535px; padding-bottom:40px}
+.entctf .rlitem .rltext .wrinfo{ width:250px;padding-left: 30px;}
+.entctf .rlmcode .rltext .wrinfo{width:100px}
+.entctf .font-green{ color:#0a8e4d}
+.entctf .area{ width:403px; height:90px; border:1px solid #cecece;}
+.entctf .rlitem .rltext .rlinput input{width:230px;}
+.entctf .conborderbom{ padding-bottom:40px; border-bottom:1px dashed #d8d8d8}
+
+
+.entctf .rlitemtle{ padding:30px 0 35px 0; overflow:hidden}
+.entctf .rlitemtle label{ display:inline-block; height:32px; line-height:32px; width:308px; text-align:right; float:left}
+.entctf .rlitemtle .rltext{width:430px}
+.wregid .outfit{ background:url(../../images/Enterprise/diapic_03.jpg) center top no-repeat}
+.wregid .dialogContent{ background:#fff}
+
+
+/*鐘舵�*/
+.enfState h2{ height:38px; line-height:38px; font-size:18px; color:#444444}
+.enfState .enfSbox{ border:1px solid #c3c3c3;}
+.enfState .enfSbox .enfTle{ height:77px; line-height:77px; color:#333333; font-size:18px; text-align:center; background:#f6f6f6; border-bottom:1px solid #c3c3c3}
+.enfState .enfSbox .enfTle a{ color:#0a8e4d}
+.enfState .enfSbox .enfTle a:hover{ text-decoration:underline}
+.enfState .enfSbox .enfCon{ padding:15px 0; overflow:hidden}
+.enfCon .enfgroup{ height:50px; line-height:50px; overflow:hidden;font-size:16px; }
+.enfCon .enfgroup label{ display:inline-block; width:318px; text-align:right}
+.enfCon .enfgroup .enfText{ display:inline-block; padding-left:45px;}
+.enfCon .enfErrText{display:inline-block;width:708px;height:auto;line-height:25px;word-break: break-all;  color:#ff3f13; padding-left:25px; font-size:14px; text-align:center;}
+
+.enfError .enfCon .enfgroup label{ width:315px;}
+.enfError .enfCon .enfgroup .enfText{ width:235px;}
+
+.enfline{ height:42px; width:100%; text-align:center; padding:15px 0}
+.enfline .enfBtnGray{ display:inline-block; width:98px; height:38px; line-height:38px; text-align:center; background:url(../../images/btnBg.jpg) left top no-repeat; color:#333333; font-size:12px;}
+
+
+/*瀹屽杽淇℃伅*/
+.entInfo h2{ height:39px; line-height:39px; border-bottom:1px dashed #c3c3c3; font-size:18px; color:#444444; overflow:hidden; width:100%; position:relative; margin-bottom:10px}
+.entInfo h2 span{ display:inline-block; padding-left:5px; font-size:12px; color:#333;}
+.entInfo h2 a.more{ display:inline-block; position:absolute; top:0; right:0; color:#0a8e4d; font-size:12px; padding-right:18px; background:url(../../images/icons/iconwenhao_03.jpg) right center no-repeat}
+.entInfo h2 a:hover{ text-decoration:underline}
+
+.entInfo .entLogo{ display:inline-block; width:101px; height:101px; line-height:101px; text-align:center; border:1px solid #e2e2e2; border-radius:50%; color:#c3c3c3; float:left; position:relative; overflow:hidden}
+.entInfo .entLogo img{width:101px; height:101px;border-radius:50%;position: absolute;left: 0;top:0;}
+.entInfo .entLogo .entfileLogo{height: 101px;width: 101px;position: absolute;left: 0;top: 0;margin: 0; overflow: hidden;padding: 0;z-index: 300}
+.entInfo .entLogo .entfileLogo input{opacity: 0;filter: alpha(opacity=0); /* background:none repeat scroll 0 0 transparent; */ border: medium none; cursor: pointer;height: 101px;width: 101px;top: 0px;opacity: 0;position: absolute;font-size: 100px;left: 0}
+.entInfo .entLogoText{display:inline-block; width:250px; color:#c3c3c3; padding-left:30px; float:left}
+.entInfo .entfileBtn{ display:inline-block; width: 340px; height: 80px; text-align:center; border:1px solid #e2e2e2; overflow:hidden; position:relative; color:#c3c3c3}
+.entInfo .entfileBtn .entfile{height: 80px;width: 340px;position: absolute;left: 0;top: 0;margin: 0; overflow: hidden;padding: 0;z-index: 300}
+.entInfo .entfileBtn .entfile input{ opacity: 0;filter: alpha(opacity=0); /* background:none repeat scroll 0 0 transparent; */ border: medium none; cursor: pointer; height: 80px; width: 340px;top: 0px;opacity: 0;position: absolute;font-size: 100px;left: 0}
+.entInfo .entFileText{ color:#c3c3c3; padding-top:10px}
+.entInfo .entfileBtn img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 340px;;
+    height: 80px;;
+}
+
+
+.entInfo .info{ width:520px; height:160px; border:1px solid #cecece;}
+.entInfo .rlgroup label{ font-size:14px; color:#444444}
+.entInfo .rlgroup label strong,.rlitem label strong{color:#f00}
+.rlitemUrl .rltext .rlinput{width:300px;height:38px; line-height:38px; padding-left:5px}
+.rlitemUrl .rltext .rlinput input{ width:300px; height:38px; line-height:38px}
+.entctf .rlmcode .rltext .wrsdpt{height:30px; line-height:30px}
+
+/*鍔╁杽dialog*/
+.entExplain{ font-family:"\5FAE\8F6F\96C5\9ED1";font-size:16px; line-height:25px}
+.entExplain h2{ color:#444444}
+.entExplain p.text{ text-indent:30px;}
+.entExplain .line{ height:1px; width:100%; border-bottom:1px dashed #c3c3c3; margin:30px 0}
+.entExplain .center{ width:100%; height:40px; text-align:center; padding:20px 0}
+.entExplain .center .btn{display:inline-block; background-image:url(../../images/login/login.jpg);width:100px; height:38px; line-height:38px; color:#fff; border:0 none; background-position: -1px -362px; cursor:pointer}
+
+.entInfo  .rlitem{ float:left}
+.entInfo  .rlitemUrl  .rlinputText{line-height:35px; }
+.entInfo  .rlinputText{padding-left:5px; border:none; font-size:14px; line-height:22px}
+.entInfo  .rlitem .rltext .rlbtnok{ text-align:center}
+.entInfo .entlitem  a,.entInfo .entlitem input{ display:inline-block; margin:0 5px; float:left}
+.entInfo .entlink{ color:#199a56; padding:10px 0}
+.entInfo .rgray{ color:#ccc;float:left; padding:10px 0}
+
+
+/*鏀惧ぇ*/
+.entBigPic .dialogContent{ padding:0}

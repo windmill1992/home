@@ -1,0 +1,430 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body, form, h1, h2, h3, h4, h5, h6, hr, input, li, p, ul, pre {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	vertical-align: middle;
+	color: #000;
+}
+body {
+	font-size: 13px;
+	font-family: "微软雅黑", "宋体", "楷体", "仿宋", Tahoma, Geneva, sans-serif;
+	background: #eee;
+}
+a {
+	text-decoration: none;
+	outline: 0;
+	cursor: pointer;
+}
+div, dl, dt, dd, li, td, input, select, textarea, form, table {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+li, ol, ul {
+	list-style: none;
+}
+a, p, span, pre {
+	-webkit-user-select: auto;
+	-webkit-touch-callout: none;
+	color: inherit;
+}
+img {
+	border: none;
+	display: inline-block;
+	vertical-align: middle;
+	background-size: cover;
+}
+button, input, optgroup, select, textarea {
+	font: inherit;
+	margin: 0;
+	outline: 0;
+}
+button, select {
+	text-transform: none
+}
+select {
+	-webkit-appearance: none;
+	border: none;
+}
+input {
+	line-height: normal;
+}
+input[type="button"], input[type="submit"], input[type="reset"], select {
+	-webkit-appearance: none;
+}
+input[type=checkbox], input[type=radio] {
+	box-sizing: border-box;
+	padding: 0
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+	height: auto
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box
+}
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+	-webkit-appearance: none
+}
+label, input {
+	vertical-align: middle
+}
+.clear {
+	clear: both
+}
+.hidden {
+	display: none
+}
+.fl {
+	float: left
+}
+.fr {
+	float: right
+}
+.bind_b1 {
+	width: 95%;
+	height: 50px;
+	margin: auto;
+	background: #fff;
+	border: 1px solid #cecece;
+	margin-top: 10px;
+}
+.bind_b1 .bind_fl1 {
+	float: left;
+	width: 15%;
+	margin-left: 3%
+}
+.bind_b1 .bind_fl1 img {
+	width: 30px;
+	height: 30px;
+	margin-top: 10px
+}
+.bind_b1 .bind_fr1 {
+	float: right;
+	width: 80%;
+}
+.bind_b1 .bind_fr1 input {
+	float: left;
+	border: none;
+	width: 60%;
+	height: 50px;
+}
+.bind_b1 .bind_fr1 .fsyz {
+	width: 40%;
+	height: 50px;
+	padding: 10px 5px;
+	display: -webkit-flex;
+	display: flex;
+	float: right;
+	text-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	line-height: 1.5;
+	font-size: 13px;
+	background: #01C67E;
+	color: #fff;
+	box-sizing: border-box;
+}
+.bind_b1 .bind_fr1 .fsyz.disabled{
+	background: #ccc;
+}
+.foot_qt {
+	width: 95%;
+	height: 50px;
+	margin: auto;
+	background: #ff6811;
+	margin-top: 10px;
+}
+.foot_qt p {
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+}
+
+/*注册页面*/
+
+.bind_top {
+	margin-bottom: 1rem;
+}
+.bind_top img {
+	width: 100%;
+	height: 100%;
+}
+.foot_tz {
+	display: block;
+	width: 95%;
+	height: 50px;
+	margin: auto;
+	text-align: center;
+	background: #01c67e;
+	margin-top: 10px;
+	line-height: 50px;
+	color: #fff;
+}
+.foot_tz.disabled{
+	background: #ccc;
+}
+
+/*****绑定提示框*****/
+
+.cue {
+	width: 80%;
+	height: 150px;
+	background: #01c67e;
+	position: fixed;
+	bottom: 200px;
+	left: 10%;
+	border: 1px solid #cecece;
+	display: none;
+}
+.cue .cue_center {
+	width: 100%;
+	height: 145px;
+	margin-top: 5px;
+	background: #fff;
+}
+.cue .cue_center .cue_center1 {
+	width: 100%;
+	height: 94px;
+}
+.cue .cue_center .cue_center1 p {
+	text-align: center;
+	color: #666;
+}
+.cue .cue_center .cue_center1 .cue_p1 {
+	font-size: 17px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+.cue .cue_center .cue_center1 .cue_p2 {
+	font-size: 10px;
+	padding-top: 5px;
+}
+.cue .cue_center .cue_center2 {
+	width: 100%;
+}
+.cue .cue_center .cue_center2 .cue_fl {
+	width: 46%;
+	height: 40px;
+	float: left;
+	background: #ff6811;
+	margin-left: 2%;
+}
+.cue .cue_center .cue_center2 .cue_fr {
+	width: 46%;
+	height: 40px;
+	float: right;
+	background: #e0e0e0;
+	margin-right: 2%;
+}
+.cue .cue_center .cue_center2 p {
+	line-height: 40px;
+	text-align: center;
+}
+.cue .cue_center .cue_center2 .cue_pl {
+	color: #fff;
+}
+.cue .cue_center .cue_center2 .cue_pr {
+	color: #666;
+}
+.cue2 {
+	width: 80%;
+	padding: 10px;
+	background: rgba(0, 0, 0, .7);
+	position: fixed;
+	top: 150px;
+	left: 0;
+	margin-left: 10%;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.5;
+	border-radius: 4px;
+	box-sizing: border-box;
+	z-index: 999;
+	display: none;
+}
+.cue2 p {
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+}
+
+/*弹出框*/
+.dialog {
+	position: fixed;
+	z-index: 100;
+	display: none;
+}
+.dialog.show {
+	display: block;
+	-webkit-perspective: 900px;
+	perspective: 900px;
+}
+.dialog.hide {
+	-webkit-animation: a-dialog-mask-out .2s ease both;
+	animation: a-dialog-mask-out .2s ease both;
+}
+.dialog, .dialog .mask {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.dialog .mask {
+	position: absolute;
+	background: rgba(0, 0, 0, .7);
+}
+.dialog .dialog_inner {
+	padding: 15px 15px 0;
+	background: #fff;
+	width: 75%;
+	min-width: 290px;
+	max-width: 350px;
+	height: 150px;
+	box-sizing: border-box;
+	max-width: 500px;
+	border-radius: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%, -50%, 0) rotateY(-90deg);
+	transform: translate3d(-50%, -50%, 0) rotateY(-90deg);
+}
+.dialog.show .dialog_inner {
+	-webkit-animation: a-dialog-in .4s ease .1s both;
+	animation: a-dialog-in .4s ease .1s both;
+}
+.dialog.hide .dialog_inner {
+	-webkit-animation: a-dialog-out .2s ease both;
+	animation: a-dialog-out .2s ease both;
+}
+.dialog .dialog_inner h3{
+	font-size: 15px;color: #333;font-weight: normal;
+}
+.dialog .dialog_inner .yzm-pic{
+	margin: 10px 0;
+}
+.dialog .dialog_inner .yzm-pic img{
+	width: 100px;
+	height: 40px;
+	vertical-align: top;
+}
+.dialog .dialog_inner .yzm-pic a{
+	display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../../images/login/login.jpg) -83px -2px no-repeat;
+    margin: 12px 15px;
+    cursor: pointer;
+}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+	-webkit-appearance: none !important;
+}
+.dialog .dialog_inner .yzm-pic input{
+	width: 60px;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #cecece;
+    padding: 10px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+.dialog .dialog_inner .close{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	line-height: 40px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+.dialog .dialog_inner .close .close-a{
+	width: 50%;
+	text-align: center;
+	font-size: 15px;
+	line-height: 40px;
+	box-sizing: border-box;
+}
+.dialog .dialog_inner .close .left{
+	border-top: 1px solid #eee;
+	color: #999;
+}
+.dialog .dialog_inner .close .right{
+	color: #fff;
+	background: #01C67E;
+	border-top: 1px solid #01C67E;
+}
+
+/*动画*/
+
+@-webkit-keyframes a-dialog-in {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(-50%, -50%, 0) rotateY(-90deg);
+		transform: translate3d(-50%, -50%, 0) rotateY(-90deg)
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translate3d(-50%, -50%, 0) rotateY(0);
+		transform: translate3d(-50%, -50%, 0) rotateY(0)
+	}
+}
+@keyframes a-dialog-in {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(-50%, -50%, 0) rotateY(-90deg);
+		transform: translate3d(-50%, -50%, 0) rotateY(-90deg)
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translate3d(-50%, -50%, 0) rotateY(0);
+		transform: translate3d(-50%, -50%, 0) rotateY(0)
+	}
+}
+@-webkit-keyframes a-dialog-out {
+	0% {
+		-webkit-transform: translate3d(-50%, -50%, 0) scale(1);
+		transform: translate3d(-50%, -50%, 0) scale(1)
+	}
+	100% {
+		-webkit-transform: translate3d(-50%, -50%, 0) scale(.8);
+		transform: translate3d(-50%, -50%, 0) scale(.8)
+	}
+}
+@keyframes a-dialog-out {
+	0% {
+		-webkit-transform: translate3d(-50%, -50%, 0) scale(1);
+		transform: translate3d(-50%, -50%, 0) scale(1)
+	}
+	100% {
+		-webkit-transform: translate3d(-50%, -50%, 0) scale(.8);
+		transform: translate3d(-50%, -50%, 0) scale(.8)
+	}
+}
+@-webkit-keyframes a-dialog-mask-out {
+	0% {
+		opacity: 1
+	}
+	100% {
+		opacity: 0
+	}
+}
+@keyframes a-dialog-mask-out {
+	0% {
+		opacity: 1
+	}
+	100% {
+		opacity: 0
+	}
+}

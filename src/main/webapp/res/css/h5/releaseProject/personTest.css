@@ -1,0 +1,70 @@
+.personTest{
+    background: #fff;padding: 3%;
+}
+.person_one{
+	color: #999;line-height: 40px;
+}
+.person_one .perone_fl{
+    float: left;
+}
+.perone_fr{
+    margin-right: 2%;
+}
+.perone_fr span{
+	color:#ff6810;
+}
+/****已验证图标*****/
+.yyz{
+    width: 18px; height: 18px;background: url("../../../images/h5/images/detail/detIcn.png") no-repeat;
+    display: block;float: left;background-position: 1px 0;background-size: 14px;margin-top: 12px;
+}
+/**未核实图标***/
+.detImg1{
+	background-position: 1px 1px !important;
+}
+/****已核实图标***/
+.detImg2{
+	background-position: 1px -53px !important;
+}
+.person_two{
+    line-height: 40px;color: #999;
+}
+.person_btn{
+    width: 50%;height: 40px;line-height: 40px;margin: auto;text-align: center;
+    border: 1px solid #ff6811;border-radius: 30px;margin-top: 20px;color: #ff6810;margin-bottom: 20px;
+}
+
+/**********发起人身份验证***********/
+.initTest img{
+    width: 50px;height: 50px;border-radius: 50px;
+}
+.initTest span{
+    font-size: 15px;color: #333;
+}
+.perone_nx{
+    float: right;width: 81%;
+}
+.perone_nx span {
+    display: block;float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

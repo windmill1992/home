@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+body,form,h1,h2,h3,h4,h5,h6,hr,input,li,p,ul,pre {margin:0 auto;padding:0;list-style:none;vertical-align:middle;color:#000;}
+body {font-size:13px; font-family:"微软雅黑", "宋体", "楷体", "仿宋",Tahoma, Geneva, sans-serif;background: #eeeeee;}
+a {text-decoration:none;outline:0;cursor:pointer;}
+div, dl, dt, dd, li, td, input, select, form,table { margin: 0; padding: 0; font-weight: normal;}
+li,ol,ul {list-style:none;}
+a,p,span,pre {-webkit-user-select:auto;-webkit-touch-callout:none;color:inherit;}
+img {border:none;display:inline-block;vertical-align:middle;background-size:cover;}
+button,input,optgroup,textarea{font:inherit;margin:0; outline: 0;}
+button{text-transform:none}
+input{line-height:normal; }
+
+input[type="button"], input[type="submit"], input[type="reset"]
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}
+input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+label,input{vertical-align: middle}
+.clear {clear:both}
+.hidden{ display:none}
+.fl {float:left}
+.fr {float:right}
+.header{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #ff9002;
+    color: #fff;
+}
+.header .head_p{
+    margin-left: 3%;
+}
+/*banner*/
+.seminar_banner{
+    width:100%;
+    height: 180px;
+    position: relative;
+}
+.seminar_banner .banner_img{
+    width: 100%;
+    height: 180px;
+}
+.sembackground{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    color: #fff;
+}
+.sembackground .semImg{
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+}
+.sembackground .sem_p1{margin-top: 85px;position: absolute;width: 100%;}
+.sembackground .sem_p1 span{
+    background:url("../../../images/h5/images/projectTopic/zhuanti.png") no-repeat;
+    width: 60px;
+    height: 30px;
+    display: block;
+    float: left;
+    background-size: 50px;
+    margin-left: 6%;
+}
+.sembackground .sem_p1 p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.sembackground .sem_p2{
+    position: absolute;
+    margin-top: 115px;
+    padding: 0 6%;
+}
+/*类目*/
+.seminar_list{
+    width: 100%;
+    height: 62px;
+    background:#fff;
+}
+.seminar_list li{
+    float: left;
+    width: 49%;
+    text-align: center;
+    border-right: 2px solid #eee;
+    color: #333333;
+    margin-top: 10px;
+}
+.seminar_list .borRight{border-right:none;}
+.seminar_list .seminarMoney{height: 22px;}
+.seminar_list span{color:#c20807}
+/*内容*/
+.seminar_content{
+    background: #fff;
+    margin-top: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+h4{
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 96%;
+    overflow: hidden;
+}
+.seminar_content{
+    background: #fff;
+    margin-top: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.seCont{
+    height: 143px;
+    border-bottom: 1px solid #eee;
+}
+h4{
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 96%;
+    overflow: hidden;
+    color:#333333;
+}
+.seTenter{}
+.seTenter .seImgfl{
+    float: left;
+    width: 130px;
+    overflow: hidden;
+    border-radius: 5px;
+    height: 90px;
+}
+.seTenter .seImgfl img{
+    width: 100%;
+    height: 90px;
+}
+.seFr{
+    float: right;
+    width: 58%;
+}
+.seFr .seText1{
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    color:#999999;
+}
+.setPr{
+    margin-top: 13px;
+}
+.sePersonfr{
+    width: 39%;
+    height: 23px;
+    line-height: 23px;
+    background: #ff9002;
+    display: inline-block;
+    text-align: center;
+    border-radius: 18px;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 5px;
+}
+.seFr .sePerson{
+    height: 30px;
+    line-height: 30px;
+    width: 60%;
+    float: left;
+}
+.seFr .sePerson .seIcon{
+    width: 22px;
+    height: 24px;
+    display: block;
+    float: left;
+    background:url("../../../images/h5/images/projectTopic/aixin.png") no-repeat;
+    background-size: 17px;
+    margin-top: 7px;
+}
+.seFr .sePerson .seIcon_fr{
+    color:#999999;
+}
+.seFr .sePerson .seIcon_fr span{color:#c20807 }
+.jzgd{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color:#666;
+    display: block;
+}
+
+@media screen and (min-width: 1024px){
+    .seminPubGood{
+        width: 60%;
+        margin:auto;
+    }
+}
+/*底部按钮*/
+.topBtn{
+    width: 96%;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    padding: 2%;
+}
+.topBtn a{
+    display: block;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    background: #ff9002;
+    border-radius: 5px;
+    color: #fff;
+}

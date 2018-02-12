@@ -1,0 +1,115 @@
+.uCEN-R {
+    padding-bottom: 40px;
+    float: left;
+    margin-left: 40px;
+    width: 758px;
+    border: 1px solid #cecece;
+}
+.page-bd {
+    margin-top: 30px !important;
+    width: 1000px;
+    margin: 0 auto;
+}
+.libraryone{
+    line-height: 30px;
+    padding: 15px;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #cecece;
+}
+.librarytwo{
+    font-size: 14px;
+    color: #333;
+    background: #f6f6f6;
+    padding: 15px;
+    line-height: 28px;
+    border-bottom: 1px solid #cecece;
+}
+.cleartwo{
+    background: #f6f6f6;
+    height: 110px;
+    border-bottom: 1px dashed #cecece;
+}
+.cleartwo .cleartwo_fl{
+    padding: 20px 0 0 110px;
+    float: left;
+    width: 70px;
+}
+.cleartwo .cleartwo_fr{
+    float: right;
+    width: 547px;
+    padding: 20px 0 0 0;
+}
+.cleartwo_fr .text1{
+    font-size: 24px;
+    color: #666;
+    height: 40px;
+}
+.cleartwo_fr .text2{
+    font-size: 18px;
+    color: #666;
+}
+
+.success_lj{
+    float: right;
+    width: 380px;
+    margin-top: 65px;
+}
+.success_lj p{
+    height: 50px;
+    line-height: 55px;
+    font-size: 18px;
+    color: #333;
+}
+.success_lj a{
+    color: #098e4d;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration: underline;
+}
+/*二维码*/
+.pr_ewm {
+    width: 217px;
+    height: 217px;
+    border: 1px solid #eee;
+    float: left;
+    margin-left: 113px;
+    margin-top: 20px;
+    background: #fff;
+    padding-left: 15px;
+    padding-top: 15px;
+    box-shadow: 2px 3px 11px 3px #ccc;
+}
+.clearBtn{
+    float: right;
+    width: 350px;
+    margin-top: 60px;
+    margin-right: 75px;
+}
+.clearBtn .btn_one{
+    width: 250px;
+    height: 40px;
+    background: #199a56;
+    line-height: 40px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px 0px #028c43;
+    margin-bottom: 20px;
+}
+.clearBtn .btn_two{
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    border: 1px solid #199a56;
+    line-height: 40px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    color: #199a56;
+    border-radius: 5px;
+}

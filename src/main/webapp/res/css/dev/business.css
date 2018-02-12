@@ -1,0 +1,239 @@
+/*
+******    企业中心
+*/
+.business .bus-cont{
+    background-color: #ffffff;
+	box-shadow:-1px 0 2px #e8e8e8, /*左边阴影*/
+	1px 0 2px #e8e8e8, /*右边阴影*/
+	0 0px 2px #e8e8e8, /*顶部阴影*/
+	0 3px 5px #e8e8e8; /*底边阴影*/
+	-webkit-box-shadow:-1px 0 2px #e8e8e8, /*左边阴影*/
+	1px 0 2px #e8e8e8, /*右边阴影*/
+	0 0px 2px #e8e8e8, /*顶部阴影*/
+	0 3px 5px #e8e8e8; /*底边阴影*/
+	-moz-box-shadow:-1px 0 2px #e8e8e8, /*左边阴影*/
+	1px 0 2px #e8e8e8, /*右边阴影*/
+	0 0px 2px #e8e8e8, /*顶部阴影*/
+	0 3px 5px #e8e8e8; /*底边阴影*/
+    margin: 0 0 20px;
+}
+.business  .bus-info{
+    padding: 25px 0 25px 15px;
+    overflow: hidden;
+}
+.business  .bus-info .bus-head{
+    width: 100px; height: 100px;
+    border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+.business  .bus-info .bus-head img{
+    width: 100px;
+    height: 100px;
+}
+.business  .bus-info .bus-money{
+    float: left;
+    margin: 0 0 0 12px;
+    width: 162px;
+    height: 100px;
+}
+.business  .bus-info .bus-money p{
+    font-size: 16px;
+    color: #333333;
+    line-height: 22px;
+    padding: 16px 0 0 ;
+}
+.business  .bus-info .bus-money p b{
+    font-size: 22px;
+    color: #e63a00;
+    font-weight: normal;
+}
+.business  .bus-info .bus-fns{
+    float: left;
+    width: 147px;
+    height: 100px;
+}
+.business  .bus-info .bus-fns p{
+    text-align: right;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 16px 0 0 ;
+}
+.business  .bus-info .bus-fns .fns{
+    overflow: hidden;
+    height: 25px;
+    padding: 16px 0 0 47px;
+    position: relative;
+}
+.business  .bus-info .bus-fns .fns a{
+    float: left;
+    width: 50%;
+    height: 25px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    color: #199a56;
+}
+.business  .bus-info .bus-fns .fns .charge{
+    background-color: #199a56;
+    border-radius:2px;-webkit-border-radius: 2px;-moz-border-radius: 2px;
+    color: #ffffff;
+}
+.business  .bus-info .bus-fns .fns em{
+    display: block;
+    width: 1px; height: 13px;
+    background-color: #c0c0c0;
+    position: absolute;
+    top: 22px;
+    right: 33.3%;
+}
+.business  .bus-info .bus-text{
+    float: left;
+    text-align: left;
+    width: 135px;
+}
+.business  .bus-info .bus-text1{
+    width:103px; 
+	padding-left:45px;
+	
+    margin-left: 30px;
+	background:url(../../images/business/line_03.jpg) top left no-repeat;
+}
+.business  .bus-info .bus-text p{
+    font-size: 14px;
+    line-height: 33px;
+}
+.business  .bus-info .bus-text p span{
+    color: #e63a00;
+    padding: 0 2px;
+}
+
+.userCenter .bus-list  .uCEN-hd .uCEN-tit{
+    padding: 0 0 0 14px;
+    font-size: 14px;
+}
+.goodhelpList .bus-list01 .list .lst-col1,.goodhelpList .bus-list01 .list .lst-col2,.goodhelpList .bus-list01 .list .lst-col5,.goodhelpList .bus-list01 .list .lst-col5{
+    width: 130px;
+}
+.goodhelpList .bus-list01 .list .lst-col4{
+    width: 238px;
+}
+.goodhelpList .bus-list01 .list .lst-col6{
+    width: 130px;
+}
+.bus-list0101  .donation-progress .progress-text{
+    text-align: center;
+}
+.donation-progress .progress-text .c{
+    float: none; margin: 0 auto;
+}
+.bus-list01 .donation-progress{
+    width: 228px;
+}
+.bus-list .bus-list-more{
+    height: 34px;
+    padding: 0 25px;
+    text-align: right;
+}
+.bus-list .bus-list-more a{
+    font-size: 13px;
+    line-height: 34px;
+}
+.bus-picList .bus-picList-head{
+    position: relative;
+    _height: 42px;
+    min-height: 42px;
+}
+.bus-picList .bus-picList-head span{
+    display: inline-block;
+    font-size: 18px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 0 0 14px;
+    font-size: 14px;
+}
+.bus-picList-bd{
+    padding: 20px 0;
+    border-top: 1px  solid #019045;
+    overflow: hidden;
+}
+.bus-picList-bd dl{
+    float: left;
+    width: 244px;
+    border: 1px solid #cbcbcb;
+    margin: 0 3px;
+	_margin:0 2px;
+    overflow: hidden;
+}
+.bus-picList-bd dl dt{
+    height: 180px;
+    display: block;
+    box-shadow: 0 3px 5px rgba(0,0,0,.12);-webit-box-shadow: 0 3px 5px rgba(0,0,0,.12);-moz-box-shadow: 0 3px 5px rgba(0,0,0,.12);
+}
+.bus-picList-bd dl dt img{
+    display: block;
+    width: 244px;
+    height: 180px;
+}
+.bus-picList-bd dl dd{
+    padding: 10px 12px;
+}
+.bus-picList-bd dl dd h4{
+    font-size: 14px;
+    line-height: 17px;
+}
+.bus-picList-bd dl dd p{
+    padding: 8px 0 10px;
+    font-size: 14px;
+    line-height: 23px;
+    white-space: nowrap;
+}
+.bus-picList-bd dl dd p span{
+    float: left;
+    width: 60px;
+    height: 23px;
+    background: url("../../images/business/bus-icon.png") no-repeat;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 4px 0 0;
+    margin: 0 5px 0 0;
+}
+.bus-picList-bd dl dd .picList-progress{
+    height: 24px;
+    position: relative;
+    margin-left: 45px;
+}
+.bus-picList-bd .picList-progress span.progress-num{
+    font-size: 14px;
+    line-height: 24px;
+    color: #ff9600;
+    position: absolute;
+    left: -50px;
+    top: 0;
+    display: block;
+}
+.bus-picList-bd .picList-progress .progress-progress{
+    width: 180px;
+    height: 8px;
+    background: #e2e2e2;
+    border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    z-index: 1;
+}
+.bus-picList-bd .picList-progress .progress-bar{
+    height: 8px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    z-index: 2;
+    background: #ff9600;
+    border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;
+}
+
+.goodhelpList .bus-lit02 .list .lst-col1{width:130px;}
+.goodhelpList .bus-lit02 .list .lst-col2{width:125px;}
+.goodhelpList .bus-lit02 .list .lst-col3{width:140px;}
+.goodhelpList .bus-lit02 .list .lst-col4{width:205px;}
+.goodhelpList .bus-lit02 .list .lst-col5{width:155px;}

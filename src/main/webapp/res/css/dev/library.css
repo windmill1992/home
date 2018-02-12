@@ -1,0 +1,204 @@
+.bodyNew .index.bodyNew .indexSum span.sumStart {    padding-left: 0;}
+.bodyNew .indexSum span {
+    float: left;
+    display: inline-block;
+    padding: 22px 72px;
+    font-size: 18px;
+    color: #333333;
+    height: 57px;
+    line-height: 57px;
+    background: url(../../images/goodlibrary/lineindex_03.jpg) right center no-repeat;
+    font-weight: bold;
+}
+.bodyNew .bnnerpic1{width: 100%; height: 390px; }
+.bodyNew .indexSum span i {
+    float: left;
+    display: inline-block;
+    width: 56px;
+    height: 58px;
+    background-image: url(../../images/goodlibrary/sumicon.jpg);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.bodyNew .indexSum span i.sumIcon4 {
+    background-position: 0px -250px;
+}
+.bodyNew .xiangmuleiji{height: 50px;
+    float: left;
+    line-height: 29px;
+    margin-top: 1px !important;
+    text-align:center;}
+.gdWherelist .library_box1 {
+    padding: 0 0 20px 0;
+    overflow: hidden;
+}
+.library_box1 {
+    border: 1px solid #e0e0e0;
+}
+.library_box1 .library_ul{ width: 95%; margin: auto; height: 50px; border-bottom: 1px solid #e0e0e0;}
+.library_box1 .library_ul li h2{height: 35px;
+    border-bottom: 2px solid #098e4d;
+    /* line-height: 50px; */
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; }
+.library_box1 .library_ul li{float: left;
+    padding: 14px 3% 0px 0; }
+.library_box1 .library_ul li a{ display: block; padding: 0 10px 0 10px; height: 30px; line-height: 30px; text-align: center; background: #f0f0f0; }
+.library_box1 .library_list{
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+    width: 903px;
+    margin-left: 49px;
+}
+.library_box1 .prev_fl{
+    width: 25px;
+    height: 40px;display: block;position: absolute;margin-top: 110px; margin-left:25px;z-index: 99;
+    padding: 5px 5px 5px 5px;}
+.library_box1 .next_fr{
+    width: 25px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    margin-left: 940px;
+    margin-top:-146px;
+    padding: 5px 5px 5px 5px;
+}
+.library_box1 .prev_fl:hover{background: #505050;opacity:.7;}
+.library_box1 .next_fr:hover{background: #505050;opacity:.7;}
+.library_box1 .library_list img{width: 100%;}
+.library_box1 .library_list .list_z{width: 1000000000px;
+    height: 179px;
+    position: absolute;
+    /*margin-left: 50px;*/
+    overflow: hidden;
+    margin-top: 13px; }
+.library_box1 .library_list .list_z li{
+    float: left;
+    margin-left: 15px;
+    width: 207px;
+}
+.library_box1 .library_list .list_z li p{ width:205px; overflow: hidden; line-height: 30px; white-space: nowrap; text-overflow: ellipsis;
+    font-size:14px;}
+.library_box1 .library_list .list_z li img{
+    width: 207px;
+    height: 144px;}
+/*行善记录*/
+.w1130{     width:1044px;;
+    height: 100px;}
+.library_box2 {
+    border: 1px solid #e0e0e0;
+    margin-top:15px;
+    background:#f3f3f3;
+    margin-bottom: 15px;
+}
+.library_box2 .library_ul1{ width: 95%; margin: auto; height: 50px; border-bottom: 1px solid #e0e0e0;}
+.library_box2 .library_ul1 li h2{height: 35px;
+    border-bottom: 2px solid #098e4d;
+    /* line-height: 50px; */
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; }
+.library_box2 .library_ul1 li{float: left;
+    padding: 14px 3% 0px 0; }
+.library_box2 .library_ul1 li a{ display: block; padding: 0 10px 0 10px; height: 30px; line-height: 30px; text-align: center;}
+.library_box2 .library_ul1 li .year_a1{color:#ff6a24;}
+/*行善时间轴*/
+.library_box2 .library_time{
+    width: 95%;
+    border-left: 1px solid #e0e0e0;
+    margin-left: 44px;
+    margin-top: 20px;}
+.library_box2 .library_time .time_one{position: relative;height: 116px;margin-bottom: 20px;}
+.library_box2 .library_time .time_one .library_icon1{
+    width: 20px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    background: url("../../images/goodlibrary/icony.png") no-repeat;
+    margin-left: -8px;
+    margin-top: 60px;
+}
+.library_box2 .library_time .time_one .time_fl{
+    float: left;
+    line-height: 136px;
+    margin-left: 18px;}
+.library_box2 .library_time .time_one .time_fltime{
+    float: left;
+    line-height: 136px;
+    margin-left: 18px;
+    color:#ff9001;
+}
+.library_box2 .library_time .time_one .time_fr{    width: 823px;
+    height: 112px;
+    background: #fff;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;}
+.library_box2 .library_time .time_one .time_bor{width: 832px;height: 136px;background: #fff;float: right;margin-right: 20px;margin-bottom: 20px;border: 1px solid #ff9001;}
+.library_box2 .library_time .time_one .time_fr .time_icon1{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url("../../images/goodlibrary/icony.png") 0 -27px no-repeat;
+    position: absolute;
+    margin-left: -12px;
+    margin-top: 57px;
+}
+.library_box2 .library_time .time_one .time_fr .library_bor{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url("../../images/goodlibrary/icony.png") 0 -53px no-repeat !important;
+    position: absolute;
+    margin-left: -12px;
+    margin-top: 57px;
+}
+.library_box2 .library_time .time_one .time_fr .time_two{padding: 9px 0 10px 20px;}
+.library_box2 .library_time .time_one .time_fr .time_two .time_top{
+    height: 30px;
+    line-height: 25px;
+}
+.library_box2 .library_time .time_one .time_fr h3{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    float: left;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 81%;}
+.library_box2 .library_time .time_one .time_fr .library_ren{
+    line-height: 25px;
+    color: #666;
+    float: left;
+    height: 25px;
+    overflow: hidden;
+    width: 450px;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+.library_box2 .library_time .time_one .time_fr .library_bq{width: 90%;height: 39px;overflow: hidden;}
+.library_box2 .library_time .time_one .time_fr .library_bq li{     padding: 0 10px 0 10px;
+    display: block;
+    background: #f3f3f3;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;}
+.library_box2 .library_time .time_one .time_fr .library_money{font-size: 16px;font-weight: bold;color: #ff6a24;float: right;padding-right: 8px;}
+.library_box2 .bac_form{ border-top:1px dashed #e0e0e0;padding-top: 20px;}
+.library_box2 .library_time .time_one .time_fr .library_money1{font-size: 14px;color: #666;float: right;padding-right: 8px;}
+
+
+
+
+
+
+
+
+
+
+
+

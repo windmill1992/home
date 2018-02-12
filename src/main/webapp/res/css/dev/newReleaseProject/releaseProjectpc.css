@@ -1,0 +1,265 @@
+@charset "utf-8";
+body,form,h1,h2,h3,h4,h5,h6,hr,input,li,p,ul,pre {margin:0 auto;padding:0;list-style:none;vertical-align:middle;color:#000;}
+body {font-size:13px; font-family:"微软雅黑", "宋体", "楷体", "仿宋",Tahoma, Geneva, sans-serif;background: #eeeeee;}
+a {text-decoration:none;outline:0;cursor:pointer;}
+div, dl, dt, dd, li, td, input,form,table { margin: 0; padding: 0; font-weight: normal;}
+li,ol,ul {list-style:none;}
+a,p,span,pre {-webkit-user-select:auto;-webkit-touch-callout:none;color:inherit;}
+img {border:none;display:inline-block;vertical-align:middle;background-size:cover;}
+button,input,optgroup{font:inherit;margin:0; outline: 0;}
+button{text-transform:none}
+.relProject{
+    width: 1000px;
+    margin: auto;
+    background: #fff;
+    padding-bottom: 30px;
+}
+.relProject .relnav{
+    height: 84px;
+    line-height: 84px;
+    color: #333333;
+    font-size: 24px;
+    padding-left: 46px;
+    background: #f7f7f7;
+}
+.relImg{
+    width: 1000px;
+    height: 120px;
+    background: url("../../../images/newReleaseProject/step_clip.jpg") no-repeat;}
+.relProject .relImg1{
+    background-position: 0 -118px;
+}
+.relProject .relImg2{
+    background-position: 0 -234px;
+}
+/*我是个人*/
+.personRelease{width: 1000px;margin-top: 50px;}
+.personNav{height: 70px;line-height: 45px;}
+.personFl{
+    width: 320px;
+    float: left;
+    text-align: right;
+    font-size: 14px;
+    color: #666;
+}
+.personFr{
+    width: 670px;
+    float: right;
+}
+.personFr .geren{
+    height: 45px;
+    line-height: 45px;
+    width: 160px;
+    border: 2px solid #e0e0e0;
+    text-align: center;
+    float: left;
+    font-size: 14px;
+    color:#666;
+}
+.personFr .jigou{
+    float: right;
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+    border: 2px solid #e0e0e0;
+    margin-right: 326px;
+    text-align: center;
+    font-size: 14px;
+    color:#666;
+}
+.navgg{
+    color: #ff9002 !important;
+    border: 2px solid #ff9002 !important;
+}
+.personInp{
+    border: 1px solid #e0e0e0;
+    width: 360px;
+    font-size: 14px;
+    color: #666;
+    height: 45px;
+    padding-left: 5px;
+    line-height: 45px;}
+.personYz{
+    width: 360px;
+    border: 1px solid #e0e0e0;
+    padding-left: 5px;
+}
+.personInp1{
+    width: 235px;
+    font-size: 14px;
+    color: #666;
+    height: 45px;
+    line-height:45px;
+}
+.personInp2{
+    width: 330px;
+}
+.personNav2{height: 144px}
+.yzm{
+    display: block;
+    float: right;
+    width: 120px;
+    text-align: center;
+    background: #e0e0e0;
+    height: 47px;font-size: 14px;
+    color: #666;
+}
+.personFr1{
+    border: 1px solid #e0e0e0;
+    width: 355px;
+    font-size: 14px;
+    color: #666;
+    padding: 5px;
+    margin-left: 10px;
+    height: 105px;
+}
+/*上传照片*/
+.personNav1{
+    height: 134px;
+    line-height: 25px;
+}
+.value {
+    width: 650px;
+    position: relative;
+}
+.add_list{
+    float: left;
+    margin-right: 20px;
+}
+.sc{
+    width: 350px;
+}
+.add_list .item {
+    width: 100px;
+    margin-right: 18px;
+    position: relative;
+    height: 100px;
+    margin-bottom: 20px;
+    float: left;
+}
+.add_list .item i {
+    position: absolute;
+    top: -10px;
+    right: -13px;
+    z-index: 10;
+    width: 23px;
+    height: 23px;
+    font-size: 19px;
+    border-radius: 25px;
+    background: #999;
+    color: #fff;
+    text-align: center;
+    line-height: 19px;
+    cursor: pointer;
+    display: block;
+}
+.add_list .item img{width: 100px;height: 100px;}
+.add_list .add_btn {
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 90px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    color: #bfbfbf;
+    background: #e8e8e8;
+}
+.add_list span {
+    width: 100px;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+.add_list .imgCon {
+    width: 236px;
+    height: 92px;
+    border: 1px solid #dadada;
+    float: left;
+    position: absolute;
+    margin-left: 20px;
+    padding: 5px;
+}
+.at{
+    text-align: left;
+    height: 45px;
+    line-height: 30px;}
+.form_text{text-align: left;
+    height: 45px;
+    line-height: 30px;}
+.imgCon1{
+    position: absolute;
+    margin-left: 135px;
+    width: 100px;
+    height: 100px;
+}
+.imgCon2{
+    position: absolute;
+    width: 100px;
+    height: 130px;
+
+}
+.imgCon2 i {
+    width: 100px;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+}
+.personInpg{color: red;}
+.imgCon2 img{ width: 100px; height: 100px;}
+.imgCon1 img{width: 100px;
+    height: 100px;}
+.add_list .add_btn input {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /* background: none repeat scroll 0 0 transparent; */
+    border: medium none;
+    cursor: pointer;
+    height: 82px;
+    width: 80px;
+    top: 0px;
+    opacity: 0;
+    position: absolute;
+    font-size: 100px;
+    left: 0;
+    overflow: hidden;
+}
+.foot{ height: 120px; background: #fff;width: 1000px; margin:auto;padding-top: 40px;}
+.footBtn{
+    width: 290px;
+    height: 50px;
+    background: #199a56;
+    line-height: 50px;
+    display: block;
+    margin: auto;
+    margin-top:20px;
+    text-align: center;
+font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px 0px #028c43;
+
+}
+.cue2 {
+    width: 90%;
+    background: #000;
+    position: fixed;
+    bottom: 465px;
+    margin-left: 5%;
+    opacity: .7;
+}
+.cue2 p {
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+

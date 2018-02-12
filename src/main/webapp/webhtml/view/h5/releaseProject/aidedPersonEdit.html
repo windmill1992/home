@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+		<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+		<title>受助人信息</title>
+		<link rel="stylesheet" type="text/css" href="/res/css/h5/releaseProject2/raiseProjEdit.css"/>
+	</head>
+	<body>
+		<div id="pageContainer" v-cloak>
+			<div class="rpe flex fcen">
+				<div class="rpe-title flex fstart">
+					<p class="tip">受助人姓名</p>
+					<div class="amount"> 
+						<input type="text" maxlength="15" placeholder="请填写受助人姓名，如多个填写一个" id="aidedPName" v-model="aidedPerson.name" />
+					</div>
+				</div>
+				<div class="rpe-title rpe-contact flex fstart">
+					<p class="tip">联系人</p>
+					<div class="amount"> 
+						<input type="text" name="raiseMoney" placeholder="联系人是项目提交人或者家属" id="contactor" v-model="aidedPerson.contactor" />
+					</div>
+				</div>
+				<div class="rpe-title rpe-tel flex fstart">
+					<p class="tip">联系电话</p>
+					<div class="amount">
+						<input type="text" placeholder="" id="mobile" v-model="aidedPerson.tel" />
+					</div>
+				</div>
+				<div class="rpe-title rpe-hos flex fstart" v-if="!personal">
+					<template v-if="exp">
+						<p class="tip">求助机构</p>
+					</template>
+					<template v-else>
+						<p class="tip">所在医院</p>
+					</template>
+					<div class="amount">
+						<input type="text" id="hospital" v-model="hospitalName" readonly="readonly" />
+					</div>	
+				</div>
+				
+				<div class="rpe-btn btn">
+					<a href="javascript:void(0);" id="publish">发布，开始筹款</a>
+				</div>
+				
+				<div class="rpe-agree">
+					<input type="checkbox" id="chk1" checked="checked" />
+					<label for="chk1">
+						本人同意<a href="/resposibilityReport/resposibilityReport.do?id=372" style="text-decoration: underline;">《宁波市善园公益基金会筹款发布协议》</a>
+					</label><br />
+					<input type="checkbox" id="chk2" checked="checked" />
+					<label for="chk2">本人承诺所有提交信息真实可靠，受助人或家属已同意在善园网发起筹款</label>
+				</div>
+				
+			</div>
+		</div>
+		<div class="tips"></div>
+		<input type="hidden" name="aidedEditPg" id="aidedEditPg" value="" />
+		<script src="/res/js/jquery-1.8.2.min.js"></script>
+		<script src="/res/js/h5/donateStep/vue.min.js"></script>
+		<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+		<script src="/res/js/h5/releaseProject2/wxlogin.js"></script>
+		<script src="/res/js/h5/releaseProject2/raiseProjEdit.js"></script>
+	</body>
+</html>

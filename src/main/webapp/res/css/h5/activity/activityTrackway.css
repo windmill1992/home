@@ -1,0 +1,334 @@
+
+@charset "utf-8";
+/* CSS Document */
+body,form,h1,h2,h3,h4,h5,h6,hr,input,li,p,ul,pre {margin:0 auto;padding:0;list-style:none;vertical-align:middle;color:#000;}
+body {font-size:13px; font-family:"微软雅黑", "宋体", "楷体", "仿宋",Tahoma, Geneva, sans-serif;background: #eeeeee;}
+a {text-decoration:none;outline:0;cursor:pointer;}
+div, dl, dt, dd, li, td, input, select, form,table { margin: 0; padding: 0; font-weight: normal;}
+li,ol,ul {list-style:none;}
+a,p,span,pre {-webkit-user-select:auto;-webkit-touch-callout:none;color:inherit;}
+img {border:none;display:inline-block;vertical-align:middle;background-size:cover;}
+button,input,optgroup,textarea{font:inherit;margin:0; outline: 0;}
+button{text-transform:none}
+input{line-height:normal; }
+input[type="button"], input[type="submit"], input[type="reset"]
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}
+input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+label,input{vertical-align: middle}
+/**********背景*****************/
+.trackBack{
+    width:100%;
+    height: 150px;
+}
+.trackBack img{
+    width: 100%;
+    height:150px;
+}
+/**********介绍详情*****************/
+.trackContent{
+    width: 100%;
+    background: #fff;
+
+}
+.centerImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -30px;
+}
+.centerImg img{
+    width: 60px;
+    height: 60px;
+}
+h3{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+}
+.details{}
+.details p{
+    width:94%;
+    margin: auto;
+    color:#999;
+}
+.details img{
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*********项目banner**************/
+.TrackBanner{
+    width:100%;
+    margin-top: 10px;
+    background: #fff;
+}
+.bannerImg{
+    padding-top: 10px;
+    width: 100%;
+    height: 140px;
+}
+.bannerImg img{
+    width: 100%;
+    height: 140px;
+}
+.bannerText{
+    width: 94%;
+    margin: auto;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+;
+}
+
+
+.donateItemBox, .donateListBox {
+    background-color: #fff;
+    margin-top: 10px;
+}
+.donateTitle {
+    font-size: 15px;
+    color: #666;
+    line-height: 40px;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0 0.2rem;
+    height: 40px;
+    font-weight: normal;
+}
+.fl {
+    float: left;
+    color: #666;
+    line-height: 25px;
+    padding: 2%;
+}
+.fr {
+    float: right;
+    color: #666;
+    line-height: 25px;
+    padding: 2%;
+}
+.donateItemInfo {
+    padding: 0.22rem;
+}
+.donateMoney {
+    color: #666;
+    font-size: 14px;
+    padding: 2%;
+}
+.donateItemImg {
+    width: 25%;
+    height: 60px;
+    float: left;
+    padding: 2%;
+}
+.donateItemImg img {
+    width: 100%;
+    height: 100%;
+}
+.donateItemCon {
+    float: right;
+    width: 66%;
+    margin: 2%;
+}
+.donateItemCon h4 {
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.donateItemCon p {
+    color: #757575;
+    font-size: 12px;
+}
+/*记录*/
+.trackReccod{
+    margin-top: 10px;
+    margin-bottom:60px;
+}
+.record {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+.thumb {
+    width: 35px;
+    height: 35px;
+    display: block;
+    float: left;
+    padding: 3% 0 3% 3%;
+}
+.thumb img {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+}
+.record .name {
+    float: right;
+    width: 82%;
+    height: 50px;
+    color: #333333;
+    font-size: 12px;
+    line-height: 56px;
+    padding-right: 3%;
+}
+.record .name .name_p1 {
+    float: left;
+    height: 40px;
+    width: 50%;
+    font-size: 13px;
+    color: #333;
+    overflow: hidden;
+}
+.record .name .name_p2 {
+    float: right;
+    height: 40px;
+}
+label{color:#ff9002;}
+.renshu{
+    width: 94%;
+    padding: 0 3% ;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    background:#fff;
+    border-bottom:1px solid #eee;
+}
+.renshu span{
+    color:#ff9002;
+}
+.jiazai{
+    width: 100%;
+    height: 40px;
+    line-height:40px;
+    text-align:center;
+}
+.btnHide{
+    width: 100%;
+    background: #fff;
+    height: 62px;
+    padding-top: 15px;
+}
+.btnHide a{
+    width: 28%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 19px;
+    border:1px solid #ff9002;
+    display: block;
+    margin: auto;
+    color: #ff9002;
+    margin-top:10px;
+
+}
+.detailHide{
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+.white{
+    width: 100%;
+    height: 200px;
+    background: url("../../../images/h5/images/activity/gradualChange.png");
+    position: absolute;
+    margin-top:-268px;
+    z-index: 10000;
+}
+
+/*按钮*/
+.trackBtn{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 96%;
+    background: #fff;
+    border-top: 1px solid #dad7d0;
+    z-index: 200;
+    padding: 2%;
+}
+.trackBtn img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: -4px;
+}
+.track_fl{
+    width: 47%;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px #fe7225 solid;
+    text-align: center;
+    background: #ff6811;
+}
+.track_fr{
+    width: 47%;
+    float: right;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px #fe7225 solid;
+    text-align: center;
+    background: #ff6811;
+}
+
+
+@media screen and ( min-width: 1024px){
+    .actAut{
+        width:40%;
+        margin: auto;
+    }
+    .trackBtn{
+        width: 36%;
+        margin-left: 30%;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background: #fff;
+        border-top: 1px solid #dad7d0;
+        z-index: 200;
+        padding: 2%;
+    }
+
+    .jiazai{
+       margin-bottom: 100px;
+    }
+    .white{
+        width: 100%;
+        height: 202px;
+        background: url("../../../images/h5/images/activity/gradualChange.png");
+        position: absolute;
+        margin-top: -260px;
+        z-index: 10000;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

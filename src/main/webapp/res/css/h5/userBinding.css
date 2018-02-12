@@ -1,0 +1,840 @@
+*{
+	-webkit-font-smoothing: antialiased;
+}
+body {
+	color: #333;font-family: "微软雅黑";max-width: 768px;margin: 0 auto;
+}
+.clearfix:before, .clearfix:after {
+	content: "";display: table;
+}
+.clearfix:after {
+	clear: both;overflow: hidden;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.flex {
+	display: -webkit-flex;display: flex;
+}
+.spb {
+	-webkit-justify-content: space-between;justify-content: space-between;
+}
+.fcen {
+	-webkit-align-items: center;align-items: center;
+}
+.fline{
+	-webkit-align-items: baseline;align-items: baseline;
+}
+.errorBox {
+	height: .4rem;line-height: .4rem;
+	position: absolute;top: .7rem;left: 0;right: 0;
+	color: #fff;font-size: .26rem;text-align: center;
+	background: rgba(0, 0, 0, .8);padding: .27rem 0;
+}
+.errorBox i {
+	width: .4rem;height: .4rem;background: url(../../images/h5/images/userBinding/error.png) no-repeat;
+	background-size: .4rem .4rem;margin-right: .42rem;display: inline-block;vertical-align: top;
+}
+.popup {
+	width: 100%;height: 100%;position: fixed;top: 0;left: 0;
+	display: block;background-color: rgba(0, 0, 0, .6);z-index: 700;
+}
+.popup > div {
+	width: 78%;position: fixed;left: 11%;text-align: center;
+	background-color: #fff;border-radius: 5px;box-sizing: border-box;
+}
+
+/*公共头部 begin */
+.topBg {
+	width: 100%;height: .8rem;line-height: .8rem;text-align: center;font-size: .3rem;
+	background: url(../../images/h5/images/topbg.png) no-repeat;
+	background-size: 100% 100%;position: relative;
+}
+.topBg .topBack {
+	height: .8rem;line-height: .8rem;position: absolute;top: 0;left: .288rem;-webkit-tap-highlight-color: transparent;
+}
+.topBg .topBack:before {
+	content: '';display: inline-block;width: .15rem;height: .15rem;
+	border-left: 2px solid #666;border-bottom: 2px solid #666;
+	-webkit-transform: rotate(45deg);transform: rotate(45deg);
+}
+/*公共头部 end */
+
+/*个人设置 begin */
+.accountInfo {
+	padding:0 .12rem;margin-bottom: .2rem;background-color: #fff;
+}
+.accountItem {
+	height: .9rem;padding: 0 .12rem;border-bottom: 1px solid #e5e5e5;
+}
+.accountItem.last {
+	border-bottom: 0;
+}
+.accountItem .item-a {
+	display: inline-block;height: .4rem;line-height:.4rem;margin: .25rem 0;text-align: right;
+	padding-left: 50%;font-size: .24rem;-webkit-tap-highlight-color: transparent;
+}
+.accountItem .item-a:after{
+	content: '';display: inline-block;width: .13rem;height: .13rem;
+	border-top: 1px solid #666;border-right: 1px solid #666;
+	-webkit-transform: rotate(45deg) translateY(-1px);transform: rotate(45deg) translateY(-1px);
+}
+.accountItem .changeLogo {
+	-webkit-tap-highlight-color: transparent;
+}
+.accountItem .infoRight {
+	float: right;color: #666;font-size: .23rem;
+}
+.accountItem .infoRight {
+	line-height: .9rem;
+}
+.accountItem .infoRight.red {
+	color: #ff6c0a;
+}
+.accountItem .upload-pic{
+	display: none;
+}
+.accountItem .upload-pic a, .accountItem .upload-pic label{
+	display: inline-block;width: 100%;height: 100%;
+}
+.accountItem .upload-pic .file-input{
+	display: none;
+}
+.accountItem .upload-pic img {
+	width: .8rem;height: .8rem;margin-top: .05rem;
+}
+.infoTitle {
+	line-height: .9rem;font-size: .24rem;color: #1a1a1a;padding-left: .12rem;
+}
+.accountItem .infoTitle {
+	float: left;line-height: .9rem;padding: 0;
+}
+.accountItem .info-icon {
+	width: .3rem;height: .9rem;float: left;margin-right: .15rem;
+	background: url(../../images/h5/images/userBinding/other-bind.png) no-repeat;
+	background-size: .3rem 4.52rem;
+}
+.accountItem .info-icon.sj {
+	background-position: 0 0;
+}
+.accountItem .info-icon.wx {
+	background-position: 0 -.9rem;
+}
+.accountItem .info-icon.qq {
+	background-position: 0 -1.8rem;
+}
+.accountItem .info-icon.syw {
+	background-position: 0 -2.7rem;
+}
+.accountItem .info-icon.zfb {
+	background-position: 0 -3.6rem;
+}
+.popup > div.changeInner {
+	width: 62%;left: 19%;top: 45%;padding: .5rem .35rem;
+	text-align: left;line-height: 1.8;color: #737373;font-size: .3rem;
+}
+.login-out {
+	margin-top: .2rem;text-align: center;line-height: .9rem;background: #fff;
+}
+.login-out a {
+	display: block;color: #ff6810;font-size: 15px;-webkit-tap-highlight-color: transparent;
+}
+.cue2 {
+	width: 80%;position: fixed;bottom: 300px;left: 10%;line-height: 1.5;
+	text-align: center;color: #fff;font-size: 14px;padding: 10px;
+	background: rgba(0, 0, 0, .8);box-sizing: border-box;border-radius: 6px;
+	z-index: 20000;display: none;
+}
+.dialog {
+	text-align: center;position: fixed;z-index: 100;display: none;
+}
+.dialog.show {
+	display: block;-webkit-perspective: 900px;perspective: 900px;
+}
+.dialog.hide {
+	-webkit-animation: a-dialog-mask-out .2s ease both;
+	animation: a-dialog-mask-out .2s ease both;
+}
+.dialog, .dialog .mask {
+	width: 100%;height: 100%;left: 0;top: 0;
+}
+.dialog .mask {
+	position: absolute;background: rgba(0, 0, 0, .7);
+}
+.dialog .dialog_inner {
+	width: 75%;max-width: 280px;padding: 10px 0 0;
+	position: absolute;top: 50%;left: 50%;
+	border-radius: 10px;background: #fff;box-sizing: border-box;
+	-webkit-transform: translate3d(-50%, -50%, 0) rotateY(-90deg);
+	transform: translate3d(-50%, -50%, 0) rotateY(-90deg);
+}
+.dialog.show .dialog_inner {
+	-webkit-animation: a-dialog-in .4s ease .1s both;
+	animation: a-dialog-in .4s ease .1s both;
+}
+.dialog.hide .dialog_inner {
+	-webkit-animation: a-dialog-out .2s ease both;
+	animation: a-dialog-out .2s ease both;
+}
+.tips-dialog .dialog_inner h2{
+	font-size: 16px;line-height: 2.5;color: #333;padding: 0 10px;
+}
+.tips-dialog .dialog_inner p{
+	font-size: 14px;line-height: 2;padding: 0 10px;
+}
+.tips-dialog .dialog_inner .btn-close{
+	border-top: 1px solid #f1f1f1;text-align: center;font-size: 14px;line-height: 40px;margin-top: 10px;
+}
+.tips-dialog .dialog_inner .btn-close a{
+	display: inline-block;width: 50%;
+}
+.tips-dialog .dialog_inner .btn-close a:first-child{
+	border-right: 1px solid #f1f1f1;color: #333;
+}
+.tips-dialog .dialog_inner .btn-close a:last-child{
+	color: #ff6811;
+}
+
+/*动画*/
+@-webkit-keyframes a-dialog-in {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(-50%, -50%, 0) rotateY(-90deg);
+		transform: translate3d(-50%, -50%, 0) rotateY(-90deg)
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translate3d(-50%, -50%, 0) rotateY(0);
+		transform: translate3d(-50%, -50%, 0) rotateY(0)
+	}
+}
+@keyframes a-dialog-in {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(-50%, -50%, 0) rotateY(-90deg);
+		transform: translate3d(-50%, -50%, 0) rotateY(-90deg)
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translate3d(-50%, -50%, 0) rotateY(0);
+		transform: translate3d(-50%, -50%, 0) rotateY(0)
+	}
+}
+@-webkit-keyframes a-dialog-out {
+	0% {
+		-webkit-transform: translate3d(-50%, -50%, 0) scale(1);
+		transform: translate3d(-50%, -50%, 0) scale(1)
+	}
+	100% {
+		-webkit-transform: translate3d(-50%, -50%, 0) scale(.8);
+		transform: translate3d(-50%, -50%, 0) scale(.8)
+	}
+}
+@keyframes a-dialog-out {
+	0% {
+		-webkit-transform: translate3d(-50%, -50%, 0) scale(1);
+		transform: translate3d(-50%, -50%, 0) scale(1)
+	}
+	100% {
+		-webkit-transform: translate3d(-50%, -50%, 0) scale(.8);
+		transform: translate3d(-50%, -50%, 0) scale(.8)
+	}
+}
+@-webkit-keyframes a-dialog-mask-out {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+@keyframes a-dialog-mask-out {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+/*个人设置 end */
+
+/*登录、注册、找回密码 begin */
+.form-item {
+	padding: .25rem 0 .25rem .2rem;border-bottom: 1px solid #c4c4c4;
+}
+.form-item input{
+	width: 60%;font-size: .24rem;color: #1a1a1a;vertical-align: -4px;
+}
+.form-item i {
+	width: .38rem;height: .4rem;margin-right: .1rem;display: inline-block;
+	background: url(../../images/h5/images/userBinding/bind-icon.png) no-repeat;
+	background-size: .38rem 3.42rem;vertical-align: top;
+}
+.form-item i.user-icon {
+	background-position: 0 -.19rem;
+}
+.form-item i.code-icon {
+	background-position: 0 -1.07rem;
+}
+.form-item i.pwd-icon {
+	background-position: 0 -1.97rem;
+}
+.form-item i.phone-icon {
+	background-position: 0 -2.8rem;
+}
+.form-item i.yzm-icon{
+	background-image: url(../../images/h5/images/userBinding/yzm.png);
+	background-size: 90%;
+	background-position: left center;
+}
+.topLogo {
+	text-align: center;padding-top: 1.3rem;margin-bottom: .95rem;
+}
+.topLogo img {
+	width: 1.62rem;height: 1.84rem;
+}
+.topLogo .topTitle {
+	font-size: .32rem;color: #4b4b4b;margin-top: .62rem;font-weight: bold;
+}
+.loginBg {
+	width: 7.2rem;height: 3.48rem;margin-bottom: 1rem;
+}
+.loginBg img {
+	width: 100%;height: 100%;
+}
+.logoForm {
+	padding: 0 .53rem;
+}
+.regForm {
+	padding: .04rem .26rem 0;
+}
+.findPwsA, .getCodeA {
+	height: .5rem;line-height: .5rem;font-size: .24rem;color: #ff5d06;float: right;
+	-webkit-tap-highlight-color: transparent;
+}
+.getCodeA {
+	margin-right: .28rem;
+}
+.getCodeA[disabled=disabled] {
+	color: #c4c4c4;
+}
+.refresh{
+	float: right;height: 100%;position: relative;top: -2px;
+	-webkit-tap-highlight-color: transparent;
+}
+.refresh img{
+	height: 100%;vertical-align: -3px;
+}
+.bindBtn, .regBtn, .nextBtn, .loginBtn {
+	width: 5.4rem;height: .88rem;color: #fff;line-height: .88rem;	
+	font-size: .3rem;background: none;
+}
+.bindInfo1 {
+	margin-bottom: 20px !important;margin-top: 20px !important;background: #ff9001 !important;
+}
+.regBtn, .nextBtn {
+	margin: .9rem 0 .3rem .64rem;
+}
+.nextBtn[disabled=disabled] {
+	color: #fff;background-color: #c4c4c4;	
+}
+.bindInfo {
+	width: 5.4rem;height: .88rem;line-height: .88rem;margin: auto;margin-bottom: .3rem;
+	text-align: center;font-size: .24rem;color: #c4c4c4;font-weight: bold;
+	background-color: #01c67e;border-radius: 5px;
+}
+.bindInfo a {
+	color: #fff;font-size: .3rem;
+}
+.bindInfo .check {
+	width: .25rem;height: .2rem;margin-right: .05rem;
+	background: url(../../images/h5/images/userBinding/check.png) no-repeat;
+	background-size: .2rem .5rem;display: inline-block;
+}
+.bindInfo .check.no {
+	background-position: 0 -.3rem;
+}
+.otherLogin {
+	margin: .9rem 0 .3rem 1.2rem;
+}
+.loginItem {
+	width: 1.6rem;float: left;text-align: center;
+}
+.loginItem a {
+	width: 100%;height: 100%;color: #c1c1c1;font-size: .24rem;display: block;	
+}
+.loginItem img {
+	width: .6rem;height: .6rem;
+}
+
+/*绑定成功*/
+.bindTip {
+	top: 45%;color: #ff5d06;font-size: .32rem;padding: .28rem 0;
+}
+
+/*绑定失败*/
+.bindWarning {
+	top: 35%;
+}
+.warningTop {
+	padding: .3rem 0 .26rem;color: #1a1a1a;font-size: .24rem;border-bottom: 1px solid #c4c4c4;
+}
+.warningTop h2 {
+	font-size: .32rem;line-height: .5rem;
+}
+.warningBtn {
+	color: #ff5d06;padding: .3rem 0 .4rem;font-size: .32rem;
+}
+
+/*验证码发送提示*/
+.codeInner {
+	font-size: .24rem;color: #1a1a1a;padding: .65rem 0;top: 40%;
+}
+.codeInner #phoneNumber {
+	color: #ff5d06;margin: .05rem 0;font-size: .3rem;
+}
+/*登录、注册、找回密码 end */
+
+/*修改昵称 begin*/
+.topBg .topTitle{
+	height: 100%;
+}
+.cancleBtn, .savaBtn {
+	font-size: .26rem;
+}
+.cancleBtn {
+	margin-left: .24rem;text-align: left;
+}
+.savaBtn {
+	margin-right: .24rem;text-align: right;
+}
+.nickNameBox {
+	height: .83rem;margin-top: .3rem;position: relative;
+	border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;
+	background-color: #fff;
+}
+.clearBtn {
+	display: inline-block;width: .3rem;height: .3rem;
+	background: url(../../images/h5/images/userBinding/clear-icon.png) no-repeat;
+	background-size: .26rem .26rem;position: absolute;right: .24rem;top: .27rem;
+}
+.nickNameBox input[type="text"] {
+	width: 70%;font-size: .26rem;color: #1a1a1a;padding: .23rem 0 .23rem .24rem;
+}
+/*修改昵称 end*/
+
+/*收获地址 begin*/
+.topBg .top-r{
+	height: .8rem;position: absolute;right: .288rem;top: 0;-webkit-tap-highlight-color: transparent;
+	font-size: .24rem;-webkit-transform: translateY(1px);transform: translateY(1px);display: none;
+}
+.addressList {
+	margin:.8rem 0 2.2rem;
+}
+.addressItem, .donateItem {
+	margin-bottom: .2rem;background-color: #fff;
+}
+.addressItem {
+	padding: .3rem .24rem;position: relative;overflow: hidden;
+}
+.donateItem {
+	padding: .2rem .24rem .15rem .24rem;
+}
+.donateItem a{
+	display: block;
+}
+.addressLeft {
+	width: 80%;display: inline-block;transition: all .6s ease;margin-left: 0;
+}
+.addressItem .select{
+	position: absolute;width: .34rem;height:.34rem;left: -.35rem;top: 50%;margin-top: -.17rem;transition: all .6s ease;
+}
+.addressItem .select .chk, .select2 .chk{
+    -webkit-appearance: none;width: .35rem;height: .35rem;border: 1px solid #999;
+    border-radius: 100%;outline: none;vertical-align: -.08rem;
+}
+.addressItem .select .chk:checked, .select2 .chk:checked{
+    background: url(../../images/releaseProject/duihao.png) no-repeat;
+    border-color: #ff6811;background-size: .34rem;background-position: center 0;
+}
+.addressItem .txt1 {
+	color: #333;font-size: .28rem;margin-bottom: .22rem;
+}
+.addressItem .txt2 {
+	color: #666;font-size: .24rem;line-height: 1.5;margin-bottom: .12rem;
+}
+.addressItem .txt2 .label {
+	display: inline-block;color: #fff;font-size: .16rem;margin-right: .15rem;
+	padding: .02rem .04rem;background-color: #fe971a;
+	border-radius: 3px;vertical-align: top;
+}
+.addressRight{
+	width: .9rem;height: .4rem;position: absolute;right: -.91rem;top: 50%;margin-top: -.2rem;transition: all .6s ease;
+}
+.addressRight .icon-a{
+	display: block;width: .35rem;height: 100%;background-size: .35rem .4rem;background-repeat: no-repeat;
+	-webkit-tap-highlight-color: transparent;
+}
+.addressRight .edit{
+	background-image: url(../../images/h5/images/userBinding/edit-icon.png);
+}
+.addressRight .del{
+	background-image: url(../../images/h5/images/userBinding/del.png);
+}
+.select2{
+	position: fixed;width: 100%;height: 1rem;bottom: -1.1rem;padding: 0 .24rem;max-width: 768px;
+	box-sizing: border-box;border-top: 1px solid #ccc;background: #fff;transition: all .6s ease;
+}
+.select2 .chk{
+	margin-right:.1rem;
+}
+.select2 label{
+	margin-right: .2rem;font-size: .26rem;
+}
+#selReverse, #selReverse + label{
+	display: none;
+}
+.select2 .right{
+	display: none;width: .35rem;height:.4rem;background-image: url(../../images/h5/images/userBinding/del.png);
+	background-repeat: no-repeat;background-size: .35rem .4rem;
+}
+.addAddressBox {
+	width: 100%;max-width:768px;height: 1rem;line-height: 1rem;color: #1a1a1a;
+	position: fixed;bottom: -2.1rem;text-align: center;font-size: .3rem;
+	background-color: #fff;border-top: 1px solid #ccc;transition: all .6s ease;
+}
+.addAddressBox a {
+	display: block;width: 100%;height: 100%;
+}
+.addAddressBox img {
+	width: .3rem;height: .3rem;vertical-align: -.05rem;
+}
+#nodata{
+	padding: 1rem 0;text-align: center;font-size: .28rem;color: #999;display: none;
+}
+/*收获地址 end*/
+
+/* 捐赠记录 begin */
+.donateLeft {
+	float: left;width: 1.5rem;height: 1rem;
+}
+.donateLeft img {
+	width: 100%;height: 100%;border: 1px solid #ccc;
+}
+.donateRight {
+	margin-left: 1.7rem;
+}
+.donateRight .title, .msgRight .name {
+	margin-bottom: .18rem;font-size: .26rem;color: #1a1a1a;
+}
+.donateRight .title {
+	white-space: nowrap;overflow: hidden;text-overflow: ellipsis;
+}
+.donateRight p {
+	color: #aaa;font-size: .2rem;margin-bottom: .07rem;
+}
+.donateRight p span {
+	color: #f63;
+}
+.roadMoreBox {
+	text-align: center;font-size: .24rem;margin: .3rem 0;line-height: .6rem;
+}
+.roadMoreBox a {
+	color: #ff6810;
+}
+.roadMoreBox a.no {
+	color: #999;
+}
+/* 捐赠记录 end */
+
+/* 项目反馈 begin*/
+.feedWrap {
+	background-color: #fff;
+}
+.feedWrap .itemPic {
+	width: 100%;
+}
+.feedProTitle {
+	color: #ff6c0a;margin-bottom: .3rem;font-size: .3rem;
+	padding: .21rem 0 .17rem .2rem;border-bottom: 1px solid #c4c4c4;
+}
+.feedTitle {
+	color: #1a1a1a;font-size: .3rem;margin-left: .85rem;margin-bottom: .15rem;
+	position: relative;
+}
+.feedList {
+	padding-right: .2rem;margin-left: .45rem;
+}
+.feedItem {
+	padding-left: .4rem;line-height: 1.5;border-left: 2px solid #ddd;
+}
+.feedItem .date {
+	color: #5b5b5b;font-size: .2rem;
+}
+.feedItem .info {
+	color: #1a1a1a;font-size: .3rem;
+}
+.feed-icon {
+	width: .56rem;height: .56rem;display: block;
+	position: absolute;top: 0;left: -.67rem;
+	background: url(../../images/h5/images/userBinding/feed-icon.png) no-repeat;
+	background-size: .56rem .56rem;
+}
+.feedItem .imgList {
+	border-bottom: 1px solid #c4c4c4;
+}
+.feedItem .imgList .imgItem {
+	float: left;width: 1.8rem;height: 1.8rem;margin: 0 .23rem .23rem 0;
+}
+.feedItem .imgList .imgItem img {
+	display: block;width: 100%;height: 100%;
+}
+/* 项目反馈 end*/
+
+/*捐赠证书 begin*/
+.certificateBox {
+	padding: .2rem .24rem 0;border-bottom: 1px solid #ccc;background-color: #fff;
+}
+.certificateInfo {
+	width: 6.72rem;height: 5rem;padding-bottom: .2rem;
+	position: relative;color: #1a1a1a;font-size: .2rem;
+	background: url(../../images/h5/images/userBinding/certificate.png) no-repeat;
+	background-size: 6.72rem 5rem;
+}
+.certificateState > div {
+	height: .6rem;line-height: .6rem;font-size: .24rem;color: #7b7b7b;
+	position: relative;
+}
+.certificateState .zan i, .certificateState .message i {
+	width: .32rem;height: .32rem;display: inline-block;
+	vertical-align: sub;margin-right: .08rem;
+}
+.certificateState .message i {
+	height: .38rem;background: url(../../images/h5/images/userBinding/msg-icon.png) no-repeat;
+	background-size: .3rem .38rem;
+}
+.certificateState .zan i {
+	background: url(../../images/h5/images/userBinding/zanIcon.png) no-repeat;
+	background-size: .66rem .31rem;background-position: -.35rem 0;
+}
+.certificateState .zan.active i {
+	background-position: 0 0;
+}
+.certificateState .zan .addOne {
+	width: .3rem;height: .27rem;display: block;
+	position: absolute;top: -.15rem;left: .22rem;
+	background: url(../../images/h5/images/userBinding/addOne.png) no-repeat;
+	background-size: .3rem .27rem;
+}
+.cedonateList, .messageBoard {
+	margin-top: .2rem;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;
+	background-color: #fff;
+}
+.messageBoard {
+	margin-bottom: 1.34rem;
+}
+.cedonateList .title, .messageBoard .title {
+	padding: 0 .24rem;font-size: .24rem;color: #1a1a1a;line-height: 3;
+	border-bottom: 1px solid #ccc;
+}
+.cedonateList .lookAllBtn {
+	float: right;color: #999;
+}
+.cedonateList .lookAllBtn:after {
+	content: '';display: inline-block;width: 7px;height: 7px;
+	border-right: 1px solid #999;border-top: 1px solid #999;
+	-webkit-transform: rotate(45deg);transform: rotate(45deg);
+	position: relative;top: -1px;
+}
+.cedonateItem {
+	padding: .2rem .08rem;
+}
+.cedonateItem li {
+	float: left;width: 3.2rem;margin: 0 .16rem;
+}
+.cedonateItem li img {
+	width: 3.2rem;height: 2rem;margin-bottom: .07rem;border: 1px solid #eee;
+}
+.cedonateItem li p {
+	font-size: .24rem;color: #1a1a1a;text-align: center;
+}
+.messageBoard .msgItem {
+	padding: .22rem .24rem;border-bottom: 1px solid #ccc;
+}
+.messageBoard .msgLeft {
+	width: 1rem;height: 1rem;float: left;
+}
+.messageBoard .msgLeft img {
+	width: 100%;height: 100%;border-radius: 50%;border: 1px solid #ccc;
+}
+.messageBoard .msgRight {
+	margin-left: 1.2rem;
+}
+.msgRight .name {
+	margin-top: .1rem;
+}
+.msgRight .name h2 {
+	display: inline-block;
+}
+.msgRight .name .time {
+	float: right;font-size: .2rem;color: #707070;
+}
+.msgRight .spec {
+	font-size: .2rem;color: #aaa;margin-top: .32rem;
+}
+.donateBtn {
+	width: 100%;height: 50px;line-height: 50px;text-align: center;font-size: 15px;
+	position: fixed;bottom: 0;left: 0;
+}
+.donateBtn a {
+	display: block;width:100%;color: #fff;border-top: 1px solid #d7d4ce;
+	background-color: #ff6811;
+}
+/*捐赠证书 end*/
+
+/* 送上祝福、项目反馈 begin */
+.formArea {
+	width: 100%;padding: .2rem .24rem;font-size: .24rem;color: #1a1a1a;
+	background-color: #fff;border-bottom: 1px solid #ccc;box-sizing: border-box;
+}
+.formArea textarea {
+	width: 100%;height: 2.1rem;color: inherit;font-size: inherit;
+}
+.addMedia .addBtn {
+	width: .8rem;height: .8rem;margin-right: .28rem;float: left;
+	background: url(../../images/h5/images/userCenter/addBtn.png) no-repeat;
+	background-size: .8rem .8rem;
+}
+.addMedia span {
+	display: inline-block;line-height: .8rem;
+}
+.btnGroup {
+	margin: .6rem .45rem;
+}
+.btnGroup > * {
+	width: 2.8rem;text-align: center;line-height: .6rem;font-size: .3rem;
+	border: 2px solid #ff6c0a;border-radius: 7px;
+}
+.cancelBtn {
+	color: #ff6c0a;float: left;background-color: transparent;
+}
+.sendBtn {
+	color: #fff;float: right;background-color: #ff6c0a;
+}
+.popup > div.saveConfirm {
+	width: 62%;left: 19%;top: 30%;background-color: transparent;
+}
+.saveConfirm > div {
+	background-color: #ededed;border-radius: 5px;
+}
+.saveConfirm .top {
+	margin-bottom: .08rem;padding-bottom: .25rem;
+}
+.saveConfirm .top .title {
+	line-height: .73rem;color: #7a7a7a;font-size: .24rem;margin-bottom: .25rem;
+	border-bottom: 1px solid #000;
+}
+.saveConfirm .top a {
+	font-size: .3rem;line-height: .7rem;display: block;
+}
+.saveConfirm .top a.black {
+	color: #1a1a1a;
+}
+.saveConfirm .top a.red {
+	color: #ff5d06;
+}
+.saveConfirm .bottom .canclebtn {
+	display: block;color: #236ed4;line-height: .8rem;font-size: .3rem;
+}
+/* 送上祝福、项目反馈 end */
+
+/*收到的红包 begin */
+.tabBox {
+	display: -webkit-flex;display: flex;margin-bottom: .1rem;
+	background-color: #fff;border-bottom: 1px solid #ccc;
+}
+.tabBox li {
+	width: 33.33%;height: 45px;line-height: 45px;color: #1a1a1a;
+	font-size: 14px;text-align: center;
+}
+.tabBox li a {
+	display: block;
+}
+.tabBox li.active {
+	color: #ff6c0a;
+}
+#redPaperList {
+	background-color: #fff;
+}
+#redPaperList li {
+	height: 40px;padding: .2rem 10px;font-size: .24rem;border-top: 1px solid #ccc;
+	position: relative;
+}
+#redPaperList a:last-child li {
+	border-bottom: 1px solid #ccc;
+}
+#redPaperList .center li {
+	height: 50px;display: -webkit-flex;display: flex;
+	-webkit-justify-content: space-between;justify-content: space-between;
+}
+#redPaperList .center .redPaperLeft {
+	width: 18%;height: 50px;margin-right: 2%;
+	-webkit-flex-shrink: 0;flex-shrink: 0;border: 1px solid #707070;
+}
+#redPaperList .center .redPaperLeft img {
+	width: 100%;height: 100%;
+}
+#redPaperList .center .redPaperRight {
+	width: 80%;
+}
+#redPaperList .center .redPaperRight h3 {
+	font-size: .26rem;line-height: .5rem;margin-bottom: .1rem;
+	white-space: nowrap;overflow: hidden;text-overflow: ellipsis;
+}
+#redPaperList .center .redPaperRight p {
+	font-size: .2rem;
+}
+#redPaperList .center .redPaperRight p i {
+	color: #ff6c0a;
+}
+#redPaperList .center .redPaperRight p span.date {
+	color: #aaa;
+}
+#redPaperList .right h3, #redPaperList .left h3 {
+	height: 19px;line-height: 19px;color: #1a1a1a;margin-bottom: .05rem;
+	text-align: left;overflow: hidden;
+}
+#redPaperList .right p, #redPaperList .left p {
+	color: #c4c4c4;font-size: .2rem;margin-top: 5px;float: left;
+}
+#redPaperList .right .money, #redPaperList .left .money {
+	color: #ff6c0a;position: absolute;right: .24rem;top: .24rem;
+}
+#redPaperList .right .munber_em, #redPaperList .left .munber_em {
+	float: right;color: #c4c4c4;margin-top: 5px;
+}
+.redPaperList3 {
+	background: #fff;
+}
+.redPaperList3 li {
+	padding: .12rem .24rem;border-bottom: 1px solid #ccc;	
+}
+.redPaperList3 .userImg {
+	width: .68rem;height: .68rem;float: left;
+}
+.redPaperList3 .userImg img {
+	width: 100%;height: 100%;border-radius: 100%;
+}
+.redPaperList3 .redPaperRight {
+	margin-left: .9rem;
+}
+.redPaperList3 .redPaperRight h3 {
+	font-size: .2rem;margin-bottom: 0;line-height: .4rem;
+}
+/*收到的红包 end */
+
+.popup > div.investTip {
+	width: 100%;top: 0;left: 0;padding: .3rem 0 .3rem .3rem;color: #fff;font-size: .24rem;
+	background-color: #f60;font-weight: bolder;border-radius: 0;
+}
+.investTip span.point {
+	display: inline-block;width: .59rem;height: .34rem;margin-left: .05rem;
+	background: url(../../images/h5/images/userBinding/point-ff.png) no-repeat;
+	background-size: .59rem .34rem;vertical-align: bottom;
+}
+

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+		<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+		<title>捐步</title>
+		<link rel="stylesheet" type="text/css" href="/res/css/h5/donateStep/donateStep.css"/>
+	</head>
+	<body>
+		<div id="mask">
+			<div class="loading">
+				<img src="/res/images/h5/images/donateStep/loading.gif"/>
+				<p>加载中&nbsp;···</p>
+			</div>
+		</div>
+		<div id="pageContainer" v-cloak>
+			<div class="ds-hd flex flexcol">
+				<div class="hd-title">
+					<p>{{projectTitle}}</p>
+					<a href="javascript:void(0);" id="changeProj">换一换</a>
+				</div>
+				
+				<div class="hd-pic flex1">
+					<!--是否捐步-->
+					<a href="javascript:void(0);" class="hd-pic-link red" v-if="!donateState">我要捐款</a>
+					<a href="javascript:void(0);" class="hd-pic-link" v-else>项目详情</a>		
+				</div>
+				
+				<a href="javascript:void(0);" class="hd-page-prompt"></a>
+				<div class="hd-content">
+					<div class="" id="ds_status">
+						<!--可捐步-->
+						<template v-if="!donateState && donateAmount>0">
+							<div class="intro-wrap flex flexcol">
+								<div class="cont-projName txtC mb10">
+									<span class="c999">企业可兑换公益基金还剩{{donateAmount}}万元</span>
+								</div>
+								<div class="intro-block flex">
+									<div class="intro-block-left flex1">
+										<h2 class="c333 mb10">{{companyName}}</h2>
+										<p class="c999 f14">{{slogan}}</p>
+									</div>
+									<div class="cont-avatar">
+										<a :href="companyUrl"><img :src="companyImgUrl"/></a>
+									</div>
+								</div>
+							</div>
+							<div>
+								<a href="javascript:void(0);" class="btn donate-btn" id="donateBtn">拼手气捐步</a>
+							</div>
+							<p class="btn-tips mt10 f13 c999">满{{endStep}}步即可捐出步数</p>	
+						</template>
+						
+						<!--配捐金额为0-->
+						<template v-else-if="!donateState && donateAmount<=0">
+							
+							<div class="intro-wrap flex flexcol" style="height: 1.38rem;">
+								<div class="cont-projName txtC mb10">
+									<span class="c999">企业公益基金已兑换完</span>
+								</div>
+								<div class="intro-block flex">
+									<div class="intro-block-left flex1">
+										<h2 class="c333 mb10">{{companyName}}</h2>
+										<p class="c999 f14">{{slogan}}</p>
+									</div>
+									<div class="cont-avatar">
+										<a :href="companyUrl"><img :src="companyImgUrl"/></a>
+									</div>
+								</div>
+							</div>
+							<div class="end-cont2">
+								<p class="cont-p c999">你还可以选择你感兴趣的公益项目随手捐<br>让更多人得到帮助</p>
+							</div>
+							<div>
+								<a class="btn" href="/index/index_h5.do">查看更多捐款项目</a>
+							</div>
+						</template>
+						
+						<!--已捐步-->
+						<template v-else>
+							<div class="done-cont1">
+								<div class="cont-projName"><span class="c999">{{last_donated.userName}}</span></div>
+								<h2 class="c333 done-cont1-t">您今日已捐步&nbsp;<span class="cff9">{{last_donated.steps}}</span><span class="cff9">步</span></h2> 
+								<h3><a :href='last_donated.projUrl'>支持了<span class="cff9">{{last_donated.projTitle}}</span></a></h3>
+							</div>
+							<div class="done-cont2">
+								<div class="done-block">
+									<div class="cont-avatar">
+										<a :href="last_donated.cUrl">
+											<img :src="last_donated.cLogo">
+										</a>
+									</div>
+									<div class="done-block-m">
+										<p class="cont-p c999">携手&nbsp;<span class="c333">{{last_donated.cName}}</span>&nbsp;捐出&nbsp;{{last_donated.money}}&nbsp;元</p>
+									</div>
+								</div>
+							</div>
+							<p class="cont-p c999">每天只能捐一次，明日继续哦！</p> 
+						</template>
+						
+					</div>
+				</div>
+			</div>
+			
+			<div class="ds-bd">
+				<div class="bd-result" id="resultList">
+					<h2 class="title flex"><span>成果榜单</span></h2>
+					<div class="result-data">
+						<p>截止到 &nbsp;{{year}}&nbsp;年&nbsp;{{month}}&nbsp;月&nbsp;{{day}}&nbsp;日共有</p>
+						<div class="scroll-num">
+							<div class="num scrollNum1"></div>
+							<span>万位爱心人士参与</span>
+						</div>
+						<div class="scroll-num">
+							<div class="num scrollNum2"></div>
+							<span>家企业携手捐出</span>
+						</div>
+						<div class="scroll-num">
+							<div class="num scrollNum3"></div>
+							<span>万元</span>
+						</div>
+					</div>
+				</div>
+				<div class="bd-effect">
+					<h2 class="title flex"><span>爱心企业捐步排行</span></h2>
+					<div class="effect-list" id="effectList">
+						<a :href="effect.companyUrl" class="effect-item" v-for="(effect,index) in effectLists">
+							<div class="item-rank">
+								<div class="rank-num">
+									<span>{{index+1}}</span>
+								</div>
+							</div>
+							<div class="item-logo">
+								<img :src="effect.companyImgUrl"/>
+							</div>
+							<div class="item-info">
+								<h3 class="item-name">{{effect.companyName}}</h3>
+								<p class="item-p">携手&nbsp;<span class="num">{{effect.donateNum | numFmt}}</span>&nbsp;位慈善家</p>
+								<p class="item-p">捐出&nbsp;<span class="num">{{effect.donateAmount | numFmt}}</span>&nbsp;元</p>
+							</div>
+						</a>
+					</div>
+					<a class="loadmore" href="javascript:;">
+						<div class="arr-bot"></div>
+						<p>更多排行</p>
+					</a>
+				</div>
+				<div class="bd-recordLink mt10 txtC">
+					<a href="/webhtml/view/h5/donateStep/record.html" class="c666">查看我的行善记录&nbsp;></a>
+				</div>
+				<footer class="foot-logo txtC">
+					<div class="wx">
+						<a href="javascript:void(0);" class="gy">善园公益</a>
+						<a href="javascript:void(0);" class="wxyd">微信运动</a>
+					</div>
+				</footer>
+			</div>
+			
+			<div class="dialog notEnoughDialog" id="notEnoughDialog">
+				<div class="mask"></div>
+				<div class="dialog_inner run_dialog_inner">
+					<h2>{{endStep}}步即可参加公益捐步</h2>
+					<a href="javascript:void(0);" class="viceTitle stepIntro">为什么是{{endStep}}步?</a>
+					<div class="run_area notEnoughRunArea">
+						<div class="run_progress_area">
+							<div class="run_pic_progress_area">
+								<div class="run_pic_progress_in">
+									<div class="run_pic_progress" style="transform: rotate(180deg);"></div>
+								</div>
+								<div class="run_pic_people" style="transform: rotate(0deg);"><b></b></div>
+							</div>
+							<div class="run_num_area">
+								<p class="run_num">
+									<span class="run_num_inner" id="runNumInner" :data-run-num="steps">{{steps | numFmt}}</span>
+								</p>
+								<p class="run_desc">今日运动步数</p>
+							</div>
+							<div class="run_start_num run_text_num">0</div>
+							<div class="run_end_num run_text_num">{{endStep}}</div>
+						</div>
+						<div class="run_text_area">
+							<p style="white-space: normal;"></p>
+						</div>
+					</div>
+					<a href="javascript:void(0);" class="closeLink closeDialog">
+						<span class="close"><img src="/res/images/h5/images/icon_close.png"/></span>
+					</a>
+					<a href="/index/index_h5.do" class="knowBtn">查看更多公益项目</a>
+				</div>
+			</div>
+			
+			<div class="dialog dialog-confirm enoughDialog" id="enoughDialog">
+				<div class="mask"></div>
+				<div class="dialog_inner">
+					<h2>您将为该项目捐出</h2>
+					<div class="mySteps">
+						<span class="mySteps-num" :data-run-num="steps">{{steps | numFmt}}</span>步
+					</div>
+					<div class="match-enterprise">
+						<div>
+							<a :href="companyUrl">
+								<img class="match-enterprise-logo" :src="companyImgUrl">
+							</a>
+						</div>
+						<p class="match-enterprise-info">{{companyName}}将为您出资捐赠</p>
+					</div>
+					<a href="javascript:;" class="knowBtn" id="donateSteps">马上捐出</a>
+					<p class="mt10 c999">您所捐出的公益步数不会影响微信运动数据</p>
+					<a href="javascript:void(0);" class="closeLink closeDialog">
+						<span class="close"><img src="/res/images/h5/images/icon_close.png"/></span>
+					</a>
+				</div>
+			</div>
+			
+			<div class="dialog dialog-stepsIntro stepIntroDialog" id="stepIntroDialog">
+				<div class="mask"></div>
+				<div class="dialog_inner">
+					<h2>日行一{{endStepCn}}步，健康做公益！</h2>
+					<div class="stepsIntro-bd">
+						<p>你知道么？ 一个成年人日均摄入热量<span class="highlt">2000千卡</span>, 
+							日行<span class="highlt">1{{endStepCn}}</span>步, 相当于消耗维持人体正常生活所需以外的<span class="highlt">{{3*endStep/100}}千卡</span>多余热量，帮助我们保持健康体格；日行
+							<span class="highlt">1{{endStepCn}}</span>步，相当于完成<span class="highlt">{{7*endStep/10000}}公里</span>的绿色出行，
+							日均减少<span class="highlt">{{18*endStep/100000}}千克</span>碳排放，帮我们保护大气环境。
+						</p>
+					</div>
+					<a href="javascript:void(0);" class="closeLink closeDialog">
+						<span class="close"><img src="/res/images/h5/images/icon_close.png"/></span>
+					</a>
+					<a href="/index/index_h5.do" class="knowBtn">查看更多公益项目</a>
+				</div>
+			</div>
+			
+			<div class="dialog introDialog" id="introDialog">
+				<div class="mask"></div>
+				<div class="dialog_inner">
+					<h2>善园运动说明</h2>
+					<ol class="rulesList">
+						<li>善园运动是一款用运动数据兑换公益基金捐助公益项目的产品。</li>
+						<li>公益步数从微信运动取得，只要您昨天或今天的步数超过{{endStep}}步即可捐赠。</li>
+						<li>公益基金为随机兑换，兑完即止。</li>
+						<li>您捐出的公益步数不会影响您的运动数据。</li>
+						<li>善园运动产品欢迎爱心企业为公益助力。<br>
+							<!--<a href="" class="cff9">合作指引 &gt;&gt;</a>-->
+							<br>咨询邮箱：kf@17xs.org
+						</li>
+					</ol>
+					<a href="javascript:;" class="knowBtn closeDialog">我知道了</a>
+					<a href="javascript:void(0);" class="closeLink closeDialog">
+						<span class="close"><img src="/res/images/h5/images/icon_close.png"/></span>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="dialog runsteps_dialog" id="getRunSteps">
+			<div class="mask"></div>
+			<div class="dialog_inner runsteps_dialog_inner">
+				<h2>请先长按识别下面小程序码<br/>获取实时运动步数</h2>
+				<div><img src="/res/images/h5/images/donateStep/gh_a4d76db3a208_258.jpg" width="150" height="150"/></div>
+				<a href="javascript:void(0);" class="closeLink closeDialog">
+					<span class="close"><img src="/res/images/h5/images/icon_close.png"/></span>
+				</a>
+				<a href="javascript:;" class="knowBtn closeDialog">已获取步数？去捐步</a>
+			</div>
+		</div>
+		<script src="/res/js/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/res/js/h5/donateStep/wxLogin.js"></script>
+		<script src="/res/js/h5/donateStep/vue.min.js"></script>
+		<script src="/res/js/h5/donateStep/donateStep.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

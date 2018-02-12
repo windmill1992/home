@@ -1,0 +1,223 @@
+
+.userCenter .uCEN-R{
+    float: right;
+    width: 756px!important;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;}
+.mySeminar{
+    padding: 10px;
+}
+.mySeminar .mySe_fl{
+    width: 100px;
+    float: left;
+    font-size: 18px;
+    color: #333;
+    line-height: 30px;
+}
+.mySeminar .mySe_fr{
+    display: block;
+    width:115px;
+    float: right;
+    height: 35px;
+    line-height: 35px;
+    background: #199a56;
+    text-align: center;
+    color: #fff;
+}
+/*记录*/
+.goodRecord{}
+.goodRecord dl{
+}
+.goodRecord dl dt{
+    height: 40px;
+    background: #f6f6f6;
+    border-bottom: 1px solid #cecece;
+    line-height: 40px;
+    text-align: center;
+}
+.goodRecord dl dt li{
+    float: left;
+    width: 130px;
+    font-size: 14px;
+    color: #333;
+}
+.goodRecord dl dd{
+    height: 70px;
+    border-bottom: 1px dashed #cecece;
+    line-height: 70px;
+    text-align: center;
+}
+.goodRecord dl dd li{
+    float: left;
+    width:130px;
+    font-size: 11px;
+    color: #333;
+    overflow: hidden;
+}
+.zhuanti{
+    width: 230px !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.goodRecord dl dd li .mx{
+    display: block;
+    width: 83px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #0a8e4d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #fff;
+    margin-top: 17px;
+    margin-left: 9px;
+}
+.dm{line-height: 20px;margin-top: 10px;}
+/*没有创建此专题*/
+.seminarNone{
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    font-size: 18px;
+    color: #333;
+}
+.seminarNone .semClick{
+    color: #199a56;
+}
+.back {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #000;
+    z-index: 1;
+    opacity: .5;
+    top:0;
+}
+.pr_ewm {
+    width: 217px;
+    height: 217px;
+    border: 1px solid #fff;
+    margin-left: 45%;
+    position: fixed;
+    top: 280px;
+    z-index: 2;
+    background: #fff;
+    padding-left: 15px;
+    padding-top: 15px;
+    box-shadow: 2px 3px 11px 3px #333;
+}
+.AlertDlg {
+    width: auto;
+    min-width: 340px;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: normal;
+    text-align: center;
+    left: 35% !important;
+}
+.cp2yDialogBox1 {
+    width: 300px;
+    position: absolute;
+    z-index: 999;
+    left: 45% !important;
+    top: 334px;
+}
+.dialogTitle {
+    width: 341px;
+    height: 40px;
+    line-height: 40px;
+    background: url(../../../images/projectTopic/main.png) repeat-x 0 0;
+    position: relative;
+    cursor: move;
+    text-align: left;
+}
+.dialogTitle i.l {
+    left: 0;
+    background: url(../../../images/projectTopic/main.png) no-repeat 0 -48px;
+}
+.dialogTitle i {
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    width: 7px;
+    height: 40px;
+}
+.dialogTitle span {
+    color: #fff;
+    padding-left: 10px;
+    font: normal 16px/40px "微软雅黑";
+}
+.dialogTitle a {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    background: url(../../../images/projectTopic/main.png) no-repeat 0 -90px;
+    cursor: pointer;
+}
+.dialogTitle i.r {
+    right: 0;
+    background: url(../../../images/projectTopic/main.png) no-repeat -36px -48px;
+}
+.dialogTitle i {
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    width: 7px;
+    height: 40px;
+}
+.dialogContent {
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    line-height: 20px;
+    text-align: left;
+    overflow: hidden;
+}
+.AlertDlg .alertCon {
+    text-align: center;
+}
+.dialogContent .Btns {
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    width: 300px;
+    font-family: "\5FAE\8F6F\96C5\9ED1"!important;
+}
+.AlertDlg .alertCon .error {
+    background-image: url(../../../images/projectTopic/error.png);
+}
+.AlertDlg .alertCon span {
+    display: inline-block;
+    padding: 30px 0 30px 50px;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    color: #666;
+    text-align: left;
+}
+.sureBtn1 {
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.alertCon{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    height: 70px;
+    font-size: 15px;
+}

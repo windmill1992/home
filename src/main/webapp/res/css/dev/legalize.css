@@ -1,0 +1,82 @@
+/* CSS Document */
+.rlitem .rltext .wrinfo i,.rlitem .rltext .rlbtnok,.rlgroup .controls .wrinfo i.error{display:inline-block; background-image:url(../../images/login/login.jpg)}
+.rlitem{ width:100%; margin-bottom:30px; overflow:hidden}
+.rlitem label{ display:inline-block;width:95px; height:30px; text-align:right; line-height:32px; font-size:14px; color:#2a2a2a; float:left}
+.rlitem .rltext{ width:492px; padding-left:10px; float:left; position:relative}
+
+.rlitem .rltext .rlinput{ width:168px; height:30px; line-height:30px; border:1px solid #cecece; padding-left:28px; position:relative; float:left}
+.rlitem .rltext .rlinput .rgray{ color:#a9a9a9}
+.rlitem .rltext .rlinput input{border:none; width:168px; height:30px; line-height:30px;outline:none; background:none; color:#000}
+.rlitem .rltext .wrinfo{ display:inline-block; width:260px; height:30px; line-height:30px;float:left; padding-left:30px; font-size:12px;color:#ff3f13; position:relative}
+.rlitem .rltext .wrinfo i{ width:15px; height: 16px;position:absolute; top:8px; left:10px}
+.rlitem .rltext .wrinfo .error{background-position:-103px -3px; }
+.rlitem .rltext .wrinfo .right{background-position: -121px -2px; }
+.rlitem .rltext .rlbtnok{ width:100px; height:38px; line-height:38px; color:#fff; border:0 none; background-position: -1px -362px; cursor:pointer}
+
+
+.rlmcode label{height:40px; line-height:40px}
+.rlmcode .rltext .rlinput{ width:145px; height:40px; line-height:40px}
+.rlmcode .rltext .rlinput input{width:145px; height:40px; line-height:40px}
+.rlmcode .rltext .wrsdcode{display:inline-block; height:40px; line-height:40px; text-align:center;padding:0 18px; margin-left:15px; color:#fff; border:1px solid #007538; background:#1a9b57; cursor:pointer; vertical-align:top;float:left}.rlmcode .rltext .wrsdcode.disabled{background: #ccc;border-color: #ccc;}
+.rlmcode .rltext .wrstate{  border:1px solid #999; background:#cecece; color:#666; cursor:default; }
+.rlmcode .rltext .wrsdpt{ display:inline-block; height:42px; line-height:30px; margin-left:15px; color:#a1a1a1; float:left}
+.rlmcode .rltext .wrinfo{ width:100px;}
+.rlgroup{ margin-top:18px; width:100%; overflow:hidden; float:left}
+.rlgroup label{ width:95px; text-align:right; float:left}
+.rlgroup .controls{ width:530px; padding:0 0 20px 10px; float:left; border-bottom:1px dashed #d8d8d8}
+.rlgroup .controlsn{ border-bottom:none}
+.rlgroup .controls .uploader{ width:152px; float:left; overflow:hidden; position:relative}
+.rlgroup .controls .uploader .pic{background: #fff;width: 120px;height: 90px;display: table-cell;text-align: center;vertical-align: middle;position: relative}
+.rlgroup .controls .uploader .pic img{width: 120px;height: 90px; overflow:hidden}
+.rlgroup .controls .uploadbtn{position: relative;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;padding: 1px;border: solid 1px #818181;height: 23px;width: 116px;display: block;margin-top: 10px; text-align: center;color: #404040;line-height: 23px;background-color: #f1f1f1; background-image: -moz-linear-gradient(top,#fff,#ddd);background-image: -ms-linear-gradient(top,#fff,#ddd);background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#ddd));background-image: -webkit-linear-gradient(top,#fff,#ddd); background-image: -o-linear-gradient(top,#fff,#ddd); background-image: linear-gradient(top,#fff,#ddd);background-repeat: repeat-x;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff',endColorstr='#dddddd',GradientType=0);font-size: 12px}
+.rlgroup .controls .wrinfo{ color:#ff3f13; font-size:12px; position:relative; line-height:22px; text-indent:25px;}
+.rlgroup .controls .wrinfo i.error{display:inline-block; width:15px; height: 16px;position:absolute; top:4px; left:4px; background-position:-103px -3px;}
+.rlgroup .controls .uploadbtn .filewrapper{display: block;height: 25px;width: 120px;position: absolute;left: 0;top: 0;margin: 0; overflow: hidden;padding: 0;z-index: 300}
+.rlgroup .controls .uploadbtn .filewrapper input{ opacity: 0;filter: alpha(opacity=0); /* background:none repeat scroll 0 0 transparent; */ border: medium none; cursor: pointer;height: 200px;width: 110px;top: -50px;opacity: 0;position: absolute;font-size: 100px;left: 0}
+.rlgroup .controls .example{float: left;width: 378px;position: relative;zoom:1;font-size: 12px}
+.rlgroup .controls .example .title{ float: left;width: 36px}
+.rlgroup .controls .example .pic{float: left;position: relative;background: #fff;cursor: pointer; width:338px;}
+.rlgroup .controls .example .pic a{ display:inline-block; color:#019045; margin-top:15px}
+
+/*实名认证*/
+.legalize .rlitem{ margin-bottom:18px; float:left}
+.legalize .rlitem label{ color:#a1a1a1}
+.legalize .rlitem .rltext .rlinput{ padding:0 2px; width:194px; float:left}
+.legalize .rlitem .rltext .rlinput input{width:194px;}
+
+
+/*弹框*/
+.wregid  .dialogContent{ padding:0 30px 50px;}
+.wregid h2{ font-size:18px; height:78px; line-height:78px; text-align:center; color:#333}
+.wregid .idl{ width:380px; float:left; text-align:left; padding-left:20px;}
+.wregid .idl p{ font-size:13px; line-height:25px}
+.wregid .idl p.item{ text-indent:28px;}
+.wregid .idr{width:310px; height:200px; float:left; background:url(../../images/login/idbg_03.jpg) top left no-repeat}
+
+
+
+/*ok*/
+.legalizeOk .uCEN-hd{ border-bottom:1px dashed #c3c3c3; width:100%; float:left}
+.legalizeOk .leprim{ width:100%; text-align:center; font-size:16px; color:#444; padding:40px 0; float:left}
+.legalizeOk .leprim a{ color:#199a56}
+.legalizeOk .entLogo{ display:inline-block; width:101px; height:101px; line-height:101px; text-align:center; border:1px solid #e2e2e2; border-radius:50%; color:#c3c3c3; float:left; position:relative; overflow:hidden}
+.legalizeOk .entLogo img{width:101px; height:101px;border-radius:50%; position:absolute; left:0; top:0}
+.legalizeOk .entLogo .entfileLogo{height: 101px;width: 101px;position: absolute;left: 0;top: 0;margin: 0; overflow: hidden;padding: 0;z-index: 300}
+.legalizeOk .entLogo .entfileLogo input{opacity: 0;filter: alpha(opacity=0); /* background:none repeat scroll 0 0 transparent; */ border: medium none; cursor: pointer;height: 101px;width: 101px;top: 0px;opacity: 0;position: absolute;font-size: 100px;left: 0}
+.legalizeOk .entLogoText{display:inline-block; width:250px; color:#c3c3c3; padding-left:30px; float:left}
+.legalizeOk .rlitem .rltext .rlinput{padding-left:5px}
+.PerfectInfo{ padding:30px 0; width:100%; float:left}
+.PerfectInfo .rlgroup .controls{ width:630px;}
+.PerfectInfo .rlitem label,.PerfectInfo .rlgroup label{ width:115px; font-size:14px}
+.PerfectInfo input.textmoney{display:inline-block;padding:0 5px;height:26px;line-height:26px;border:1px solid #abadb3; width:290px; margin-left:22px}
+.PerfectInfo select{ float:left; min-width:232px; padding:2px}
+.PerfectInfo .leAdress .rlinput{ overflow: hidden}
+.PerfectInfo .leAdress select{ min-width:125px;padding-left:5px;height:26px;line-height:26px;margin-right:15px;border:1px solid #abadb3;}
+.PerfectInfo .leAdress .leDetail{ margin-top:20px; width:100%; clear:both}
+.PerfectInfo .leAdress input.textmoney{ margin-left:0;}
+.PerfectInfo  .rlinputText{padding-left:5px; border:none; font-size:14px; line-height:22px}
+.PerfectInfo  .rlinputText .rlTextPrim{ display:inline-block; padding-left:20px; background:url(../../images/Enterprise/manage/!icon_03.jpg) 0px center no-repeat;color:#c3c3c3}
+.PerfectInfo  .rlinputText .rlTextPrim a{ color:#199a56}
+.PerfectInfo .rlitem .rltext .rlbtnok{ text-align:center; float:left; margin-right:5px;}
+.PerfectInfo .rgray{ color:#ccc;float:left; padding:10px 0}
+.PerfectInfo .entlink{display:inline-block; margin:0 5px; float:left; color:#199a56; padding:10px 0}.dialog{	display: none;}.dialog.show{	display: block;}.dialog, .dialog .mask{	position: fixed;	left: 0;	right: 0;	top: 0;	bottom: 0;}.dialog .mask{	background: rgba(0,0,0,.6);	z-index: 199;}.dialog .dialog_inner{	width: 300px;	height: 150px;	padding: 20px;	position: fixed;	left: 50%;	top: 50%;	margin-left: -170px;	margin-top: -95px;	z-index: 299;	background: #fff;}.dialog .dialog_inner h3{	font-size: 16px;color: #333;font-weight: normal;}.dialog .dialog_inner .yzm-pic{	margin: 10px 0;}.dialog .dialog_inner .yzm-pic img{	width: 100px;	height: 40px;}.dialog .dialog_inner .yzm-pic a{	display: inline-block;    width: 16px;    height: 16px;    background: url(../../images/login/login.jpg) -83px -2px no-repeat;    margin: 12px 15px;    cursor: pointer;}input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{	-webkit-appearance: none !important;}.dialog .dialog_inner .yzm-pic input{	width: 60px;    height: 18px;    line-height: 18px;    border: 1px solid #cecece;    padding: 10px;    margin-left: 20px;    vertical-align: top;}.dialog .dialog_inner .close{	position: absolute;	bottom: 0;	left: 0;	right: 0;	line-height: 40px;}.dialog .dialog_inner .close .close-a{	float: left;	width: 50%;	box-sizing: border-box;	text-align: center;	font-size: 15px;	line-height: 45px;	box-sizing: border-box;}.dialog .dialog_inner .close .left{	border-top: 1px solid #eee;	color: #999;}.dialog .dialog_inner .close .right{	color: #fff;	background: #1A9B57;	border-top: 1px solid #1A9B57;}.cue2{	width: 260px;	padding: 10px 15px;	position: fixed;	left: 50%;	top: 50%;	margin-left: -100px;	text-align: center;	line-height: 1.5;	font-size: 15px;	color: #fff;	background: rgba(0,0,0,.8);	border-radius: 5px;	box-sizing: border-box;	display: none;}

@@ -1,0 +1,124 @@
+.uCEN-R {
+    padding-bottom: 40px;
+    float: left;
+    margin-left: 40px;
+    width: 758px;
+    border: 1px solid #cecece;
+    margin-bottom: 35px;
+}
+
+.page-bd {
+    margin-top: 30px !important;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.libraryone {
+    line-height: 30px;
+    padding: 15px;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px dashed #cecece;
+}
+
+/*内容*/
+.setup {
+    width: 480px;
+    float: left;
+    padding-left: 10px;
+}
+.inputdh1{
+    background-position-y: 14px;
+    background:url("../../../images/goodlibrary/inputdh.png") no-repeat;
+}
+.inputdh{background:url("../../../images/goodlibrary/inputdh.png") no-repeat;}
+.setup .setup_fl {
+    float: left;
+    padding-right: 22px;
+}
+
+.setup .setup_fr {
+}
+
+.setup_input {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #0a8e4d;
+    float: left;
+    margin-top: 12px;
+    margin-right: 5px;
+}
+
+.setup span {
+    line-height: 40px;
+}
+
+.rlitem_set label {
+    width: 130px;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #2a2a2a;
+    text-align: right;
+}
+
+.last_steup {
+    height: 191px;
+}
+
+.last_steup label {
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #2a2a2a;
+    text-align: right;
+    display: block;
+}
+
+.rltext_setup {
+    float: right;
+    margin-right: 287px;
+    margin-top: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

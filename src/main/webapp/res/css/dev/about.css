@@ -1,0 +1,40 @@
+.about{font-family:"\5FAE\8F6F\96C5\9ED1";background:#f7f7f7;overflow:auto;*zoom:1;}
+.about .aboutL{float:left;width:202px;}
+.about .about-nav{width:202px;font-size:14px;}
+.about .about-nav dt{padding-left:52px;margin:15px 0 10px;font-size:16px;background:url(../../images/icons/guide-icon.png) no-repeat 35px 5px;}
+.about .about-nav dd{padding-left:52px;height:26px;line-height:26px;}
+.about .about-nav dd a{display:inline-block;height:26px;text-decoration:none;border-bottom:1px solid #e9e9e9;}
+
+.about .aboutR{/*float:left;*/margin-left:277px;width:720px;}
+.about .aboutR h3{padding:15px 0 10px;font-size:18px;}
+.about .about-aim{position:relative;width:430px;height:150px;margin:22px auto 0;text-align:center;font-size:17px;line-height:30px;color:199a56;}
+.about .about-aim i{display:block;position:absolute;width:17px;height:17px;border:4px solid #199a56;}
+.about .about-aim i.lineTL{top:0;left:0;border-width:4px 0 0 4px;}
+.about .about-aim i.lineBR{bottom:0;right:0;border-width:0 4px 4px 0;}
+.about .about-show{margin-top:40px;width:100%;height:150px;}
+.about .about-show img{width:100%;height:100%;}
+.about .about-brief{margin-top:35px;width:100%;font-size:13px;line-height:24px;}
+.about .about-brief p{text-indent:2em;}
+
+.about .statelist dt{padding-left:35px;margin-top:5px;height:32px;line-height:32px;font-size:16px;background:url(../../images/icons/num.png) no-repeat 0 5px;}
+.about .statelist dd{padding-left:55px;font-size:14px;line-height:30px;}
+.about .statelist dd li{list-style:outside disc;}
+.about .statelist dd li.list-img{list-style:none;padding:20px 0;text-align:center;}
+.about .statelist dd li.list-img img{box-shadow:-1px 1px 5px #444;}
+
+/*trait*/ 
+/*.A-trait{}
+.A-trait .trait-bd{}
+.A-trait .trait-bd dt{padding-left:35px;margin-top:5px;height:32px;line-height:32px;font-size:16px;background:url(../../images/icons/num.png) no-repeat 0 5px;}
+.A-trait .trait-bd dd{padding-left:55px;font-size:14px;line-height:30px;}
+.A-trait .trait-bd dd li{list-style:outside disc;}*/
+
+/*members*/
+.A-members .unit{width:240px;padding-top:45px;text-align:center;}
+.A-members .unit .avatar{width:152px;height:152px;margin:0 auto;/*background:#199a56;border-radius:76px;*/background:url(../../images/about/avatar.jpg) no-repeat 0 0;}
+.A-members .unit .jobTit{margin-top:15px;height:28px;line-height:28px;font-size:16px;background:url(../../images/about/split-line-lt.jpg) no-repeat center bottom;}
+.A-members .unit .status{line-height:20px;font-size:14px;}
+.A-members .members{text-align:center;width:720px;overflow:auto;*zoom:1;padding-bottom:25px;background:url(../../images/about/split-line-gt.jpg) no-repeat center bottom;}
+.A-members .members li{float:left;} 
+.A-members .director .unit{margin:0 auto;}
+

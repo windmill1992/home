@@ -1,0 +1,148 @@
+@charset "utf-8";
+.form-item {
+	border-bottom: 1px solid #c4c4c4;
+	padding: 0.35rem 0 0.33rem 0.22rem;
+	background-color: #fff;
+}
+.form-item span {
+	display: inline-block;
+	width: 1.2rem;
+	font-size: 0.24rem;
+	margin-right: 0.2rem;
+	text-space: 0;
+}
+.form-item input[type="text"], .form-item input[type="password"] {
+	font-size: 0.24rem;
+	width: 60%;
+	color: #1a1a1a;
+}
+.backLink {
+	height: 0.9rem;
+	position: absolute;
+	top: 0;
+	left: 15px;
+}
+.backLink:before{
+	content: '';display: inline-block;width: 8px;height: 8px;border-left: 2px solid #fff;border-bottom: 2px solid #fff;
+	-webkit-transform: rotate(45deg);transform: rotate(45deg);
+}
+.topNav {
+	height: 0.9rem;
+	line-height: 0.9rem;
+	background-color: #ff6811;
+	position: relative;
+}
+.topNav h1 {
+	text-align: center;
+	color: #fff;
+	font-size: .32rem;
+}
+.topNext {
+	display: block;
+	position: absolute;
+	right: 0.3rem;
+	top: 0;
+	font-size: 0.3rem;
+	color: #fff;
+}
+.bottomTab {
+	font-size: 0.24rem;
+	color: #ff6810;
+	background-color: #eee;
+	padding: 0.25rem 0.6rem 1.7rem 0.3rem;
+}
+.btnStyle {
+	width: 60%;
+	height: 36px;
+	display: inline-block;
+	line-height: 36px;
+	text-align: center;
+	background-color: #ff6811;
+	color: #fff;
+	margin-top: 0.4rem;
+	font-size: 0.28rem;
+	cursor: pointer;
+	border-radius: 18px;
+	-webkit-tap-highlight-color: transparent;
+}
+.mask {
+	left: 10%;
+	top: 0px;
+	position: fixed;
+	height: 100%;
+	width: 80%;
+	background:rgba(0,0,0,.7);
+	border-radius: 5px;
+	overflow: hidden;
+	z-index: 10000;
+}
+.motal {
+	width: 80%;
+	left: 10%;
+	top: 30%;
+	position: fixed;
+	z-index: 10001;
+	border-radius: 1%;
+	overflow: hidden;
+	text-align: center;
+}
+.motalTop {
+	background-color: #fff;
+	padding: 0.25rem;
+	border-bottom: 1px solid #C4C4C4;
+}
+.motalTop > .p1 {
+	padding-bottom: 0.15rem;
+	font-size: 0.3rem;
+	color: #FF3F3F;
+}
+.motalTop > .p2 {
+	font-size: 0.2rem;
+}
+.motalTop > .p3 {
+	margin-top: 0.05rem;
+	font-size: 0.2rem;
+	color: #ff6810;
+}
+.motalBottom {
+	background-color: #ff6811;
+	height: 1rem;
+}
+#download {
+	display: block;
+}
+#download > .p1 {
+	padding-top: 0.15rem;
+	font-size: 0.3rem;
+	color: white;
+}
+#download > .p2 {
+	padding-top: 0.1rem;
+	font-size: 0.17rem;
+	color: #fff;
+}
+#confirm > p {
+	padding: 0.29rem;
+	font-size: 0.3rem;
+	color: #69DAFF;
+}
+.bottomTab > .p2 {
+	margin-top: 0.1rem;
+	margin-left: 0.33rem;
+}
+.project_cgts {
+	width: 80%;
+	height: 40px;
+	background: rgba(0,0,0,.8);
+	position: fixed;
+	bottom: 180px;
+	left: 10%;
+	border-radius: 5px;
+	display: none;
+}
+.project_cgts p {
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 16px;
+}

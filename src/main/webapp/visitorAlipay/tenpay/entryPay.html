@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+	<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+	<title>活动报名</title>
+	<link rel="stylesheet" type="text/css" href="/res/css/h5/entryProject/entryPay.css?v=201712291100" />
+</head>
+
+<body>
+	<div id="pageContainer" v-cloak>
+		<div id="pageScroll">
+			<div class="ep-hd">
+				<div class='swipe-wrap'>
+					<div class='pic'>
+						<img :src="projectLogo" class='img' />
+						<img src='http://www.17xs.org/res/images/h5/images/mask_detail_3.png' class='img-mask' />
+						<div class='title'>{{projectTitle}}</div>
+					</div>
+				</div>
+				<div class="p-title">
+					<h3>{{projectSubTitle}}</h3>
+				</div>
+				<div class="p-entryinfo flex">
+					<p>已报名：<span class="cff6">{{entryNum}}人</span></p>
+					<p class="entryPrice">￥{{unitPrice}}</p>
+				</div>
+			</div>
+			
+			<div class="ep-bd">
+				<div class="detail-info">
+					<div class="info flex" v-for="item in customItem">
+						<p>{{item[0]}}：</p><p>{{item[1]}}</p>
+					</div>
+				</div>
+				<div class="detail-activity" id="det_act">
+					<h3 class="ep-title"><span>活动详情</span></h3>
+					<div class="content-box">
+						<div class="content"></div>
+						<div class="detail-mask detail-mask-bg">
+							<a href="javascript:;" class="lookmore" id="lookmore">查看全文</a>
+						</div>	
+					</div>
+					
+				</div>
+				<div class="entried">
+					<h3 class="ep-title flex just"><span>已报名</span><a :href="entrierUrl" class="link">{{entryNum}}人</a></h3>
+					<div class="user-list">
+						<ul class="flex">
+							<li v-for="sign in signList">
+								<div class="avatar"><img :src="sign.headImage"/></div>
+								<div class="nickname">{{sign.nickName}}</div>
+							</li>
+						</ul>	
+						<div class="right-mask-bg"></div>
+					</div>
+				</div>
+				<div class="feedback">
+					<h3 class="ep-title"><span>活动反馈</span></h3>
+					<div class="fd-list">
+						<div class="item" v-for="fd in fdList">
+							<div class="avatar">
+								<img v-if="fd.headImg!=null" :src="fd.headImg" />
+								<img v-else src="/res/images/detail/people_avatar.jpg" />
+							</div>
+							<div class="content">
+								<p class="name">{{fd.userName?fd.userName:'反馈人'}}</p>
+								<p class="time">{{fd.feedbackTime?fd.feedbackTime:''}}</p>
+								<div class="info">
+									<p>{{fd.content}}</p>
+									<div class="pic">
+										<ul><li v-for="img in fd.contentImgs">
+											<a href="javascript:;" class="preview">
+												<img :src="img"/>
+											</a>
+										</li></ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="ep-ft flex">
+			<template v-if="isSelf">
+				<div class="btn entry-btn" v-if="ua == 'h5'">
+					<a href="javascript:;" v-if="endDay>0">{{endDay}}天后截止</a>
+					<a href="javascript:;" v-else-if="endDay==0">今天{{endTime}}截止</a>
+					<a href="javascript:;" class="no" v-else>报名已截止</a>
+				</div>
+				<div class="btn wx-btn" v-else>
+					<a href="javascript:;" v-if="endDay>0">
+						<img src="/res/images/h5/images/share.png" />邀请朋友报名<br />({{endDay}}天后截止)
+					</a>
+					<a href="javascript:;" v-else-if="endDay==0">
+						<img src="/res/images/h5/images/share.png" />邀请朋友报名<br />(今天{{endTime}}截止)
+					</a>
+					<a href="javascript:;" class="no" v-else>报名已截止</a>
+				</div>
+				<div class="btn mg-btn">
+					<a href="/webhtml/view/h5/volunteer/uCenter/pubManagement.html">
+						<p><img src="/res/images/h5/images/releaseProject/manage.png"/></p>
+						<p>活动管理</p>
+					</a>
+				</div>
+				<div class="btn mg-btn">
+					<a :href="'/webhtml/view/h5/volunteer/uCenter/activityFeedback.html?activityId='+aid">
+						<p><img src="/res/images/h5/images/releaseProject/fankui.png"/></p>
+						<p>活动反馈</p>
+					</a>
+				</div>	
+			</template>
+			<template v-else>
+				<div class="btn entry-btn" style="width: 100%;">
+					<a href="javascript:;" id="toEntry" v-if="endDay>0">我要报名({{endDay}}天后截止)</a>
+					<a href="javascript:;" id="toEntry" v-else-if="endDay==0">我要报名(今天{{endTime}}截止)</a>
+					<a href="javascript:;" class="no" v-else>报名已截止</a>
+				</div>
+			</template>
+		</div>	
+		
+		<div class="dialog" id="payDialog">
+			<div class="d-hd flex just">
+				<h3 class="title">提交报名信息</h3>
+				<a href="javascript:;" class="close"></a>
+			</div>
+			<div class="d-bd">
+				<div class="item" v-for="(info,index) in infoList">
+					<p>*{{info.lable}}：</p>
+					<template v-if="info.lable == '姓名'">
+						<input type="text" :data-idx="index" :value="realName" />
+					</template>
+					<template v-else-if="info.lable == '电话'">
+						<input type="text" :data-idx="index" :value="mobile" />
+					</template>
+					<template v-else>
+						<input type="text" :data-idx="index" value="" />
+					</template>
+				</div>
+				<div class="payMoney">
+					<p>*支付金额：<span class="cff6">￥{{unitPrice}}</span></p>
+				</div>
+			</div>
+			<div class="d-ft">
+				<div class="btn">
+					<a href="javascript:;" id="wxpay">确认提交</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="mask"></div>
+		<div id="tips"></div>
+		<div id="loading">
+			<div id="load">
+				<img src="/res/images/h5/images/loading9.gif"/>
+				<p></p>	
+			</div>
+		</div>
+		<div id="inviteDialog">
+			<span>点击右上角分享给朋友或朋友圈吧</span>
+			<img src="/res/images/h5/images/point.gif">
+		</div>
+		<div id="bigImg">
+			<div class="hd">
+				<ul></ul>
+			</div>
+			<div class="bd"></div>
+			<div class="pageState"></div>
+		</div>
+	</div>
+	
+	<script src="/res/js/jquery-1.8.2.min.js"></script>
+	<script src="/res/js/h5/donateStep/vue.min.js"></script>
+	<script src="/res/js/h5/releaseProject2/card.js"></script>
+	<script src="/res/js/h5/entryProject/entryPay.js"></script>
+</body>
+
+</html>

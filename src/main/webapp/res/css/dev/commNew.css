@@ -1,0 +1,271 @@
+.breadcrumb{ height:69px; line-height:69px; color:#000; font-size:14px;}
+.breadcrumb a{color:#000; font-size:14px;}
+
+
+
+
+.listBorder{ border:1px solid #e0e0e0}
+.listSearch{ height:37px; line-height:37px; padding:19px;}
+.listSearch .form{ width:327px; height:37px; float:right;}
+.listSearch .form input{ width:235px; height:37px; line-height:37px; border:1px solid #d6d6d6; padding:0 12px; float:left; font-size:12px}
+.listSearch .form button{ width:57px; height:39px; line-height:37px; border:none;background:#098e4d; color:#fff; font-size:14px; text-align:center; cursor:pointer; float:left}
+
+.list-list span{display:inline-block;margin:0;padding:0;}
+.list-list .lst-br{padding:7px 0;line-height:18px!important;}
+.list-list .list-hd{height:50px!important;line-height:50px!important;font-size:14px;color:#333;text-align:center;border:1px solid #e0e0e0;border-width:1px 0; background:#f5f5f5}
+.list-list .list-bd{width:100%;height:auto; overflow:hidden;font-size:13px;}
+.list-list .list-bd ul{clear:both;height:50px;line-height:50px;vertical-align:middle; text-align:left; color:#333}
+.list-list li{float:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;    padding: 0 12px 0 12px;text-align: left;}
+
+.dtlist .listBorder{ padding:0 0 20px 0; overflow:hidden}
+.dtlist .list-list .lst-col1{width:160px;}
+.dtlist .list-list .lst-col2{width:155px;}
+.dtlist .list-list .lst-col3{width:233px; text-align:left;}
+.dtlist .list-list .lst-col4{width:200px;}
+.dtlist .list-list .lst-col5{
+    width: 126px;
+    text-align: center;}
+.dtlist .list-list .list-bd li{ height:55px; line-height:55px; border-bottom:1px dotted #cfcfcf}
+
+.gdWherelist  .listBorder{ padding:0 0 20px 0; overflow:hidden}
+.gdWherelist .list-list .lst-col1{width:90px;}
+.gdWherelist .list-list .lst-col2{width: 147px;padding-left: 13px;}
+.gdWherelist .list-list .lst-col3{width:147px; }
+.gdWherelist .list-list .lst-col4{width: 121px;}
+.gdWherelist .list-list .lst-col5{width: 140px; text-align: center;}
+.gdWherelist .list-list .orangeText{text-align: center !important;}
+.gdWherelist .list-list .lst-col6{width:87px;}
+.gdWherelist .list-list .lst-col7{width:93px;}
+.gdWherelist .list-list .list-bd li{ height:55px; line-height:55px; border-bottom:1px dotted #cfcfcf; background:#fff;text-align: left;    padding: 0 12px 0 12px;}
+
+
+
+/*gardenWhereList-Certificate*/
+.gdWhereTle{ height:67px; background:#f5f5f5; border-bottom:1px solid #e0e0e0; padding:15px 22px}
+.gdWhereTle h2{ font-size:18px; color:#333; font-weight:bold; margin-bottom:20px}
+.gdWhereTle p span{ float:left; padding-right:12px;}
+.gdWhereTle p span.rNew{ float:right; padding-right:0}
+.gdWhereTle p span.rNew strong{ font-size:24px; font-weight:normal}
+.gdWhereCon{ padding:10px 0 25px 0; overflow:hidden; text-align:center}
+.gdWhereCon img{ margin-top:10px;}
+
+/*
+.viewNew .viewTop{ padding:18px; overflow:hidden; border:1px solid #e0e0e0}
+.viewTop h1{ font-size:20px; font-weight:bold; color:#098e4d}
+.viewTop dl{ height:465px; overflow:hidden; margin-top:20px}
+.viewTop dl dt{ width:655px; height:465px; overflow:hidden; float:left}
+.viewTop dl dt img{width:100%;height:100%}
+.viewTop dl dd{ width:290px; float:left; padding-left:15px;}
+.viewTop dl dd h2{ height:45px; line-height:45px; font-size:16px; font-weight:bold; color:#000}
+.viewTop dl dd p{ height:30px; line-height:30px; color:#666; font-size:14px}
+.viewTop dl dd .reqAmout{ width:288px; margin:15px 0; height:43px; line-height:43px; text-align:center; border:1px solid #098e4d}
+.viewTop dl dd .reqAmout .lNew{ display:inline-block; width:85px; color:#fff; font-size:14px; font-weight:bold; background:#098e4d}
+.viewTop dl dd .reqAmout .rNew{display:inline-block; width:203px; background:#fff; height:43px; line-height:43px; font-size:24px; color:#098e4d}
+.viewTop dl dd p strong{ font-weight:bold}
+.viewTop dl dd .viewBtn{ display:inline-block; width:160px; height:47px; line-height:47px; font-size:18px; font-weight:bold; text-align:center; margin-right:15px; border-radius:3px; background:#098e4d; color:#fff}
+.viewTop dl dd .loveBtn{display:inline-block; width:108px; height:45px; line-height:45px;font-size:18px; text-align:center;border-radius:3px; background:#fdfdfd; border:1px solid #d6d6d6}
+
+.viewNew .viewCon{overflow:hidden; margin-top:15px;}
+.viewCon .lNew{ border:1px solid #e0e0e0; padding:15px; width:640px; float:left}
+.viewCon .rNew{width:310px; float:right}
+.viewCon .rNew .boederbox{ width:278px;}
+.viewCon .conTab{ margin-bottom:10px; border-bottom:1px solid #e0e0e0; height:48px; line-height:48px;}
+.viewCon .conTab span{ cursor:pointer; display:inline-block; padding:0 25px; font-size:16px; font-weight:bold; color:#333; text-align:center}
+.viewCon .conTab span.on{ background:#098e4d; color:#fff}
+.surveyCon{ font-size:14px; line-height:28px; color:#000}
+
+.viewList .lst-col1{ width:180px; text-align:left; padding-left:20px}
+.viewList .lst-col2{ width:260px;}
+.viewList .lst-col3{ width:160px;}
+.viewList .list-bd ul{ border-bottom:1px dotted #e0e0e0}
+.viewList .list-inside{ text-align:center}
+.viewList .list-inside img{ margin-top:10px;}
+
+
+.bdback .bdback-group{position:relative; margin-bottom:10px; overflow:hidden; padding-bottom:10px; padding-left:57px; background:url(../../images/item/items/txicon_03.jpg) left top no-repeat}
+.bdback .bdback-group .name{ position:relative; height:47px; line-height:47px; font-size:18px; color:#000; font-weight:bold}
+.bdback .bdback-group .picimg{width:46px;height:46px;position:absolute;top:1px;left:2px; background:#f00;border-radius:100%;overflow:hidden}
+.bdback .bdback-group .picimg img{width:46px;height:46px;}
+.bdback .bdback-group p{ position:relative;min-height:27px; line-height:27px; font-size:14px; width:100%}
+.bdback .bdback-group p .more{ display:inline-block;position:absolute; bottom:0; right:0; color:#0a8e4d;background:#fff}
+
+.bdrecord .lst-col1{ width:180px; text-align:left; padding-left:20px}
+.bdrecord .lst-col2{ width:260px;}
+.bdrecord .lst-col3{ width:160px;}
+.bdrecord .list-bd ul{ border-bottom:1px dotted #e0e0e0}
+
+
+.viewCon .rNew .boederbox{ float:left; padding:0 15px; overflow:hidden; border:1px solid #e0e0e0}
+.info_block2{
+	float:left;
+	width:248px;
+	padding:10px 0px;
+	font-family:"微软雅黑";	
+}
+
+.info_block2 .block_hd{
+	float:left;
+	width:248px;
+	height:25px;
+	padding:2px 10px;
+	line-height:25px;
+	font-size: 14px;
+	color:#444444;
+	font-weight:bold;
+	border-left:2px solid #199a56;
+	position:relative;
+}
+.info_block2 .block_hd i{
+	display:inline-block;
+	position:absolute;
+	width:13px;
+	height:7px;
+	background:url(../../images/detail/h3icon.jpg) no-repeat;
+	top:23px;
+	left:18px;
+}
+
+.info_block2 .block_bd{
+	float:left;
+	width:318px;
+	line-height:25px;
+	padding-top:10px;
+	margin:0px 10px;
+	font-size:14px;
+	color:#444444;	
+	border-top:1px solid #e2e2e2;	
+}
+
+.info_block2 .block_bd .basic_info{
+	float:left;
+	width:100%;	
+}
+
+.info_block2 .basic_info .thumb{
+	float:left;
+	width:80px;
+	height:80px;
+	padding:5px;
+	overflow:hidden	
+}
+
+.info_block2 .basic_info .info{
+	float:left;
+	width:155px;
+}
+
+.info_block2 .basic_info .line1{
+	width:100%;
+	heihgt:30px;
+	line-height:30px;
+	font-size:18px;
+	font-weight:bold;
+	color:#333;	
+}	
+
+.info_block2 .basic_info .line1 i{
+	margin:0px 5px;
+	line-height:40px;
+	font-size:14px;
+	color:#666;	
+	font-weight:normal;
+}
+
+.info_block2 .basic_info .line2,.info_block2 .basic_info .line3 {
+	line-height:25px;
+	font-size:14px;
+	color:#666;	
+}
+
+.info_block2 .contact_info{
+	float:left;
+	width:100%;
+	line-height:25px;
+	margin:5px 0px;
+	padding:5px 0px;
+	font-size:14px;
+	color:#333;
+	border-top:1px solid #e2e2e2;	
+}
+.info_block2 .contact_info span{ display:inline-block; float:left}
+.info_block2 .contact_info .l{ width:84px; text-align:right}
+.info_block2 .contact_info .r{ width:152px;}
+
+.info_block2 .basic_info{ overflow:hidden}
+
+.viewCon .rNew h2{ margin-bottom:10px}
+.viewNew .dtList dl dd{ width:196px;}
+.viewNew .adList{width:250px; margin-top:0}
+*/
+
+/*doGoodNew*/
+.selectorNew{ padding:20px; border:1px solid #e0e0e0}
+.selectorNew dl{ overflow:hidden;}
+.selectorNew dl dt{ width:55px; float:left;font-size:14px; color:#000;white-space: nowrap;}
+.selectorNew dl dd{ width:900px; float:left; }
+.selectorNew dl dd a{ display:inline-block; margin:0 0 25px 0; padding:0 12px; font-size:14px; color:#000 }
+.selectorNew dl dd a.curTab{ color:#ff6a24; font-weight:bold}
+
+.filterNew{ padding:16px 18px; border:1px solid #e0e0e0; height:38px; overflow:hidden}
+.filterNew .sort{ width:350px; border:1px solid #e0e0e0; border-left:0; height:36px; line-height:36px; float:left}
+.filterNew .sort a{ display:inline-block;float:left; padding:0 22px; font-size:14px; color:#000; border-left:1px solid #e0e0e0; position:relative}
+.filterNew .sort a.on{ background:#f1f1f1}
+.filterNew .sort a em{ display:inline-block; position:absolute; top:15px; left:55px; width:7px; height:8px; background-image:url(../../images/newIndex/layout/filterbg.png); background-repeat:no-repeat }
+.filterNew .sort a em.asc{ background-position:0 -7px}
+.filterNew .sort a em.desc{ background-position:0 0;}
+.filterNew .opear{ float:right}
+.filterNew .opear .batch{ display:inline-block; width:117px; height:35px; line-height:35px; text-align:center; color:#fff; font-size:14px; font-weight:bold; background:#098e4d; border-radius:3px}
+.filterNew .opear span{ display:inline-block; margin-left:30px; color:#000; font-size:14px; width:86px; height:35px; line-height:35px; position:relative;margin-right: 5px;}
+.filterNew .opear span em{display:inline-block; width:19px; height:19px; background-image:url(../../images/newIndex/layout/checkbg.png); background-repeat:no-repeat; position:absolute; top:8px; right:0; cursor:pointer}
+.filterNew .opear span em.on{ background-position:0 -19px;}
+
+.doGoodList{border:1px solid #e0e0e0; overflow:hidden}
+.doGoodList li{ padding:20px; border-bottom:1px dotted #c2c2c2; height:144px; overflow:hidden}
+.doGoodList li.finish{ background:url(../../images/newIndex/index/okbg_03.jpg) 890px 30px no-repeat}
+.doGoodList .goodPic{ width:210px; height:144px; overflow:hidden; float:left}
+.doGoodList .goodPic img{ width:100%; height:100%;}
+.doGoodList .goodDetail{ width:490px; height:144px; overflow:hidden; float:left; padding-left:15px;}
+.doGoodList .goodOpear{ width:240px; height:134px; overflow:hidden; float:left; position:relative;padding-top:10px}
+.doGoodList .goodDetail h2{ font-size:16px; font-weight:bold; color:#000000; height:40px; line-height:40px; overflow:hidden}
+.doGoodList .goodDetail h2 a{color:#000}
+.doGoodList .goodDetail p{ font-size:12px; color:#666; height:24px; line-height:24px; overflow:hidden}
+.doGoodList .goodDetail p.info{ margin-bottom:12px;}
+.doGoodList .goodDetail p strong{ font-weight:bold; color:#000}
+.doGoodList .goodOpear p{ line-height:24px;font-size:12px;}
+.doGoodList .goodOpear p span{font-weight:bold; }
+.doGoodList .goodOpear p .projectBtn{ display:inline-block; width:118px; height:35px; line-height:35px; color:#fff; text-align:center; font-size:15px; border-radius:3px; background:#098e4d}
+.doGoodList .goodOpear p .grayBtn{color:#fff; background:#a0a0a0;}
+.doGoodList .goodOpear p .grayBtn:hover{color:#fff; }
+.doGoodList .goodOpear .progress{ padding:15px 0; overflow:hidden}
+.doGoodList .goodOpear .pgGray{ display:inline-block;width:190px; height:8px; background:#e6e6e6; border-radius:3px; position:relative}
+.doGoodList .goodOpear .pgGray .pgRed{position:absolute;display:inline-block;height:8px;background:#fe7839; border-radius:3px; left:0; top:0 }
+.doGoodList .goodOpear .pgText{ display:inline-block; margin-left:10px; color:#000;font-size:12px}
+.doGoodList .goodOpear .doGoodList .goodOpear .projectBtn{display:inline-block; width:120px; height:35px; line-height:35px; text-align:center; color:#fff; background:#098e4d; border-radius:3px; font-size:15px}
+.doGoodList .goodOpear .checkbox{display:inline-block; width:19px; height:19px; background-image:url(../../images/newIndex/layout/checkbg.png); background-repeat:no-repeat; position:absolute; top:8px; right:0; cursor:pointer}
+.doGoodList .goodOpear .on{ background-position:0 -19px;}
+.doGoodList .lstPages{ margin:20px auto;}
+
+
+
+
+
+
+
+
+.manypaybutton{
+    float: right;
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    display: block;
+    background: url(res/images/btn2-bg.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.manypaybutton:hover{
+    color: #fd590e !important;
+}
+

@@ -1,0 +1,183 @@
+.grayText{ color:#666666!important}
+.yellowText{ color:#fff049!important}
+.redText{ color:#e60000!important}
+
+.cipsTop{ width:100%; height:378px; position:relative}
+.cipsTop img{ width:1000px; height:378px;}
+.cipsTop .cipsCon{ width:250px; height:288px; padding:60px 30px 30px; position:absolute; top:0; right:0; background:url(../../images/newIndex/view/opacity.png) repeat }
+.cipsTop .cipsCon p{ color:#fff; font-size:16px; line-height:44px;}
+.cipsTop .cipsCon p strong{ font-size:24px; font-weight:bold}
+.cipsTop .cipsCon li{ display:inline-block; width:143px; color:#fff; border-radius:3px; height:48px; line-height:48px; text-align:center; background:#098e4d; font-size:18px; font-weight:bold}
+.cipsTop .cipsnum{ display:inline-block; top:12px; margin-right:10px; width:142px; height:37px; line-height:37px; position:relative}
+.cipsTop .cipsnum em{ display:inline-block; font-size:18px; font-weight:bold; position:absolute; top:0; width:35px; height:35px; border:1px solid #e4e3e3; color:#808080; text-align:center; background:#fff}
+.cipsTop .cipsnum em.reduce{ left:0}
+.cipsTop .cipsnum em.add{ right:0}
+.cipsTop .cipsnum input{ width:69px; text-align:center; vertical-align:middle; background:#fff; position:absolute; top:0; left:37px; height:37px; font-size:25px; color:#808080}
+.cipsTop .center{ text-align:center; margin:10px 0}
+.cipsTop .center a{ display:inline-block; width:143px; height:48px; line-height:48px; text-align:center; background:#098e4d; color:#fff; border-radius:3px; font-size:18px; font-weight:bold}
+.cipsTop .right{ text-align:right}
+
+.cipsSupport{ padding:10px 0; text-align:center}
+.cipsSupport a{ display:inline-block; width:160px; color:#fff; border-radius:3px; height:50px; line-height:50px; text-align:center; background:#098e4d; font-size:18px; font-weight:bold}
+.cipsSupport li{ display:inline-block; width:160px; color:#fff; border-radius:3px; height:50px; line-height:50px; text-align:center; background:#098e4d; font-size:18px; font-weight:bold}
+
+.cipsProject{ padding-left:20px; }
+.cipsProject li{ padding-bottom:30px; padding-left:20px;border-left:1px solid #d9d9d9; position:relative}
+.cipsProject li em{ display:inline-block; width:18px; height:17px; background:url(../../images/newIndex/view/projecticon_03.jpg) no-repeat; position:absolute; top:0; left:-10px}
+.cipsProject li h3{ font-size:16px; color:#222222; font-weight:bold;}
+.cipsProject li p{ font-size:14px; color:#222222; margin-top:15px; line-height:30px}
+.cipsProject li p a{ color:#098e4d}
+.cipsProject li p img{ max-width:100%}
+
+
+.copsCord dl{ padding:12px 0; overflow:hidden; border-bottom:1px dotted #c8c8c8}
+.copsCord dl dt{ width:52px; height:52px; float:left; overflow:hidden}
+.copsCord dl dt img{ width:100%; height:100%}
+.copsCord dl dd{ padding-left:12px; width:560px; float:left}
+.copsCord dl dd p{ font-size:14px; margin-bottom:10px; color:#333}
+.copsCord dl dd p span{ padding-left:15px; display:inline-block}
+.copsCord dl dd p strong{ font-weight:bold;}
+.copsCord dl dd p span.gray{ color:#999999}
+
+.viewNew .viewCon{overflow:hidden; margin-top:15px;}
+.viewCon .lNew{ border:1px solid #e0e0e0; padding:15px; width:640px; float:left}
+.viewCon .rNew{width:310px; float:right}
+.viewCon .rNew .boederbox{ width:278px;}
+.viewCon .conTab{ margin-bottom:10px; border-bottom:1px solid #e0e0e0; height:48px; line-height:48px;}
+.viewCon .conTab span{ cursor:pointer; display:inline-block; padding:0 25px; font-size:16px; font-weight:bold; color:#333; text-align:center}
+.viewCon .conTab span.on{ background:#098e4d; color:#fff}
+.surveyCon{ font-size:14px; line-height:28px; color:#000}
+
+.viewList .lst-col1{ width:180px; text-align:left; padding-left:20px}
+.viewList .lst-col2{ width:260px;}
+.viewList .lst-col3{ width:160px;}
+.viewList .list-bd ul{ border-bottom:1px dotted #e0e0e0}
+.viewList .list-inside{ text-align:center}
+.viewList .list-inside img{ margin-top:10px;}
+
+
+.bdback .bdback-group{position:relative; margin-bottom:10px; overflow:hidden; padding-bottom:10px; padding-left:57px; background:url(../../images/item/items/txicon_03.jpg) left top no-repeat}
+.bdback .bdback-group .name{ position:relative; height:47px; line-height:47px; font-size:18px; color:#000; font-weight:bold}
+.bdback .bdback-group .picimg{width:46px;height:46px;position:absolute;top:1px;left:2px; background:#f00;border-radius:100%;overflow:hidden}
+.bdback .bdback-group .picimg img{width:46px;height:46px;}
+.bdback .bdback-group p{ position:relative;min-height:27px; line-height:27px; font-size:14px; width:100%}
+.bdback .bdback-group p .more{ display:inline-block;position:absolute; bottom:0; right:0; color:#0a8e4d;background:#fff}
+
+.bdrecord .lst-col1{ width:180px; text-align:left; padding-left:20px}
+.bdrecord .lst-col2{ width:260px;}
+.bdrecord .lst-col3{ width:160px;}
+.bdrecord .list-bd ul{ border-bottom:1px dotted #e0e0e0}
+
+
+.viewCon .rNew .boederbox{ float:left; padding:0 15px; overflow:hidden; border:1px solid #e0e0e0}
+.info_block2{
+	float:left;
+	width:248px;
+	padding:10px 0px;
+	font-family:"Î¢ÈíÑÅºÚ";	
+}
+
+.info_block2 .block_hd{
+	float:left;
+	width:248px;
+	height:25px;
+	padding:2px 10px;
+	line-height:25px;
+	font-size: 14px;
+	color:#444444;
+	font-weight:bold;
+	border-left:2px solid #199a56;
+	position:relative;
+}
+.info_block2 .block_hd i{
+	display:inline-block;
+	position:absolute;
+	width:13px;
+	height:7px;
+	background:url(../../images/detail/h3icon.jpg) no-repeat;
+	top:23px;
+	left:18px;
+}
+
+.info_block2 .block_bd{
+	float:left;
+	width:318px;
+	line-height:25px;
+	padding-top:10px;
+	margin:0px 10px;
+	font-size:14px;
+	color:#444444;	
+	border-top:1px solid #e2e2e2;	
+}
+
+.info_block2 .block_bd .basic_info{
+	float:left;
+	width:100%;	
+}
+
+.info_block2 .basic_info .thumb{
+	float:left;
+	width:68px;
+	height:68px;
+	padding:5px;
+	overflow:hidden	;
+	border:1px solid #ebebeb;
+}
+
+.info_block2 .basic_info .info{
+	float:left;
+	width:155px;
+	padding-left:14px;
+}
+
+.info_block2 .basic_info .line1{
+	width:100%;
+	heihgt:30px;
+	line-height:30px;
+	font-size:18px;
+	font-weight:bold;
+	color:#333;	
+}	
+
+.info_block2 .basic_info .line1 i{
+	margin:0px 5px;
+	line-height:40px;
+	font-size:14px;
+	color:#666;	
+	font-weight:normal;
+}
+.info_block2 .basic_info .line2{
+	line-height:25px;
+	font-size:14px;
+	color:#969696;	
+}
+.info_block2 .basic_info .line3 {
+	line-height:25px;
+	font-size:14px;
+	color:#333;	
+}
+
+.info_block2 .contact_info{
+	float:left;
+	width:100%;
+	line-height:25px;
+	margin:18px 0px 0;
+	padding:15px 0px;
+	font-size:14px;
+	color:#333;
+	border-top:1px dotted #e2e2e2;	
+}
+.info_block2 .contact_info p{ font-size:14px; color:#333333; line-height:27px; text-indent:30px}
+.info_block2 .contact_info p a{ color:#098e4d}
+/*.info_block2 .contact_info span{ display:inline-block; float:left}
+.info_block2 .contact_info .l{ width:84px; text-align:right}
+.info_block2 .contact_info .r{ width:152px;}*/
+
+.info_block2 .basic_info{ overflow:hidden}
+
+.viewCon .rNew h2{ margin-bottom:10px}
+.viewNew .dtList dl dd{ width:196px;}
+.viewNew .adList{width:250px; margin-top:0}
+.pic{ 
+text-align:center
+}

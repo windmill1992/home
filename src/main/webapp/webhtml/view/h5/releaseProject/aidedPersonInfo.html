@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="keywords" content="善园网，扶贫济困，公益援助，求助，募捐，医疗救助，教育救助，贫困救助，灾害救助，公益众筹，特殊群体" />
+		<meta name="description" content="善园网，依托善园公益基金会开展网络募捐服务，通过互联网实施扶贫济困、慈善救助、公益援助等领域的救助行动；善园网承诺善款100%公开，100%用于受助人" />
+		<title>受助人信息</title>
+		<link rel="stylesheet" type="text/css" href="/res/css/h5/releaseProject2/raiseProjEdit.css"/>
+	</head>
+	<body>
+		<div id="pageContainer" v-cloak>
+			<div class="rpe flex fcen">
+				<div class="pd-hd">
+					<p>以下内容不对外公开，仅用于审核</p>
+				</div>
+				<div class="rpe-title flex fstart">
+					<p class="tip">受助人姓名</p>
+					<div class="amount">
+						<input type="text" placeholder="请填写受助人姓名，如多个填写一个" id="aidedPName_2" v-model="aidedInfo.aidedPName" />
+					</div>
+				</div>
+				<div class="rpe-title flex fstart">
+					<p class="tip">身份证号码</p>
+					<div class="amount">
+						<input type="text"  placeholder="请填写主要受助人的身份证号码" id="IDCard" v-model="aidedInfo.IDCard" />
+					</div>
+				</div>
+				<div class="rpe-title flex fstart">
+					<p class="tip">家庭地址</p>
+					<div class="amount">
+						<input type="text" placeholder="请填写受助人居住地址，或者所在医院/学习" id="address" v-model="aidedInfo.address" />
+					</div>
+				</div>
+				
+				<div class="rpe-title rpe-uploadPic">
+					<p class="tip">上传图片</p>
+					<p class="intro">身份证正反面、手持身份证或者户口本和出生证明</p>
+					<div class="addList" id="imgList3">
+						<template v-if="aidedInfo.hasImg">
+							<div class="item" :id="aidedInfo.imgIdList3[i]" v-for="(src,i) in aidedInfo.imgList3">
+								<a href="javascript:void(0);" class="preview">
+									<img :src="src"/>
+								</a>
+								<i class="del"></i>
+							</div>	
+						</template>
+						
+						<div class="item add">
+							<a href="javascript:;" class="add-btn">
+								<label></label>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+				<div class="rpe-btn btn">
+					<a href="javascript:void(0);" id="saveAided">{{perfectData.aidedState?'返回':'保存'}}</a>
+				</div>
+				
+			</div>
+		</div>
+		<div class="tips"></div>
+		<input type="hidden" name="aidedInfoPg" id="aidedInfoPg" value="" />
+		<script src="/res/js/jquery-1.8.2.min.js"></script>
+		<script src="/res/js/h5/donateStep/vue.min.js"></script>
+		<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+		<script src="/res/js/h5/releaseProject2/wxlogin.js"></script>
+		<script src="/res/js/h5/releaseProject2/card.js"></script>
+		<script src="/res/js/h5/releaseProject2/raiseProjEdit.js"></script>
+	</body>
+</html>

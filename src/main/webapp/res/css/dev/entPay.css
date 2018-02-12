@@ -1,0 +1,46 @@
+.pay{font-family:"\5FAE\8F6F\96C5\9ED1";background:#f7f7f7;} 
+.pay .main{width:1000px;margin:0 auto;padding:20px 0;}
+.guide-icon{display:inline-block;width:14px;height:16px;background:url(../../images/icons/guide-icon.png) no-repeat 0 0;vertical-align:middle;}
+.promot-icon{display:inline-block;width:14px;height:16px;background:url(../../images/icons/promot-icon.png) no-repeat 0 0;vertical-align:middle;}
+.pay .pay-hd{background:#fff;height:auto;margin:20px 0;box-shadow:-1px 5px 10px rgba(0,0,0,0.1);}
+.pay .pay-hd .pay-tit{font-size:16px;height:95px;padding-top:20px;margin:0 10px;border-bottom:2px dashed #ccc;} 
+.pay .pay-hd .pay-tit h3{height:24px;line-height:24px;} 
+.pay .pay-hd .pay-data{height:28px;line-height:28px;padding-top:22px;}
+.pay .pay-hd .pay-data li{float:left;font-size:20px;height:28px;}
+.pay .pay-hd .pay-data .pay-price{width:200px;}
+.pay .pay-hd .pay-data .pay-count{width:195px;}
+.pay .pay-hd .pay-data .pay-count span{display:inline-block;height:26px;line-height:26px;border:1px solid #ccc;text-align:center;margin:0 5px;}
+.pay .pay-hd .pay-data .pay-count i{display:inline-block;height:26px;width:18px;cursor:pointer;}
+.pay .pay-hd .pay-data .pay-count input{display:inline-block;width:52px;padding:0;padding:3px 0\9;margin:0;height:26px;height:20px\9;border:1px solid #ccc;border-width:0 1px;text-align:center;vertical-align:top;}
+.pay .pay-hd .pay-data .pay-money{width:570px;}
+
+.pay .pay-hd .pay-info{clear:both;height:84px;padding:0 10px;background:#f8f8f8;}
+.pay .pay-hd .pay-promot{padding-top:14px;font-size:12px;font-family:"\5b8b\4f53";color:#8c8c8c;}
+.pay .pay-hd .pay-promot i{margin-right:5px;}
+.pay .pay-hd .pay-msg{font-size:14px;margin-top:8px;}
+.pay .pay-hd .pay-msg i{margin-right:5px;}
+.pay .pay-hd .pay-msg input{height:20px;margin-left:10px;padding:5px 5px;border:1px solid #e2e2e2;vertical-align:middle;}
+.pay .pay-hd .pay-msg input[name="donateName"]{width:180px;margin-right:45px;}
+.pay .pay-hd .pay-msg input[name="donateWord"]{width:480px;}
+
+.pay .pay-bd{background:#fff; }
+.pay .pay-bd .pay-tab{ width:100%; height:50px; line-height:50px;}
+.pay .pay-bd .pay-tab span{ display:inline-block; height:48px; line-height:48px; width:112px; text-align:center;color:#444444; font-size:18px; border:1px solid #ccc; margin-right:4px; position:relative; float:left; z-index:12;border-bottom:0; cursor:pointer;}
+.pay .pay-bd .pay-tab span.on{border:1px solid #019045; height:45px; border-top:4px solid #019045; color:#0a8e4d;  border-bottom:0; background:#fff }
+.pay .pay-bd .pay-con{border:1px solid #199a56;padding:0 30px;z-index:11; position:relative; top:-2px;_top:-1px;}
+
+.pay .pay-bd .pay-options{padding:36px 0;border-bottom:2px dashed #ccc;}
+.pay-optTR{height:47px;}
+.pay-alipay{display:inline-block;width:164px;height:47px;background:url(../../images/icons/alipay.jpg) no-repeat 0 0;}
+.pay .pay-bd .pay-operate{padding:35px 0;}
+.pay .pay-bd .btn{cursor:pointer;color:#fff;text-align:center;line-height:38px;font-size:16px;width:164px;height:38px;background:url(../../images/pay-btn.jpg) no-repeat 0 0;}
+
+
+/*common*/
+.pay .pay-chd{ height:75px;background:#fff;margin:20px 0;box-shadow:0px 2px 1px rgba(0,0,0,0.1); padding:10px 0; background:url(../../images/icons/paybg_03.jpg) no-repeat 553px 0 }
+.pay-chd .pay-tit{ width:545px; float:left; padding-left:25px}
+.pay-chd .pay-tit li{ font-size:14px; color:#444444; line-height:35px}
+.pay-chd .pay-tit .name{ font-size:18px;}
+.pay-chd .pay-tit li span.smoney{ color:#ff6b14;font-size:18px;display:inline-block; padding:0 5px}
+.pay-chd .pay-money{ width:415px; float:left; line-height:45px; font-size:25px;color:#444444; padding:15px 0 15px 15px}
+.pay-chd .pay-money input{ display:inline-block; width:210px;  padding:11px; border:1px solid #e1e1e1; margin:0 10px; vertical-align:middle}

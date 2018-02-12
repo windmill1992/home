@@ -1,0 +1,145 @@
+/* CSS Document */
+.wrnav .wrnavlb span em,.wzc .rl .rltext .rlinput em,.wzc .rl .rlcode .rltext .refreshCode,.wzc .rl .rltext .rlbtn,.wrroot .wrrootpic a,.wregt .wettle span.tleicon em,.wzc .rlitem .rltext .wrinfo i,.wzc .rlitem .rltext .rlbtnok,.wrok .wrokft a,.wregt .rlgroup .controls .wrinfo i{ display:inline-block; background-image:url(../../images/login/login.jpg); background-repeat:no-repeat}
+.wrnav{ height:100px; background:#fff; overflow:hidden}
+.wrnav h1{ width:190px; float:left; vertical-align:middle}
+.wrnav h1 a{ display:inline-block;}
+.wrnav .wrnavlb{ width:485px; float:right; padding-top:42px;}
+.wrnav .wrnavlb span{ display:inline-block; font-size:14px; color:#444444; padding-left:19px;}
+.wrnav .wrnavlb span em{ display:inline-block; width:16px; height:16px; background-position:0 0;margin-right:5px}
+
+.wreg { width:998px; border:1px solid #c8c8c8; margin:0px auto; padding:40px 0; overflow:hidden}
+.wreg .rl{ width: 607px; float:left; border-right:1px solid #c8c8c8;}
+.wreg .rr{ width: 308px; float:left; overflow:hidden; padding:0 40px;}
+.wzc .rlitem{ width:100%; margin-bottom:30px; float:left}
+.wzc #pCode{ display:none}
+.wzc .rltyp{ margin-bottom:38px;}
+.wzc .rlptl{ margin-bottom:15px}
+.wzc .rlitem label{ display:inline-block;width:100px; height:30px; text-align:right; line-height:32px; font-size:14px; color:#2a2a2a; float:left}
+.wzc .rlitem .rltext{ width: 497px; padding-left:10px; float:left; position:relative; }
+.wzc .rlptl label,.wzc .rlptl .rltext{ height:20px; line-height:20px;}
+.wzc .rlitem .rltype{ padding-left:33px}
+.wzc .rlitem .rltype span{ display:inline-block; width:130px; height:40px; line-height:40px;  color:#999999; text-align:center;cursor:pointer; border-bottom:1px solid #cecece; float:left; font-size:16px}
+.wzc .rlitem .rltype .on{ border-color:#0a8e4d; font-weight:bold; color:#444 }
+.wzc .rlitem .rltext .rlinput{ width:228px; height:30px; line-height:30px; border:1px solid #cecece; padding-left:28px; position:relative; float:left}
+.wzc .rlitem .rltext .rlinput .rgray{ color:#a9a9a9; font-size:12px}
+.wzc .rlitem .rltext .rlinput em{ width:17px; height: 21px;  position:absolute; top:4px; left:5px;}
+.wzc .rlitem .rltext .rlinput em.rname{background-position:-19px 0;}
+.wzc .rlitem .rltext .rlinput em.rpw{background-position: -39px 1px;}
+.wzc .rlitem .rltext .rlinput em.rcpw{background-position: -58px 3px;}
+.wzc .rlitem .rltext .rlinput input{border:none; width:200px; height:30px; line-height:30px;outline:none; background:none; color:#000}
+.wzc .rlitem .rltext .wrinfo{ display:inline-block; width:200px; height:30px; line-height:30px;float:left; padding-left:10px; font-size:12px;color:#ff3f13; position:relative}
+.wzc .rlitem .rltext .wrinfo i{display:inline-block; width:15px; height: 16px;position:absolute; top:8px; left:10px}
+.wzc .rlitem .rltext .wrinfo .error{background-position:-103px -3px; }
+.wzc .rlitem .rltext .wrinfo .right{background-position: -121px -2px; }
+.wzc .rlitem .rltext .wrinfo p{ position:absolute; left:28px; line-height:30px; top:0;}
+.wzc .rlitem .rltext .wrinfo .info_normal{ border:1px solid #cbd0d0; background:#f9f9f9; line-height:22px; color:#666; padding:3px 8px;left:10px}
+.wzc .rlitem .rltext .wrinfo .info{line-height:16px;width:200px}
+.wzc .rlcode,.wzc .rlcode label{ height:40px; line-height:40px}
+.wzc .rlword,.wzc .rlword label{ line-height:normal}
+.wzc .rlword label{ padding-top:5px}
+.wzc .rlword label span{ display:inline-block; color:#a1a1a1; width:80px; text-align:center}
+.wzc .rlword .wrsdpt{ float:left; height:40px; line-height:40px; padding-left:30px; color:#a1a1a1}
+.wzc .rlcode .rltext .rlinput{width:144px; height:38px; line-height:38px; padding:0 2px; float:left}
+.wzc .rlcode .rltext .rlinput input{width:144px; height:38px; line-height:38px; }
+.wzc .rlcode .rltext .codepic{ display:inline-block; width:100px; height:40px; margin-left:20px; float:left}
+.wzc .rlcode .rltext .refreshCode{display:inline-block; float:left; width:16px; height:16px; background-position:-83px -2px; margin:13px 0 0 15px; cursor:pointer}
+.wzc .rlcode .rltext .wrsdcode{display:inline-block; height:40px; line-height:40px; text-align:center;padding:0 18px; margin-left:15px; color:#fff; border:1px solid #007538; background:#1a9b57; cursor:pointer}
+.wzc .rlcode .rltext .wrstate{  border:1px solid #999999; background:#cecece; color:#666666; cursor:default}
+.wzc .rlcode .rltext .wrinfo{ width:175px; top:5px}
+.wzc .rlitem  .rltext label{ width:100%; color:#a1a1a1; text-align:left; font-size:12px}
+.wzc .rlitem  .rltext label input{ vertical-align:middle; margin-right:9px}
+.wzc .rlitem  .rltext label a{ display:inline-block;_display:inline; padding:0 9px; color:#12a1e1}
+.wzc .rlitem  .rltext .rlbtn{ width:163px; height:40px; line-height:40px; background-position:0 -21px; color:#fff; text-align:center; font-size:18px; border:0 none; cursor:pointer; }
+
+.wreg .rr .rrfocus{ display:inline-block; width:320px; overflow:hidden; margin-bottom:25px;}
+.wreg .rr p{ margin-top:12px; line-height:20px; color:#a1a1a1;text-align:center}
+#entName{ display:none}
+
+.wrroot {font:12px/180% Arial,Verdana;width:100%;height:72px;padding:25px 0;background:#fff;text-align:center;color:#525252;}
+.wrroot  i{display:inline-block;margin:-1px 5px 0;height:10px;width:0;vertical-align:middle;border-left:1px solid #525252;border-right:1px solid #fff;} 
+.wrroot a{color:#525252;line-height:25px;} 
+
+.rbtnPrim{ padding-top:15px; color:#999999}
+.rbtnPrim div{ width:260px; line-height:22px; border:1px solid #cecece; margin-top:10px; padding:0 11px}
+
+/*第二步*/
+.wreg .wregt{ padding:0 120px;}
+.wregt .wettle{ width:395px; height:55px; padding-left:30px; margin-bottom:35px; position:relative}
+.wregt .wettle span.tleicon{ display:inline-block; width:65px; height:55px; text-align:center; float:left}
+.wregt .wettle span.tleicon em{ display:inline-block; width:32px; height:28px; background-position:-120px -61px}
+.wregt .wettle span.tleicon p{ padding-top:5px; font-size:16px; color:#a1a1a1}
+.wregt .wettle span.tler{ float:right}
+.wregt .wettle span.tler em{background-position:-120px -92px}
+.wregt .wettle span.tler p{ color:#1a9b57}
+.wregt .wettle span.line{display:inline-block; width:265px; height:3px; background:#1a9b57; position:absolute; top:13px; left:95px;}
+
+.wregt .rlitem{ margin-bottom:18px; float:left}
+.wregt .rlitem label{ color:#a1a1a1}
+.wregt .rlitem .rltext .rlinput{ padding:0 2px; width:194px; float:left}
+.wregt .rlitem .rltext .rlinput input{width:194px;}
+.wregt .rlmcode label{height:40px; line-height:40px}
+.wregt .rlmcode .rltext .rlinput{ width:145px; height:40px; line-height:40px}
+.wregt .rlmcode .rltext .rlinput input{width:145px; height:40px; line-height:40px}
+.wregt .rlmcode .rltext .wrsdcode{display:inline-block; height:40px; line-height:40px; text-align:center;padding:0 18px; margin-left:15px; color:#fff; border:1px solid #007538; background:#1a9b57; cursor:pointer; vertical-align:top;float:left}
+.wregt .rlmcode .rltext .wrstate{  border:1px solid #999999; background:#cecece; color:#666666; cursor:default; }
+.wregt .rlmcode .rltext .wrsdpt{ display:inline-block; height:42px; line-height:42px; margin-left:15px; color:#a1a1a1; float:left}
+.wregt .rlmcode .rltext .rlinput .wrinfo{ width:100px;}
+.wregt .rlgroup{ margin-top:18px; width:100%; overflow:hidden; float:left}
+.wregt .rlgroup label{ width:95px; text-align:right; float:left}
+.wregt .rlgroup .controls{ width:530px; padding:0 0 20px 10px; float:left; border-bottom:1px dashed #d8d8d8}
+.wregt .rlgroup .controlsn{ border-bottom:none}
+.wregt .rlgroup .controls .uploader{ width:152px; float:left; overflow:hidden; position:relative}
+.wregt .rlgroup .controls .uploader .pic{background: #fff;width: 120px;height: 90px;display: table-cell;text-align: center;vertical-align: middle;position: relative}
+.wregt .rlgroup .controls .uploadbtn{position: relative;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;padding: 1px;border: solid 1px #818181;height: 23px;width: 116px;display: block;margin-top: 10px; text-align: center;color: #404040;line-height: 23px;background-color: #f1f1f1; background-image: -moz-linear-gradient(top,#fff,#ddd);background-image: -ms-linear-gradient(top,#fff,#ddd);background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#ddd));background-image: -webkit-linear-gradient(top,#fff,#ddd); background-image: -o-linear-gradient(top,#fff,#ddd); background-image: linear-gradient(top,#fff,#ddd);background-repeat: repeat-x;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#dddddd',GradientType=0);font-size: 12px}
+.wregt .rlgroup .controls .wrinfo{ color:#ff3f13; font-size:12px; position:relative; line-height:22px; text-indent:25px;}
+.wregt .rlgroup .controls .wrinfo i.error{display:inline-block; width:15px; height: 16px;position:absolute; top:4px; left:4px; background-position:-103px -3px;}
+.wregt .rlgroup .controls .uploadbtn .filewrapper{display: block;height: 25px;width: 120px;position: absolute;left: 0;top: 0;margin: 0; overflow: hidden;padding: 0;z-index: 300}
+.wregt .rlgroup .controls .uploadbtn .filewrapper input{ opacity: 0;filter: alpha(opacity=0); /* background:none repeat scroll 0 0 transparent; */ border: medium none; cursor: pointer;height: 200px;width: 110px;top: -50px;opacity: 0;position: absolute;font-size: 100px;left: 0}
+.wregt .rlgroup .controls .example{float: left;width: 378px;position: relative;zoom:1;font-size: 12px}
+.wregt .rlgroup .controls .example .title{ float: left;width: 36px}
+.wregt .rlgroup .controls .example .pic{float: left;position: relative;background: #fff;cursor: pointer; width:338px;}
+.wregt .rlgroup .controls .example .pic a{ display:inline-block; color:#019045; margin-top:15px}
+.wzc .rlitem .rltext .rlbtnok{ width:100px; height:38px; line-height:38px; color:#fff; border:0 none; background-position: -1px -362px; cursor:pointer}
+
+/*ok*/
+.wrokbx .title{ width:100%; text-align:center; font-size:20px; margin-bottom:60px;}
+.wrokbx .title a{ color:#0a8e4d}
+.wrokbx .title .fblod{ font-weight:bold}
+.wrokbx .red{ color:#e40000}
+.wrok{ margin:15px 150px 15px 250px; padding-left:82px; background:url(../../images/login/okicon_03.jpg) top left no-repeat; }
+
+.wrok h2{ font-size:28px; color:#333333;font-family:"微软雅黑"; font-weight:bold}
+.wrok p{ margin:25px 0 35px; font-size:16px; color:#333;font-family:"微软雅黑"}
+.wrok .wrokft{ position:relative; left:-70px;}
+.wrok p a{ display:inline-block; color:#1a9b57; padding-left:30px}
+.wrok .wrokft a{ display:inline-block; margin-right:20px; height:50px; line-height:50px; font-size:16px; color:#333333; font-size:15px;width:140px; height:50px; text-align:center; font-size:16px} 
+.wrok .wrokft a.wrokbtn{ background-position:-1px -402px; color:#fff; } 
+.wrok .wrokft a.wrokhome{ width:143px; background-position:0 -454px; color:#333333; }
+
+/*弹框*/
+.wregid  .dialogContent{ padding:0 30px 50px;}
+.wregid h2{ font-size:18px; height:78px; line-height:78px; text-align:center; color:#333333}
+.wregid .idl{ width:380px; float:left; text-align:left; padding-left:20px;}
+.wregid .idl p{ font-size:13px; line-height:25px}
+.wregid .idl p.item{ text-indent:28px;}
+.wregid .idr{width:310px; height:200px; float:left; background:url(../../images/login/idbg_03.jpg) top left no-repeat}
+
+.lgl-state{ margin:110px 0 110px 200px; color:#333333; font-size:28px; padding-left:80px; position:relative; height:52px; line-height:52px}
+.lgl-state em{ display:inline-block; width:55px; height:54px; background:url(../../images/login/iconbg.jpg) 0 0px no-repeat; position:absolute; left:0; top:0}
+.lgl-stateok em{ display:inline-block; width:55px; height:54px; background:url(../../images/login/iconbg.jpg) 0 -52px no-repeat; position:absolute; left:0; top:0}
+
+/*login*/
+.wlogin .rl{ height:410px}
+.wlogin .rlitem{ margin-bottom:20px;}
+.wlogin .lfoot a{ color:#019045;}
+.wlogin .lfoot .wjpw{ display: inline-block; width:85px; height:20px; line-height:20px; cursor:default; vertical-align:middle}
+
+/*弹框*/
+.wregid  .dialogContent{ padding:0 30px 50px;}
+.wregid h2{ font-size:18px; height:78px; line-height:78px; text-align:center; color:#333333}
+.wregid .idl{ width:380px; float:left; text-align:left; padding-left:20px;}
+.wregid .idl p{ font-size:13px; line-height:25px}
+.wregid .idl p.item{ text-indent:28px;}
+.wregid .idr{width:310px; height:200px; float:left; background:url(../../images/login/idbg_03.jpg) top left no-repeat}
+
+
